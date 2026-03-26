@@ -1,0 +1,16 @@
+pytest
+pytest-cov
+pylint
+black
+numpy
+pandas
+scikit-learn
+nltk
+spacy
+torch
+huggingface-hub
+transformers
+python-dotenv
+flask
+requests
+openai
