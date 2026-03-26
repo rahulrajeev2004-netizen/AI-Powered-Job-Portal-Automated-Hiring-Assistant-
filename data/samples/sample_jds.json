@@ -1,0 +1,74 @@
+[
+  {
+    "job_id": "JOB-001",
+    "job_title": "Junior Backend Developer",
+    "company_name": "Nebula Cloud Solutions",
+    "location": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India",
+      "work_type": "Hybrid"
+    },
+    "job_summary": "We are looking for a motivated Junior Backend Developer to join our core engineering team. You will be responsible for building and maintaining our server-side logic and database connectivity.",
+    "requirements": {
+      "experience": {
+        "min_years": 1,
+        "relevant_field": "Software Development"
+      },
+      "education": {
+        "min_degree": "Bachelor's in Computer Science or related field"
+      },
+      "skills": {
+        "mandatory": ["Python", "SQL", "Git", "RESTful APIs"],
+        "preferred": ["Django", "PostgreSQL", "Docker", "Unit Testing"]
+      }
+    },
+    "responsibilities": [
+      "Write reusable, testable, and efficient code in Python.",
+      "Help maintain database performance and integrity.",
+      "Collaborate with front-end developers to integrate user-facing elements."
+    ],
+    "benefits": [
+      "Competitive Salary",
+      "Health Insurance",
+      "Professional Development Budget",
+      "Flexible Working Hours"
+    ]
+  },
+  {
+    "job_id": "JOB-002",
+    "job_title": "Senior Product Manager",
+    "company_name": "PeakSaaS Platforms",
+    "location": {
+      "city": "Remote",
+      "country": "Global",
+      "work_type": "Remote"
+    },
+    "job_summary": "As a Senior Product Manager, you will define and execute the product vision for our enterprise analytics dashboard. You will work closely with customers, engineering, and sales.",
+    "requirements": {
+      "experience": {
+        "min_years": 7,
+        "relevant_field": "Product Management in B2B SaaS"
+      },
+      "education": {
+        "min_degree": "Bachelor's Degree",
+        "preferred_degree": "MBA"
+      },
+      "skills": {
+        "mandatory": ["Product Strategy", "Agile Roadmap Execution", "Stakeholder Management", "Data-Driven Decision Making"],
+        "preferred": ["Market Research", "SQL", "UI/UX Principles", "Public Speaking"]
+      }
+    },
+    "responsibilities": [
+      "Develop and communicate a 12-month product roadmap.",
+      "Define OKRs and KPIs for product success.",
+      "Analyze user data to prioritize features and improvements."
+    ],
+    "benefits": [
+      "Equity Options",
+      "Unlimited PTO",
+      "Remote-First Culture",
+      "Annual Retreats"
+    ]
+  }
+]

@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Resume Data Schema",
+  "type": "object",
+  "properties": {
+    "candidate_id": { "type": "string" },
+    "personal_details": {
+      "type": "object",
+      "properties": {
+        "full_name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "location": { "type": "string" },
+        "links": {
+          "type": "object",
+          "properties": {
+            "linkedin": { "type": "string" },
+            "github": { "type": "string" },
+            "portfolio": { "type": "string" }
+          }
+        }
+      },
+      "required": ["full_name", "email"]
+    },
+    "summary": { "type": "string" },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "category": { "enum": ["Technical", "Soft Skill", "Tool", "Language", "Domain"] },
+          "proficiency": { "enum": ["Beginner", "Intermediate", "Advanced", "Expert"] }
+        },
+        "required": ["name"]
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "job_title": { "type": "string" },
+          "company": { "type": "string" },
+          "location": { "type": "string" },
+          "start_date": { "type": "string", "format": "date" },
+          "end_date": { "type": "string", "format": "date" },
+          "is_current": { "type": "boolean" },
+          "description": { "type": "array", "items": { "type": "string" } },
+          "technologies": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["job_title", "company", "start_date"]
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": { "type": "string" },
+          "institution": { "type": "string" },
+          "field_of_study": { "type": "string" },
+          "graduation_date": { "type": "string", "format": "date" },
+          "gpa": { "type": "string" }
+        },
+        "required": ["degree", "institution"]
+      }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "issuing_organization": { "type": "string" },
+          "issue_date": { "type": "string", "format": "date" },
+          "credential_id": { "type": "string" }
+        }
+      }
+    }
+  },
+  "required": ["personal_details", "skills", "experience", "education"]
+}

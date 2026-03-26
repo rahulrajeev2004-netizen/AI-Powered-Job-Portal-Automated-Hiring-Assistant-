@@ -1,0 +1,158 @@
+[
+  {
+    "candidate_id": "CAND-001",
+    "personal_details": {
+      "full_name": "Arjun Sharma",
+      "email": "arjun.sharma@example.com",
+      "phone": "+91 9876543210",
+      "location": "Bengaluru, India",
+      "links": {
+        "github": "https://github.com/arjunsh",
+        "linkedin": "https://linkedin.com/in/arjun-sharma-tech"
+      }
+    },
+    "summary": "Senior Software Engineer with 8+ years of experience in building scalable web applications. Expert in Python, microservices architecture, and cloud deployments on AWS.",
+    "skills": [
+      { "name": "Python", "category": "Technical", "proficiency": "Expert" },
+      { "name": "Django", "category": "Technical", "proficiency": "Advanced" },
+      { "name": "PostgreSQL", "category": "Technical", "proficiency": "Advanced" },
+      { "name": "AWS Lambda", "category": "Tool", "proficiency": "Intermediate" },
+      { "name": "React.js", "category": "Technical", "proficiency": "Intermediate" },
+      { "name": "Agile Development", "category": "Soft Skill", "proficiency": "Advanced" }
+    ],
+    "experience": [
+      {
+        "job_title": "Lead Backend Developer",
+        "company": "TechStream Solutions",
+        "location": "Bengaluru",
+        "start_date": "2020-05-01",
+        "is_current": true,
+        "description": [
+          "Architected an event-driven microservices architecture handling 1M+ daily transactions.",
+          "Optimized database queries in PostgreSQL, reducing average response time by 40%.",
+          "Mentored a team of 6 junior and mid-level developers on coding best practices."
+        ],
+        "technologies": ["Python", "FastAPI", "Redis", "Docker", "AWS"]
+      },
+      {
+        "job_title": "Software Engineer II",
+        "company": "Innovations Lab",
+        "location": "Pune",
+        "start_date": "2016-06-01",
+        "end_date": "2020-04-30",
+        "is_current": false,
+        "description": [
+          "Developed custom internal dashboards using React and Node.js.",
+          "Implemented CI/CD pipelines using Jenkins and GitLab CI.",
+          "Collaborated with UI/UX designers to translate mockups into functional features."
+        ],
+        "technologies": ["JavaScript", "Node.js", "React", "Jenkins"]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Tech in Computer Science",
+        "institution": "Indian Institute of Technology (IIT), Bombay",
+        "field_of_study": "Computer Engineering",
+        "graduation_date": "2016-05-31",
+        "gpa": "9.2/10"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2022-03-15"
+      }
+    ]
+  },
+  {
+    "candidate_id": "CAND-002",
+    "personal_details": {
+      "full_name": "Priya Varma",
+      "email": "priya.data@example.com",
+      "phone": "+91 9123456789",
+      "location": "Hyderabad, India",
+      "links": {
+        "portfolio": "https://priyavarma.ai"
+      }
+    },
+    "summary": "Data Scientist with a passion for extracting actionable insights from large datasets. Specializing in machine learning models for customer churn prediction and demand forecasting.",
+    "skills": [
+      { "name": "SQL", "category": "Technical", "proficiency": "Expert" },
+      { "name": "R", "category": "Technical", "proficiency": "Intermediate" },
+      { "name": "PyTorch", "category": "Technical", "proficiency": "Advanced" },
+      { "name": "Power BI", "category": "Tool", "proficiency": "Advanced" },
+      { "name": "Statistical Analysis", "category": "Technical", "proficiency": "Expert" }
+    ],
+    "experience": [
+      {
+        "job_title": "Associate Data Scientist",
+        "company": "Finsight Analytica",
+        "location": "Hyderabad",
+        "start_date": "2021-08-01",
+        "is_current": true,
+        "description": [
+          "Developed a customer churn model using XGBoost with an 85% accuracy rate.",
+          "Automated data cleaning pipelines for financial reporting using Apache Airflow.",
+          "Presented monthly business insights to the executive leadership team."
+        ],
+        "technologies": ["Python", "Scikit-Learn", "SQL", "Apache Airflow"]
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Science in Data Science",
+        "institution": "BITS Pilani",
+        "field_of_study": "Data Analytics",
+        "graduation_date": "2021-06-30"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Professional Machine Learning Engineer",
+        "issuing_organization": "Google Cloud",
+        "issue_date": "2023-01-20"
+      }
+    ]
+  },
+  {
+    "candidate_id": "CAND-003",
+    "personal_details": {
+      "full_name": "Sarah Mendes",
+      "email": "sarah.mendes@example.com",
+      "location": "Mumbai, India",
+      "links": {
+        "linkedin": "https://linkedin.com/in/sarahmendes-hr"
+      }
+    },
+    "summary": "Experienced HR professional with 10+ years in Talent Acquisition and Employee Relations. Proven track record of scaling teams and improving employee retention rates.",
+    "skills": [
+      { "name": "Talent Acquisition", "category": "Domain", "proficiency": "Expert" },
+      { "name": "Conflict Resolution", "category": "Soft Skill", "proficiency": "Expert" },
+      { "name": "HR Information Systems (HRIS)", "category": "Tool", "proficiency": "Advanced" },
+      { "name": "Labor Law Compliance", "category": "Domain", "proficiency": "Advanced" }
+    ],
+    "experience": [
+      {
+        "job_title": "Regional HR Manager",
+        "company": "Retail Giant Ltd.",
+        "location": "Mumbai",
+        "start_date": "2018-02-01",
+        "is_current": true,
+        "description": [
+          "Managed the recruitment lifecycle for 200+ hires annually across 3 states.",
+          "Implemented a new performance appraisal system, increasing participation by 30%.",
+          "Successfully resolved 40+ complex employee relation cases within compliance frameworks."
+        ],
+        "technologies": ["Workday", "Bamboohr", "Microsoft 365"]
+      }
+    ],
+    "education": [
+      { "degree": "MBA in Human Resources", "institution": "TISS, Mumbai", "graduation_date": "2015-05-15" }
+    ],
+    "certifications": [
+      { "name": "SHRM-CP", "issuing_organization": "Society for Human Resource Management", "issue_date": "2019-11-10" }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Job Description Data Schema",
+  "type": "object",
+  "properties": {
+    "job_id": { "type": "string" },
+    "job_title": { "type": "string" },
+    "company_name": { "type": "string" },
+    "location": {
+      "type": "object",
+      "properties": {
+        "city": { "type": "string" },
+        "state": { "type": "string" },
+        "country": { "type": "string" },
+        "work_type": { "enum": ["On-site", "Remote", "Hybrid"] }
+      }
+    },
+    "job_summary": { "type": "string" },
+    "requirements": {
+      "type": "object",
+      "properties": {
+        "experience": {
+          "type": "object",
+          "properties": {
+            "min_years": { "type": "integer" },
+            "relevant_field": { "type": "string" }
+          }
+        },
+        "education": {
+          "type": "object",
+          "properties": {
+            "min_degree": { "type": "string" },
+            "preferred_degree": { "type": "string" }
+          }
+        },
+        "skills": {
+          "type": "object",
+          "properties": {
+            "mandatory": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "preferred": {
+              "type": "array",
+              "items": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "responsibilities": { "type": "array", "items": { "type": "string" } },
+    "benefits": { "type": "array", "items": { "type": "string" } }
+  },
+  "required": ["job_title", "company_name", "requirements"]
+}
