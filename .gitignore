@@ -1,0 +1,19 @@
+# Environments
+env/
+venv/
+.env
+.venv
+__pycache__/
+
+# Testing and Logging
+.pytest_cache/
+logs/
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
