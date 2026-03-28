@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-041",
+  "job_title": "Clinical Instructor",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Clinical Instructor supervises nursing students during their practical training in hospitals, \nensuring safe and effective patient care practices.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Clinical Assessment",
+        "Hands-on clinical expertise",
+        "Mentoring ability",
+        "Observation and evaluation skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / MSc Nursing",
+    "Clinical experience (required)"
+  ],
+  "responsibilities": [
+    "Guide students during clinical rotations",
+    "Demonstrate nursing procedures",
+    "Monitor student performance in real patient settings",
+    "Provide feedback and evaluations",
+    "Ensure adherence to safety and ethical standards",
+    "Bridge theory and practical application"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Teaching hospitals",
+    "Nursing colleges"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.854837Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 724,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

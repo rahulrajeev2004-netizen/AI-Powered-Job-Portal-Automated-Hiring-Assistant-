@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-043",
+  "job_title": "Professor of Nursing",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Professor of Nursing is a senior academic responsible for teaching, research, and \nleadership in nursing education at universities or advanced institutions.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "Ph.D."
+    },
+    "skills": {
+      "mandatory": [
+        "Leadership",
+        "Advanced clinical and academic knowledge",
+        "Research and publication skills",
+        "Leadership and mentorship"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "PhD in Nursing (mandatory)",
+    "Extensive teaching and research experience"
+  ],
+  "responsibilities": [
+    "Teach advanced nursing courses",
+    "Conduct and publish research",
+    "Supervise postgraduate and doctoral students",
+    "Lead academic departments",
+    "Develop advanced curriculum and policies",
+    "Represent institution in academic forums"
+  ],
+  "work_settings": [
+    "Universities",
+    "Research institutions",
+    "Nursing colleges"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.864091Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 739,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-022",
+  "job_title": "Oncology Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An Oncology Nurse provides care to patients diagnosed with cancer, supporting them \nthrough diagnosis, treatment, and recovery or palliative care.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Counseling",
+        "Compassion and emotional resilience",
+        "Knowledge of cancer treatments"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Oncology nursing certification (preferred)"
+  ],
+  "responsibilities": [
+    "Administer chemotherapy, immunotherapy, and targeted treatments",
+    "Monitor and manage treatment side effects",
+    "Provide emotional and psychological support",
+    "Educate patients and families about cancer care",
+    "Coordinate with oncologists and multidisciplinary teams",
+    "Assist in palliative and end-of-life care"
+  ],
+  "work_settings": [
+    "Cancer hospitals",
+    "Oncology departments",
+    "Palliative care centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.730412Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 792,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

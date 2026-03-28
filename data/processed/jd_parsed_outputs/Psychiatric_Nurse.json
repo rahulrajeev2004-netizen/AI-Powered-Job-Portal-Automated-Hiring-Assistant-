@@ -1,0 +1,55 @@
+{
+  "job_id": "JOB-SAMPLE-034",
+  "job_title": "Psychiatric Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Mental Health Nurse focuses on the emotional, psychological, and behavioral well-being \nof patients, supporting those with stress, anxiety, depression, and other mental health \nchallenges.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Counseling",
+        "Empathy",
+        "Mental Health Care",
+        "Problem Solving",
+        "Patience and adaptability"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Mental health training or certification (preferred)"
+  ],
+  "responsibilities": [
+    "Provide therapeutic communication and emotional support",
+    "Conduct mental health assessments",
+    "Assist in counseling and behavioral therapy programs",
+    "Monitor patient progress and recovery",
+    "Help patients develop coping strategies",
+    "Promote mental wellness and preventive care",
+    "Work with families and caregivers for holistic care"
+  ],
+  "work_settings": [
+    "Community mental health centers",
+    "Hospitals",
+    "Schools and NGOs",
+    "Rehabilitation and wellness centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.817603Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 942,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

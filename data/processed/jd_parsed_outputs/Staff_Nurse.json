@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-082",
+  "job_title": "Staff Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Government Staff Nurse provides clinical care in public healthcare facilities, ensuring \naccessible and affordable treatment to the community.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Patient Education",
+        "Clinical competence",
+        "Public health awareness",
+        "Communication and teamwork"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Registered with State Nursing Council",
+    "Government recruitment exam (as applicable)"
+  ],
+  "responsibilities": [
+    "Deliver direct patient care (medication, monitoring, procedures)",
+    "Assist doctors in diagnosis and treatment",
+    "Maintain patient records and reports",
+    "Participate in public health programs (immunization, maternal care)",
+    "Follow government healthcare protocols and standards",
+    "Educate patients on health and hygiene"
+  ],
+  "work_settings": [
+    "Government hospitals",
+    "Primary Health Centers (PHCs)",
+    "Community Health Centers (CHCs)"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.116232Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 854,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

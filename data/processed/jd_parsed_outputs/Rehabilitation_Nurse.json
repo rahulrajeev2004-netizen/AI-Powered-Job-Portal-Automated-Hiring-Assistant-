@@ -1,0 +1,50 @@
+{
+  "job_id": "JOB-SAMPLE-073",
+  "job_title": "Rehabilitation Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Rehabilitation Nurse helps patients recover from injuries, surgeries, or disabilities, \nfocusing on restoring function and independence.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Patience and motivation skills",
+        "Physical rehabilitation knowledge"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing",
+    "Training in rehabilitation care (preferred)"
+  ],
+  "responsibilities": [
+    "Develop rehabilitation care plans",
+    "Assist with physical therapy programs",
+    "Monitor patient progress",
+    "Educate patients on recovery techniques",
+    "Support long-term care needs"
+  ],
+  "work_settings": [
+    "Rehabilitation centers",
+    "Hospitals",
+    "Long-term care facilities"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.066328Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 642,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

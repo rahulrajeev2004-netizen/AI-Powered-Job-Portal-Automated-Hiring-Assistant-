@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-036",
+  "job_title": "Nursing Supervisor",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Nursing Supervisor oversees multiple nursing units or shifts, ensuring smooth hospital \noperations and proper coordination among departments.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Leadership",
+        "Multitasking",
+        "Strong leadership",
+        "Decision-making under pressure",
+        "Coordination and multitasking"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / MSc Nursing",
+    "Several years of clinical experience"
+  ],
+  "responsibilities": [
+    "Supervise nursing staff across different departments",
+    "Ensure compliance with hospital policies",
+    "Coordinate between doctors, nurses, and administration",
+    "Handle emergencies and critical situations",
+    "Monitor patient care quality across units",
+    "Provide guidance and support to staff nurses"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Multi-specialty healthcare centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.829514Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 751,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

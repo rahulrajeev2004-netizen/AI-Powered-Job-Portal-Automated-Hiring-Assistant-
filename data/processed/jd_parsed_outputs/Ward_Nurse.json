@@ -1,0 +1,48 @@
+{
+  "job_id": "JOB-SAMPLE-004",
+  "job_title": "Ward Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Ward Nurse manages patient care within a specific hospital ward, ensuring smooth day-to\nday operations and patient monitoring.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Multitasking",
+        "Time Management",
+        "Coordination"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM"
+  ],
+  "responsibilities": [
+    "Monitor all patients in the assigned ward",
+    "Administer medications and treatments",
+    "Coordinate with doctors for patient care",
+    "Maintain ward cleanliness and discipline",
+    "Supervise ward assistants and junior staff",
+    "Handle patient admissions and discharges"
+  ],
+  "work_settings": [
+    "Hospital wards (medical, surgical, pediatric, etc.)"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.593228Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 614,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

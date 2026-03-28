@@ -1,0 +1,53 @@
+{
+  "job_id": "JOB-SAMPLE-018",
+  "job_title": "Emergency Room (ER) Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An ER Nurse provides immediate care to patients with acute illnesses or injuries in \nemergency departments, often dealing with life-threatening situations.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Emergency Response",
+        "Multitasking",
+        "Crisis and stress management",
+        "Strong communication"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Emergency care training (preferred)"
+  ],
+  "responsibilities": [
+    "Perform triage to prioritize patient care",
+    "Provide emergency treatment (CPR, wound care, stabilization)",
+    "Assist doctors in emergency procedures",
+    "Administer medications quickly and accurately",
+    "Monitor patient condition continuously",
+    "Prepare patients for surgery or admission"
+  ],
+  "work_settings": [
+    "Emergency departments",
+    "Trauma centers",
+    "Ambulance services"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.699791Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 773,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-055",
+  "job_title": "Insurance Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An Insurance Nurse works with insurance companies to evaluate medical claims, assess \npatient cases, and ensure appropriate healthcare coverage decisions.",
+  "requirements": {
+    "experience": {
+      "relevant_field": "clinical care"
+    },
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Problem Solving",
+        "Knowledge of medical terminology",
+        "Decision-making"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Experience in clinical care"
+  ],
+  "responsibilities": [
+    "Review medical records and insurance claims",
+    "Assess treatment necessity and coverage eligibility",
+    "Coordinate with hospitals and doctors",
+    "Detect fraudulent claims",
+    "Provide recommendations on claim approvals or denials",
+    "Ensure compliance with insurance policies"
+  ],
+  "work_settings": [
+    "Insurance companies",
+    "Third-party administrators (TPA)",
+    "Healthcare firms"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.959194Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 759,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

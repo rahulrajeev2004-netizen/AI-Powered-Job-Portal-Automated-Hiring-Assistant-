@@ -1,0 +1,56 @@
+{
+  "job_id": "JOB-SAMPLE-053",
+  "job_title": "Medical Advisor (Healthcare",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Medical Advisor (with a nursing background) provides clinical expertise to healthcare \ncompanies, ensuring that products, services, and strategies are medically accurate and \neffective.",
+  "requirements": {
+    "experience": {
+      "relevant_field": "clinical practice"
+    },
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Clinical Assessment",
+        "Communication",
+        "Communication and presentation",
+        "Strategic thinking",
+        "Industry awareness"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / MSc Nursing",
+    "Experience in clinical practice",
+    "Knowledge of pharma/healthcare industry (preferred)"
+  ],
+  "responsibilities": [
+    "Provide clinical insights for product development and marketing",
+    "Support medical content creation and validation",
+    "Train sales and marketing teams on medical concepts",
+    "Liaise with healthcare professionals and stakeholders",
+    "Ensure compliance with healthcare regulations",
+    "Participate in clinical discussions and advisory boards"
+  ],
+  "work_settings": [
+    "Pharmaceutical companies",
+    "Medical device companies",
+    "Health-tech firms"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.941150Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 945,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

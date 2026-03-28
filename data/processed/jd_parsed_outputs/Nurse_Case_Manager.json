@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-056",
+  "job_title": "Nurse Case Manager",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Nurse Case Manager coordinates patient care across different services, ensuring efficient, \ncost-effective, and quality treatment.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Problem Solving",
+        "Coordination and communication",
+        "Patient advocacy",
+        "Organizational skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / MSc Nursing",
+    "Case management certification (preferred)"
+  ],
+  "responsibilities": [
+    "Develop and manage patient care plans",
+    "Coordinate between doctors, hospitals, and insurers",
+    "Monitor patient progress and outcomes",
+    "Educate patients on treatment and recovery",
+    "Optimize healthcare costs and resources",
+    "Facilitate discharge planning and follow-ups"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Insurance companies",
+    "Healthcare organizations"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.966749Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 745,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-047",
+  "job_title": "Research Coordinator (Nursing)",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Research Coordinator manages the operational aspects of research projects and clinical \nstudies, ensuring smooth execution from start to completion.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Documentation",
+        "Organizational and project management skills",
+        "Communication and coordination",
+        "Documentation and compliance knowledge"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / MSc Nursing",
+    "Clinical research certification (preferred)"
+  ],
+  "responsibilities": [
+    "Coordinate research project activities",
+    "Manage documentation and regulatory submissions",
+    "Schedule patient visits and follow-ups",
+    "Communicate with sponsors and research teams",
+    "Ensure compliance with study protocols",
+    "Track project timelines and progress"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "CROs",
+    "Academic research centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.883045Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 780,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

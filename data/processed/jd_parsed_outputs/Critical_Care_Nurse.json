@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-020",
+  "job_title": "Critical Care Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Critical Care Nurse provides specialized care for patients with life-threatening conditions \nacross ICUs, emergency units, and critical care departments.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Clinical Assessment",
+        "Problem Solving",
+        "Team Coordination",
+        "Emotional resilience"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Critical care specialization (preferred)"
+  ],
+  "responsibilities": [
+    "Continuously monitor critically ill patients",
+    "Administer complex medication regimens",
+    "Manage advanced medical equipment",
+    "Support organ function (cardiac, respiratory, renal)",
+    "Assist in invasive procedures",
+    "Provide patient and family education"
+  ],
+  "work_settings": [
+    "ICUs (Cardiac, Neuro, Surgical)",
+    "Critical care units",
+    "Emergency departments"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.715189Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 762,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

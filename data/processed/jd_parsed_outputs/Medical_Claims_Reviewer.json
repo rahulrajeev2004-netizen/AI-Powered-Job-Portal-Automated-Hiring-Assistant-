@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-061",
+  "job_title": "Medical Claims Reviewer",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Medical Claims Reviewer evaluates healthcare claims to ensure treatments are necessary, \nappropriate, and covered under insurance policies.",
+  "requirements": {
+    "experience": {
+      "relevant_field": "clinical or insurance sector"
+    },
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Problem Solving",
+        "Knowledge of medical procedures",
+        "Decision-making skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Experience in clinical or insurance sector"
+  ],
+  "responsibilities": [
+    "Review medical claims and patient records",
+    "Assess medical necessity of treatments",
+    "Approve or deny insurance claims",
+    "Identify fraud or misuse of healthcare services",
+    "Communicate with healthcare providers and insurers",
+    "Maintain compliance with insurance guidelines"
+  ],
+  "work_settings": [
+    "Insurance companies",
+    "Third-party administrators (TPA)",
+    "Healthcare firms"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.992182Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 779,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

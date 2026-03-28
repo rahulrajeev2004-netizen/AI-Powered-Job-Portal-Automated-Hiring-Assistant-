@@ -1,0 +1,50 @@
+{
+  "job_id": "JOB-SAMPLE-044",
+  "job_title": "Nursing Tutor",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Nursing Tutor provides foundational education and guidance to nursing students, \nespecially at diploma and entry-level programs.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Clinical Assessment",
+        "Basic teaching skills",
+        "Patience and mentoring"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing (MSc preferred)"
+  ],
+  "responsibilities": [
+    "Teach basic nursing subjects and skills",
+    "Assist students with practical learning",
+    "Conduct demonstrations and tutorials",
+    "Evaluate student progress",
+    "Support students in skill development",
+    "Assist senior faculty"
+  ],
+  "work_settings": [
+    "Nursing schools",
+    "Training institutes"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.868606Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 595,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "job_id": "JOB-SAMPLE-050",
+  "job_title": "Telehealth Nurse / Telenurse",
+  "company_name": "",
+  "location": {
+    "work_type": "Remote"
+  },
+  "job_summary": "A Telehealth Nurse provides remote healthcare services through phone, video calls, or digital \nplatforms, improving access to care.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Clinical Assessment",
+        "Communication",
+        "Communication and listening skills",
+        "Digital literacy",
+        "Clinical assessment skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Telehealth training (preferred)"
+  ],
+  "responsibilities": [
+    "Conduct virtual patient consultations",
+    "Assess symptoms and provide medical advice",
+    "Monitor chronic conditions remotely",
+    "Educate patients on medications and lifestyle",
+    "Coordinate care with doctors and specialists",
+    "Maintain digital health records"
+  ],
+  "work_settings": [
+    "Telemedicine platforms",
+    "Hospitals",
+    "Home healthcare services"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.915087Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 713,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

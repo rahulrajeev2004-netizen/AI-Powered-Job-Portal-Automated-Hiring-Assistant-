@@ -1,0 +1,55 @@
+{
+  "job_id": "JOB-SAMPLE-081",
+  "job_title": "Counseling Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Counseling Nurse provides guidance, emotional support, and therapeutic \ncommunication to patients dealing with stress, illness, trauma, or life challenges.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Counseling",
+        "Empathy",
+        "Mental Health Care",
+        "Problem Solving",
+        "Active listening and empathy",
+        "Emotional intelligence"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Certification in counseling or psychology (preferred)"
+  ],
+  "responsibilities": [
+    "Conduct counseling sessions for patients and families",
+    "Assess emotional and psychological needs",
+    "Help patients cope with illness, stress, or trauma",
+    "Provide mental health education and awareness",
+    "Support lifestyle and behavioral changes",
+    "Refer patients to specialists when needed"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Clinics",
+    "Schools and colleges",
+    "NGOs and wellness centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.111055Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 822,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

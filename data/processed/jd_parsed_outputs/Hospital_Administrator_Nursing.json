@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-039",
+  "job_title": "Hospital Administrator (Nursing",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Hospital Administrator with a nursing background manages overall hospital operations, \ncombining clinical knowledge with administrative expertise.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "MBA"
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Leadership",
+        "Business and management skills",
+        "Leadership and decision-making",
+        "Financial planning",
+        "Communication and coordination"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing + MBA in Hospital/Healthcare Management (preferred)"
+  ],
+  "responsibilities": [
+    "Oversee hospital operations and departments",
+    "Manage budgets, staffing, and resources",
+    "Ensure compliance with healthcare laws and standards",
+    "Improve patient care services and hospital efficiency",
+    "Coordinate between medical, nursing, and administrative teams",
+    "Implement healthcare policies and programs"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Healthcare chains",
+    "Corporate healthcare organizations"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.845572Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 854,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "job_id": "JOB-SAMPLE-010",
+  "job_title": "Nurse Midwife",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Certified Nurse Midwife (CNM) specializes in women's reproductive health, pregnancy, \nchildbirth, and postpartum care, often providing holistic and patient-centered maternity \nservices.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Counseling",
+        "Empathy",
+        "Maternal Care",
+        "Strong clinical and maternal care skills",
+        "Emotional support and empathy",
+        "Decision-making in labor situations"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "MSc Nursing (Obstetrics & Gynecology)",
+    "Midwifery certification"
+  ],
+  "responsibilities": [
+    "Provide prenatal care and health assessments",
+    "Monitor fetal development",
+    "Assist and manage normal deliveries",
+    "Provide postpartum care for mother and baby",
+    "Offer family planning and reproductive health services",
+    "Educate mothers on nutrition, breastfeeding, and newborn care"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Maternity clinics",
+    "Birthing centers",
+    "Community health centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.643187Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 875,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

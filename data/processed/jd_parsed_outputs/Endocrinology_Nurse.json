@@ -1,0 +1,50 @@
+{
+  "job_id": "JOB-SAMPLE-025",
+  "job_title": "Endocrinology Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An Endocrinology Nurse focuses on patients with hormonal disorders such as diabetes, \nthyroid diseases, and metabolic conditions.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Counseling",
+        "Geriatric Care",
+        "Knowledge of endocrine system"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Endocrinology or diabetes educator certification (preferred)"
+  ],
+  "responsibilities": [
+    "Monitor blood glucose levels and hormone-related parameters",
+    "Educate patients on insulin therapy and medication use",
+    "Assist in managing chronic endocrine conditions",
+    "Support lifestyle and dietary counseling",
+    "Monitor complications of endocrine disorders"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Diabetes clinics",
+    "Endocrinology centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.753549Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 738,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

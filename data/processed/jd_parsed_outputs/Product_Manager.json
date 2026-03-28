@@ -1,0 +1,55 @@
+{
+  "job_id": "JOB-SAMPLE-084",
+  "job_title": "Product Manager",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Healthcare Policy Advisor develops and evaluates health policies and programs to \nimprove healthcare systems at regional or national levels.",
+  "requirements": {
+    "experience": {
+      "relevant_field": "public health or administration"
+    },
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Research and analytical skills",
+        "Strategic thinking",
+        "Knowledge of healthcare systems",
+        "Communication and writing"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing + MPH / MHA / Public Policy (preferred)",
+    "Experience in public health or administration"
+  ],
+  "responsibilities": [
+    "Research healthcare issues and trends",
+    "Develop policy recommendations",
+    "Analyze healthcare data and outcomes",
+    "Collaborate with government bodies and stakeholders",
+    "Draft reports, guidelines, and policy documents",
+    "Evaluate effectiveness of health programs"
+  ],
+  "work_settings": [
+    "Government ministries",
+    "Health departments",
+    "International organizations"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.127495Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 822,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "resume_0",
+    "skills": "Python, SQL, AWS, Java",
+    "experience": "Worked as a Python developer for 3 years. Used SQL for database management. deployed apps on AWS.",
+    "projects": "Built a Python-based web scraper. Integrated it with AWS S3.",
+    "education": "B.Tech in Computer Science"
+  },
+  {
+    "id": "resume_1",
+    "skills": "JavaScript, React, Node.js",
+    "experience": "Frontend developer using React and JavaScript. Node.js for backend.",
+    "projects": "React dashboard project. Node.js API development.",
+    "education": "M.Sc in Softaware Engineering"
+  },
+  {
+    "id": "resume_2",
+    "skills": "",
+    "experience": "Sales manager for 5 years. Led teams and managed projects.",
+    "projects": "Project management for retail expansion.",
+    "education": "MBA"
+  }
+]

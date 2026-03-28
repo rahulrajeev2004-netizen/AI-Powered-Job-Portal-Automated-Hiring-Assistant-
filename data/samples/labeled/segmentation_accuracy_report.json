@@ -1,0 +1,88 @@
+[
+  {
+    "sample": "Reshma resume.pdf",
+    "accuracy": 1.0,
+    "found": [
+      "education",
+      "skills",
+      "languages",
+      "certifications",
+      "contact_info",
+      "summary"
+    ],
+    "expected": [
+      "education",
+      "skills",
+      "languages",
+      "certifications",
+      "contact_info",
+      "summary"
+    ]
+  },
+  {
+    "sample": "sample_2.txt",
+    "accuracy": 1.0,
+    "found": [
+      "education",
+      "skills",
+      "contact_info",
+      "work_experience",
+      "summary"
+    ],
+    "expected": [
+      "education",
+      "skills",
+      "contact_info",
+      "work_experience",
+      "summary"
+    ]
+  },
+  {
+    "sample": "sample_resume.pdf",
+    "accuracy": 1.0,
+    "found": [
+      "education",
+      "declaration",
+      "skills",
+      "languages",
+      "contact_info",
+      "work_experience",
+      "summary",
+      "projects"
+    ],
+    "expected": [
+      "education",
+      "declaration",
+      "skills",
+      "languages",
+      "contact_info",
+      "work_experience",
+      "summary",
+      "projects"
+    ]
+  },
+  {
+    "sample": "sample_resume_pdf_cleaned.txt",
+    "accuracy": 1.0,
+    "found": [
+      "education",
+      "declaration",
+      "skills",
+      "languages",
+      "contact_info",
+      "work_experience",
+      "summary",
+      "projects"
+    ],
+    "expected": [
+      "education",
+      "declaration",
+      "skills",
+      "languages",
+      "contact_info",
+      "work_experience",
+      "summary",
+      "projects"
+    ]
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-021",
+  "job_title": "Cardiac Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Cardiac Nurse specializes in caring for patients with heart-related conditions such as \ncoronary artery disease, heart failure, and post-cardiac surgery recovery.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Emergency Response",
+        "Vital Signs Monitoring",
+        "Strong knowledge of cardiology",
+        "Quick emergency response"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Cardiac nursing certification (preferred)"
+  ],
+  "responsibilities": [
+    "Monitor heart function (ECG, blood pressure, pulse)",
+    "Assist in cardiac procedures (angiography, angioplasty, bypass surgery)",
+    "Administer cardiac medications (anticoagulants, beta-blockers)",
+    "Educate patients on lifestyle changes (diet, exercise, smoking cessation)",
+    "Provide post-operative cardiac care",
+    "Recognize and respond to cardiac emergencies"
+  ],
+  "work_settings": [
+    "Cardiac care units (CCU)",
+    "Hospitals",
+    "Cardiology clinics"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.722708Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 835,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

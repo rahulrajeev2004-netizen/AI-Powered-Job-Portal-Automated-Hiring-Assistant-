@@ -1,0 +1,48 @@
+{
+  "job_id": "JOB-SAMPLE-002",
+  "job_title": "Licensed Practical Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "LPNs provide basic nursing care under the supervision of RNs and doctors, focusing on \nroutine patient care and comfort.",
+  "requirements": {
+    "experience": {},
+    "education": {},
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Patient Care",
+        "Basic clinical skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "Diploma in Practical Nursing / GNM equivalent"
+  ],
+  "responsibilities": [
+    "Monitor vital signs (BP, temperature, pulse)",
+    "Assist patients with daily activities (bathing, feeding)",
+    "Administer basic medications (as permitted)",
+    "Dress wounds and assist in procedures",
+    "Maintain hygiene and patient comfort",
+    "Report patient status to RNs"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Long-term care facilities",
+    "Rehabilitation centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.580422Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 716,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

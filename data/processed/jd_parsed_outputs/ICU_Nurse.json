@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-030",
+  "job_title": "ICU Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Neonatal Nurse cares for newborns, especially premature or critically ill infants, in \nNeonatal Intensive Care Units (NICU).",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Critical Care",
+        "Gentle handling and care"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "NICU/neonatal care training (preferred)"
+  ],
+  "responsibilities": [
+    "Monitor vital signs of newborns",
+    "Manage incubators, ventilators, and life-support equipment",
+    "Administer medications and IV fluids",
+    "Assist in neonatal procedures",
+    "Support feeding (breastfeeding, tube feeding)",
+    "Educate parents on newborn care"
+  ],
+  "work_settings": [
+    "NICU units",
+    "Maternity hospitals",
+    "Specialized pediatric hospitals"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.789376Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 708,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

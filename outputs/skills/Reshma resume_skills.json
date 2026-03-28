@@ -1,0 +1,14 @@
+[
+  {
+    "name": "polymer synthesis",
+    "confidence": 0.95
+  },
+  {
+    "name": "chemical analysis",
+    "confidence": 0.95
+  },
+  {
+    "name": "laboratory skills",
+    "confidence": 0.85
+  }
+]

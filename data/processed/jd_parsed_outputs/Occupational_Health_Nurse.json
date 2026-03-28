@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-014",
+  "job_title": "Occupational Health Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An Occupational Health Nurse focuses on workplace health and safety, preventing work\nrelated injuries and illnesses.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Patient Education",
+        "Risk Assessment",
+        "Knowledge of workplace safety"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Occupational health certification (preferred)"
+  ],
+  "responsibilities": [
+    "Conduct employee health assessments",
+    "Monitor workplace safety conditions",
+    "Provide first aid and emergency care",
+    "Implement health and safety programs",
+    "Educate employees on occupational hazards",
+    "Manage workplace injuries and rehabilitation"
+  ],
+  "work_settings": [
+    "Factories",
+    "Corporate offices",
+    "Industrial sites"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.674550Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 673,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

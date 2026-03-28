@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-083",
+  "job_title": "Business Analyst",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Health Inspector (with a nursing background) ensures public health safety and sanitation \nstandards in communities.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Knowledge of public health laws",
+        "निरीक्षण (inspection) and analytical skills",
+        "Communication and reporting"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Diploma/Certification in Public Health or Sanitary Inspection"
+  ],
+  "responsibilities": [
+    "Inspect sanitation, hygiene, and environmental conditions",
+    "Monitor food safety and water quality",
+    "Control spread of infectious diseases",
+    "Conduct health awareness programs",
+    "Enforce public health laws and regulations",
+    "Report health hazards and recommend corrective actions"
+  ],
+  "work_settings": [
+    "Municipal corporations",
+    "Public health departments",
+    "Government agencies"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.121774Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 800,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

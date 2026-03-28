@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-019",
+  "job_title": "Trauma Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Trauma Nurse specializes in treating patients with severe, life-threatening injuries caused \nby accidents, violence, or disasters.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Surgical Assistance",
+        "High-pressure response capability",
+        "Strong emergency and surgical knowledge",
+        "Quick thinking and prioritization"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Trauma care certification (preferred)"
+  ],
+  "responsibilities": [
+    "Perform rapid trauma assessment (ABCDE approach)",
+    "Control bleeding and manage shock",
+    "Assist in emergency surgeries",
+    "Stabilize patients before ICU transfer",
+    "Coordinate with trauma teams (surgeons, ER staff)",
+    "Provide post-trauma care and monitoring"
+  ],
+  "work_settings": [
+    "Trauma centers",
+    "Emergency departments",
+    "Disaster response units"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.708885Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 738,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

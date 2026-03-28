@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-072",
+  "job_title": "Cosmetic / Aesthetic Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Cosmetic Nurse provides beauty and aesthetic treatments such as Botox, fillers, and skin \ntherapies.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Communication",
+        "Aesthetic sense",
+        "Communication and client handling"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing",
+    "Certification in aesthetic procedures"
+  ],
+  "responsibilities": [
+    "Perform cosmetic procedures (injections, skincare treatments)",
+    "Assess patient suitability for procedures",
+    "Educate clients on skincare and aftercare",
+    "Maintain hygiene and safety standards",
+    "Assist dermatologists or cosmetic surgeons"
+  ],
+  "work_settings": [
+    "Cosmetic clinics",
+    "Dermatology centers",
+    "Medical spas"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.061367Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 663,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

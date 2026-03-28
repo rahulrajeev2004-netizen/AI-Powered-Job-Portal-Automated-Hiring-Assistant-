@@ -1,0 +1,53 @@
+{
+  "job_id": "JOB-SAMPLE-052",
+  "job_title": "Healthcare AI Trainer (Nursing)",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Healthcare AI Trainer uses clinical knowledge to train, validate, and improve artificial \nintelligence models used in healthcare systems.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Clinical Assessment",
+        "Problem Solving",
+        "Basic tech understanding"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / MSc Nursing",
+    "Basic knowledge of AI/ML concepts (preferred)"
+  ],
+  "responsibilities": [
+    "Annotate and label medical data for AI training",
+    "Validate AI outputs for accuracy and safety",
+    "Collaborate with AI engineers and developers",
+    "Train AI systems on clinical workflows and decision-making",
+    "Ensure ethical use of healthcare AI",
+    "Improve AI performance using real-world clinical insights"
+  ],
+  "work_settings": [
+    "Health-tech companies",
+    "AI startups",
+    "Research labs"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.933135Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 794,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

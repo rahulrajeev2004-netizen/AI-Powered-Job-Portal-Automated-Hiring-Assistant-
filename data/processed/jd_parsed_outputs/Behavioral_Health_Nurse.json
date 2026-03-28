@@ -1,0 +1,55 @@
+{
+  "job_id": "JOB-SAMPLE-080",
+  "job_title": "Behavioral Health Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Behavioral Health Nurse focuses on behavioral patterns, emotional disorders, and \nmental health conditions, helping patients manage behaviors affecting their well-being.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Counseling",
+        "Observation and analytical skills",
+        "Emotional intelligence",
+        "Behavioral therapy knowledge"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Specialization in mental/behavioral health (preferred)"
+  ],
+  "responsibilities": [
+    "Assess behavioral and psychological conditions",
+    "Develop and implement behavioral care plans",
+    "Monitor patient behavior and progress",
+    "Assist in therapy sessions (CBT, behavioral therapy)",
+    "Administer medications as prescribed",
+    "Support patients in developing healthy coping mechanisms",
+    "Work with families for holistic care"
+  ],
+  "work_settings": [
+    "Mental health hospitals",
+    "Rehabilitation centers",
+    "Community health centers",
+    "Schools"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.105483Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 911,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "job_id": "JOB-SAMPLE-026",
+  "job_title": "Operating Room (OR) Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An Operating Room (OR) Nurse, also known as a scrub or circulating nurse, assists surgeons \nduring surgical procedures by maintaining a sterile environment and ensuring everything runs \nsmoothly in the operating theatre.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Infection Control",
+        "Surgical Assistance",
+        "Team Coordination",
+        "Strong knowledge of surgical procedures",
+        "Sterility and infection control expertise"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Training in operation theatre techniques (preferred)"
+  ],
+  "responsibilities": [
+    "Prepare the operating room and surgical instruments",
+    "Ensure strict sterile techniques are followed",
+    "Assist surgeons during procedures (passing instruments, handling supplies)",
+    "Monitor patient condition during surgery",
+    "Count surgical instruments and materials before and after surgery",
+    "Maintain accurate surgical records",
+    "Coordinate with the surgical team (anesthetists, technicians)"
+  ],
+  "work_settings": [
+    "Operation theatres",
+    "Surgical centers",
+    "Multi-specialty hospitals"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.761538Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 1008,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-049",
+  "job_title": "Nursing Informatics Specialist",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Nursing Informatics Specialist integrates nursing science with information technology to \nimprove patient care, data management, and healthcare systems.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Problem Solving",
+        "IT and data management knowledge",
+        "Understanding of healthcare systems"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing + Certification in Nursing Informatics",
+    "MSc Nursing Informatics / Health Informatics (preferred)"
+  ],
+  "responsibilities": [
+    "Implement and manage Electronic Health Records (EHR) systems",
+    "Analyze clinical data to improve patient outcomes",
+    "Train healthcare staff on digital systems",
+    "Optimize workflow using technology solutions",
+    "Ensure data accuracy, privacy, and security",
+    "Collaborate with IT teams to develop healthcare software"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Health IT companies",
+    "Government health departments"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.897268Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 886,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

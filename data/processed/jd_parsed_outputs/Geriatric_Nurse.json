@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-074",
+  "job_title": "Geriatric Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Geriatric Nurse specializes in caring for elderly patients, managing age-related health \nconditions and promoting quality of life.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Empathy",
+        "Patience and empathy",
+        "Knowledge of age-related diseases"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Specialization in geriatric care (preferred)"
+  ],
+  "responsibilities": [
+    "Assess and manage chronic conditions",
+    "Assist with daily living activities",
+    "Monitor medications and treatments",
+    "Provide emotional support",
+    "Educate families on elderly care"
+  ],
+  "work_settings": [
+    "Nursing homes",
+    "Hospitals",
+    "Home care services"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.071303Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 620,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

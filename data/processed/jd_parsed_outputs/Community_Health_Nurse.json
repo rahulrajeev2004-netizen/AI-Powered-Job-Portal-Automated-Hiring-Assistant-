@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-012",
+  "job_title": "Community Health Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Public Health Nurse works at a broader population level, developing and implementing \nhealth policies and programs to improve overall public health.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "Master's"
+    },
+    "skills": {
+      "mandatory": [
+        "Health Policy",
+        "Leadership",
+        "Research & Audit"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing + MPH (Master of Public Health preferred)"
+  ],
+  "responsibilities": [
+    "Design and implement public health programs",
+    "Monitor disease trends and epidemiological data",
+    "Conduct health awareness campaigns",
+    "Work on national programs (TB, HIV, maternal health)",
+    "Collaborate with government agencies",
+    "Evaluate health program effectiveness"
+  ],
+  "work_settings": [
+    "Government health departments",
+    "International organizations (WHO, NGOs)",
+    "Research institutions"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.659979Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 770,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

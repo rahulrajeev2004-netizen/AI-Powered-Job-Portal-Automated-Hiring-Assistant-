@@ -1,0 +1,50 @@
+{
+  "job_id": "JOB-SAMPLE-016",
+  "job_title": "Rural Health Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Rural Health Nurse provides essential healthcare services in rural or underserved areas \nwith limited access to medical facilities.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Problem Solving",
+        "Adaptability in low-resource settings",
+        "Community engagement"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM"
+  ],
+  "responsibilities": [
+    "Deliver primary healthcare services",
+    "Conduct immunization and maternal health programs",
+    "Handle minor illnesses and injuries",
+    "Promote sanitation and hygiene awareness",
+    "Support government rural health initiatives",
+    "Refer serious cases to hospitals"
+  ],
+  "work_settings": [
+    "Rural clinics",
+    "Primary Health Centers (PHCs)",
+    "Mobile health units"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.686666Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 672,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

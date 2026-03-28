@@ -1,0 +1,58 @@
+{
+  "job_id": "JOB-SAMPLE-057",
+  "job_title": "Healthcare Consultant",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Healthcare Consultant with a nursing background advises healthcare organizations on \nimproving operations, patient care, and overall efficiency.",
+  "requirements": {
+    "experience": {
+      "relevant_field": "clinical or administrative roles"
+    },
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "MBA"
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Leadership",
+        "Problem Solving",
+        "Strategic thinking",
+        "Business and analytical skills",
+        "Communication and leadership"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing + MBA/MHA (preferred)",
+    "Experience in clinical or administrative roles"
+  ],
+  "responsibilities": [
+    "Analyze healthcare systems and processes",
+    "Identify areas for improvement",
+    "Develop strategies to enhance patient care and efficiency",
+    "Advise on healthcare policies and regulations",
+    "Support hospital management and decision-making",
+    "Implement quality improvement initiatives"
+  ],
+  "work_settings": [
+    "Consulting firms",
+    "Hospitals",
+    "Healthcare organizations",
+    "Government agencies"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.972587Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 814,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

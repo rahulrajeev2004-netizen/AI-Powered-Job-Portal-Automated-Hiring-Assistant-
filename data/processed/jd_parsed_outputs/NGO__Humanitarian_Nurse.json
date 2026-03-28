@@ -1,0 +1,56 @@
+{
+  "job_id": "JOB-SAMPLE-066",
+  "job_title": "NGO / Humanitarian Nurse",
+  "company_name": "",
+  "location": {
+    "work_type": "Remote"
+  },
+  "job_summary": "A Humanitarian Nurse works with NGOs to provide healthcare services in underserved, \nrural, or conflict-affected areas.",
+  "requirements": {
+    "experience": {
+      "relevant_field": "community/public health preferred"
+    },
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Empathy",
+        "Cultural sensitivity",
+        "Adaptability",
+        "Resource management"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Experience in community/public health preferred"
+  ],
+  "responsibilities": [
+    "Deliver primary healthcare services",
+    "Conduct health awareness programs",
+    "Manage maternal and child health services",
+    "Support vaccination drives and disease prevention",
+    "Work in low-resource environments",
+    "Collaborate with global health organizations"
+  ],
+  "work_settings": [
+    "NGOs",
+    "International health organizations",
+    "Rural and remote areas"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.026846Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 720,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

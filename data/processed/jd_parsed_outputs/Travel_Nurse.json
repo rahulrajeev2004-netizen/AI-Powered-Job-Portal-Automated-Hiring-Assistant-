@@ -1,0 +1,53 @@
+{
+  "job_id": "JOB-SAMPLE-062",
+  "job_title": "Travel Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Travel Nurse works on short-term assignments in different hospitals or regions, often \nfilling staffing shortages.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Adaptability and flexibility",
+        "Strong clinical competence",
+        "Quick learning ability"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Valid nursing license (local/international like NCLEX for abroad)",
+    "Clinical experience (1–2 years preferred)"
+  ],
+  "responsibilities": [
+    "Provide direct patient care in assigned facilities",
+    "Adapt quickly to new clinical environments",
+    "Follow hospital protocols and standards",
+    "Assist during staff shortages or peak demand",
+    "Maintain accurate patient records",
+    "Collaborate with multidisciplinary teams"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Clinics",
+    "Emergency care units"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.997492Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 780,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

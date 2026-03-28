@@ -1,0 +1,29 @@
+============================================================
+Resume Section Detection Report
+-------------------------------
+Total Samples: 4
+Average Accuracy: 1.00
+============================================================
+
+Detailed Results per Resume:
+----------------------------
+Filename: Reshma resume.pdf
+  - Sections Found: 6
+  - Accuracy Score: 1.00
+  - Sections: education, skills, languages, certifications, contact_info, summary
+
+Filename: sample_2.txt
+  - Sections Found: 5
+  - Accuracy Score: 1.00
+  - Sections: education, skills, contact_info, work_experience, summary
+
+Filename: sample_resume.pdf
+  - Sections Found: 8
+  - Accuracy Score: 1.00
+  - Sections: education, declaration, skills, languages, contact_info, work_experience, summary, projects
+
+Filename: sample_resume_pdf_cleaned.txt
+  - Sections Found: 8
+  - Accuracy Score: 1.00
+  - Sections: education, declaration, skills, languages, contact_info, work_experience, summary, projects
+

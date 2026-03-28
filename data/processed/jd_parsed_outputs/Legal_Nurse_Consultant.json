@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-059",
+  "job_title": "Legal Nurse Consultant",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Legal Nurse Consultant assists lawyers and legal teams by interpreting medical records and \nproviding expert insights in medical-related legal cases.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Documentation",
+        "Problem Solving",
+        "Strong documentation skills",
+        "Knowledge of legal systems"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / MSc Nursing",
+    "Legal nurse consulting certification (preferred)"
+  ],
+  "responsibilities": [
+    "Review and analyze medical records",
+    "Identify standards of care and possible negligence",
+    "Prepare medical reports for legal cases",
+    "Assist attorneys in understanding medical terminology",
+    "Provide expert opinions in court cases",
+    "Support litigation and case preparation"
+  ],
+  "work_settings": [
+    "Law firms",
+    "Insurance companies",
+    "Independent consulting"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.982307Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 786,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

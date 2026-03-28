@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-060",
+  "job_title": "Nurse Auditor",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Nurse Auditor reviews healthcare records and processes to ensure compliance with medical \nstandards, billing accuracy, and regulatory requirements.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Knowledge of healthcare regulations",
+        "Analytical and auditing skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Certification in medical auditing/coding (preferred)"
+  ],
+  "responsibilities": [
+    "Audit patient records and treatment documentation",
+    "Ensure compliance with healthcare laws and policies",
+    "Verify billing accuracy and coding",
+    "Identify discrepancies or fraud",
+    "Prepare audit reports and recommendations",
+    "Improve quality and compliance systems"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Insurance companies",
+    "Government agencies"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.987196Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 747,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "job_id": "JOB-SAMPLE-013",
+  "job_title": "School Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A School Nurse ensures the health and well-being of students and staff within educational \ninstitutions.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Emergency Response",
+        "Pediatric Care"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM"
+  ],
+  "responsibilities": [
+    "Provide first aid and emergency care",
+    "Manage chronic conditions (asthma, diabetes)",
+    "Conduct health screenings and check-ups",
+    "Maintain student health records",
+    "Educate students on hygiene and nutrition",
+    "Handle outbreaks (flu, infections)"
+  ],
+  "work_settings": [
+    "Schools",
+    "Colleges",
+    "Educational institutions"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.667380Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 595,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

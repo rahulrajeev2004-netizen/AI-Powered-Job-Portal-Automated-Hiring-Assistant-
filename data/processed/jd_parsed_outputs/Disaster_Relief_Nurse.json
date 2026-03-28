@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-065",
+  "job_title": "Disaster Relief Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Disaster Relief Nurse provides emergency healthcare during natural disasters, \npandemics, or crises.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Emergency Response",
+        "Team Coordination",
+        "Emotional resilience"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Training in disaster management/emergency care"
+  ],
+  "responsibilities": [
+    "Deliver urgent care in disaster zones",
+    "Triage patients based on severity",
+    "Manage injuries, infections, and trauma",
+    "Coordinate with emergency response teams",
+    "Provide vaccinations and disease control",
+    "Support affected communities"
+  ],
+  "work_settings": [
+    "Disaster zones",
+    "Relief camps",
+    "Emergency response organizations"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.019580Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 681,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

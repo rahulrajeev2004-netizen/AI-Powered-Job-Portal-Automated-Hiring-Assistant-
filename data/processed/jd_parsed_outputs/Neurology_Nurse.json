@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-023",
+  "job_title": "Neurology Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Neurology Nurse cares for patients with disorders of the brain, spinal cord, and nervous \nsystem such as stroke, epilepsy, and Parkinson's disease.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Clinical Assessment",
+        "Empathy",
+        "Observation and attention to detail",
+        "Patience and empathy"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Neurology specialization (preferred)"
+  ],
+  "responsibilities": [
+    "Monitor neurological status (consciousness, reflexes, motor function)",
+    "Assist in stroke management and rehabilitation",
+    "Administer medications for neurological disorders",
+    "Support patients with mobility and coordination issues",
+    "Educate families on long-term neurological care"
+  ],
+  "work_settings": [
+    "Neurology wards",
+    "Stroke units",
+    "Rehabilitation centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.739163Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 753,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

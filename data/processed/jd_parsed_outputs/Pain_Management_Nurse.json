@@ -1,0 +1,50 @@
+{
+  "job_id": "JOB-SAMPLE-068",
+  "job_title": "Pain Management Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Pain Management Nurse specializes in assessing and treating acute and chronic pain \nusing medications and therapeutic interventions.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Knowledge of analgesics and therapies",
+        "Patient assessment skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing",
+    "Certification in pain management (preferred)"
+  ],
+  "responsibilities": [
+    "Assess pain levels and causes",
+    "Administer pain relief medications and therapies",
+    "Monitor treatment effectiveness",
+    "Educate patients on pain control strategies",
+    "Assist in pain management procedures"
+  ],
+  "work_settings": [
+    "Pain clinics",
+    "Hospitals",
+    "Rehabilitation centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.040583Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 652,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

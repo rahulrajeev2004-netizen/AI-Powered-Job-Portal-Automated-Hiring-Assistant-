@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-027",
+  "job_title": "Perioperative Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Perioperative Nurse provides comprehensive care to surgical patients before, during, and \nafter surgery, ensuring patient safety and smooth surgical outcomes.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Patient Care",
+        "Patient Education",
+        "Surgical Assistance",
+        "Communication and patient education",
+        "Critical thinking"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Perioperative nursing certification (preferred)"
+  ],
+  "responsibilities": [
+    "Conduct pre-operative assessments and prepare patients",
+    "Educate patients about surgical procedures and recovery",
+    "Assist during surgery (as scrub or circulating nurse)",
+    "Monitor patients in post-anesthesia recovery",
+    "Manage pain and prevent complications",
+    "Ensure continuity of care across all surgical phases"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Surgical units",
+    "Day-care surgery centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.768695Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 821,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

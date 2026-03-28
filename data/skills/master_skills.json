@@ -1,0 +1,264 @@
+{
+  "tech": {
+    "Python": {
+      "synonyms": ["py", "python3", "python programming", "pythonistas"],
+      "category": "Programming Languages"
+    },
+    "JavaScript": {
+      "synonyms": ["js", "javascript", "ecmascript", "es6", "es2015", "esnext"],
+      "category": "Programming Languages"
+    },
+    "TypeScript": {
+      "synonyms": ["ts", "typescript"],
+      "category": "Programming Languages"
+    },
+    "Java": {
+      "synonyms": ["java programming", "core java", "j2ee"],
+      "category": "Programming Languages"
+    },
+    "C++": {
+      "synonyms": ["cpp", "c plus plus", "c++11", "c++14", "c++17", "c++20"],
+      "category": "Programming Languages"
+    },
+    "C#": {
+      "synonyms": ["csharp", "c-sharp", "dotnet c#", ".net c#"],
+      "category": "Programming Languages"
+    },
+    "Go": {
+      "synonyms": ["golang", "go language"],
+      "category": "Programming Languages"
+    },
+    "Rust": {
+      "synonyms": ["rust lang", "rust programming"],
+      "category": "Programming Languages"
+    },
+    "PHP": {
+      "synonyms": ["php5", "php7", "php8"],
+      "category": "Programming Languages"
+    },
+    "Swift": {
+      "synonyms": ["swift language", "swift programming"],
+      "category": "Programming Languages"
+    },
+    "Kotlin": {
+      "synonyms": ["kotlin android"],
+      "category": "Programming Languages"
+    },
+    "TensorFlow": {
+      "synonyms": ["tensorflow", "tf", "tf.js"],
+      "category": "Machine Learning"
+    },
+    "PyTorch": {
+      "synonyms": ["pytorch", "torch", "pytorch lightning"],
+      "category": "Machine Learning"
+    },
+    "Keras": {
+      "synonyms": ["keras api", "keras"],
+      "category": "Machine Learning"
+    },
+    "Scikit-learn": {
+      "synonyms": ["sklearn", "scikit learn"],
+      "category": "Machine Learning"
+    },
+    "Pandas": {
+      "synonyms": ["pandas library"],
+      "category": "Data Science"
+    },
+    "NumPy": {
+      "synonyms": ["numpy library"],
+      "category": "Data Science"
+    },
+    "SQL": {
+      "synonyms": ["structured query language", "sql query", "sql queries"],
+      "category": "Databases"
+    },
+    "MySQL": {
+      "synonyms": ["mysql db", "mysql database"],
+      "category": "Databases"
+    },
+    "PostgreSQL": {
+      "synonyms": ["postgres", "postgresql", "psql", "pg"],
+      "category": "Databases"
+    },
+    "MongoDB": {
+      "synonyms": ["mongo", "mongodb", "mongo db"],
+      "category": "Databases"
+    },
+    "Redis": {
+      "synonyms": ["redis cache", "redis db"],
+      "category": "Databases"
+    },
+    "AWS": {
+      "synonyms": ["amazon web services", "amazon aws", "s3", "ec2", "lambda"],
+      "category": "Cloud Computing"
+    },
+    "GCP": {
+      "synonyms": ["google cloud", "google cloud platform", "bigquery"],
+      "category": "Cloud Computing"
+    },
+    "Azure": {
+      "synonyms": ["microsoft azure", "azure cloud"],
+      "category": "Cloud Computing"
+    },
+    "Docker": {
+      "synonyms": ["docker container", "docker containerization"],
+      "category": "DevOps"
+    },
+    "Kubernetes": {
+      "synonyms": ["k8s", "kube", "kubernetes orchestration"],
+      "category": "DevOps"
+    },
+    "Terraform": {
+      "synonyms": ["terraform iac", "terraform infrastructure"],
+      "category": "DevOps"
+    },
+    "Jenkins": {
+      "synonyms": ["jenkins ci", "jenkins pipeline"],
+      "category": "DevOps"
+    },
+    "Git": {
+      "synonyms": ["github", "gitlab", "bitbucket", "version control"],
+      "category": "Tools"
+    },
+    "REST API": {
+      "synonyms": ["restful api", "rest apis", "rest", "restful services"],
+      "category": "Web Services"
+    },
+    "GraphQL": {
+      "synonyms": ["graphql api"],
+      "category": "Web Services"
+    },
+    "Microservices": {
+      "synonyms": ["microservice architecture", "micro-services"],
+      "category": "Architectural Patterns"
+    },
+    "React": {
+      "synonyms": ["reactjs", "react.js", "react js"],
+      "category": "Web Frameworks"
+    },
+    "Angular": {
+      "synonyms": ["angularjs", "angular js", "angular framework"],
+      "category": "Web Frameworks"
+    },
+    "Node.js": {
+      "synonyms": ["nodejs", "node js", "node"],
+      "category": "Web Frameworks"
+    },
+    "Express.js": {
+      "synonyms": ["expressjs", "express js", "express"],
+      "category": "Web Frameworks"
+    },
+    "Django": {
+      "synonyms": ["django framework", "django rest framework", "drf"],
+      "category": "Web Frameworks"
+    },
+    "Flask": {
+      "synonyms": ["flask framework", "flask api"],
+      "category": "Web Frameworks"
+    }
+  },
+  "business": {
+    "Project Management": {
+      "synonyms": ["pm", "project mgmt", "pmp", "project lead"],
+      "category": "Management"
+    },
+    "Product Management": {
+      "synonyms": ["product mgmt", "product manager skills", "product strategy"],
+      "category": "Management"
+    },
+    "Agile": {
+      "synonyms": ["scrum", "kanban", "agile/scrum", "agile methodology", "agile development"],
+      "category": "Methodologies"
+    },
+    "Stakeholder Management": {
+      "synonyms": ["stakeholder communication", "stakeholder engagement", "stakeholder management"],
+      "category": "Management"
+    },
+    "Data-Driven Decision Making": {
+      "synonyms": ["data driven decisions", "metrics-based decisions"],
+      "category": "Strategy"
+    },
+    "Business Analysis": {
+      "synonyms": ["ba", "business analyst", "requirements analyst"],
+      "category": "Business Intelligence"
+    },
+    "Communication": {
+      "synonyms": ["verbal communication", "written communication", "interpersonal skills"],
+      "category": "Soft Skills"
+    },
+    "Leadership": {
+      "synonyms": ["team leadership", "lead teams", "people management"],
+      "category": "Soft Skills"
+    },
+    "Problem Solving": {
+      "synonyms": ["problem-solving", "analytical thinking", "critical thinking"],
+      "category": "Soft Skills"
+    }
+  },
+  "creative": {
+    "UI/UX": {
+      "synonyms": ["ux design", "ui design", "user experience design", "ux/ui", "product designer", "ui ux designer"],
+      "category": "Design"
+    },
+    "Graphic Design": {
+      "synonyms": ["graphics", "visual design", "photoshop", "illustrator"],
+      "category": "Design"
+    },
+    "Video Editing": {
+      "synonyms": ["premiere pro", "after effects", "video production", "davinci resolve"],
+      "category": "Media"
+    },
+    "Copywriting": {
+      "synonyms": ["content writing", "technical writing", "creative writing"],
+      "category": "Writing"
+    },
+    "Figma": {
+      "synonyms": ["figma design", "prototyping in figma"],
+      "category": "Design Tools"
+    },
+    "Adobe Creative Suite": {
+      "synonyms": ["creative cloud", "adobe creative suite", "adobe cs"],
+      "category": "Design Tools"
+    }
+  },
+  "science": {
+    "Polymer Synthesis": {
+      "synonyms": ["polymer synthesis fundamentals", "polymer characterization"],
+      "category": "Chemistry"
+    },
+    "Chemical Analysis": {
+      "synonyms": ["chemical analysis techniques", "analytical chemistry", "chemical analysis"],
+      "category": "Chemistry"
+    },
+    "Laboratory Skills": {
+      "synonyms": ["laboratory documentation", "laboratory techniques", "lab reporting", "lab safety"],
+      "category": "Laboratory"
+    },
+    "Cheminformatics": {
+      "synonyms": ["chemical informatics", "drug design"],
+      "category": "Chemistry"
+    }
+  },
+  "stacks": {
+    "MERN": {
+      "skills": ["MongoDB", "Express.js", "React", "Node.js"],
+      "synonyms": ["mern stack"]
+    },
+    "MEAN": {
+      "skills": ["MongoDB", "Express.js", "Angular", "Node.js"],
+      "synonyms": ["mean stack"]
+    },
+    "TALL": {
+      "skills": ["TailwindCSS", "Alpine.js", "Laravel", "Livewire"],
+      "synonyms": ["tall stack"]
+    },
+    "LAMP": {
+      "skills": ["Linux", "Apache", "MySQL", "PHP"],
+      "synonyms": ["lamp stack"]
+    },
+    "ELK": {
+      "skills": ["Elasticsearch", "Logstash", "Kibana"],
+      "synonyms": ["elk stack"]
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-069",
+  "job_title": "Infection Control Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An Infection Control Nurse works to prevent and control infections within healthcare \nsettings, ensuring patient and staff safety.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Infection Control",
+        "Knowledge of microbiology and infection control",
+        "Analytical skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing",
+    "Certification in infection control (preferred)"
+  ],
+  "responsibilities": [
+    "Monitor infection rates and outbreaks",
+    "Develop infection prevention protocols",
+    "Train staff on hygiene and safety practices",
+    "Conduct audits and inspections",
+    "Ensure compliance with health regulations",
+    "Manage hospital infection control programs"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Public health organizations",
+    "Laboratories"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.046230Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 713,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

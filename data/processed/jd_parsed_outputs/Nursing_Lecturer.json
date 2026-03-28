@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-042",
+  "job_title": "Nursing Lecturer",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Nursing Lecturer teaches nursing subjects at undergraduate and diploma levels, focusing \non theoretical education and academic development.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "M.Sc.",
+      "preferred_degree": "Ph.D."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Strong subject knowledge",
+        "Teaching and communication",
+        "Research aptitude"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "MSc Nursing (mandatory)",
+    "NET/PhD (preferred for higher institutions)"
+  ],
+  "responsibilities": [
+    "Deliver lectures on nursing subjects",
+    "Prepare teaching materials and presentations",
+    "Conduct exams and assessments",
+    "Guide student research and assignments",
+    "Participate in academic planning and curriculum design",
+    "Stay updated with current medical advancements"
+  ],
+  "work_settings": [
+    "Nursing colleges",
+    "Universities"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.859409Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 702,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+
+JOHN DOE
+Software Engineer | john.doe@email.com | +1 234 567 8900
+
+PROFESSIONAL SUMMARY
+Cloud Architect with 10+ years of experience in AWS and Azure.
+
+CORE COMPETENCIES
+- Cloud Architecture
+- DevOps
+- Team Leadership
+
+WORK HISTORY
+Cloud Solutions Architect, CloudNine Systems (2015-Present)
+- Developed serverless architectures.
+- Managed a budget of $5M.
+
+EDUCATION
+Master of Science in Computer Science
+Stanford University, 2012

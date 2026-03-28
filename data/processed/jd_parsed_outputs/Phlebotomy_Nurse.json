@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-078",
+  "job_title": "Phlebotomy Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Phlebotomy Nurse specializes in drawing blood samples for diagnostic tests, transfusions, \nor donations.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Communication",
+        "Infection Control",
+        "Precision and steady hand",
+        "Knowledge of infection control"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM or Phlebotomy certification",
+    "Training in blood collection techniques"
+  ],
+  "responsibilities": [
+    "Collect blood samples safely and accurately",
+    "Label and handle specimens properly",
+    "Maintain hygiene and infection control",
+    "Prepare patients for blood collection",
+    "Monitor patients for adverse reactions",
+    "Maintain records and documentation"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Diagnostic laboratories",
+    "Blood banks",
+    "Clinics"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.094197Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 724,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

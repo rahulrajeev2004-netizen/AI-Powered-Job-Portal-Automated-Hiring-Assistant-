@@ -1,0 +1,38 @@
+[
+  {
+    "name": "python",
+    "confidence": 0.95
+  },
+  {
+    "name": "sql",
+    "confidence": 0.85
+  },
+  {
+    "name": "javascript",
+    "confidence": 0.75
+  },
+  {
+    "name": "django",
+    "confidence": 0.75
+  },
+  {
+    "name": "pandas",
+    "confidence": 0.85
+  },
+  {
+    "name": "numpy",
+    "confidence": 0.85
+  },
+  {
+    "name": "scikit-learn",
+    "confidence": 0.75
+  },
+  {
+    "name": "machine learning",
+    "confidence": 0.95
+  },
+  {
+    "name": "git",
+    "confidence": 0.85
+  }
+]

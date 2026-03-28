@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-028",
+  "job_title": "Surgical Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Surgical Nurse focuses on caring for patients undergoing surgical treatment, primarily in \npre-operative and post-operative phases.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Patient Care",
+        "Wound Care",
+        "Post-operative care knowledge"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM"
+  ],
+  "responsibilities": [
+    "Prepare patients for surgery (tests, consent, education)",
+    "Monitor vital signs and patient condition post-surgery",
+    "Perform wound care and dressing",
+    "Administer medications and pain management",
+    "Detect and manage post-surgical complications (infection, bleeding)",
+    "Educate patients on recovery and rehabilitation"
+  ],
+  "work_settings": [
+    "Surgical wards",
+    "Hospitals",
+    "Recovery units"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.777489Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 725,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

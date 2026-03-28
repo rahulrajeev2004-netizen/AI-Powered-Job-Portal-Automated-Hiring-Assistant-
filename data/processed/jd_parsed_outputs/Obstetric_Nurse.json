@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-031",
+  "job_title": "Obstetric Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An Obstetric Nurse provides care to women during pregnancy (prenatal phase), ensuring the \nhealth of both mother and fetus.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Counseling",
+        "Maternal Care",
+        "Risk Assessment"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Obstetrics & gynecology training (preferred)"
+  ],
+  "responsibilities": [
+    "Conduct prenatal assessments and checkups",
+    "Monitor fetal development and maternal health",
+    "Assist in diagnostic tests (ultrasound support, lab tests)",
+    "Educate mothers on pregnancy care and nutrition",
+    "Identify high-risk pregnancies and complications",
+    "Coordinate with obstetricians"
+  ],
+  "work_settings": [
+    "Maternity clinics",
+    "Hospitals",
+    "Community health centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.794436Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 724,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

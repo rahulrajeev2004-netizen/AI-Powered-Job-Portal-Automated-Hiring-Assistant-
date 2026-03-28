@@ -1,0 +1,53 @@
+{
+  "job_id": "JOB-SAMPLE-051",
+  "job_title": "Data Analyst",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Clinical Data Analyst with a nursing background analyzes healthcare data to improve \npatient outcomes, hospital performance, and clinical decision-making.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Data Analysis",
+        "Data analysis and statistics",
+        "Critical thinking",
+        "Technical skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing + Data Analytics certification",
+    "Knowledge of tools (Excel, SQL, Python, Power BI – preferred)"
+  ],
+  "responsibilities": [
+    "Collect and analyze clinical data",
+    "Identify trends in patient outcomes and treatments",
+    "Prepare reports and dashboards",
+    "Support evidence-based decision-making",
+    "Ensure data quality and compliance",
+    "Collaborate with healthcare and IT teams"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Healthcare analytics companies",
+    "Insurance companies"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.924216Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 810,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

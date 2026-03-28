@@ -1,0 +1,54 @@
+{
+  "job_id": "JOB-SAMPLE-063",
+  "job_title": "Cruise Ship Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Cruise Ship Nurse provides medical care to passengers and crew aboard ships, handling \neverything from minor illnesses to emergencies.",
+  "requirements": {
+    "experience": {
+      "relevant_field": "emergency/critical care"
+    },
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Emergency Response",
+        "Emergency response skills",
+        "Independence and decision-making",
+        "Cultural sensitivity"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing",
+    "Advanced certifications (BLS, ACLS, emergency care)",
+    "Experience in emergency/critical care"
+  ],
+  "responsibilities": [
+    "Provide emergency and primary care onboard",
+    "Respond to medical emergencies at sea",
+    "Administer medications and treatments",
+    "Maintain medical records",
+    "Conduct health screenings and infection control",
+    "Coordinate medical evacuations if needed"
+  ],
+  "work_settings": [
+    "Cruise ships",
+    "Maritime healthcare units"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.003064Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 755,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

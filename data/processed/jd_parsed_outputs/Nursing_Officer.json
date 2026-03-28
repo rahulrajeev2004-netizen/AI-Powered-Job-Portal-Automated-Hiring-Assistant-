@@ -1,0 +1,56 @@
+{
+  "job_id": "JOB-SAMPLE-037",
+  "job_title": "Nursing Officer",
+  "company_name": "",
+  "location": {},
+  "job_summary": "The Chief Nursing Officer (CNO) is a top executive responsible for overall nursing services, \nstrategy, and leadership within a healthcare organization.",
+  "requirements": {
+    "experience": {
+      "min_years": 15
+    },
+    "education": {
+      "min_degree": "M.Sc.",
+      "preferred_degree": "Ph.D."
+    },
+    "skills": {
+      "mandatory": [
+        "Leadership",
+        "Strategic leadership",
+        "Financial and operational management",
+        "Policy development",
+        "High-level decision-making"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "MSc Nursing / PhD (preferred)",
+    "Extensive leadership experience (10–15+ years)"
+  ],
+  "responsibilities": [
+    "Develop and implement nursing strategies and policies",
+    "Oversee all nursing departments and leaders",
+    "Ensure quality, safety, and compliance standards",
+    "Manage budgets and resource allocation",
+    "Represent nursing staff at executive level meetings",
+    "Drive innovation and improvement in patient care"
+  ],
+  "work_settings": [
+    "Large hospitals",
+    "Healthcare systems",
+    "Corporate healthcare organizations"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.834668Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 847,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

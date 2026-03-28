@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-067",
+  "job_title": "Palliative Care Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Palliative Care Nurse focuses on improving the quality of life for patients with serious or \nterminal illnesses by managing symptoms and providing emotional support.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Counseling",
+        "Empathy",
+        "Pain and symptom management"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Training in palliative or hospice care (preferred)"
+  ],
+  "responsibilities": [
+    "Manage pain and other distressing symptoms",
+    "Provide end-of-life care and comfort",
+    "Support patients and families emotionally",
+    "Coordinate with multidisciplinary care teams",
+    "Educate families on disease progression and care",
+    "Assist in advance care planning"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Hospice centers",
+    "Home care services"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.035064Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 757,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

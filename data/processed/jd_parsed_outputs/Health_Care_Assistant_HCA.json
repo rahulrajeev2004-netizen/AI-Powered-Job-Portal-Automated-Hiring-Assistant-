@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-077",
+  "job_title": "Health Care Assistant (HCA)",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Health Care Assistant supports nurses and healthcare professionals in delivering day-to\nday patient care, especially in long-term and community settings.",
+  "requirements": {
+    "experience": {},
+    "education": {},
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Empathy",
+        "Empathy and patience",
+        "Teamwork",
+        "Basic caregiving skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "Certificate in healthcare assistance",
+    "On-the-job training"
+  ],
+  "responsibilities": [
+    "Assist with personal care and hygiene",
+    "Help patients with mobility and daily activities",
+    "Monitor patient conditions and report changes",
+    "Provide emotional and social support",
+    "Maintain cleanliness and patient comfort",
+    "Assist in basic medical procedures"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Nursing homes",
+    "Home care",
+    "Community health centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.088618Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 752,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

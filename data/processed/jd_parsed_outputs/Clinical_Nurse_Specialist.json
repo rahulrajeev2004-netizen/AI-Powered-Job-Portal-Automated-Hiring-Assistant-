@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-008",
+  "job_title": "Clinical Nurse Specialist",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Clinical Nurse Specialist is an expert in a specialized area of nursing practice (e.g., \noncology, cardiology). They improve patient outcomes through clinical expertise, education, \nand system-level improvements.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Research & Audit",
+        "Deep specialization knowledge",
+        "Teaching and mentoring",
+        "Quality improvement expertise"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "MSc Nursing (Specialization)",
+    "CNS certification (where applicable)"
+  ],
+  "responsibilities": [
+    "Provide expert consultation on complex cases",
+    "Develop evidence-based care protocols",
+    "Train and mentor nursing staff",
+    "Improve quality of care and patient safety",
+    "Conduct clinical audits and research",
+    "Implement best practices in specialized units"
+  ],
+  "work_settings": [
+    "Hospitals (ICU, oncology, cardiology units)",
+    "Academic institutions",
+    "Research centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.622237Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 878,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

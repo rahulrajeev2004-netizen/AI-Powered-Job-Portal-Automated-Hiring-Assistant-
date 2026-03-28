@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-075",
+  "job_title": "Nursing Assistant (CNA – Certified",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Nursing Assistant provides basic patient care and support under the supervision of \nregistered nurses and doctors.",
+  "requirements": {
+    "experience": {},
+    "education": {},
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Compassion and patience",
+        "Basic clinical skills",
+        "Physical stamina"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "Nursing assistant certification (CNA course)",
+    "Basic healthcare training"
+  ],
+  "responsibilities": [
+    "Assist patients with daily activities (bathing, dressing, feeding)",
+    "Monitor vital signs (temperature, pulse, blood pressure)",
+    "Help patients move, turn, or walk",
+    "Maintain cleanliness and hygiene of patients",
+    "Assist nurses with routine procedures",
+    "Provide emotional support and companionship"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Nursing homes",
+    "Rehabilitation centers",
+    "Home care services"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.076457Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 809,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

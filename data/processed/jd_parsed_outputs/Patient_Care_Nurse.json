@@ -1,0 +1,50 @@
+{
+  "job_id": "JOB-SAMPLE-006",
+  "job_title": "Patient Care Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Patient Care Nurse focuses on holistic care, ensuring physical, emotional, and \npsychological well-being of patients.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Problem Solving",
+        "Patient-centered approach"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM"
+  ],
+  "responsibilities": [
+    "Develop and implement patient care plans",
+    "Monitor recovery progress",
+    "Coordinate with multidisciplinary teams",
+    "Educate patients on treatment and recovery",
+    "Ensure patient comfort and satisfaction",
+    "Handle patient queries and concerns"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Clinics",
+    "Home healthcare"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.607221Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 595,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-038",
+  "job_title": "Director of Nursing",
+  "company_name": "",
+  "location": {},
+  "job_summary": "The Director of Nursing is responsible for managing the entire nursing department, focusing \non operational efficiency, staff development, and quality care delivery.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Leadership",
+        "Leadership and administration",
+        "Strategic planning",
+        "Quality management"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "MSc Nursing (mandatory in most cases)",
+    "Leadership experience"
+  ],
+  "responsibilities": [
+    "Oversee nursing operations across the facility",
+    "Develop staffing plans and training programs",
+    "Ensure compliance with healthcare regulations",
+    "Monitor patient care quality and safety",
+    "Manage budgets and departmental resources",
+    "Lead quality improvement initiatives"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Healthcare institutions",
+    "Long-term care facilities"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.840715Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 756,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-071",
+  "job_title": "Transplant Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Transplant Nurse manages care for patients undergoing organ transplants, from pre\nsurgery preparation to post-operative recovery.",
+  "requirements": {
+    "experience": {
+      "relevant_field": "critical care or transplant units"
+    },
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Critical Care",
+        "Patient Education",
+        "Critical care knowledge",
+        "Coordination skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing",
+    "Experience in critical care or transplant units"
+  ],
+  "responsibilities": [
+    "Prepare patients for transplant surgery",
+    "Monitor post-transplant recovery",
+    "Educate patients on medication and lifestyle changes",
+    "Coordinate with transplant teams",
+    "Monitor for organ rejection"
+  ],
+  "work_settings": [
+    "Specialized transplant centers",
+    "Hospitals"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.056369Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 618,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

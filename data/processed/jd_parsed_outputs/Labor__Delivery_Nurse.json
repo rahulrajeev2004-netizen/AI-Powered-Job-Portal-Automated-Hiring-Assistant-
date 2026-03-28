@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-032",
+  "job_title": "Labor & Delivery Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Labor & Delivery Nurse assists women during childbirth, ensuring safe delivery and \nproviding emotional and clinical support throughout labor.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Emergency Response",
+        "Empathy",
+        "Emotional support and empathy",
+        "Crisis management (complications during labor)"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Labor and delivery training (preferred)"
+  ],
+  "responsibilities": [
+    "Monitor contractions and fetal heart rate",
+    "Assist doctors during labor and childbirth",
+    "Administer medications (pain relief, IV fluids)",
+    "Support mothers physically and emotionally",
+    "Handle normal deliveries (in some settings)",
+    "Provide immediate newborn care after birth"
+  ],
+  "work_settings": [
+    "Delivery rooms",
+    "Maternity wards",
+    "Birthing centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.801054Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 761,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

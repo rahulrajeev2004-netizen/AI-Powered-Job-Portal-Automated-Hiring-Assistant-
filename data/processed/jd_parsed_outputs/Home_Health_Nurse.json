@@ -1,0 +1,49 @@
+{
+  "job_id": "JOB-SAMPLE-015",
+  "job_title": "Home Health Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Home Health Nurse provides personalized medical care to patients in their homes, \nespecially those with chronic illness, disability, or post-surgical needs.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Patient Care",
+        "Time Management",
+        "Independence and responsibility"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM"
+  ],
+  "responsibilities": [
+    "Monitor patient health and recovery",
+    "Administer medications and injections",
+    "Perform wound care and dressing",
+    "Assist with daily living activities",
+    "Educate patients and caregivers",
+    "Coordinate with doctors for home treatment plans"
+  ],
+  "work_settings": [
+    "Patient homes",
+    "Home healthcare agencies"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.680822Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 646,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "job_id": "JOB-SAMPLE-035",
+  "job_title": "Nurse Manager",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Nurse Manager oversees a specific unit or department in a hospital, ensuring high-quality \npatient care while managing nursing staff and daily operations.",
+  "requirements": {
+    "experience": {
+      "min_years": 5
+    },
+    "education": {
+      "min_degree": "B.Sc.",
+      "preferred_degree": "M.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Leadership",
+        "Problem Solving",
+        "Communication and conflict resolution",
+        "Organizational skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing (MSc Nursing preferred)",
+    "Clinical experience (3–5+ years)"
+  ],
+  "responsibilities": [
+    "Supervise and coordinate nursing staff",
+    "Manage duty schedules and staffing levels",
+    "Ensure quality patient care and safety standards",
+    "Handle patient complaints and resolve issues",
+    "Monitor performance and conduct staff evaluations",
+    "Maintain inventory of medical supplies",
+    "Implement hospital policies and protocols"
+  ],
+  "work_settings": [
+    "Hospital departments (ICU, wards, OPD)",
+    "Clinics",
+    "Nursing homes"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.823820Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 845,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

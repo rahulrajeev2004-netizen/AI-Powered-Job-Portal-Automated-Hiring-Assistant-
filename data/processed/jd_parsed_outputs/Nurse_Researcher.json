@@ -1,0 +1,51 @@
+{
+  "job_id": "JOB-SAMPLE-046",
+  "job_title": "Nurse Researcher",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Clinical Research Nurse manages and participates in clinical trials, ensuring patient safety \nand compliance with research protocols.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Knowledge of clinical trials",
+        "Ethical and regulatory understanding"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Training in clinical research (GCP certification preferred)"
+  ],
+  "responsibilities": [
+    "Recruit and screen participants for clinical trials",
+    "Obtain informed consent",
+    "Administer study treatments and interventions",
+    "Monitor patient responses and side effects",
+    "Maintain accurate clinical trial documentation",
+    "Ensure compliance with ethical and regulatory standards"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Pharmaceutical companies",
+    "Clinical research organizations (CROs)"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.877971Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 791,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

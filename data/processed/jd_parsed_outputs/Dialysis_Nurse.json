@@ -1,0 +1,50 @@
+{
+  "job_id": "JOB-SAMPLE-070",
+  "job_title": "Dialysis Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Dialysis Nurse cares for patients with kidney failure, performing dialysis treatments and \nmonitoring patient response.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Patient Care",
+        "Technical skills",
+        "Patient care and monitoring"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Training in dialysis procedures"
+  ],
+  "responsibilities": [
+    "Operate dialysis machines",
+    "Monitor vital signs during treatment",
+    "Educate patients about kidney health",
+    "Maintain dialysis equipment",
+    "Handle complications during procedures"
+  ],
+  "work_settings": [
+    "Dialysis centers",
+    "Hospitals"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.051384Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 565,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "job_id": "JOB-SAMPLE-005",
+  "job_title": "Bedside Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Bedside Nurse provides direct, one-on-one patient care at the patient's bedside, focusing \non comfort, monitoring, and recovery support.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Compassion",
+        "Patience",
+        "Observation skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM"
+  ],
+  "responsibilities": [
+    "Provide continuous patient care",
+    "Monitor vital signs regularly",
+    "Assist with feeding, mobility, and hygiene",
+    "Administer medications",
+    "Provide emotional support to patients",
+    "Communicate patient updates to doctors"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Home care settings"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.598826Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 563,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

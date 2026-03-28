@@ -1,0 +1,49 @@
+{
+  "job_id": "JOB-SAMPLE-076",
+  "job_title": "Patient Care Technician (PCT)",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Patient Care Technician provides advanced support to nurses, performing both basic care \nand some clinical tasks.",
+  "requirements": {
+    "experience": {},
+    "education": {},
+    "skills": {
+      "mandatory": [
+        "Attention to Detail",
+        "Clinical and technical skills",
+        "Ability to work under pressure"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "PCT certification or diploma",
+    "Basic nursing or paramedical training"
+  ],
+  "responsibilities": [
+    "Assist with patient care (hygiene, mobility, feeding)",
+    "Measure and record vital signs",
+    "Perform basic clinical tasks (ECG, specimen collection)",
+    "Assist in emergency situations",
+    "Prepare patients for procedures",
+    "Maintain medical equipment and supplies"
+  ],
+  "work_settings": [
+    "Hospitals",
+    "Emergency departments",
+    "Dialysis centers"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.082755Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 712,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

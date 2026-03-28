@@ -1,0 +1,57 @@
+{
+  "job_id": "JOB-SAMPLE-079",
+  "job_title": "Addiction Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "An Addiction Nurse specializes in caring for patients struggling with substance abuse and \naddiction (alcohol, drugs, prescription misuse), supporting detoxification, recovery, and \nrelapse prevention.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Counseling",
+        "Emergency Response",
+        "Empathy",
+        "Strong counseling and communication skills",
+        "Patience and empathy",
+        "Knowledge of addiction medicine"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Training or certification in addiction/psychiatric nursing (preferred)"
+  ],
+  "responsibilities": [
+    "Assess patients for substance use disorders",
+    "Monitor patients during detox and withdrawal",
+    "Administer medications for addiction treatment (e.g., withdrawal management)",
+    "Provide counseling and emotional support",
+    "Educate patients and families about addiction and recovery",
+    "Develop relapse prevention strategies",
+    "Collaborate with psychiatrists, therapists, and rehab teams"
+  ],
+  "work_settings": [
+    "De-addiction centers",
+    "Rehabilitation facilities",
+    "Hospitals",
+    "Mental health clinics"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.099784Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 998,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

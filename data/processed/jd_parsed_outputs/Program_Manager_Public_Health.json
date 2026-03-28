@@ -1,0 +1,53 @@
+{
+  "job_id": "JOB-SAMPLE-085",
+  "job_title": "Program Manager (Public Health",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Program Manager oversees public health programs, ensuring effective planning, \nimplementation, and evaluation.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Data Analysis",
+        "Leadership",
+        "Leadership and management",
+        "Organizational skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / MSc Nursing",
+    "MPH / Healthcare Management (preferred)"
+  ],
+  "responsibilities": [
+    "Plan and manage healthcare programs (e.g., vaccination, maternal health)",
+    "Coordinate with healthcare teams and stakeholders",
+    "Monitor program performance and outcomes",
+    "Manage budgets and resources",
+    "Ensure compliance with government policies",
+    "Prepare reports and evaluations"
+  ],
+  "work_settings": [
+    "Government health departments",
+    "NGOs",
+    "International health agencies"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.132592Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 757,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

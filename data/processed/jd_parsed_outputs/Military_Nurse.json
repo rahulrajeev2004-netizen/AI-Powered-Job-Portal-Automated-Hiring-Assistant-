@@ -1,0 +1,53 @@
+{
+  "job_id": "JOB-SAMPLE-064",
+  "job_title": "Military Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Military Nurse serves in the armed forces, providing care to soldiers, veterans, and \nsometimes civilians in military or field settings.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Leadership",
+        "Discipline and leadership",
+        "Emergency and trauma care skills",
+        "Physical and mental resilience",
+        "Teamwork"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing",
+    "Must meet military recruitment criteria",
+    "Physical fitness standards required"
+  ],
+  "responsibilities": [
+    "Deliver medical care in hospitals or field units",
+    "Assist in surgeries and trauma care",
+    "Support battlefield medical operations",
+    "Provide rehabilitation and long-term care",
+    "Participate in military training and missions"
+  ],
+  "work_settings": [
+    "Military hospitals",
+    "Field hospitals",
+    "War zones or peacekeeping missions"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:45.009362Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 751,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}

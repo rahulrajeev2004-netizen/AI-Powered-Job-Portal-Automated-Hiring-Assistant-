@@ -1,0 +1,4464 @@
+[
+  {
+    "job_id": "JOB-SAMPLE-001",
+    "job_title": "Staff Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Staff Nurse (RN) provides direct patient care, administers medications, monitors patient \nconditions, and coordinates with doctors and healthcare teams to ensure quality treatment.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Communication",
+          "Empathy",
+          "Critical thinking"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Registered with State Nursing Council"
+    ],
+    "responsibilities": [
+      "Assess patient health and record medical history",
+      "Administer medications and IV therapies",
+      "Monitor vital signs and report changes",
+      "Assist doctors during procedures",
+      "Maintain patient records and documentation",
+      "Educate patients and families about care plans",
+      "Ensure infection control and safety protocols"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Clinics",
+      "Nursing homes"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.574196Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 816,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-002",
+    "job_title": "Licensed Practical Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "LPNs provide basic nursing care under the supervision of RNs and doctors, focusing on \nroutine patient care and comfort.",
+    "requirements": {
+      "experience": {},
+      "education": {},
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Patient Care",
+          "Basic clinical skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "Diploma in Practical Nursing / GNM equivalent"
+    ],
+    "responsibilities": [
+      "Monitor vital signs (BP, temperature, pulse)",
+      "Assist patients with daily activities (bathing, feeding)",
+      "Administer basic medications (as permitted)",
+      "Dress wounds and assist in procedures",
+      "Maintain hygiene and patient comfort",
+      "Report patient status to RNs"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Long-term care facilities",
+      "Rehabilitation centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.580422Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 716,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-003",
+    "job_title": "Nursing Officer",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nursing Officer is a government or institutional role responsible for delivering patient care \nwhile also handling administrative and supervisory tasks.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Leadership",
+          "Organizational skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing (preferred)",
+      "Registered Nurse certification",
+      "Often requires government exam qualification"
+    ],
+    "responsibilities": [
+      "Provide clinical nursing care",
+      "Supervise junior nurses and staff",
+      "Ensure adherence to hospital protocols",
+      "Maintain medical records and reports",
+      "Assist in hospital administration",
+      "Participate in policy implementation"
+    ],
+    "work_settings": [
+      "Government hospitals",
+      "Defense services",
+      "Public health institutions"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.587126Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 727,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-004",
+    "job_title": "Ward Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Ward Nurse manages patient care within a specific hospital ward, ensuring smooth day-to\nday operations and patient monitoring.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Multitasking",
+          "Time Management",
+          "Coordination"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM"
+    ],
+    "responsibilities": [
+      "Monitor all patients in the assigned ward",
+      "Administer medications and treatments",
+      "Coordinate with doctors for patient care",
+      "Maintain ward cleanliness and discipline",
+      "Supervise ward assistants and junior staff",
+      "Handle patient admissions and discharges"
+    ],
+    "work_settings": [
+      "Hospital wards (medical, surgical, pediatric, etc.)"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.593228Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 614,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-005",
+    "job_title": "Bedside Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Bedside Nurse provides direct, one-on-one patient care at the patient's bedside, focusing \non comfort, monitoring, and recovery support.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Compassion",
+          "Patience",
+          "Observation skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM"
+    ],
+    "responsibilities": [
+      "Provide continuous patient care",
+      "Monitor vital signs regularly",
+      "Assist with feeding, mobility, and hygiene",
+      "Administer medications",
+      "Provide emotional support to patients",
+      "Communicate patient updates to doctors"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Home care settings"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.598826Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 563,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-006",
+    "job_title": "Patient Care Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Patient Care Nurse focuses on holistic care, ensuring physical, emotional, and \npsychological well-being of patients.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Problem Solving",
+          "Patient-centered approach"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM"
+    ],
+    "responsibilities": [
+      "Develop and implement patient care plans",
+      "Monitor recovery progress",
+      "Coordinate with multidisciplinary teams",
+      "Educate patients on treatment and recovery",
+      "Ensure patient comfort and satisfaction",
+      "Handle patient queries and concerns"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Clinics",
+      "Home healthcare"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.607221Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 595,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-007",
+    "job_title": "Nurse Practitioner",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nurse Practitioner is an advanced practice nurse who can assess, diagnose, and treat \npatients independently or collaboratively with physicians. In many settings, NPs function \nsimilarly to primary care providers.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Counseling",
+          "Leadership",
+          "Advanced clinical decision-making"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing / Doctor of Nursing Practice (DNP)",
+      "NP specialization certification",
+      "Registered Nurse (RN) license"
+    ],
+    "responsibilities": [
+      "Conduct comprehensive patient assessments",
+      "Diagnose acute and chronic conditions",
+      "Prescribe medications (as per regulations)",
+      "Order and interpret diagnostic tests (lab, imaging)",
+      "Develop and manage treatment plans",
+      "Provide preventive care and health education",
+      "Manage long-term diseases (diabetes, hypertension, etc.)"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Primary care clinics",
+      "Specialty clinics",
+      "Telehealth platforms"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.614153Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 966,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-008",
+    "job_title": "Clinical Nurse Specialist",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Clinical Nurse Specialist is an expert in a specialized area of nursing practice (e.g., \noncology, cardiology). They improve patient outcomes through clinical expertise, education, \nand system-level improvements.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Research & Audit",
+          "Deep specialization knowledge",
+          "Teaching and mentoring",
+          "Quality improvement expertise"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing (Specialization)",
+      "CNS certification (where applicable)"
+    ],
+    "responsibilities": [
+      "Provide expert consultation on complex cases",
+      "Develop evidence-based care protocols",
+      "Train and mentor nursing staff",
+      "Improve quality of care and patient safety",
+      "Conduct clinical audits and research",
+      "Implement best practices in specialized units"
+    ],
+    "work_settings": [
+      "Hospitals (ICU, oncology, cardiology units)",
+      "Academic institutions",
+      "Research centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.622237Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 878,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-009",
+    "job_title": "Staff Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Certified Registered Nurse Anesthetist (CRNA) administers anesthesia and provides \nperioperative care before, during, and after surgical procedures.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Emergency Response",
+          "Pharmacology",
+          "Strong knowledge of pharmacology"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing (Anesthesia / Critical Care preferred)",
+      "Specialized anesthesia training program",
+      "CRNA certification (country-specific)"
+    ],
+    "responsibilities": [
+      "Evaluate patients before surgery (pre-anesthesia assessment)",
+      "Administer anesthesia (general, regional, local)",
+      "Monitor vital signs during surgery",
+      "Manage airway and breathing",
+      "Adjust anesthesia levels as needed",
+      "Provide post-anesthesia care and pain management"
+    ],
+    "work_settings": [
+      "Operation theatres",
+      "Surgical centers",
+      "Emergency departments"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.634117Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 858,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-010",
+    "job_title": "Nurse Midwife",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Certified Nurse Midwife (CNM) specializes in women's reproductive health, pregnancy, \nchildbirth, and postpartum care, often providing holistic and patient-centered maternity \nservices.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Counseling",
+          "Empathy",
+          "Maternal Care",
+          "Strong clinical and maternal care skills",
+          "Emotional support and empathy",
+          "Decision-making in labor situations"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing (Obstetrics & Gynecology)",
+      "Midwifery certification"
+    ],
+    "responsibilities": [
+      "Provide prenatal care and health assessments",
+      "Monitor fetal development",
+      "Assist and manage normal deliveries",
+      "Provide postpartum care for mother and baby",
+      "Offer family planning and reproductive health services",
+      "Educate mothers on nutrition, breastfeeding, and newborn care"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Maternity clinics",
+      "Birthing centers",
+      "Community health centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.643187Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 875,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-011",
+    "job_title": "Community Health Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Community Health Nurse provides healthcare services to individuals, families, and groups \nwithin a community, focusing on disease prevention, health promotion, and basic treatment.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Communication and teaching skills",
+          "Cultural awareness",
+          "Preventive healthcare knowledge"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Community health training (preferred)"
+    ],
+    "responsibilities": [
+      "Conduct community health assessments and surveys",
+      "Provide basic medical care and first aid",
+      "Organize vaccination and immunization programs",
+      "Educate the public on hygiene, nutrition, and disease prevention",
+      "Monitor outbreaks and report public health issues",
+      "Coordinate with local health authorities"
+    ],
+    "work_settings": [
+      "Community centers",
+      "Government health programs",
+      "NGOs"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.650602Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 815,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-012",
+    "job_title": "Community Health Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Public Health Nurse works at a broader population level, developing and implementing \nhealth policies and programs to improve overall public health.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "Master's"
+      },
+      "skills": {
+        "mandatory": [
+          "Health Policy",
+          "Leadership",
+          "Research & Audit"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing + MPH (Master of Public Health preferred)"
+    ],
+    "responsibilities": [
+      "Design and implement public health programs",
+      "Monitor disease trends and epidemiological data",
+      "Conduct health awareness campaigns",
+      "Work on national programs (TB, HIV, maternal health)",
+      "Collaborate with government agencies",
+      "Evaluate health program effectiveness"
+    ],
+    "work_settings": [
+      "Government health departments",
+      "International organizations (WHO, NGOs)",
+      "Research institutions"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.659979Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 770,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-013",
+    "job_title": "School Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A School Nurse ensures the health and well-being of students and staff within educational \ninstitutions.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Emergency Response",
+          "Pediatric Care"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM"
+    ],
+    "responsibilities": [
+      "Provide first aid and emergency care",
+      "Manage chronic conditions (asthma, diabetes)",
+      "Conduct health screenings and check-ups",
+      "Maintain student health records",
+      "Educate students on hygiene and nutrition",
+      "Handle outbreaks (flu, infections)"
+    ],
+    "work_settings": [
+      "Schools",
+      "Colleges",
+      "Educational institutions"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.667380Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 595,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-014",
+    "job_title": "Occupational Health Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Occupational Health Nurse focuses on workplace health and safety, preventing work\nrelated injuries and illnesses.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Patient Education",
+          "Risk Assessment",
+          "Knowledge of workplace safety"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Occupational health certification (preferred)"
+    ],
+    "responsibilities": [
+      "Conduct employee health assessments",
+      "Monitor workplace safety conditions",
+      "Provide first aid and emergency care",
+      "Implement health and safety programs",
+      "Educate employees on occupational hazards",
+      "Manage workplace injuries and rehabilitation"
+    ],
+    "work_settings": [
+      "Factories",
+      "Corporate offices",
+      "Industrial sites"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.674550Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 673,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-015",
+    "job_title": "Home Health Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Home Health Nurse provides personalized medical care to patients in their homes, \nespecially those with chronic illness, disability, or post-surgical needs.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Patient Care",
+          "Time Management",
+          "Independence and responsibility"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM"
+    ],
+    "responsibilities": [
+      "Monitor patient health and recovery",
+      "Administer medications and injections",
+      "Perform wound care and dressing",
+      "Assist with daily living activities",
+      "Educate patients and caregivers",
+      "Coordinate with doctors for home treatment plans"
+    ],
+    "work_settings": [
+      "Patient homes",
+      "Home healthcare agencies"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.680822Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 646,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-016",
+    "job_title": "Rural Health Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Rural Health Nurse provides essential healthcare services in rural or underserved areas \nwith limited access to medical facilities.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Problem Solving",
+          "Adaptability in low-resource settings",
+          "Community engagement"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM"
+    ],
+    "responsibilities": [
+      "Deliver primary healthcare services",
+      "Conduct immunization and maternal health programs",
+      "Handle minor illnesses and injuries",
+      "Promote sanitation and hygiene awareness",
+      "Support government rural health initiatives",
+      "Refer serious cases to hospitals"
+    ],
+    "work_settings": [
+      "Rural clinics",
+      "Primary Health Centers (PHCs)",
+      "Mobile health units"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.686666Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 672,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-017",
+    "job_title": "ICU Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An ICU Nurse provides intensive, round-the-clock care to critically ill patients who require \nconstant monitoring and life-support systems.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Critical Care",
+          "Strong technical and monitoring skills",
+          "Ability to work under high pressure"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "ICU/critical care certification (preferred)"
+    ],
+    "responsibilities": [
+      "Monitor vital signs using advanced equipment (ECG, ventilators)",
+      "Administer IV medications, sedatives, and life-saving drugs",
+      "Manage ventilators and other life-support systems",
+      "Perform frequent patient assessments",
+      "Respond immediately to emergencies (cardiac arrest, organ failure)",
+      "Maintain detailed patient records",
+      "Collaborate with intensivists and multidisciplinary teams"
+    ],
+    "work_settings": [
+      "ICU (Medical, Surgical, Cardiac, Neonatal)",
+      "Super-specialty hospitals"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.693539Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 946,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-018",
+    "job_title": "Emergency Room (ER) Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An ER Nurse provides immediate care to patients with acute illnesses or injuries in \nemergency departments, often dealing with life-threatening situations.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Emergency Response",
+          "Multitasking",
+          "Crisis and stress management",
+          "Strong communication"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Emergency care training (preferred)"
+    ],
+    "responsibilities": [
+      "Perform triage to prioritize patient care",
+      "Provide emergency treatment (CPR, wound care, stabilization)",
+      "Assist doctors in emergency procedures",
+      "Administer medications quickly and accurately",
+      "Monitor patient condition continuously",
+      "Prepare patients for surgery or admission"
+    ],
+    "work_settings": [
+      "Emergency departments",
+      "Trauma centers",
+      "Ambulance services"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.699791Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 773,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-019",
+    "job_title": "Trauma Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Trauma Nurse specializes in treating patients with severe, life-threatening injuries caused \nby accidents, violence, or disasters.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Surgical Assistance",
+          "High-pressure response capability",
+          "Strong emergency and surgical knowledge",
+          "Quick thinking and prioritization"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Trauma care certification (preferred)"
+    ],
+    "responsibilities": [
+      "Perform rapid trauma assessment (ABCDE approach)",
+      "Control bleeding and manage shock",
+      "Assist in emergency surgeries",
+      "Stabilize patients before ICU transfer",
+      "Coordinate with trauma teams (surgeons, ER staff)",
+      "Provide post-trauma care and monitoring"
+    ],
+    "work_settings": [
+      "Trauma centers",
+      "Emergency departments",
+      "Disaster response units"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.708885Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 738,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-020",
+    "job_title": "Critical Care Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Critical Care Nurse provides specialized care for patients with life-threatening conditions \nacross ICUs, emergency units, and critical care departments.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Problem Solving",
+          "Team Coordination",
+          "Emotional resilience"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Critical care specialization (preferred)"
+    ],
+    "responsibilities": [
+      "Continuously monitor critically ill patients",
+      "Administer complex medication regimens",
+      "Manage advanced medical equipment",
+      "Support organ function (cardiac, respiratory, renal)",
+      "Assist in invasive procedures",
+      "Provide patient and family education"
+    ],
+    "work_settings": [
+      "ICUs (Cardiac, Neuro, Surgical)",
+      "Critical care units",
+      "Emergency departments"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.715189Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 762,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-021",
+    "job_title": "Cardiac Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Cardiac Nurse specializes in caring for patients with heart-related conditions such as \ncoronary artery disease, heart failure, and post-cardiac surgery recovery.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Emergency Response",
+          "Vital Signs Monitoring",
+          "Strong knowledge of cardiology",
+          "Quick emergency response"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Cardiac nursing certification (preferred)"
+    ],
+    "responsibilities": [
+      "Monitor heart function (ECG, blood pressure, pulse)",
+      "Assist in cardiac procedures (angiography, angioplasty, bypass surgery)",
+      "Administer cardiac medications (anticoagulants, beta-blockers)",
+      "Educate patients on lifestyle changes (diet, exercise, smoking cessation)",
+      "Provide post-operative cardiac care",
+      "Recognize and respond to cardiac emergencies"
+    ],
+    "work_settings": [
+      "Cardiac care units (CCU)",
+      "Hospitals",
+      "Cardiology clinics"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.722708Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 835,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-022",
+    "job_title": "Oncology Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Oncology Nurse provides care to patients diagnosed with cancer, supporting them \nthrough diagnosis, treatment, and recovery or palliative care.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Counseling",
+          "Compassion and emotional resilience",
+          "Knowledge of cancer treatments"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Oncology nursing certification (preferred)"
+    ],
+    "responsibilities": [
+      "Administer chemotherapy, immunotherapy, and targeted treatments",
+      "Monitor and manage treatment side effects",
+      "Provide emotional and psychological support",
+      "Educate patients and families about cancer care",
+      "Coordinate with oncologists and multidisciplinary teams",
+      "Assist in palliative and end-of-life care"
+    ],
+    "work_settings": [
+      "Cancer hospitals",
+      "Oncology departments",
+      "Palliative care centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.730412Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 792,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-023",
+    "job_title": "Neurology Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Neurology Nurse cares for patients with disorders of the brain, spinal cord, and nervous \nsystem such as stroke, epilepsy, and Parkinson's disease.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Clinical Assessment",
+          "Empathy",
+          "Observation and attention to detail",
+          "Patience and empathy"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Neurology specialization (preferred)"
+    ],
+    "responsibilities": [
+      "Monitor neurological status (consciousness, reflexes, motor function)",
+      "Assist in stroke management and rehabilitation",
+      "Administer medications for neurological disorders",
+      "Support patients with mobility and coordination issues",
+      "Educate families on long-term neurological care"
+    ],
+    "work_settings": [
+      "Neurology wards",
+      "Stroke units",
+      "Rehabilitation centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.739163Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 753,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-024",
+    "job_title": "Dialysis Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nephrology Nurse specializes in caring for patients with kidney diseases and those \nundergoing dialysis.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Dialysis Management",
+          "Patient Education",
+          "Precision and monitoring ability"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Dialysis/nephrology training (preferred)"
+    ],
+    "responsibilities": [
+      "Perform and monitor dialysis (hemodialysis/peritoneal)",
+      "Monitor fluid balance and electrolyte levels",
+      "Administer medications related to kidney function",
+      "Educate patients on diet and lifestyle changes",
+      "Manage vascular access (fistulas, catheters)",
+      "Monitor for complications during dialysis"
+    ],
+    "work_settings": [
+      "Dialysis centers",
+      "Hospitals",
+      "Nephrology departments"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.745752Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 719,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-025",
+    "job_title": "Endocrinology Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Endocrinology Nurse focuses on patients with hormonal disorders such as diabetes, \nthyroid diseases, and metabolic conditions.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Counseling",
+          "Geriatric Care",
+          "Knowledge of endocrine system"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Endocrinology or diabetes educator certification (preferred)"
+    ],
+    "responsibilities": [
+      "Monitor blood glucose levels and hormone-related parameters",
+      "Educate patients on insulin therapy and medication use",
+      "Assist in managing chronic endocrine conditions",
+      "Support lifestyle and dietary counseling",
+      "Monitor complications of endocrine disorders"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Diabetes clinics",
+      "Endocrinology centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.753549Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 738,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-026",
+    "job_title": "Operating Room (OR) Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Operating Room (OR) Nurse, also known as a scrub or circulating nurse, assists surgeons \nduring surgical procedures by maintaining a sterile environment and ensuring everything runs \nsmoothly in the operating theatre.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Infection Control",
+          "Surgical Assistance",
+          "Team Coordination",
+          "Strong knowledge of surgical procedures",
+          "Sterility and infection control expertise"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Training in operation theatre techniques (preferred)"
+    ],
+    "responsibilities": [
+      "Prepare the operating room and surgical instruments",
+      "Ensure strict sterile techniques are followed",
+      "Assist surgeons during procedures (passing instruments, handling supplies)",
+      "Monitor patient condition during surgery",
+      "Count surgical instruments and materials before and after surgery",
+      "Maintain accurate surgical records",
+      "Coordinate with the surgical team (anesthetists, technicians)"
+    ],
+    "work_settings": [
+      "Operation theatres",
+      "Surgical centers",
+      "Multi-specialty hospitals"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.761538Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 1008,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-027",
+    "job_title": "Perioperative Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Perioperative Nurse provides comprehensive care to surgical patients before, during, and \nafter surgery, ensuring patient safety and smooth surgical outcomes.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Patient Care",
+          "Patient Education",
+          "Surgical Assistance",
+          "Communication and patient education",
+          "Critical thinking"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Perioperative nursing certification (preferred)"
+    ],
+    "responsibilities": [
+      "Conduct pre-operative assessments and prepare patients",
+      "Educate patients about surgical procedures and recovery",
+      "Assist during surgery (as scrub or circulating nurse)",
+      "Monitor patients in post-anesthesia recovery",
+      "Manage pain and prevent complications",
+      "Ensure continuity of care across all surgical phases"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Surgical units",
+      "Day-care surgery centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.768695Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 821,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-028",
+    "job_title": "Surgical Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Surgical Nurse focuses on caring for patients undergoing surgical treatment, primarily in \npre-operative and post-operative phases.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Patient Care",
+          "Wound Care",
+          "Post-operative care knowledge"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM"
+    ],
+    "responsibilities": [
+      "Prepare patients for surgery (tests, consent, education)",
+      "Monitor vital signs and patient condition post-surgery",
+      "Perform wound care and dressing",
+      "Administer medications and pain management",
+      "Detect and manage post-surgical complications (infection, bleeding)",
+      "Educate patients on recovery and rehabilitation"
+    ],
+    "work_settings": [
+      "Surgical wards",
+      "Hospitals",
+      "Recovery units"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.777489Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 725,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-029",
+    "job_title": "Pediatric Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Pediatric Nurse provides medical care to infants, children, and adolescents, focusing on \ngrowth, development, and treatment of childhood illnesses.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Empathy",
+          "Patience and empathy",
+          "Observation and assessment skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Pediatric nursing training (preferred)"
+    ],
+    "responsibilities": [
+      "Monitor physical and developmental milestones",
+      "Administer vaccinations and medications",
+      "Treat common childhood illnesses and injuries",
+      "Assist in pediatric procedures and diagnostics",
+      "Educate parents on child health, nutrition, and hygiene",
+      "Provide emotional support to children and families"
+    ],
+    "work_settings": [
+      "Pediatric wards",
+      "Children's hospitals",
+      "Clinics"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.783763Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 764,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-030",
+    "job_title": "ICU Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Neonatal Nurse cares for newborns, especially premature or critically ill infants, in \nNeonatal Intensive Care Units (NICU).",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Critical Care",
+          "Gentle handling and care"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "NICU/neonatal care training (preferred)"
+    ],
+    "responsibilities": [
+      "Monitor vital signs of newborns",
+      "Manage incubators, ventilators, and life-support equipment",
+      "Administer medications and IV fluids",
+      "Assist in neonatal procedures",
+      "Support feeding (breastfeeding, tube feeding)",
+      "Educate parents on newborn care"
+    ],
+    "work_settings": [
+      "NICU units",
+      "Maternity hospitals",
+      "Specialized pediatric hospitals"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.789376Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 708,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-031",
+    "job_title": "Obstetric Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Obstetric Nurse provides care to women during pregnancy (prenatal phase), ensuring the \nhealth of both mother and fetus.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Counseling",
+          "Maternal Care",
+          "Risk Assessment"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Obstetrics & gynecology training (preferred)"
+    ],
+    "responsibilities": [
+      "Conduct prenatal assessments and checkups",
+      "Monitor fetal development and maternal health",
+      "Assist in diagnostic tests (ultrasound support, lab tests)",
+      "Educate mothers on pregnancy care and nutrition",
+      "Identify high-risk pregnancies and complications",
+      "Coordinate with obstetricians"
+    ],
+    "work_settings": [
+      "Maternity clinics",
+      "Hospitals",
+      "Community health centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.794436Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 724,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-032",
+    "job_title": "Labor & Delivery Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Labor & Delivery Nurse assists women during childbirth, ensuring safe delivery and \nproviding emotional and clinical support throughout labor.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Emergency Response",
+          "Empathy",
+          "Emotional support and empathy",
+          "Crisis management (complications during labor)"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Labor and delivery training (preferred)"
+    ],
+    "responsibilities": [
+      "Monitor contractions and fetal heart rate",
+      "Assist doctors during labor and childbirth",
+      "Administer medications (pain relief, IV fluids)",
+      "Support mothers physically and emotionally",
+      "Handle normal deliveries (in some settings)",
+      "Provide immediate newborn care after birth"
+    ],
+    "work_settings": [
+      "Delivery rooms",
+      "Maternity wards",
+      "Birthing centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.801054Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 761,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-033",
+    "job_title": "Psychiatric Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Psychiatric Nurse specializes in caring for patients with mental illnesses and psychiatric \ndisorders such as schizophrenia, bipolar disorder, depression, and anxiety. They work \nclosely with psychiatrists to provide medical and therapeutic care.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Emergency Response",
+          "Empathy",
+          "Strong understanding of psychiatric disorders",
+          "Excellent communication and observation skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Psychiatric/Mental Health Nursing specialization (preferred)"
+    ],
+    "responsibilities": [
+      "Assess patients' mental health status and behavior",
+      "Administer psychiatric medications and monitor side effects",
+      "Develop and implement individualized care plans",
+      "Assist in psychotherapy and counseling sessions",
+      "Manage psychiatric emergencies (aggression, self-harm risk)",
+      "Maintain detailed patient records and progress notes",
+      "Educate patients and families about mental health conditions"
+    ],
+    "work_settings": [
+      "Psychiatric hospitals",
+      "Mental health clinics",
+      "Rehabilitation centers",
+      "General hospitals (psychiatric units)"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.808423Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 1120,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-034",
+    "job_title": "Psychiatric Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Mental Health Nurse focuses on the emotional, psychological, and behavioral well-being \nof patients, supporting those with stress, anxiety, depression, and other mental health \nchallenges.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Counseling",
+          "Empathy",
+          "Mental Health Care",
+          "Problem Solving",
+          "Patience and adaptability"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Mental health training or certification (preferred)"
+    ],
+    "responsibilities": [
+      "Provide therapeutic communication and emotional support",
+      "Conduct mental health assessments",
+      "Assist in counseling and behavioral therapy programs",
+      "Monitor patient progress and recovery",
+      "Help patients develop coping strategies",
+      "Promote mental wellness and preventive care",
+      "Work with families and caregivers for holistic care"
+    ],
+    "work_settings": [
+      "Community mental health centers",
+      "Hospitals",
+      "Schools and NGOs",
+      "Rehabilitation and wellness centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.817603Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 942,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-035",
+    "job_title": "Nurse Manager",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nurse Manager oversees a specific unit or department in a hospital, ensuring high-quality \npatient care while managing nursing staff and daily operations.",
+    "requirements": {
+      "experience": {
+        "min_years": 5
+      },
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Leadership",
+          "Problem Solving",
+          "Communication and conflict resolution",
+          "Organizational skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing (MSc Nursing preferred)",
+      "Clinical experience (3–5+ years)"
+    ],
+    "responsibilities": [
+      "Supervise and coordinate nursing staff",
+      "Manage duty schedules and staffing levels",
+      "Ensure quality patient care and safety standards",
+      "Handle patient complaints and resolve issues",
+      "Monitor performance and conduct staff evaluations",
+      "Maintain inventory of medical supplies",
+      "Implement hospital policies and protocols"
+    ],
+    "work_settings": [
+      "Hospital departments (ICU, wards, OPD)",
+      "Clinics",
+      "Nursing homes"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.823820Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 845,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-036",
+    "job_title": "Nursing Supervisor",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nursing Supervisor oversees multiple nursing units or shifts, ensuring smooth hospital \noperations and proper coordination among departments.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Leadership",
+          "Multitasking",
+          "Strong leadership",
+          "Decision-making under pressure",
+          "Coordination and multitasking"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "Several years of clinical experience"
+    ],
+    "responsibilities": [
+      "Supervise nursing staff across different departments",
+      "Ensure compliance with hospital policies",
+      "Coordinate between doctors, nurses, and administration",
+      "Handle emergencies and critical situations",
+      "Monitor patient care quality across units",
+      "Provide guidance and support to staff nurses"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Multi-specialty healthcare centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.829514Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 751,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-037",
+    "job_title": "Nursing Officer",
+    "company_name": "",
+    "location": {},
+    "job_summary": "The Chief Nursing Officer (CNO) is a top executive responsible for overall nursing services, \nstrategy, and leadership within a healthcare organization.",
+    "requirements": {
+      "experience": {
+        "min_years": 15
+      },
+      "education": {
+        "min_degree": "M.Sc.",
+        "preferred_degree": "Ph.D."
+      },
+      "skills": {
+        "mandatory": [
+          "Leadership",
+          "Strategic leadership",
+          "Financial and operational management",
+          "Policy development",
+          "High-level decision-making"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing / PhD (preferred)",
+      "Extensive leadership experience (10–15+ years)"
+    ],
+    "responsibilities": [
+      "Develop and implement nursing strategies and policies",
+      "Oversee all nursing departments and leaders",
+      "Ensure quality, safety, and compliance standards",
+      "Manage budgets and resource allocation",
+      "Represent nursing staff at executive level meetings",
+      "Drive innovation and improvement in patient care"
+    ],
+    "work_settings": [
+      "Large hospitals",
+      "Healthcare systems",
+      "Corporate healthcare organizations"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.834668Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 847,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-038",
+    "job_title": "Director of Nursing",
+    "company_name": "",
+    "location": {},
+    "job_summary": "The Director of Nursing is responsible for managing the entire nursing department, focusing \non operational efficiency, staff development, and quality care delivery.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Leadership",
+          "Leadership and administration",
+          "Strategic planning",
+          "Quality management"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing (mandatory in most cases)",
+      "Leadership experience"
+    ],
+    "responsibilities": [
+      "Oversee nursing operations across the facility",
+      "Develop staffing plans and training programs",
+      "Ensure compliance with healthcare regulations",
+      "Monitor patient care quality and safety",
+      "Manage budgets and departmental resources",
+      "Lead quality improvement initiatives"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Healthcare institutions",
+      "Long-term care facilities"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.840715Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 756,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-039",
+    "job_title": "Hospital Administrator (Nursing",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Hospital Administrator with a nursing background manages overall hospital operations, \ncombining clinical knowledge with administrative expertise.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "MBA"
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Leadership",
+          "Business and management skills",
+          "Leadership and decision-making",
+          "Financial planning",
+          "Communication and coordination"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing + MBA in Hospital/Healthcare Management (preferred)"
+    ],
+    "responsibilities": [
+      "Oversee hospital operations and departments",
+      "Manage budgets, staffing, and resources",
+      "Ensure compliance with healthcare laws and standards",
+      "Improve patient care services and hospital efficiency",
+      "Coordinate between medical, nursing, and administrative teams",
+      "Implement healthcare policies and programs"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Healthcare chains",
+      "Corporate healthcare organizations"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.845572Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 854,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-040",
+    "job_title": "Nurse Educator",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nurse Educator designs, develops, and delivers educational programs for nursing students \nand practicing nurses, ensuring high standards of clinical knowledge and skills.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Communication",
+          "Teaching and presentation skills",
+          "Curriculum development"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing (mandatory in most cases)",
+      "Teaching certification (preferred)"
+    ],
+    "responsibilities": [
+      "Develop nursing curriculum and lesson plans",
+      "Teach theoretical and practical nursing subjects",
+      "Train nurses in clinical skills and procedures",
+      "Evaluate student performance and competency",
+      "Conduct workshops, seminars, and training programs",
+      "Update teaching methods based on latest healthcare practices"
+    ],
+    "work_settings": [
+      "Nursing colleges",
+      "Hospitals (training departments)",
+      "Healthcare institutes"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.849971Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 853,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-041",
+    "job_title": "Clinical Instructor",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Clinical Instructor supervises nursing students during their practical training in hospitals, \nensuring safe and effective patient care practices.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Hands-on clinical expertise",
+          "Mentoring ability",
+          "Observation and evaluation skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "Clinical experience (required)"
+    ],
+    "responsibilities": [
+      "Guide students during clinical rotations",
+      "Demonstrate nursing procedures",
+      "Monitor student performance in real patient settings",
+      "Provide feedback and evaluations",
+      "Ensure adherence to safety and ethical standards",
+      "Bridge theory and practical application"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Teaching hospitals",
+      "Nursing colleges"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.854837Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 724,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-042",
+    "job_title": "Nursing Lecturer",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nursing Lecturer teaches nursing subjects at undergraduate and diploma levels, focusing \non theoretical education and academic development.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc.",
+        "preferred_degree": "Ph.D."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Strong subject knowledge",
+          "Teaching and communication",
+          "Research aptitude"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing (mandatory)",
+      "NET/PhD (preferred for higher institutions)"
+    ],
+    "responsibilities": [
+      "Deliver lectures on nursing subjects",
+      "Prepare teaching materials and presentations",
+      "Conduct exams and assessments",
+      "Guide student research and assignments",
+      "Participate in academic planning and curriculum design",
+      "Stay updated with current medical advancements"
+    ],
+    "work_settings": [
+      "Nursing colleges",
+      "Universities"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.859409Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 702,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-043",
+    "job_title": "Professor of Nursing",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Professor of Nursing is a senior academic responsible for teaching, research, and \nleadership in nursing education at universities or advanced institutions.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "Ph.D."
+      },
+      "skills": {
+        "mandatory": [
+          "Leadership",
+          "Advanced clinical and academic knowledge",
+          "Research and publication skills",
+          "Leadership and mentorship"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "PhD in Nursing (mandatory)",
+      "Extensive teaching and research experience"
+    ],
+    "responsibilities": [
+      "Teach advanced nursing courses",
+      "Conduct and publish research",
+      "Supervise postgraduate and doctoral students",
+      "Lead academic departments",
+      "Develop advanced curriculum and policies",
+      "Represent institution in academic forums"
+    ],
+    "work_settings": [
+      "Universities",
+      "Research institutions",
+      "Nursing colleges"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.864091Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 739,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-044",
+    "job_title": "Nursing Tutor",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nursing Tutor provides foundational education and guidance to nursing students, \nespecially at diploma and entry-level programs.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Basic teaching skills",
+          "Patience and mentoring"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing (MSc preferred)"
+    ],
+    "responsibilities": [
+      "Teach basic nursing subjects and skills",
+      "Assist students with practical learning",
+      "Conduct demonstrations and tutorials",
+      "Evaluate student progress",
+      "Support students in skill development",
+      "Assist senior faculty"
+    ],
+    "work_settings": [
+      "Nursing schools",
+      "Training institutes"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.868606Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 595,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-045",
+    "job_title": "Nurse Researcher",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nurse Researcher conducts scientific studies to improve patient care, healthcare systems, \nand nursing practices using evidence-based methodologies.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc.",
+        "preferred_degree": "Ph.D."
+      },
+      "skills": {
+        "mandatory": [
+          "Research methodology",
+          "Statistical analysis",
+          "Critical thinking",
+          "Academic writing"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing (minimum)",
+      "PhD in Nursing (preferred for advanced roles)"
+    ],
+    "responsibilities": [
+      "Design and conduct research studies",
+      "Collect, analyze, and interpret healthcare data",
+      "Publish research papers in journals",
+      "Develop evidence-based nursing practices",
+      "Apply for research grants and funding",
+      "Collaborate with multidisciplinary research teams"
+    ],
+    "work_settings": [
+      "Universities",
+      "Research institutions",
+      "Healthcare organizations"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.873053Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 750,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-046",
+    "job_title": "Nurse Researcher",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Clinical Research Nurse manages and participates in clinical trials, ensuring patient safety \nand compliance with research protocols.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Knowledge of clinical trials",
+          "Ethical and regulatory understanding"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Training in clinical research (GCP certification preferred)"
+    ],
+    "responsibilities": [
+      "Recruit and screen participants for clinical trials",
+      "Obtain informed consent",
+      "Administer study treatments and interventions",
+      "Monitor patient responses and side effects",
+      "Maintain accurate clinical trial documentation",
+      "Ensure compliance with ethical and regulatory standards"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Pharmaceutical companies",
+      "Clinical research organizations (CROs)"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.877971Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 791,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-047",
+    "job_title": "Research Coordinator (Nursing)",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Research Coordinator manages the operational aspects of research projects and clinical \nstudies, ensuring smooth execution from start to completion.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Documentation",
+          "Organizational and project management skills",
+          "Communication and coordination",
+          "Documentation and compliance knowledge"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "Clinical research certification (preferred)"
+    ],
+    "responsibilities": [
+      "Coordinate research project activities",
+      "Manage documentation and regulatory submissions",
+      "Schedule patient visits and follow-ups",
+      "Communicate with sponsors and research teams",
+      "Ensure compliance with study protocols",
+      "Track project timelines and progress"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "CROs",
+      "Academic research centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.883045Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 780,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-048",
+    "job_title": "Business Analyst",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Evidence-Based Practice (EBP) Specialist ensures that patient care and nursing practices \nare based on the latest scientific evidence and best practices.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Analytical and critical thinking",
+          "Research interpretation",
+          "Quality improvement knowledge"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "MSc Nursing (preferred)",
+      "Training in research and quality improvement"
+    ],
+    "responsibilities": [
+      "Review and analyze current research studies",
+      "Develop and implement evidence-based guidelines",
+      "Train staff on updated clinical practices",
+      "Evaluate patient care outcomes",
+      "Improve quality and safety standards",
+      "Bridge gap between research and clinical practice"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Academic institutions",
+      "Healthcare quality departments"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.888992Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 788,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-049",
+    "job_title": "Nursing Informatics Specialist",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nursing Informatics Specialist integrates nursing science with information technology to \nimprove patient care, data management, and healthcare systems.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Problem Solving",
+          "IT and data management knowledge",
+          "Understanding of healthcare systems"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing + Certification in Nursing Informatics",
+      "MSc Nursing Informatics / Health Informatics (preferred)"
+    ],
+    "responsibilities": [
+      "Implement and manage Electronic Health Records (EHR) systems",
+      "Analyze clinical data to improve patient outcomes",
+      "Train healthcare staff on digital systems",
+      "Optimize workflow using technology solutions",
+      "Ensure data accuracy, privacy, and security",
+      "Collaborate with IT teams to develop healthcare software"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Health IT companies",
+      "Government health departments"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.897268Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 886,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-050",
+    "job_title": "Telehealth Nurse / Telenurse",
+    "company_name": "",
+    "location": {
+      "work_type": "Remote"
+    },
+    "job_summary": "A Telehealth Nurse provides remote healthcare services through phone, video calls, or digital \nplatforms, improving access to care.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Communication",
+          "Communication and listening skills",
+          "Digital literacy",
+          "Clinical assessment skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Telehealth training (preferred)"
+    ],
+    "responsibilities": [
+      "Conduct virtual patient consultations",
+      "Assess symptoms and provide medical advice",
+      "Monitor chronic conditions remotely",
+      "Educate patients on medications and lifestyle",
+      "Coordinate care with doctors and specialists",
+      "Maintain digital health records"
+    ],
+    "work_settings": [
+      "Telemedicine platforms",
+      "Hospitals",
+      "Home healthcare services"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.915087Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 713,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-051",
+    "job_title": "Data Analyst",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Clinical Data Analyst with a nursing background analyzes healthcare data to improve \npatient outcomes, hospital performance, and clinical decision-making.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Data Analysis",
+          "Data analysis and statistics",
+          "Critical thinking",
+          "Technical skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing + Data Analytics certification",
+      "Knowledge of tools (Excel, SQL, Python, Power BI – preferred)"
+    ],
+    "responsibilities": [
+      "Collect and analyze clinical data",
+      "Identify trends in patient outcomes and treatments",
+      "Prepare reports and dashboards",
+      "Support evidence-based decision-making",
+      "Ensure data quality and compliance",
+      "Collaborate with healthcare and IT teams"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Healthcare analytics companies",
+      "Insurance companies"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.924216Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 810,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-052",
+    "job_title": "Healthcare AI Trainer (Nursing)",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Healthcare AI Trainer uses clinical knowledge to train, validate, and improve artificial \nintelligence models used in healthcare systems.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Clinical Assessment",
+          "Problem Solving",
+          "Basic tech understanding"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "Basic knowledge of AI/ML concepts (preferred)"
+    ],
+    "responsibilities": [
+      "Annotate and label medical data for AI training",
+      "Validate AI outputs for accuracy and safety",
+      "Collaborate with AI engineers and developers",
+      "Train AI systems on clinical workflows and decision-making",
+      "Ensure ethical use of healthcare AI",
+      "Improve AI performance using real-world clinical insights"
+    ],
+    "work_settings": [
+      "Health-tech companies",
+      "AI startups",
+      "Research labs"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.933135Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 794,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-053",
+    "job_title": "Medical Advisor (Healthcare",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Medical Advisor (with a nursing background) provides clinical expertise to healthcare \ncompanies, ensuring that products, services, and strategies are medically accurate and \neffective.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "clinical practice"
+      },
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Clinical Assessment",
+          "Communication",
+          "Communication and presentation",
+          "Strategic thinking",
+          "Industry awareness"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "Experience in clinical practice",
+      "Knowledge of pharma/healthcare industry (preferred)"
+    ],
+    "responsibilities": [
+      "Provide clinical insights for product development and marketing",
+      "Support medical content creation and validation",
+      "Train sales and marketing teams on medical concepts",
+      "Liaise with healthcare professionals and stakeholders",
+      "Ensure compliance with healthcare regulations",
+      "Participate in clinical discussions and advisory boards"
+    ],
+    "work_settings": [
+      "Pharmaceutical companies",
+      "Medical device companies",
+      "Health-tech firms"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.941150Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 945,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-054",
+    "job_title": "Nurse Educator",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Pharmaceutical Nurse Educator trains healthcare professionals and patients on \nmedications, therapies, and medical products.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "clinical or pharmaceutical settings"
+      },
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Pharmacology",
+          "Teaching and presentation skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "Experience in clinical or pharmaceutical settings"
+    ],
+    "responsibilities": [
+      "Conduct training sessions on drug usage and safety",
+      "Educate healthcare providers about new medications",
+      "Provide patient education on treatment plans",
+      "Support clinical trials and product launches",
+      "Develop educational materials and presentations",
+      "Act as a bridge between pharma companies and healthcare providers"
+    ],
+    "work_settings": [
+      "Pharmaceutical companies",
+      "Hospitals",
+      "Training organizations"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.948576Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 802,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-055",
+    "job_title": "Insurance Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Insurance Nurse works with insurance companies to evaluate medical claims, assess \npatient cases, and ensure appropriate healthcare coverage decisions.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "clinical care"
+      },
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Problem Solving",
+          "Knowledge of medical terminology",
+          "Decision-making"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Experience in clinical care"
+    ],
+    "responsibilities": [
+      "Review medical records and insurance claims",
+      "Assess treatment necessity and coverage eligibility",
+      "Coordinate with hospitals and doctors",
+      "Detect fraudulent claims",
+      "Provide recommendations on claim approvals or denials",
+      "Ensure compliance with insurance policies"
+    ],
+    "work_settings": [
+      "Insurance companies",
+      "Third-party administrators (TPA)",
+      "Healthcare firms"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.959194Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 759,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-056",
+    "job_title": "Nurse Case Manager",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nurse Case Manager coordinates patient care across different services, ensuring efficient, \ncost-effective, and quality treatment.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Problem Solving",
+          "Coordination and communication",
+          "Patient advocacy",
+          "Organizational skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "Case management certification (preferred)"
+    ],
+    "responsibilities": [
+      "Develop and manage patient care plans",
+      "Coordinate between doctors, hospitals, and insurers",
+      "Monitor patient progress and outcomes",
+      "Educate patients on treatment and recovery",
+      "Optimize healthcare costs and resources",
+      "Facilitate discharge planning and follow-ups"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Insurance companies",
+      "Healthcare organizations"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.966749Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 745,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-057",
+    "job_title": "Healthcare Consultant",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Healthcare Consultant with a nursing background advises healthcare organizations on \nimproving operations, patient care, and overall efficiency.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "clinical or administrative roles"
+      },
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "MBA"
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Leadership",
+          "Problem Solving",
+          "Strategic thinking",
+          "Business and analytical skills",
+          "Communication and leadership"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing + MBA/MHA (preferred)",
+      "Experience in clinical or administrative roles"
+    ],
+    "responsibilities": [
+      "Analyze healthcare systems and processes",
+      "Identify areas for improvement",
+      "Develop strategies to enhance patient care and efficiency",
+      "Advise on healthcare policies and regulations",
+      "Support hospital management and decision-making",
+      "Implement quality improvement initiatives"
+    ],
+    "work_settings": [
+      "Consulting firms",
+      "Hospitals",
+      "Healthcare organizations",
+      "Government agencies"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.972587Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 814,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-058",
+    "job_title": "Legal Nurse Consultant",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Forensic Nurse provides medical care to victims of crime while also collecting and \npreserving evidence for legal investigations.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Documentation",
+          "Knowledge of legal procedures",
+          "Emotional resilience",
+          "Documentation accuracy"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Forensic nursing certification (preferred)"
+    ],
+    "responsibilities": [
+      "Examine victims of assault, abuse, or violence",
+      "Collect forensic evidence (DNA samples, injury documentation)",
+      "Maintain chain of custody for legal evidence",
+      "Provide medical treatment and emotional support",
+      "Document findings for legal use",
+      "Testify in court as an expert witness (in some cases)",
+      "Collaborate with law enforcement and legal authorities"
+    ],
+    "work_settings": [
+      "Hospitals (emergency/forensic units)",
+      "Forensic labs",
+      "Law enforcement agencies"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.977569Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 852,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-059",
+    "job_title": "Legal Nurse Consultant",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Legal Nurse Consultant assists lawyers and legal teams by interpreting medical records and \nproviding expert insights in medical-related legal cases.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc.",
+        "preferred_degree": "M.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Documentation",
+          "Problem Solving",
+          "Strong documentation skills",
+          "Knowledge of legal systems"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "Legal nurse consulting certification (preferred)"
+    ],
+    "responsibilities": [
+      "Review and analyze medical records",
+      "Identify standards of care and possible negligence",
+      "Prepare medical reports for legal cases",
+      "Assist attorneys in understanding medical terminology",
+      "Provide expert opinions in court cases",
+      "Support litigation and case preparation"
+    ],
+    "work_settings": [
+      "Law firms",
+      "Insurance companies",
+      "Independent consulting"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.982307Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 786,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-060",
+    "job_title": "Nurse Auditor",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nurse Auditor reviews healthcare records and processes to ensure compliance with medical \nstandards, billing accuracy, and regulatory requirements.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Knowledge of healthcare regulations",
+          "Analytical and auditing skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Certification in medical auditing/coding (preferred)"
+    ],
+    "responsibilities": [
+      "Audit patient records and treatment documentation",
+      "Ensure compliance with healthcare laws and policies",
+      "Verify billing accuracy and coding",
+      "Identify discrepancies or fraud",
+      "Prepare audit reports and recommendations",
+      "Improve quality and compliance systems"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Insurance companies",
+      "Government agencies"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.987196Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 747,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-061",
+    "job_title": "Medical Claims Reviewer",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Medical Claims Reviewer evaluates healthcare claims to ensure treatments are necessary, \nappropriate, and covered under insurance policies.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "clinical or insurance sector"
+      },
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Problem Solving",
+          "Knowledge of medical procedures",
+          "Decision-making skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Experience in clinical or insurance sector"
+    ],
+    "responsibilities": [
+      "Review medical claims and patient records",
+      "Assess medical necessity of treatments",
+      "Approve or deny insurance claims",
+      "Identify fraud or misuse of healthcare services",
+      "Communicate with healthcare providers and insurers",
+      "Maintain compliance with insurance guidelines"
+    ],
+    "work_settings": [
+      "Insurance companies",
+      "Third-party administrators (TPA)",
+      "Healthcare firms"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.992182Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 779,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-062",
+    "job_title": "Travel Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Travel Nurse works on short-term assignments in different hospitals or regions, often \nfilling staffing shortages.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Adaptability and flexibility",
+          "Strong clinical competence",
+          "Quick learning ability"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Valid nursing license (local/international like NCLEX for abroad)",
+      "Clinical experience (1–2 years preferred)"
+    ],
+    "responsibilities": [
+      "Provide direct patient care in assigned facilities",
+      "Adapt quickly to new clinical environments",
+      "Follow hospital protocols and standards",
+      "Assist during staff shortages or peak demand",
+      "Maintain accurate patient records",
+      "Collaborate with multidisciplinary teams"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Clinics",
+      "Emergency care units"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:44.997492Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 780,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-063",
+    "job_title": "Cruise Ship Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Cruise Ship Nurse provides medical care to passengers and crew aboard ships, handling \neverything from minor illnesses to emergencies.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "emergency/critical care"
+      },
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Emergency Response",
+          "Emergency response skills",
+          "Independence and decision-making",
+          "Cultural sensitivity"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing",
+      "Advanced certifications (BLS, ACLS, emergency care)",
+      "Experience in emergency/critical care"
+    ],
+    "responsibilities": [
+      "Provide emergency and primary care onboard",
+      "Respond to medical emergencies at sea",
+      "Administer medications and treatments",
+      "Maintain medical records",
+      "Conduct health screenings and infection control",
+      "Coordinate medical evacuations if needed"
+    ],
+    "work_settings": [
+      "Cruise ships",
+      "Maritime healthcare units"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.003064Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 755,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-064",
+    "job_title": "Military Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Military Nurse serves in the armed forces, providing care to soldiers, veterans, and \nsometimes civilians in military or field settings.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Leadership",
+          "Discipline and leadership",
+          "Emergency and trauma care skills",
+          "Physical and mental resilience",
+          "Teamwork"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing",
+      "Must meet military recruitment criteria",
+      "Physical fitness standards required"
+    ],
+    "responsibilities": [
+      "Deliver medical care in hospitals or field units",
+      "Assist in surgeries and trauma care",
+      "Support battlefield medical operations",
+      "Provide rehabilitation and long-term care",
+      "Participate in military training and missions"
+    ],
+    "work_settings": [
+      "Military hospitals",
+      "Field hospitals",
+      "War zones or peacekeeping missions"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.009362Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 751,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-065",
+    "job_title": "Disaster Relief Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Disaster Relief Nurse provides emergency healthcare during natural disasters, \npandemics, or crises.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Emergency Response",
+          "Team Coordination",
+          "Emotional resilience"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Training in disaster management/emergency care"
+    ],
+    "responsibilities": [
+      "Deliver urgent care in disaster zones",
+      "Triage patients based on severity",
+      "Manage injuries, infections, and trauma",
+      "Coordinate with emergency response teams",
+      "Provide vaccinations and disease control",
+      "Support affected communities"
+    ],
+    "work_settings": [
+      "Disaster zones",
+      "Relief camps",
+      "Emergency response organizations"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.019580Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 681,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-066",
+    "job_title": "NGO / Humanitarian Nurse",
+    "company_name": "",
+    "location": {
+      "work_type": "Remote"
+    },
+    "job_summary": "A Humanitarian Nurse works with NGOs to provide healthcare services in underserved, \nrural, or conflict-affected areas.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "community/public health preferred"
+      },
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Empathy",
+          "Cultural sensitivity",
+          "Adaptability",
+          "Resource management"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Experience in community/public health preferred"
+    ],
+    "responsibilities": [
+      "Deliver primary healthcare services",
+      "Conduct health awareness programs",
+      "Manage maternal and child health services",
+      "Support vaccination drives and disease prevention",
+      "Work in low-resource environments",
+      "Collaborate with global health organizations"
+    ],
+    "work_settings": [
+      "NGOs",
+      "International health organizations",
+      "Rural and remote areas"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.026846Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 720,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-067",
+    "job_title": "Palliative Care Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Palliative Care Nurse focuses on improving the quality of life for patients with serious or \nterminal illnesses by managing symptoms and providing emotional support.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Counseling",
+          "Empathy",
+          "Pain and symptom management"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Training in palliative or hospice care (preferred)"
+    ],
+    "responsibilities": [
+      "Manage pain and other distressing symptoms",
+      "Provide end-of-life care and comfort",
+      "Support patients and families emotionally",
+      "Coordinate with multidisciplinary care teams",
+      "Educate families on disease progression and care",
+      "Assist in advance care planning"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Hospice centers",
+      "Home care services"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.035064Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 757,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-068",
+    "job_title": "Pain Management Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Pain Management Nurse specializes in assessing and treating acute and chronic pain \nusing medications and therapeutic interventions.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Knowledge of analgesics and therapies",
+          "Patient assessment skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing",
+      "Certification in pain management (preferred)"
+    ],
+    "responsibilities": [
+      "Assess pain levels and causes",
+      "Administer pain relief medications and therapies",
+      "Monitor treatment effectiveness",
+      "Educate patients on pain control strategies",
+      "Assist in pain management procedures"
+    ],
+    "work_settings": [
+      "Pain clinics",
+      "Hospitals",
+      "Rehabilitation centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.040583Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 652,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-069",
+    "job_title": "Infection Control Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Infection Control Nurse works to prevent and control infections within healthcare \nsettings, ensuring patient and staff safety.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Infection Control",
+          "Knowledge of microbiology and infection control",
+          "Analytical skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing",
+      "Certification in infection control (preferred)"
+    ],
+    "responsibilities": [
+      "Monitor infection rates and outbreaks",
+      "Develop infection prevention protocols",
+      "Train staff on hygiene and safety practices",
+      "Conduct audits and inspections",
+      "Ensure compliance with health regulations",
+      "Manage hospital infection control programs"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Public health organizations",
+      "Laboratories"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.046230Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 713,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-070",
+    "job_title": "Dialysis Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Dialysis Nurse cares for patients with kidney failure, performing dialysis treatments and \nmonitoring patient response.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Patient Care",
+          "Technical skills",
+          "Patient care and monitoring"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Training in dialysis procedures"
+    ],
+    "responsibilities": [
+      "Operate dialysis machines",
+      "Monitor vital signs during treatment",
+      "Educate patients about kidney health",
+      "Maintain dialysis equipment",
+      "Handle complications during procedures"
+    ],
+    "work_settings": [
+      "Dialysis centers",
+      "Hospitals"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.051384Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 565,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-071",
+    "job_title": "Transplant Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Transplant Nurse manages care for patients undergoing organ transplants, from pre\nsurgery preparation to post-operative recovery.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "critical care or transplant units"
+      },
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Critical Care",
+          "Patient Education",
+          "Critical care knowledge",
+          "Coordination skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing",
+      "Experience in critical care or transplant units"
+    ],
+    "responsibilities": [
+      "Prepare patients for transplant surgery",
+      "Monitor post-transplant recovery",
+      "Educate patients on medication and lifestyle changes",
+      "Coordinate with transplant teams",
+      "Monitor for organ rejection"
+    ],
+    "work_settings": [
+      "Specialized transplant centers",
+      "Hospitals"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.056369Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 618,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-072",
+    "job_title": "Cosmetic / Aesthetic Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Cosmetic Nurse provides beauty and aesthetic treatments such as Botox, fillers, and skin \ntherapies.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Communication",
+          "Aesthetic sense",
+          "Communication and client handling"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing",
+      "Certification in aesthetic procedures"
+    ],
+    "responsibilities": [
+      "Perform cosmetic procedures (injections, skincare treatments)",
+      "Assess patient suitability for procedures",
+      "Educate clients on skincare and aftercare",
+      "Maintain hygiene and safety standards",
+      "Assist dermatologists or cosmetic surgeons"
+    ],
+    "work_settings": [
+      "Cosmetic clinics",
+      "Dermatology centers",
+      "Medical spas"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.061367Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 663,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-073",
+    "job_title": "Rehabilitation Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Rehabilitation Nurse helps patients recover from injuries, surgeries, or disabilities, \nfocusing on restoring function and independence.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Patience and motivation skills",
+          "Physical rehabilitation knowledge"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing",
+      "Training in rehabilitation care (preferred)"
+    ],
+    "responsibilities": [
+      "Develop rehabilitation care plans",
+      "Assist with physical therapy programs",
+      "Monitor patient progress",
+      "Educate patients on recovery techniques",
+      "Support long-term care needs"
+    ],
+    "work_settings": [
+      "Rehabilitation centers",
+      "Hospitals",
+      "Long-term care facilities"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.066328Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 642,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-074",
+    "job_title": "Geriatric Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Geriatric Nurse specializes in caring for elderly patients, managing age-related health \nconditions and promoting quality of life.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Empathy",
+          "Patience and empathy",
+          "Knowledge of age-related diseases"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Specialization in geriatric care (preferred)"
+    ],
+    "responsibilities": [
+      "Assess and manage chronic conditions",
+      "Assist with daily living activities",
+      "Monitor medications and treatments",
+      "Provide emotional support",
+      "Educate families on elderly care"
+    ],
+    "work_settings": [
+      "Nursing homes",
+      "Hospitals",
+      "Home care services"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.071303Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 620,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-075",
+    "job_title": "Nursing Assistant (CNA – Certified",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Nursing Assistant provides basic patient care and support under the supervision of \nregistered nurses and doctors.",
+    "requirements": {
+      "experience": {},
+      "education": {},
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Compassion and patience",
+          "Basic clinical skills",
+          "Physical stamina"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "Nursing assistant certification (CNA course)",
+      "Basic healthcare training"
+    ],
+    "responsibilities": [
+      "Assist patients with daily activities (bathing, dressing, feeding)",
+      "Monitor vital signs (temperature, pulse, blood pressure)",
+      "Help patients move, turn, or walk",
+      "Maintain cleanliness and hygiene of patients",
+      "Assist nurses with routine procedures",
+      "Provide emotional support and companionship"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Nursing homes",
+      "Rehabilitation centers",
+      "Home care services"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.076457Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 809,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-076",
+    "job_title": "Patient Care Technician (PCT)",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Patient Care Technician provides advanced support to nurses, performing both basic care \nand some clinical tasks.",
+    "requirements": {
+      "experience": {},
+      "education": {},
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Clinical and technical skills",
+          "Ability to work under pressure"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "PCT certification or diploma",
+      "Basic nursing or paramedical training"
+    ],
+    "responsibilities": [
+      "Assist with patient care (hygiene, mobility, feeding)",
+      "Measure and record vital signs",
+      "Perform basic clinical tasks (ECG, specimen collection)",
+      "Assist in emergency situations",
+      "Prepare patients for procedures",
+      "Maintain medical equipment and supplies"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Emergency departments",
+      "Dialysis centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.082755Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 712,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-077",
+    "job_title": "Health Care Assistant (HCA)",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Health Care Assistant supports nurses and healthcare professionals in delivering day-to\nday patient care, especially in long-term and community settings.",
+    "requirements": {
+      "experience": {},
+      "education": {},
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Empathy",
+          "Empathy and patience",
+          "Teamwork",
+          "Basic caregiving skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "Certificate in healthcare assistance",
+      "On-the-job training"
+    ],
+    "responsibilities": [
+      "Assist with personal care and hygiene",
+      "Help patients with mobility and daily activities",
+      "Monitor patient conditions and report changes",
+      "Provide emotional and social support",
+      "Maintain cleanliness and patient comfort",
+      "Assist in basic medical procedures"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Nursing homes",
+      "Home care",
+      "Community health centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.088618Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 752,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-078",
+    "job_title": "Phlebotomy Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Phlebotomy Nurse specializes in drawing blood samples for diagnostic tests, transfusions, \nor donations.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Attention to Detail",
+          "Communication",
+          "Infection Control",
+          "Precision and steady hand",
+          "Knowledge of infection control"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM or Phlebotomy certification",
+      "Training in blood collection techniques"
+    ],
+    "responsibilities": [
+      "Collect blood samples safely and accurately",
+      "Label and handle specimens properly",
+      "Maintain hygiene and infection control",
+      "Prepare patients for blood collection",
+      "Monitor patients for adverse reactions",
+      "Maintain records and documentation"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Diagnostic laboratories",
+      "Blood banks",
+      "Clinics"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.094197Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 724,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-079",
+    "job_title": "Addiction Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "An Addiction Nurse specializes in caring for patients struggling with substance abuse and \naddiction (alcohol, drugs, prescription misuse), supporting detoxification, recovery, and \nrelapse prevention.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Counseling",
+          "Emergency Response",
+          "Empathy",
+          "Strong counseling and communication skills",
+          "Patience and empathy",
+          "Knowledge of addiction medicine"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Training or certification in addiction/psychiatric nursing (preferred)"
+    ],
+    "responsibilities": [
+      "Assess patients for substance use disorders",
+      "Monitor patients during detox and withdrawal",
+      "Administer medications for addiction treatment (e.g., withdrawal management)",
+      "Provide counseling and emotional support",
+      "Educate patients and families about addiction and recovery",
+      "Develop relapse prevention strategies",
+      "Collaborate with psychiatrists, therapists, and rehab teams"
+    ],
+    "work_settings": [
+      "De-addiction centers",
+      "Rehabilitation facilities",
+      "Hospitals",
+      "Mental health clinics"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.099784Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 998,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-080",
+    "job_title": "Behavioral Health Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Behavioral Health Nurse focuses on behavioral patterns, emotional disorders, and \nmental health conditions, helping patients manage behaviors affecting their well-being.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Counseling",
+          "Observation and analytical skills",
+          "Emotional intelligence",
+          "Behavioral therapy knowledge"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Specialization in mental/behavioral health (preferred)"
+    ],
+    "responsibilities": [
+      "Assess behavioral and psychological conditions",
+      "Develop and implement behavioral care plans",
+      "Monitor patient behavior and progress",
+      "Assist in therapy sessions (CBT, behavioral therapy)",
+      "Administer medications as prescribed",
+      "Support patients in developing healthy coping mechanisms",
+      "Work with families for holistic care"
+    ],
+    "work_settings": [
+      "Mental health hospitals",
+      "Rehabilitation centers",
+      "Community health centers",
+      "Schools"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.105483Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 911,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-081",
+    "job_title": "Counseling Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Counseling Nurse provides guidance, emotional support, and therapeutic \ncommunication to patients dealing with stress, illness, trauma, or life challenges.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Counseling",
+          "Empathy",
+          "Mental Health Care",
+          "Problem Solving",
+          "Active listening and empathy",
+          "Emotional intelligence"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Certification in counseling or psychology (preferred)"
+    ],
+    "responsibilities": [
+      "Conduct counseling sessions for patients and families",
+      "Assess emotional and psychological needs",
+      "Help patients cope with illness, stress, or trauma",
+      "Provide mental health education and awareness",
+      "Support lifestyle and behavioral changes",
+      "Refer patients to specialists when needed"
+    ],
+    "work_settings": [
+      "Hospitals",
+      "Clinics",
+      "Schools and colleges",
+      "NGOs and wellness centers"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.111055Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 822,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-082",
+    "job_title": "Staff Nurse",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Government Staff Nurse provides clinical care in public healthcare facilities, ensuring \naccessible and affordable treatment to the community.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Patient Education",
+          "Clinical competence",
+          "Public health awareness",
+          "Communication and teamwork"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Registered with State Nursing Council",
+      "Government recruitment exam (as applicable)"
+    ],
+    "responsibilities": [
+      "Deliver direct patient care (medication, monitoring, procedures)",
+      "Assist doctors in diagnosis and treatment",
+      "Maintain patient records and reports",
+      "Participate in public health programs (immunization, maternal care)",
+      "Follow government healthcare protocols and standards",
+      "Educate patients on health and hygiene"
+    ],
+    "work_settings": [
+      "Government hospitals",
+      "Primary Health Centers (PHCs)",
+      "Community Health Centers (CHCs)"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.116232Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 854,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-083",
+    "job_title": "Business Analyst",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Health Inspector (with a nursing background) ensures public health safety and sanitation \nstandards in communities.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Knowledge of public health laws",
+          "निरीक्षण (inspection) and analytical skills",
+          "Communication and reporting"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / GNM",
+      "Diploma/Certification in Public Health or Sanitary Inspection"
+    ],
+    "responsibilities": [
+      "Inspect sanitation, hygiene, and environmental conditions",
+      "Monitor food safety and water quality",
+      "Control spread of infectious diseases",
+      "Conduct health awareness programs",
+      "Enforce public health laws and regulations",
+      "Report health hazards and recommend corrective actions"
+    ],
+    "work_settings": [
+      "Municipal corporations",
+      "Public health departments",
+      "Government agencies"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.121774Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 800,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-084",
+    "job_title": "Product Manager",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Healthcare Policy Advisor develops and evaluates health policies and programs to \nimprove healthcare systems at regional or national levels.",
+    "requirements": {
+      "experience": {
+        "relevant_field": "public health or administration"
+      },
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Research and analytical skills",
+          "Strategic thinking",
+          "Knowledge of healthcare systems",
+          "Communication and writing"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing + MPH / MHA / Public Policy (preferred)",
+      "Experience in public health or administration"
+    ],
+    "responsibilities": [
+      "Research healthcare issues and trends",
+      "Develop policy recommendations",
+      "Analyze healthcare data and outcomes",
+      "Collaborate with government bodies and stakeholders",
+      "Draft reports, guidelines, and policy documents",
+      "Evaluate effectiveness of health programs"
+    ],
+    "work_settings": [
+      "Government ministries",
+      "Health departments",
+      "International organizations"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.127495Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 822,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  },
+  {
+    "job_id": "JOB-SAMPLE-085",
+    "job_title": "Program Manager (Public Health",
+    "company_name": "",
+    "location": {},
+    "job_summary": "A Program Manager oversees public health programs, ensuring effective planning, \nimplementation, and evaluation.",
+    "requirements": {
+      "experience": {},
+      "education": {
+        "min_degree": "B.Sc."
+      },
+      "skills": {
+        "mandatory": [
+          "Communication",
+          "Data Analysis",
+          "Leadership",
+          "Leadership and management",
+          "Organizational skills"
+        ],
+        "preferred": []
+      }
+    },
+    "qualifications": [
+      "BSc Nursing / MSc Nursing",
+      "MPH / Healthcare Management (preferred)"
+    ],
+    "responsibilities": [
+      "Plan and manage healthcare programs (e.g., vaccination, maternal health)",
+      "Coordinate with healthcare teams and stakeholders",
+      "Monitor program performance and outcomes",
+      "Manage budgets and resources",
+      "Ensure compliance with government policies",
+      "Prepare reports and evaluations"
+    ],
+    "work_settings": [
+      "Government health departments",
+      "NGOs",
+      "International health agencies"
+    ],
+    "benefits": [],
+    "_meta": {
+      "parsed_at": "2026-03-27T11:00:45.132592Z",
+      "parser_version": "1.1.0",
+      "raw_char_count": 757,
+      "sections_detected": [
+        "summary",
+        "responsibilities",
+        "qualifications",
+        "skills",
+        "work_settings"
+      ]
+    }
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "job_id": "JOB-SAMPLE-029",
+  "job_title": "Pediatric Nurse",
+  "company_name": "",
+  "location": {},
+  "job_summary": "A Pediatric Nurse provides medical care to infants, children, and adolescents, focusing on \ngrowth, development, and treatment of childhood illnesses.",
+  "requirements": {
+    "experience": {},
+    "education": {
+      "min_degree": "B.Sc."
+    },
+    "skills": {
+      "mandatory": [
+        "Communication",
+        "Empathy",
+        "Patience and empathy",
+        "Observation and assessment skills"
+      ],
+      "preferred": []
+    }
+  },
+  "qualifications": [
+    "BSc Nursing / GNM",
+    "Pediatric nursing training (preferred)"
+  ],
+  "responsibilities": [
+    "Monitor physical and developmental milestones",
+    "Administer vaccinations and medications",
+    "Treat common childhood illnesses and injuries",
+    "Assist in pediatric procedures and diagnostics",
+    "Educate parents on child health, nutrition, and hygiene",
+    "Provide emotional support to children and families"
+  ],
+  "work_settings": [
+    "Pediatric wards",
+    "Children's hospitals",
+    "Clinics"
+  ],
+  "benefits": [],
+  "_meta": {
+    "parsed_at": "2026-03-27T11:00:44.783763Z",
+    "parser_version": "1.1.0",
+    "raw_char_count": 764,
+    "sections_detected": [
+      "summary",
+      "responsibilities",
+      "qualifications",
+      "skills",
+      "work_settings"
+    ]
+  }
+}
