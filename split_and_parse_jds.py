@@ -1,14 +1,4 @@
-"""
-split_and_parse_jds.py
-======================
-Splits a multi-JD text file (like Sample.txt) by numbered role boundaries,
-parses each JD individually, and saves structured JSON files to
-data/processed/jd_parsed_outputs/.
 
-Usage:
-    python split_and_parse_jds.py
-    python split_and_parse_jds.py --input "data/samples/Sample.txt"
-"""
 
 import os
 import re

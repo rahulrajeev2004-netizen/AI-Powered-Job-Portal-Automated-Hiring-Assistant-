@@ -1,0 +1,43 @@
+{
+  "resume_file": "sample_2_segmented.json",
+  "candidate_name": "JOHN DOE",
+  "found_skills": [
+    {
+      "skill": "Leadership",
+      "confidence": 1.0,
+      "category": "Soft Skills",
+      "variants": [
+        "Leadership",
+        "Team Leadership"
+      ]
+    },
+    {
+      "skill": "AWS",
+      "confidence": 1.0,
+      "category": "Cloud Computing",
+      "variants": [
+        "AWS"
+      ]
+    },
+    {
+      "skill": "Azure",
+      "confidence": 1.0,
+      "category": "Cloud Computing",
+      "variants": [
+        "Azure"
+      ]
+    }
+  ],
+  "summary": {
+    "total_skills": 3,
+    "categories": [
+      "Cloud Computing",
+      "Soft Skills"
+    ],
+    "high_confidence_skills": [
+      "Leadership",
+      "AWS",
+      "Azure"
+    ]
+  }
+}

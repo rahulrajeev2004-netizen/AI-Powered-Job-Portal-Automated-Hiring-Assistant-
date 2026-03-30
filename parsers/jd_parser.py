@@ -69,7 +69,7 @@ SKILL_SYNONYMS: dict[str, list[str]] = {
     "GraphQL":          ["graphql api"],
     "Microservices":    ["microservice architecture", "micro-services"],
     "Agile":            ["agile methodology", "scrum", "kanban", "agile/scrum"],
-    "Git":              ["github", "gitlab", "bitbucket", "version control", "git version control"],
+    "Git":              ["github", "gitlab", "bitbucket", "version control", "git version control","git"],
     "Linux":            ["linux os", "ubuntu", "centos", "unix/linux"],
     "Machine Learning": ["ml", "machine learning algorithms", "ml models"],
     "Deep Learning":    ["dl", "deep learning models", "neural networks"],
@@ -576,10 +576,15 @@ def parse_jd(raw_text: str, company_name: str = "", job_id: str = "") -> dict:
     qualifications = _extract_benefits(qual_text) if qual_text else []
 
     # 9. Skills
-    # Mandatory skills: taken from 'requirements' / 'skills' sections
-    req_text = sections.get("requirements", "") + "\n" + sections.get("skills", "")
-    # Use synonym-scan for mandatory skills from requirements/skills sections
-    synonym_mandatory = _extract_skills_from_text(req_text) if req_text.strip() else _extract_skills_from_text(full_text)
+    # Mandatory skills: taken from 'requirements', 'skills', and 'responsibilities' sections
+    req_text = "\n".join([
+        sections.get("requirements", ""),
+        sections.get("skills", ""),
+        sections.get("responsibilities", "")
+    ]).strip()
+    
+    # Use synonym-scan for mandatory skills
+    synonym_mandatory = _extract_skills_from_text(req_text) if req_text else _extract_skills_from_text(full_text)
     # Also extract bullet-listed skills from the dedicated skills section
     bullet_mandatory = _extract_skills_from_section(sections.get("skills", ""))
     # Merge both, deduplicate

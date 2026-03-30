@@ -1,0 +1,47 @@
+{
+  "resume_file": "Reshma resume_segmented.json",
+  "candidate_name": "RESHMA RAJEEV",
+  "found_skills": [
+    {
+      "skill": "Polymer Synthesis",
+      "confidence": 1.0,
+      "category": "Chemistry",
+      "variants": [
+        "Polymer Synthesis",
+        "Polymer Synthesis Fundamentals"
+      ]
+    },
+    {
+      "skill": "Chemical Analysis",
+      "confidence": 1.0,
+      "category": "Chemistry",
+      "variants": [
+        "Analytical Chemistry",
+        "Chemical Analysis",
+        "Chemical Analysis Techniques",
+        "chemical analysis"
+      ]
+    },
+    {
+      "skill": "Laboratory Skills",
+      "confidence": 1.0,
+      "category": "Laboratory",
+      "variants": [
+        "Laboratory Documentation",
+        "laboratory techniques"
+      ]
+    }
+  ],
+  "summary": {
+    "total_skills": 3,
+    "categories": [
+      "Chemistry",
+      "Laboratory"
+    ],
+    "high_confidence_skills": [
+      "Polymer Synthesis",
+      "Chemical Analysis",
+      "Laboratory Skills"
+    ]
+  }
+}

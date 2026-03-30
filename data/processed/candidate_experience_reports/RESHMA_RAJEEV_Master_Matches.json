@@ -1,0 +1,602 @@
+{
+  "candidate_name": "RESHMA RAJEEV",
+  "total_experience_months": 0,
+  "jd_source": "data/processed/individual_jds_txt/ (85 TXT files only)",
+  "matches": [
+    {
+      "job_title": "Clinical Data Analyst Nursing",
+      "relevance_score": 0.122,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Program Manager Public Health",
+      "relevance_score": 0.103,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Healthcare AI Trainer",
+      "relevance_score": 0.1,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Legal Nurse Consultant",
+      "relevance_score": 0.098,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Insurance Nurse",
+      "relevance_score": 0.091,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Medical Claims Reviewer",
+      "relevance_score": 0.091,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Healthcare Consultant",
+      "relevance_score": 0.089,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nursing Informatics Specialist",
+      "relevance_score": 0.084,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Telehealth Nurse Telenurse",
+      "relevance_score": 0.084,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nurse Manager",
+      "relevance_score": 0.021,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nurse Researcher",
+      "relevance_score": 0.016,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Evidence-Based Practice Specialist",
+      "relevance_score": 0.016,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nurse Case Manager",
+      "relevance_score": 0.014,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Research Coordinator",
+      "relevance_score": 0.013,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nurse Auditor",
+      "relevance_score": 0.013,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Forensic Nurse",
+      "relevance_score": 0.011,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Clinical Nurse Specialist",
+      "relevance_score": 0.008,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nursing Lecturer",
+      "relevance_score": 0.008,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Professor of Nursing",
+      "relevance_score": 0.008,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Clinical Research Nurse",
+      "relevance_score": 0.008,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nursing Officer",
+      "relevance_score": 0.007,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Public Health Nurse",
+      "relevance_score": 0.007,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Infection Control Nurse",
+      "relevance_score": 0.007,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Health Inspector",
+      "relevance_score": 0.007,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Policy Advisor",
+      "relevance_score": 0.007,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Travel Nurse",
+      "relevance_score": 0.006,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Behavioral Health Nurse",
+      "relevance_score": 0.006,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Cruise Ship Nurse",
+      "relevance_score": 0.005,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Licensed Practical Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Patient Care Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nurse Practitioner",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nurse Anesthetist",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nurse Midwife",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Rural Health Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Emergency Room Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Critical Care Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nephrology Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Operating Room Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Neonatal Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Labor Delivery Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Mental Health Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nursing Supervisor",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Chief Nursing Officer",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Director of Nursing",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Hospital Administrator Nursing",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nurse Educator",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Clinical Instructor",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nursing Tutor",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Medical Advisor Healthcare",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Pharmaceutical Nurse Educator",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Disaster Relief Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "NGO Humanitarian Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Transplant Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Cosmetic Aesthetic Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Nursing Assistant)",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Patient Care Technician",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Health Care Assistant",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Counseling Nurse",
+      "relevance_score": 0.001,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Staff Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Ward Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Bedside Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Community Health Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "School Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Occupational Health Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Home Health Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "ICU Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Trauma Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Cardiac Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Oncology Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Neurology Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Endocrinology Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Perioperative Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Surgical Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Pediatric Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Obstetric Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Psychiatric Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Military Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Palliative Care Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Pain Management Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Dialysis Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Rehabilitation Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Geriatric Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Phlebotomy Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Addiction Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    },
+    {
+      "job_title": "Government Staff Nurse",
+      "relevance_score": 0.0,
+      "domain_match": false,
+      "total_experience_months": 0,
+      "meets_requirement": false
+    }
+  ]
+}

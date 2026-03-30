@@ -1,16 +1,4 @@
-"""
-run_jd_parser.py
-================
-Zecpath AI Platform – JD Parser Demo / Pipeline Runner
-Day 7 | Job Description Intelligence
 
-Parses all sample JDs from data/samples/jd_parsing_samples.json
-and writes structured output JSON files to data/processed/jd_parsed_outputs/.
-
-Usage:
-    python run_jd_parser.py                      # parse all samples
-    python run_jd_parser.py --jd "path/to/jd.txt"   # parse a single file
-"""
 
 import os
 import sys
@@ -27,7 +15,7 @@ from utils.logger import get_logger
 
 logger = get_logger("run_jd_parser", "logs/jd_parsing.log")
 
-SAMPLES_PATH   = "data/samples/jd_parsing_samples.json"
+SAMPLES_PATH   = "data/samples/sample_jds.json"
 OUTPUT_DIR     = "data/processed/jd_parsed_outputs"
 
 
@@ -38,11 +26,12 @@ def run_from_samples():
 
     results = []
     for sample in samples:
-        raw_text = sample.get("raw_text", "")
+        # Fallback to job_summary if raw_text is missing
+        raw_text = sample.get("raw_text") or f"{sample.get('job_title', 'Job')}\n\n{sample.get('job_summary', '')}"
         if not raw_text:
             continue
 
-        job_id = sample.get("id", "")
+        job_id = sample.get("job_id", "")
         profile = parse_jd(raw_text=raw_text, job_id=job_id)
 
         out_path = os.path.join(OUTPUT_DIR, f"{profile['job_id']}.json")

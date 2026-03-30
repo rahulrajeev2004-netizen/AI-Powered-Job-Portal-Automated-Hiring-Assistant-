@@ -1,0 +1,23 @@
+52. Healthcare AI Trainer (Nursing) 
+Job Summary 
+A Healthcare AI Trainer uses clinical knowledge to train, validate, and improve artificial 
+intelligence models used in healthcare systems. 
+Key Responsibilities 
+• Annotate and label medical data for AI training 
+• Validate AI outputs for accuracy and safety 
+• Collaborate with AI engineers and developers 
+• Train AI systems on clinical workflows and decision-making 
+• Ensure ethical use of healthcare AI 
+• Improve AI performance using real-world clinical insights 
+Qualifications 
+• BSc Nursing / MSc Nursing 
+• Basic knowledge of AI/ML concepts (preferred) 
+Skills Required 
+• Clinical expertise 
+• Analytical thinking 
+• Attention to detail 
+• Basic tech understanding 
+Work Settings 
+• Health-tech companies 
+• AI startups 
+• Research labs

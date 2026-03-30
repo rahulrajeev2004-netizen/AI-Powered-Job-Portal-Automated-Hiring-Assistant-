@@ -1,0 +1,82 @@
+{
+  "resume_file": "sample_resume_pdf_cleaned_segmented.json",
+  "candidate_name": "RAHUL RAJEEV",
+  "found_skills": [
+    {
+      "skill": "Python",
+      "confidence": 1.0,
+      "category": "Programming Languages",
+      "variants": [
+        "PYTHON",
+        "Python"
+      ]
+    },
+    {
+      "skill": "JavaScript",
+      "confidence": 1.0,
+      "category": "Programming Languages",
+      "variants": [
+        "JavaScript"
+      ]
+    },
+    {
+      "skill": "Pandas",
+      "confidence": 1.0,
+      "category": "Data Science",
+      "variants": [
+        "Pandas"
+      ]
+    },
+    {
+      "skill": "NumPy",
+      "confidence": 1.0,
+      "category": "Data Science",
+      "variants": [
+        "NumPy"
+      ]
+    },
+    {
+      "skill": "Scikit-learn",
+      "confidence": 1.0,
+      "category": "Machine Learning",
+      "variants": [
+        "Scikit-learn"
+      ]
+    },
+    {
+      "skill": "Django",
+      "confidence": 1.0,
+      "category": "Web Frameworks",
+      "variants": [
+        "Django"
+      ]
+    },
+    {
+      "skill": "Problem Solving",
+      "confidence": 1.0,
+      "category": "Soft Skills",
+      "variants": [
+        "problem-solving"
+      ]
+    }
+  ],
+  "summary": {
+    "total_skills": 7,
+    "categories": [
+      "Data Science",
+      "Machine Learning",
+      "Programming Languages",
+      "Soft Skills",
+      "Web Frameworks"
+    ],
+    "high_confidence_skills": [
+      "Python",
+      "JavaScript",
+      "Pandas",
+      "NumPy",
+      "Scikit-learn",
+      "Django",
+      "Problem Solving"
+    ]
+  }
+}
