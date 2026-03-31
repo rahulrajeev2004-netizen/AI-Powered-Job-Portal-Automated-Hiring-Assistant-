@@ -1,0 +1,12 @@
+{
+  "job_id": "JOB-NURSE-001",
+  "job_title": "Registered Nurse",
+  "company_name": "City General Hospital",
+  "requirements": {
+    "education": {
+      "min_degree": "Bachelor of Science in Nursing",
+      "fields": ["Nursing", "General Medicine", "Healthcare"],
+      "preferred_certifications": ["BLS", "ACLS", "Registered Nurse License"]
+    }
+  }
+}

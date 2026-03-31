@@ -155,6 +155,72 @@
     "Flask": {
       "synonyms": ["flask framework", "flask api"],
       "category": "Web Frameworks"
+    },
+    "HTML": {
+      "synonyms": ["html5", "hypertext markup language", "web markup"],
+      "category": "Web Development"
+    },
+    "CSS": {
+      "synonyms": ["css3", "cascading style sheets", "responsive design", "flexbox", "grid"],
+      "category": "Web Development"
+    },
+    "Power BI": {
+      "synonyms": ["powerbi", "ms power bi", "power bi desktop"],
+      "category": "Data Visualization"
+    },
+    "Tableau": {
+      "synonyms": ["tableau desktop", "tableau software"],
+      "category": "Data Visualization"
+    },
+    "Matplotlib": {
+      "synonyms": ["plt", "matplotlib library"],
+      "category": "Data Visualization"
+    },
+    "Seaborn": {
+      "synonyms": ["sns", "seaborn library"],
+      "category": "Data Visualization"
+    },
+    "Machine Learning": {
+      "synonyms": ["ml", "machine learning algorithms", "ml models", "predictive modelling"],
+      "category": "Data Science"
+    }
+  },
+  "healthcare": {
+    "Patient Care": {
+      "synonyms": ["direct patient care", "bedside care", "patient support"],
+      "category": "Clinical"
+    },
+    "Vital Signs Assessment": {
+      "synonyms": ["monitor vital signs", "blood pressure monitoring", "pulse monitoring", "vital signs"],
+      "category": "Clinical"
+    },
+    "Medication Administration": {
+      "synonyms": ["administer medications", "drug administration", "medication management"],
+      "category": "Clinical"
+    },
+    "Emergency Response": {
+      "synonyms": ["crisis management", "emergency care", "first aid", "cpr"],
+      "category": "Clinical"
+    },
+    "Infection Control": {
+      "synonyms": ["sterile techniques", "hygiene standards", "infection prevention"],
+      "category": "Clinical"
+    },
+    "EHR": {
+      "synonyms": ["electronic health records", "emr", "electronic medical records", "medical documentation"],
+      "category": "Healthcare IT"
+    },
+    "IV Therapy": {
+      "synonyms": ["intravenous therapy", "iv administration", "venipuncture"],
+      "category": "Clinical"
+    },
+    "Phlebotomy": {
+      "synonyms": ["blood collection", "venous sampling"],
+      "category": "Laboratory"
+    },
+    "Triage": {
+      "synonyms": ["patient prioritization", "emergency assessment"],
+      "category": "Clinical"
     }
   },
   "business": {

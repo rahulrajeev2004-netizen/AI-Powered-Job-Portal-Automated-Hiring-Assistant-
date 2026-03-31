@@ -1,0 +1,41 @@
+{
+  "education": [
+    {
+      "degree": "bachelor of science",
+      "degree_level": "bachelor",
+      "field": "nursing",
+      "institution": "rajagiri college of nursing",
+      "graduation_year": 2018
+    }
+  ],
+  "certifications": [
+    {
+      "name": "registered nurse (rn)",
+      "normalized_name": "registered nurse license",
+      "category": "healthcare",
+      "confidence": 0.95
+    },
+    {
+      "name": "basic life support (bls)",
+      "normalized_name": "basic life support",
+      "category": "healthcare",
+      "confidence": 0.95
+    },
+    {
+      "name": "advanced cardiovascular life support (acls)",
+      "normalized_name": "advanced cardiovascular life support",
+      "category": "healthcare",
+      "confidence": 0.95
+    }
+  ],
+  "education_relevance": {
+    "field_relevance_score": 1.0,
+    "degree_match": true,
+    "certification_boost": 0.1,
+    "final_score": 1.0,
+    "matched_fields": [
+      "nursing"
+    ],
+    "overall_relevance": true
+  }
+}

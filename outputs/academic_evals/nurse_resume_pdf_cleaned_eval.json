@@ -1,0 +1,41 @@
+{
+  "education": [
+    {
+      "degree": "bachelor of science",
+      "degree_level": "bachelor",
+      "field": "nursing",
+      "institution": "college name",
+      "graduation_year": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "registered nurse license",
+      "normalized_name": "registered nurse license",
+      "category": "healthcare",
+      "confidence": 0.85
+    },
+    {
+      "name": "bls",
+      "normalized_name": "basic life support",
+      "category": "other",
+      "confidence": 0.85
+    },
+    {
+      "name": "acls",
+      "normalized_name": "advanced cardiovascular life support",
+      "category": "other",
+      "confidence": 0.85
+    }
+  ],
+  "education_relevance": {
+    "field_relevance_score": 1.0,
+    "degree_match": true,
+    "certification_boost": 0.05,
+    "final_score": 1.0,
+    "matched_fields": [
+      "nursing"
+    ],
+    "overall_relevance": true
+  }
+}

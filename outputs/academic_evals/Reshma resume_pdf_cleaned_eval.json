@@ -1,0 +1,27 @@
+{
+  "education": [
+    {
+      "degree": "master of science",
+      "degree_level": "master",
+      "field": "analytical chemistry",
+      "institution": "university of kerala",
+      "graduation_year": 2022
+    },
+    {
+      "degree": "bachelor of science",
+      "degree_level": "bachelor",
+      "field": "chemistry",
+      "institution": "university of kerala",
+      "graduation_year": 2020
+    }
+  ],
+  "certifications": [],
+  "education_relevance": {
+    "field_relevance_score": 0.0,
+    "degree_match": true,
+    "certification_boost": 0.0,
+    "final_score": 0.0,
+    "matched_fields": [],
+    "overall_relevance": false
+  }
+}

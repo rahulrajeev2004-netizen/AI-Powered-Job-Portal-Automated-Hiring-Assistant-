@@ -1,0 +1,74 @@
+{
+  "resume_file": "nurse_resume_segmented.json",
+  "candidate_name": "NURSE RESUME",
+  "found_skills": [
+    {
+      "skill": "Patient Care",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Patient Care",
+        "patient care"
+      ]
+    },
+    {
+      "skill": "Vital Signs Assessment",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Vital Signs",
+        "Vital Signs Assessment"
+      ]
+    },
+    {
+      "skill": "Medication Administration",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Medication Administration",
+        "medication administration"
+      ]
+    },
+    {
+      "skill": "Emergency Response",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Emergency Response"
+      ]
+    },
+    {
+      "skill": "EHR",
+      "confidence": 1.0,
+      "category": "Healthcare IT",
+      "variants": [
+        "EHR"
+      ]
+    },
+    {
+      "skill": "IV Therapy",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Administration (fuzzy)",
+        "IV Therapy",
+        "administration (fuzzy)"
+      ]
+    }
+  ],
+  "summary": {
+    "total_skills": 6,
+    "categories": [
+      "Clinical",
+      "Healthcare IT"
+    ],
+    "high_confidence_skills": [
+      "Patient Care",
+      "Vital Signs Assessment",
+      "Medication Administration",
+      "Emergency Response",
+      "EHR",
+      "IV Therapy"
+    ]
+  }
+}

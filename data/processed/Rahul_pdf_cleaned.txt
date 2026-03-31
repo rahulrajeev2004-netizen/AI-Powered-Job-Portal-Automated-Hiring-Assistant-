@@ -1,0 +1,56 @@
+RAHUL RAJEEV
+Email: rahulrajeev2004@gmail.com|Phone: +91 8138921684
+GitHub: https://github.com/rahulrajeev2004-netizen
+SUMMARY
+Enthusiastic and detail-oriented Data Science student with a strong foundation in Python,
+machine learning, and data analysis. Passionate about extracting insights from data and
+building data-driven solutions. Quick learner with strong problem-solving skills and a keen
+interest in analytics and predictive modelling. Eager to contribute to a dynamic team and
+grow in a professional data science environment.
+INTERNSHIP /EXPERIENCE
+Data Science &AI - Scope India | (Ongoing)
+July 2025
+Developed and analysed datasets using Python, Pandas, and NumPy for data
+cleaning, preprocessing, and exploratory data analysis.
+Built and evaluated machine learning models using algorithms such as Linear
+Regression, Logistic Regression, and Decision Trees.
+Worked on data visualization using Matplotlib and Seaborn to present insights
+clearly.
+Implemented end-to-end data science projects, including data collection,
+feature engineering, model training, and performance evaluation.
+Collaborated with team members to interpret results and improve model
+accuracy and efficiency
+PROJECTS
+College Management System (Minor Project  2024)
+The College Management System is a software application designed to manage and automate
+daily academic and administrative activities of a college. It helps in handling student records,
+faculty details, courses, attendance, exams, and fees in a centralized system. This reduces
+manual work, improves accuracy, and saves time.
+AI Smart Construction (Major Project  2025)
+AI Smart Construction is an intelligent construction management system that uses Artificial
+Intelligence (AI), Machine Learning (ML), and Computer Vision to monitor, analyse, and
+optimize construction activities. The system helps in predicting project delays, detecting
+safety risks, estimating costs, monitoring worker productivity, and improving overall
+efficiency in construction projects.
+TECH SKILLS
+PROGRAMMING LANGUAGES : Python, Html, Css, JavaScript
+DATA ANALYTICS TOOLS : Pandas, NumPy, Scikit-learn
+DATA SCIENCE : Machine Learning
+PYTHON FRAMEWORKS : Django
+DATABASE : Sql(Mysql, Sqlite)
+DATA VISUALIZATION : Power BI, Tableau, Matplotlib, Seaborn
+EDUCATION
+Bachelor of Computer Science (BSC), 2022-2025
+University Institute of Technology Kuravankonam(Kerala University)
+Higher Secondary School, 2020-2022
+St Joseph Higher Secondary School, Thiruvananthapuram
+Secondary School , 2019
+St joseph Higher Secondary School, Thiruvananthapuram
+LANGUAGES
+ENGLISH
+MALAYALAM
+TAMIL
+DECLARATION
+I do hereby declare that all the above information is true to the best of my knowledge
+and belief.
+RAHUL RAJEEV

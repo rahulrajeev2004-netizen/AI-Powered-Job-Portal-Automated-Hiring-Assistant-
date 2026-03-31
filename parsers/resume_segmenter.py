@@ -25,10 +25,10 @@ DECLARATION = "declaration"
 # SECTION HEADING PATTERNS
 # ---------------------------------------------------------------------------
 _SECTION_PATTERNS = {
-    SUMMARY: r"(?i)^(?:summary|objective|career\s+objective|professional\s+profile|profile|about\s+me)$",
+    SUMMARY: r"(?i)^(?:summary|professional\s+summary|objective|career\s+objective|professional\s+profile|profile|about\s+me)$",
     WORK_EXPERIENCE: r"(?i)^(?:work\s+experience|experience|employment\s+history|professional\s+experience|internship|internships?\s*[/&]\s*experience|work\s+history|professional\s+background)$",
     EDUCATION: r"(?i)^(?:education|academic\s+background|academic\s+performance|academic\s+qualifications|educational\s+qualifications|scholastic\s+achievements?)$",
-    SKILLS: r"(?i)^(?:tech(?:nical)?\s+skills|skills|core\s+competencies|competencies|areas\s+of\s+expertise|expertises|hard\s+skills|soft\s+skills|tech\s+stack)$",
+    SKILLS: r"(?i)^(?:tech(?:nical)?\s+skills|key\s+skills|skills|core\s+competencies|competencies|areas\s+of\s+expertise|expertises|hard\s+skills|soft\s+skills|tech\s+stack)$",
     PROJECTS: r"(?i)^(?:projects|personal\s+projects|key\s+projects|academic\s+projects|notable\s+projects)$",
     CERTIFICATIONS: r"(?i)^(?:certifications|licenses|certifications\s*[/&]\s*licenses|courses|professional\s+certifications|extra\s+qualifications)$",
     LANGUAGES: r"(?i)^(?:languages|linguistic\s+skills)$",

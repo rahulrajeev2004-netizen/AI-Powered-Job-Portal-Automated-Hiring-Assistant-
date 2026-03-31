@@ -1,0 +1,63 @@
+{
+  "resume_file": "Nurse_Resume_Anita_Mathew_segmented.json",
+  "candidate_name": "ANITA MATHEW",
+  "found_skills": [
+    {
+      "skill": "Patient Care",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Patient Care",
+        "direct patient care",
+        "patient care"
+      ]
+    },
+    {
+      "skill": "Emergency Response",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Emergency Response",
+        "emergency response"
+      ]
+    },
+    {
+      "skill": "IV Therapy",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Administration (fuzzy)",
+        "IV Therapy"
+      ]
+    },
+    {
+      "skill": "Medication Administration",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Medication Administration"
+      ]
+    },
+    {
+      "skill": "Infection Control",
+      "confidence": 1.0,
+      "category": "Clinical",
+      "variants": [
+        "Infection Control"
+      ]
+    }
+  ],
+  "summary": {
+    "total_skills": 5,
+    "categories": [
+      "Clinical"
+    ],
+    "high_confidence_skills": [
+      "Patient Care",
+      "Emergency Response",
+      "IV Therapy",
+      "Medication Administration",
+      "Infection Control"
+    ]
+  }
+}

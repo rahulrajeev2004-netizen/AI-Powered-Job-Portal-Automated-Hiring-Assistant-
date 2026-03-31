@@ -1,21 +1,62 @@
 [
   {
+    "sample": "nurse_resume.pdf",
+    "accuracy": 1.0,
+    "found": [
+      "contact_info",
+      "skills",
+      "education",
+      "certifications",
+      "summary",
+      "work_experience"
+    ],
+    "expected": []
+  },
+  {
+    "sample": "Nurse_Resume_Anita_Mathew.pdf",
+    "accuracy": 1.0,
+    "found": [
+      "contact_info",
+      "skills",
+      "education",
+      "certifications",
+      "summary",
+      "work_experience"
+    ],
+    "expected": []
+  },
+  {
+    "sample": "Rahul.pdf",
+    "accuracy": 1.0,
+    "found": [
+      "contact_info",
+      "skills",
+      "declaration",
+      "languages",
+      "education",
+      "summary",
+      "work_experience",
+      "projects"
+    ],
+    "expected": []
+  },
+  {
     "sample": "Reshma resume.pdf",
     "accuracy": 1.0,
     "found": [
-      "education",
+      "contact_info",
       "skills",
       "languages",
+      "education",
       "certifications",
-      "contact_info",
       "summary"
     ],
     "expected": [
-      "education",
+      "contact_info",
       "skills",
       "languages",
+      "education",
       "certifications",
-      "contact_info",
       "summary"
     ]
   },
@@ -23,65 +64,41 @@
     "sample": "sample_2.txt",
     "accuracy": 1.0,
     "found": [
-      "education",
-      "skills",
       "contact_info",
-      "work_experience",
-      "summary"
+      "skills",
+      "education",
+      "summary",
+      "work_experience"
     ],
     "expected": [
-      "education",
-      "skills",
       "contact_info",
-      "work_experience",
-      "summary"
-    ]
-  },
-  {
-    "sample": "sample_resume.pdf",
-    "accuracy": 1.0,
-    "found": [
-      "education",
-      "declaration",
       "skills",
-      "languages",
-      "contact_info",
-      "work_experience",
+      "education",
       "summary",
-      "projects"
-    ],
-    "expected": [
-      "education",
-      "declaration",
-      "skills",
-      "languages",
-      "contact_info",
-      "work_experience",
-      "summary",
-      "projects"
+      "work_experience"
     ]
   },
   {
     "sample": "sample_resume_pdf_cleaned.txt",
     "accuracy": 1.0,
     "found": [
-      "education",
-      "declaration",
-      "skills",
-      "languages",
       "contact_info",
-      "work_experience",
+      "skills",
+      "declaration",
+      "languages",
+      "education",
       "summary",
+      "work_experience",
       "projects"
     ],
     "expected": [
-      "education",
-      "declaration",
-      "skills",
-      "languages",
       "contact_info",
-      "work_experience",
+      "skills",
+      "declaration",
+      "languages",
+      "education",
       "summary",
+      "work_experience",
       "projects"
     ]
   }
