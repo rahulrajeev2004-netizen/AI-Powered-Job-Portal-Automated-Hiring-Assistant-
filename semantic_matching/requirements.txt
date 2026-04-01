@@ -1,0 +1,5 @@
+sentence-transformers
+scikit-learn
+numpy
+python-dotenv
+hf_transfer

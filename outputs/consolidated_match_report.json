@@ -1,0 +1,2662 @@
+{
+  "Nurse_Resume_Anita_Mathew": [
+    {
+      "job_title": "critical care nurse",
+      "final_score": 0.73,
+      "match_level": "Strong Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care nurse",
+      "final_score": 0.61,
+      "match_level": "Moderate Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care technician",
+      "final_score": 0.54,
+      "match_level": "Moderate Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "infection control nurse",
+      "final_score": 0.49,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ward nurse",
+      "final_score": 0.48,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "staff nurse",
+      "final_score": 0.47,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "emergency room nurse",
+      "final_score": 0.45,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical nurse specialist",
+      "final_score": 0.44,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "icu nurse",
+      "final_score": 0.44,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare consultant",
+      "final_score": 0.44,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health care assistant",
+      "final_score": 0.43,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "government staff nurse",
+      "final_score": 0.43,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "bedside nurse",
+      "final_score": 0.42,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse manager",
+      "final_score": 0.42,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse practitioner",
+      "final_score": 0.41,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "community health nurse",
+      "final_score": 0.4,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "home health nurse",
+      "final_score": 0.4,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "surgical nurse",
+      "final_score": 0.4,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse case manager",
+      "final_score": 0.39,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "insurance nurse",
+      "final_score": 0.38,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "trauma nurse",
+      "final_score": 0.37,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing supervisor",
+      "final_score": 0.37,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "disaster relief nurse",
+      "final_score": 0.37,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "palliative care nurse",
+      "final_score": 0.37,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical research nurse",
+      "final_score": 0.36,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical advisor healthcare",
+      "final_score": 0.36,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "licensed practical nurse",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "public health nurse",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "operating room nurse",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse educator",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical instructor",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pharmaceutical nurse educator",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "geriatric nurse",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pediatric nurse",
+      "final_score": 0.34,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse researcher",
+      "final_score": 0.34,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "school nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cardiac nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "neurology nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "evidence based practice specialist",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "behavioral health nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "transplant nurse",
+      "final_score": 0.32,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health inspector",
+      "final_score": 0.31,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "travel nurse",
+      "final_score": 0.23,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rural health nurse",
+      "final_score": 0.22,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing informatics specialist",
+      "final_score": 0.22,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "military nurse",
+      "final_score": 0.22,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing assistant cna certified",
+      "final_score": 0.22,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "occupational health nurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "labor delivery nurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "telehealth nurse telenurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical data analyst nursing",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cruise ship nurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pain management nurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "dialysis nurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse anesthetist",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "perioperative nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "mental health nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing lecturer",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "professor of nursing",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical claims reviewer",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ngo humanitarian nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rehabilitation nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "counseling nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "program manager public health",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse midwife",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "nephrology nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "neonatal nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "psychiatric nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "forensic nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse auditor",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing officer",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "oncology nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "obstetric nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "legal nurse consultant",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cosmetic aesthetic nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "phlebotomy nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "addiction nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "endocrinology nurse",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "hospital administrator nursing",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "nursing tutor",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare ai trainer",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "research coordinator",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "chief nursing officer",
+      "final_score": 0.15,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "policy advisor",
+      "final_score": 0.15,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "director of nursing",
+      "final_score": 0.09,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    }
+  ],
+  "nurse_resume": [
+    {
+      "job_title": "patient care nurse",
+      "final_score": 0.59,
+      "match_level": "Moderate Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care technician",
+      "final_score": 0.51,
+      "match_level": "Moderate Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "staff nurse",
+      "final_score": 0.49,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ward nurse",
+      "final_score": 0.45,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "emergency room nurse",
+      "final_score": 0.42,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "government staff nurse",
+      "final_score": 0.42,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse practitioner",
+      "final_score": 0.41,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical nurse specialist",
+      "final_score": 0.41,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse manager",
+      "final_score": 0.41,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare consultant",
+      "final_score": 0.41,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "bedside nurse",
+      "final_score": 0.4,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health care assistant",
+      "final_score": 0.4,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "home health nurse",
+      "final_score": 0.39,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "icu nurse",
+      "final_score": 0.39,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "insurance nurse",
+      "final_score": 0.39,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "infection control nurse",
+      "final_score": 0.39,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "community health nurse",
+      "final_score": 0.38,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse case manager",
+      "final_score": 0.38,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "critical care nurse",
+      "final_score": 0.37,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "surgical nurse",
+      "final_score": 0.37,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pharmaceutical nurse educator",
+      "final_score": 0.37,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical research nurse",
+      "final_score": 0.36,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "public health nurse",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical advisor healthcare",
+      "final_score": 0.35,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "licensed practical nurse",
+      "final_score": 0.34,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse educator",
+      "final_score": 0.34,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse researcher",
+      "final_score": 0.34,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "palliative care nurse",
+      "final_score": 0.34,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "operating room nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pediatric nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "disaster relief nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "behavioral health nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "school nurse",
+      "final_score": 0.32,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "geriatric nurse",
+      "final_score": 0.32,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cardiac nurse",
+      "final_score": 0.31,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "transplant nurse",
+      "final_score": 0.3,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health inspector",
+      "final_score": 0.3,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing supervisor",
+      "final_score": 0.23,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing informatics specialist",
+      "final_score": 0.22,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "travel nurse",
+      "final_score": 0.22,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pain management nurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rural health nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "trauma nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nephrology nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical instructor",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "telehealth nurse telenurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical data analyst nursing",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cruise ship nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "military nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "occupational health nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "labor delivery nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "psychiatric nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "mental health nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "legal nurse consultant",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "dialysis nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rehabilitation nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "phlebotomy nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "counseling nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "program manager public health",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse anesthetist",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "oncology nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "neurology nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "endocrinology nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "professor of nursing",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse auditor",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "addiction nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing officer",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "hospital administrator nursing",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "evidence based practice specialist",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "forensic nurse",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "obstetric nurse",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing lecturer",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare ai trainer",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical claims reviewer",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ngo humanitarian nurse",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cosmetic aesthetic nurse",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing assistant cna certified",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "research coordinator",
+      "final_score": 0.15,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "policy advisor",
+      "final_score": 0.14,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "perioperative nurse",
+      "final_score": 0.11,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "neonatal nurse",
+      "final_score": 0.11,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "nursing tutor",
+      "final_score": 0.11,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse midwife",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "chief nursing officer",
+      "final_score": 0.09,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "director of nursing",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    }
+  ],
+  "Rahul": [
+    {
+      "job_title": "healthcare ai trainer",
+      "final_score": 0.15,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical data analyst nursing",
+      "final_score": 0.14,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing informatics specialist",
+      "final_score": 0.12,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "research coordinator",
+      "final_score": 0.11,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ward nurse",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "icu nurse",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cruise ship nurse",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "policy advisor",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "school nurse",
+      "final_score": 0.09,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "professor of nursing",
+      "final_score": 0.09,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse researcher",
+      "final_score": 0.09,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "telehealth nurse telenurse",
+      "final_score": 0.09,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rehabilitation nurse",
+      "final_score": 0.09,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing assistant cna certified",
+      "final_score": 0.09,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "staff nurse",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical nurse specialist",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse manager",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing supervisor",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse educator",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical instructor",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing tutor",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "military nurse",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care technician",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "bedside nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse practitioner",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "community health nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "occupational health nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "home health nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rural health nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "emergency room nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "labor delivery nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing lecturer",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "evidence based practice specialist",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical advisor healthcare",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "insurance nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse case manager",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "forensic nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse auditor",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "travel nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "disaster relief nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "addiction nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "behavioral health nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "counseling nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health inspector",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "program manager public health",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "public health nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "trauma nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "critical care nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cardiac nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "neurology nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "operating room nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pediatric nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "mental health nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical research nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "infection control nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "dialysis nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "transplant nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health care assistant",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "phlebotomy nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "government staff nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "licensed practical nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "endocrinology nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "surgical nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "obstetric nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare consultant",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "legal nurse consultant",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ngo humanitarian nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "palliative care nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cosmetic aesthetic nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "geriatric nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing officer",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "nurse midwife",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "nephrology nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pharmaceutical nurse educator",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse anesthetist",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "oncology nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "neonatal nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "psychiatric nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "chief nursing officer",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "director of nursing",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "hospital administrator nursing",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "medical claims reviewer",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pain management nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "perioperative nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    }
+  ],
+  "Reshma resume": [
+    {
+      "job_title": "evidence based practice specialist",
+      "final_score": 0.11,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical claims reviewer",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health inspector",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical instructor",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "research coordinator",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical research nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse researcher",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care technician",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical data analyst nursing",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pharmaceutical nurse educator",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "forensic nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "infection control nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "program manager public health",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nephrology nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing lecturer",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health care assistant",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "staff nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical nurse specialist",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "endocrinology nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing tutor",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing informatics specialist",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "telehealth nurse telenurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare ai trainer",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare consultant",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse auditor",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cosmetic aesthetic nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "phlebotomy nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "licensed practical nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ward nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "bedside nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse practitioner",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "school nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "occupational health nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "icu nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "trauma nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "critical care nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "oncology nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "neurology nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "operating room nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pediatric nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "labor delivery nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse manager",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing supervisor",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse educator",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "professor of nursing",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical advisor healthcare",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse case manager",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ngo humanitarian nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "dialysis nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "transplant nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rehabilitation nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing assistant cna certified",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "behavioral health nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "counseling nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "government staff nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "policy advisor",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing officer",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "nurse anesthetist",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "nurse midwife",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "community health nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "public health nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "home health nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "emergency room nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cardiac nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "perioperative nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "surgical nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "neonatal nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "obstetric nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "psychiatric nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "mental health nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "chief nursing officer",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "director of nursing",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "hospital administrator nursing",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "legal nurse consultant",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cruise ship nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "military nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "disaster relief nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "palliative care nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pain management nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "addiction nurse",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rural health nurse",
+      "final_score": 0.0,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "insurance nurse",
+      "final_score": 0.0,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "travel nurse",
+      "final_score": 0.0,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "geriatric nurse",
+      "final_score": 0.0,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    }
+  ],
+  "sample_2": [
+    {
+      "job_title": "research coordinator",
+      "final_score": 0.11,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "staff nurse",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse manager",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing informatics specialist",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care technician",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ward nurse",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "labor delivery nurse",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing supervisor",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse case manager",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "disaster relief nurse",
+      "final_score": 0.08,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "patient care nurse",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse practitioner",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare consultant",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "policy advisor",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "program manager public health",
+      "final_score": 0.07,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical nurse specialist",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "school nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rural health nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "icu nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "critical care nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse researcher",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical advisor healthcare",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "military nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "transplant nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health care assistant",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "counseling nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "government staff nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "occupational health nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "trauma nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cardiac nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "surgical nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse educator",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical instructor",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "professor of nursing",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical research nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "telehealth nurse telenurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "forensic nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "ngo humanitarian nurse",
+      "final_score": 0.05,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "licensed practical nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "bedside nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "community health nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "public health nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "home health nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "emergency room nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "operating room nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "obstetric nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "mental health nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "chief nursing officer",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "hospital administrator nursing",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "nursing lecturer",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "evidence based practice specialist",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "clinical data analyst nursing",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "healthcare ai trainer",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "insurance nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "cruise ship nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "palliative care nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pain management nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "infection control nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "dialysis nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "rehabilitation nurse",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "health inspector",
+      "final_score": 0.04,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing officer",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "nurse midwife",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "neurology nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nephrology nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "endocrinology nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pediatric nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "director of nursing",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "leadership"
+      ]
+    },
+    {
+      "job_title": "nursing tutor",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "pharmaceutical nurse educator",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "legal nurse consultant",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse auditor",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "travel nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "behavioral health nurse",
+      "final_score": 0.03,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nurse anesthetist",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "oncology nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "perioperative nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "neonatal nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "psychiatric nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": [
+        "specialized"
+      ]
+    },
+    {
+      "job_title": "cosmetic aesthetic nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "geriatric nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "nursing assistant cna certified",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "phlebotomy nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "addiction nurse",
+      "final_score": 0.02,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    },
+    {
+      "job_title": "medical claims reviewer",
+      "final_score": 0.01,
+      "match_level": "Weak Match",
+      "penalty_applied": []
+    }
+  ]
+}

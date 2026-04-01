@@ -22,8 +22,16 @@ def run_txt_jd_match():
 
     os.makedirs(split_dir, exist_ok=True)
 
-    # 1. Load all segmented resumes
-    resume_files = [f for f in os.listdir(resume_dir) if f.endswith("_segmented.json")]
+    # 1. Load specific target resumes only (5 autorized)
+    allowed_resumes = {
+        "Nurse_Resume_Anita_Mathew_segmented.json",
+        "Rahul_segmented.json",
+        "Reshma resume_segmented.json",
+        "nurse_resume_segmented.json",
+        "sample_2_segmented.json"
+    }
+
+    resume_files = [f for f in os.listdir(resume_dir) if f in allowed_resumes]
     resumes = []
     for f in resume_files:
         with open(os.path.join(resume_dir, f), 'r', encoding='utf-8') as file:

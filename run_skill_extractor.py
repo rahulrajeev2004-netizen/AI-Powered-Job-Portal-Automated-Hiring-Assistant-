@@ -17,8 +17,16 @@ def run_skill_extraction(input_dir: str, output_dir: str, dictionary_path: str):
     logger.info(f"Initializing SkillExtractor with {dictionary_path}")
     extractor = SkillExtractor(dictionary_path)
     
-    # Find all segmented JSON files
-    input_files = [f for f in os.listdir(input_dir) if f.endswith("_segmented.json")]
+    # Only target these 5 resumes as requested (authorized)
+    allowed_files = {
+        "Nurse_Resume_Anita_Mathew_segmented.json",
+        "Rahul_segmented.json",
+        "Reshma resume_segmented.json",
+        "nurse_resume_segmented.json",
+        "sample_2_segmented.json"
+    }
+
+    input_files = [f for f in os.listdir(input_dir) if f in allowed_files]
     
     if not input_files:
         logger.warning(f"No segmented JSON files found in {input_dir}")

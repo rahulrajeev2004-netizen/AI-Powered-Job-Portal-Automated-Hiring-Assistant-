@@ -33,17 +33,24 @@ def main():
     
     args = parser.parse_args()
     
-    # 1. Collect Resumes
-    resumes = []
+    # 1. Collect Resumes (Filtered to 5 given candidates)
+    target_files = {
+        "Nurse_Resume_Anita_Mathew_pdf_cleaned.txt",
+        "Rahul_pdf_cleaned.txt",
+        "Reshma resume_pdf_cleaned.txt",
+        "nurse_resume_pdf_cleaned.txt",
+        "sample_resume_pdf_cleaned.txt"
+    }
+
     if args.resume:
         resumes.append(args.resume)
     elif args.dir:
-        resumes = [os.path.join(args.dir, f) for f in os.listdir(args.dir) if f.endswith("_cleaned.txt")]
+        resumes = [os.path.join(args.dir, f) for f in os.listdir(args.dir) if f in target_files]
     else:
         # Default fallback to processed directory
         default_dir = "data/processed"
         if os.path.exists(default_dir):
-            resumes = [os.path.join(default_dir, f) for f in os.listdir(default_dir) if f.endswith("_cleaned.txt")]
+            resumes = [os.path.join(default_dir, f) for f in os.listdir(default_dir) if f in target_files]
 
     if not resumes:
         # Final fallback to requested file
