@@ -44,6 +44,14 @@
       "synonyms": ["kotlin android"],
       "category": "Programming Languages"
     },
+    "Ruby": {
+      "synonyms": ["ruby on rails", "ror", "ruby lang"],
+      "category": "Programming Languages"
+    },
+    "Scala": {
+      "synonyms": ["scala programming"],
+      "category": "Programming Languages"
+    },
     "TensorFlow": {
       "synonyms": ["tensorflow", "tf", "tf.js"],
       "category": "Machine Learning"
@@ -88,6 +96,10 @@
       "synonyms": ["redis cache", "redis db"],
       "category": "Databases"
     },
+    "Elasticsearch": {
+      "synonyms": ["elk", "elastic search"],
+      "category": "Databases"
+    },
     "AWS": {
       "synonyms": ["amazon web services", "amazon aws", "s3", "ec2", "lambda"],
       "category": "Cloud Computing"
@@ -110,6 +122,10 @@
     },
     "Terraform": {
       "synonyms": ["terraform iac", "terraform infrastructure"],
+      "category": "DevOps"
+    },
+    "Ansible": {
+      "synonyms": ["ansible automation", "ansible playbooks"],
       "category": "DevOps"
     },
     "Jenkins": {
@@ -136,8 +152,16 @@
       "synonyms": ["reactjs", "react.js", "react js"],
       "category": "Web Frameworks"
     },
+    "Next.js": {
+      "synonyms": ["nextjs", "next.js"],
+      "category": "Web Frameworks"
+    },
     "Angular": {
       "synonyms": ["angularjs", "angular js", "angular framework"],
+      "category": "Web Frameworks"
+    },
+    "Vue.js": {
+      "synonyms": ["vuejs", "vue js", "vue"],
       "category": "Web Frameworks"
     },
     "Node.js": {
@@ -156,12 +180,20 @@
       "synonyms": ["flask framework", "flask api"],
       "category": "Web Frameworks"
     },
+    "Spring Boot": {
+      "synonyms": ["spring framework", "spring"],
+      "category": "Web Frameworks"
+    },
     "HTML": {
       "synonyms": ["html5", "hypertext markup language", "web markup"],
       "category": "Web Development"
     },
     "CSS": {
       "synonyms": ["css3", "cascading style sheets", "responsive design", "flexbox", "grid"],
+      "category": "Web Development"
+    },
+    "TailwindCSS": {
+      "synonyms": ["tailwind css", "tailwind"],
       "category": "Web Development"
     },
     "Power BI": {
@@ -182,6 +214,14 @@
     },
     "Machine Learning": {
       "synonyms": ["ml", "machine learning algorithms", "ml models", "predictive modelling"],
+      "category": "Data Science"
+    },
+    "Natural Language Processing": {
+      "synonyms": ["nlp", "text mining", "text analytics"],
+      "category": "Data Science"
+    },
+    "Computer Vision": {
+      "synonyms": ["cv", "image processing", "opencv"],
       "category": "Data Science"
     }
   },
@@ -248,16 +288,32 @@
       "synonyms": ["ba", "business analyst", "requirements analyst"],
       "category": "Business Intelligence"
     },
+    "Financial Analysis": {
+      "synonyms": ["finance", "financial modeling", "budgeting"],
+      "category": "Finance"
+    },
+    "Marketing": {
+      "synonyms": ["digital marketing", "seo", "sem", "content marketing"],
+      "category": "Sales & Marketing"
+    },
+    "Sales": {
+      "synonyms": ["business development", "account management", "inside sales"],
+      "category": "Sales & Marketing"
+    },
     "Communication": {
-      "synonyms": ["verbal communication", "written communication", "interpersonal skills"],
+      "synonyms": ["verbal communication", "written communication", "interpersonal skills", "public speaking"],
       "category": "Soft Skills"
     },
     "Leadership": {
-      "synonyms": ["team leadership", "lead teams", "people management"],
+      "synonyms": ["team leadership", "lead teams", "people management", "mentoring"],
       "category": "Soft Skills"
     },
     "Problem Solving": {
       "synonyms": ["problem-solving", "analytical thinking", "critical thinking"],
+      "category": "Soft Skills"
+    },
+    "Emotional Intelligence": {
+      "synonyms": ["eq", "empathy", "soft skills"],
       "category": "Soft Skills"
     }
   },
@@ -274,6 +330,10 @@
       "synonyms": ["premiere pro", "after effects", "video production", "davinci resolve"],
       "category": "Media"
     },
+    "Animation": {
+      "synonyms": ["motion graphics", "2d animation", "3d animation", "blender"],
+      "category": "Media"
+    },
     "Copywriting": {
       "synonyms": ["content writing", "technical writing", "creative writing"],
       "category": "Writing"
@@ -285,6 +345,10 @@
     "Adobe Creative Suite": {
       "synonyms": ["creative cloud", "adobe creative suite", "adobe cs"],
       "category": "Design Tools"
+    },
+    "Photography": {
+      "synonyms": ["photo editing", "lightroom"],
+      "category": "Media"
     }
   },
   "science": {
@@ -314,6 +378,10 @@
       "skills": ["MongoDB", "Express.js", "Angular", "Node.js"],
       "synonyms": ["mean stack"]
     },
+    "JAMstack": {
+      "skills": ["JavaScript", "APIs", "Markup"],
+      "synonyms": ["jam stack"]
+    },
     "TALL": {
       "skills": ["TailwindCSS", "Alpine.js", "Laravel", "Livewire"],
       "synonyms": ["tall stack"]
@@ -328,3 +396,4 @@
     }
   }
 }
+
