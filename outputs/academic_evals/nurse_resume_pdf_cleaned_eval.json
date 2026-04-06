@@ -13,25 +13,25 @@
       "name": "registered nurse license",
       "normalized_name": "registered nurse license",
       "category": "healthcare",
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
       "name": "bls",
       "normalized_name": "basic life support",
-      "category": "other",
-      "confidence": 0.85
+      "category": "healthcare",
+      "confidence": 0.95
     },
     {
       "name": "acls",
       "normalized_name": "advanced cardiovascular life support",
-      "category": "other",
-      "confidence": 0.85
+      "category": "healthcare",
+      "confidence": 0.95
     }
   ],
   "education_relevance": {
     "field_relevance_score": 1.0,
     "degree_match": true,
-    "certification_boost": 0.05,
+    "certification_boost": 0.1,
     "final_score": 1.0,
     "matched_fields": [
       "nursing"

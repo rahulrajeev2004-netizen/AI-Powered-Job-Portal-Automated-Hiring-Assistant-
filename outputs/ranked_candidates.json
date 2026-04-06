@@ -1,0 +1,2977 @@
+[
+  {
+    "job_id": "Critical Care Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.59,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.52,
+        "rank": 2,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Staff Nurse (Registered Nurse \u2013 RN)",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.81,
+        "rank": 1,
+        "status": "Shortlisted"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.46,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.18,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Bedside Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.78,
+        "rank": 1,
+        "status": "Shortlisted"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.46,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Clinical Research Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.78,
+        "rank": 1,
+        "status": "Shortlisted"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.46,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.25,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.24,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Patient Care Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.68,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.45,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Rural Health Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.76,
+        "rank": 1,
+        "status": "Shortlisted"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.44,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.19,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Mental Health Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.74,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.44,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.19,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Military Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.75,
+        "rank": 1,
+        "status": "Shortlisted"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.44,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.18,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Palliative Care Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.68,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.44,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.18,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Geriatric Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.75,
+        "rank": 1,
+        "status": "Shortlisted"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.44,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.19,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Operating Room (OR) Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.74,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.43,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.18,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nurse Educator",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.7,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.43,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.26,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.24,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Disaster Relief Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.57,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.43,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.17,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.13,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Licensed Practical Nurse (LPN) /",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.71,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Trauma Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.65,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Oncology Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.68,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Psychiatric Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.67,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nurse Manager",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.68,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Insurance Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.61,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nurse Auditor",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.69,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Travel Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.67,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Infection Control Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.71,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Counseling Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.69,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Government Staff Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.68,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.42,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nurse Midwife (CNM)",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.63,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.41,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Home Health Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.66,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.41,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "ICU Nurse (Intensive Care Unit Nurse)",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.66,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.41,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.13,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.1,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.08,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Endocrinology Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.68,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.41,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "School Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.56,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.4,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.18,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.1,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nurse Case Manager",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.6,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.4,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.24,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.18,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Emergency Room (ER) Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.56,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.39,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.15,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.11,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.1,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Forensic Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.58,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.39,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Cruise Ship Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.55,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.39,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.16,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.14,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.1,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Pain Management Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.66,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.39,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.17,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Dialysis Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.65,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.39,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Addiction Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.62,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.39,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Public Health Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.6,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.38,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.17,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Phlebotomy Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.61,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.38,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.19,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Community Health Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.54,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.37,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Neurology Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.6,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.37,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.18,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Perioperative Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.57,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.37,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.13,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.12,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.08,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Labor & Delivery Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.54,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.37,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.18,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.15,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Pharmaceutical Nurse Educator",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.62,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.37,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.25,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.1,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Rehabilitation Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.6,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.37,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.18,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nursing Officer",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.36,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.28,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.24,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.22,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Neonatal Nurse (NICU Nurse)",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.46,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.36,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.1,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.08,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.05,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Telehealth Nurse / Telenurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.58,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.36,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Legal Nurse Consultant",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.58,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.36,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "NGO / Humanitarian Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.49,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.36,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.15,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.15,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Cosmetic / Aesthetic Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.56,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.36,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Behavioral Health Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.55,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.36,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nurse Practitioner (NP)",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.57,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.35,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Occupational Health Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.5,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.35,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.18,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Cardiac Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.51,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.35,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.12,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.1,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.08,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nephrology Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.6,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.35,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.19,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Hospital Administrator (Nursing",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.35,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.29,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Research Coordinator (Nursing)",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.35,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.26,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.24,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.24,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.18,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Clinical Data Analyst (Nursing",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.35,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.31,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.29,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.23,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.18,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Ward Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.56,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.34,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.15,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.11,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.09,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Clinical Nurse Specialist (CNS)",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.56,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.34,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.15,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.15,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.1,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Surgical Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.5,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.34,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.15,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.13,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.09,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Obstetric Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.52,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.34,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.17,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.11,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nurse Researcher",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.51,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.34,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.11,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nursing Informatics Specialist",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.34,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.29,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.27,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.24,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.19,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Health Inspector (Nursing Background)",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.34,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.26,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nurse Anesthetist (CRNA)",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.55,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.33,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.12,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.11,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.07,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Pediatric Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.6,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.33,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.14,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.13,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.06,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Healthcare AI Trainer (Nursing)",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.33,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.26,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.25,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.19,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.18,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Transplant Nurse",
+    "candidates": [
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.51,
+        "rank": 1,
+        "status": "Review"
+      },
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.33,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.15,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.12,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.09,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nursing Assistant (CNA \u2013 Certified",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.33,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.28,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.16,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Chief Nursing Officer (CNO)",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.32,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.25,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.18,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Professor of Nursing",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.32,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.24,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.22,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.15,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Medical Advisor (Healthcare",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.32,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.24,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.24,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.19,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Healthcare Consultant",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.32,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.26,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.24,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.24,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.19,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nursing Supervisor",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.31,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.23,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nursing Lecturer",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.31,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.23,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Patient Care Technician (PCT)",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.31,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.25,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.23,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.22,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Health Care Assistant (HCA)",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.3,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.23,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.19,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Director of Nursing",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.29,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.2,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.18,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Nursing Tutor",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.29,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.23,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.21,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.11,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Policy Advisor (Healthcare)",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.29,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.24,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.2,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Medical Claims Reviewer",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.28,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.23,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.18,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.17,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.14,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Clinical Instructor",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.27,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.23,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.22,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.21,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.1,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Evidence-Based Practice Specialist",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.27,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.24,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.21,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.13,
+        "rank": 4,
+        "status": "Rejected"
+      }
+    ]
+  },
+  {
+    "job_id": "Program Manager (Public Health",
+    "candidates": [
+      {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "final_score": 0.22,
+        "rank": 1,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Rahul",
+        "final_score": 0.19,
+        "rank": 2,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "nurse_resume",
+        "final_score": 0.16,
+        "rank": 3,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "Reshma resume",
+        "final_score": 0.15,
+        "rank": 4,
+        "status": "Rejected"
+      },
+      {
+        "candidate_id": "sample_2",
+        "final_score": 0.12,
+        "rank": 5,
+        "status": "Rejected"
+      }
+    ]
+  }
+]

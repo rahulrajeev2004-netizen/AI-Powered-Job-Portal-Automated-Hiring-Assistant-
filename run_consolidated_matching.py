@@ -50,7 +50,8 @@ def generate_comprehensive_report():
     resumes_dir = "data/samples/labeled"
     jds_txt_dir = "data/processed/individual_jds_txt"
     jds_json_dir = "data/processed/jd_parsed_outputs"
-    output_path = "outputs/comprehensive_match_report.json"
+    output_path = "outputs/consolidated_match_report.json"
+
     
     os.makedirs("outputs", exist_ok=True)
 
