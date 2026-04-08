@@ -2,9 +2,10 @@ from typing import List, Dict, Any
 
 
 class FairnessEngine:
-    def __init__(self, threshold: float = 0.7):
+    def __init__(self, threshold: float = 0.7, boost: float = 0.05):
         # threshold kept for backward compatibility with existing runner scripts
         self.threshold                 = threshold
+        self.boost                     = boost
         self.normalization_method      = "min-max"
         self.bias_adjustment_method    = "rule-based (+0.05 boost capped at 1.0)"
 
@@ -49,7 +50,6 @@ class FairnessEngine:
             "method":        "min-max + rule-based adjustment"
         }
 
-
     # ------------------------------------------------------------------
     # Main method
     # ------------------------------------------------------------------
@@ -90,8 +90,8 @@ class FairnessEngine:
             if rng > 0:
                 norm = (orig - min_s) / rng
             else:
-                # All scores equal → everyone gets 0.5
-                norm = 0.5
+                # All scores equal → everyone gets 1.0 (Requirement)
+                norm = 1.0
 
             norm = round(norm, 4)
 
@@ -111,7 +111,7 @@ class FairnessEngine:
             c["bias_flag"] = flag
 
             if flag:
-                adj = min(c["normalized_score"] + 0.05, 1.0)
+                adj = min(c["normalized_score"] + self.boost, 1.0)
             else:
                 adj = c["normalized_score"]
 
