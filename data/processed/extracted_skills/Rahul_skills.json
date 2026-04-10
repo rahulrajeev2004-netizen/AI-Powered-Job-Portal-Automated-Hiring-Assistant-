@@ -117,10 +117,18 @@
       "variants": [
         "problem-solving"
       ]
+    },
+    {
+      "skill": "Computer Vision",
+      "confidence": 1.0,
+      "category": "Data Science",
+      "variants": [
+        "Computer Vision"
+      ]
     }
   ],
   "summary": {
-    "total_skills": 14,
+    "total_skills": 15,
     "categories": [
       "Data Science",
       "Data Visualization",
@@ -144,7 +152,8 @@
       "Tableau",
       "Matplotlib",
       "Seaborn",
-      "Problem Solving"
+      "Problem Solving",
+      "Computer Vision"
     ]
   }
 }

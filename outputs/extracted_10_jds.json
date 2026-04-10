@@ -1,0 +1,1878 @@
+{
+  "Critical Care Nurse": {
+    "Nurse_Resume_Anita_Mathew": {
+      "job_title": "Critical Care Nurse",
+      "final_score": 0.52,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.29,
+          "hard_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "soft_skills": [
+            "analytical thinking",
+            "emotional resilience",
+            "team coordination"
+          ],
+          "matched_skills": [
+            "patient care",
+            "critical care nursing"
+          ],
+          "missing_skills": [
+            "ventilator management",
+            "hemodynamic monitoring",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "added_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care"
+          ],
+          "removed_skills": [
+            "advanced clinical expertise",
+            "icus (cardiac, neuro, surgical)",
+            "critical care units",
+            "emergency departments"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 5.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 1.0
+        },
+        "semantic": {
+          "score": 0.69,
+          "consistency_flag": true
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.52. Candidate matches 2/4 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match) and high role relevance. Missing technical skills: ventilator management, hemodynamic monitoring, registered nurse license (rn)."
+    },
+    "nurse_resume": {
+      "job_title": "Critical Care Nurse",
+      "final_score": 0.59,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.57,
+          "hard_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "analytical thinking",
+            "emotional resilience",
+            "team coordination"
+          ],
+          "matched_skills": [
+            "patient care",
+            "registered nurse license (rn)",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)"
+          ],
+          "missing_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring"
+          ],
+          "added_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "advanced clinical expertise",
+            "icus (cardiac, neuro, surgical)",
+            "critical care units",
+            "emergency departments"
+          ]
+        },
+        "experience": {
+          "score": 1.0,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.45,
+          "consistency_flag": false
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.59. Candidate matches 1/4 core skills (excluding certifications). Strengths: relevant experience. Missing technical skills: critical care nursing, ventilator management, hemodynamic monitoring."
+    },
+    "Rahul": {
+      "job_title": "Critical Care Nurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "analytical thinking",
+            "emotional resilience",
+            "team coordination"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "data analytics tools           :  pandas",
+            "python frameworks           :  django",
+            "data science                          :  machine learning",
+            "data visualization               :  power bi",
+            "programming languages  :  python",
+            "advanced clinical expertise",
+            "icus (cardiac, neuro, surgical)",
+            "critical care units",
+            "emergency departments"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.15,
+          "consistency_flag": false
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.21. Candidate matches 0/4 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: critical care nursing, ventilator management, hemodynamic monitoring."
+    },
+    "Reshma resume": {
+      "job_title": "Critical Care Nurse",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "analytical thinking",
+            "emotional resilience",
+            "team coordination"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "all saints college",
+            "\u2022 chemical analysis techniques",
+            "\u2022 polymer synthesis fundamentals",
+            "2. qualified typewriting english and computer word processing (lower).",
+            "3. conference attended: two-day workshop on cheminformatics and drug design",
+            "1. completed training programme titled fundamentals of polymer synthesis and characterization",
+            "\u2022 laboratory documentation and reporting",
+            "\u2022 computer word processing",
+            "advanced clinical expertise",
+            "icus (cardiac, neuro, surgical)",
+            "critical care units",
+            "emergency departments"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.08,
+          "consistency_flag": false
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.2. Candidate matches 0/4 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: critical care nursing, ventilator management, hemodynamic monitoring."
+    },
+    "sample_2": {
+      "job_title": "Critical Care Nurse",
+      "final_score": 0.15,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "analytical thinking",
+            "emotional resilience",
+            "team coordination"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "critical care nursing",
+            "ventilator management",
+            "hemodynamic monitoring",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "- team leadership",
+            "advanced clinical expertise",
+            "icus (cardiac, neuro, surgical)",
+            "critical care units",
+            "emergency departments"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 10.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.07,
+          "consistency_flag": false
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.15. Candidate matches 0/4 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: critical care nursing, ventilator management, hemodynamic monitoring."
+    }
+  },
+  "Staff Nurse": {},
+  "Nurse Educator": {
+    "Nurse_Resume_Anita_Mathew": {
+      "job_title": "Nurse Educator",
+      "final_score": 0.43,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.2,
+          "hard_skills": [
+            "curriculum development",
+            "patient care",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "soft_skills": [
+            "communication"
+          ],
+          "matched_skills": [
+            "patient care"
+          ],
+          "missing_skills": [
+            "curriculum development",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "added_skills": [
+            "patient care"
+          ],
+          "removed_skills": [
+            "teaching and presentation skills",
+            "clinical expertise",
+            "nursing colleges",
+            "hospitals (training departments)",
+            "healthcare institutes"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 5.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 1.0
+        },
+        "semantic": {
+          "score": 0.5,
+          "consistency_flag": true
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.43. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: curriculum development, registered nurse license (rn), advanced cardiovascular life support (acls)."
+    },
+    "nurse_resume": {
+      "job_title": "Nurse Educator",
+      "final_score": 0.7,
+      "match_level": "Moderate Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.8,
+          "hard_skills": [
+            "curriculum development",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "communication"
+          ],
+          "matched_skills": [
+            "patient care",
+            "registered nurse license (rn)",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)"
+          ],
+          "missing_skills": [
+            "curriculum development"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "teaching and presentation skills",
+            "clinical expertise",
+            "nursing colleges",
+            "hospitals (training departments)",
+            "healthcare institutes"
+          ]
+        },
+        "experience": {
+          "score": 1.0,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.49,
+          "consistency_flag": false
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.7. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience. Missing technical skills: curriculum development."
+    },
+    "Rahul": {
+      "job_title": "Nurse Educator",
+      "final_score": 0.26,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "curriculum development",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "communication"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "curriculum development",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "data analytics tools           :  pandas",
+            "python frameworks           :  django",
+            "data science                          :  machine learning",
+            "data visualization               :  power bi",
+            "programming languages  :  python",
+            "teaching and presentation skills",
+            "clinical expertise",
+            "nursing colleges",
+            "hospitals (training departments)",
+            "healthcare institutes"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.29,
+          "consistency_flag": false
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.26. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: curriculum development, patient care, basic life support (bls)."
+    },
+    "Reshma resume": {
+      "job_title": "Nurse Educator",
+      "final_score": 0.24,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "curriculum development",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "communication"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "curriculum development",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "all saints college",
+            "\u2022 chemical analysis techniques",
+            "\u2022 polymer synthesis fundamentals",
+            "2. qualified typewriting english and computer word processing (lower).",
+            "3. conference attended: two-day workshop on cheminformatics and drug design",
+            "1. completed training programme titled fundamentals of polymer synthesis and characterization",
+            "\u2022 laboratory documentation and reporting",
+            "\u2022 computer word processing",
+            "teaching and presentation skills",
+            "clinical expertise",
+            "nursing colleges",
+            "hospitals (training departments)",
+            "healthcare institutes"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.22,
+          "consistency_flag": false
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.24. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: curriculum development, patient care, basic life support (bls)."
+    },
+    "sample_2": {
+      "job_title": "Nurse Educator",
+      "final_score": 0.16,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "curriculum development",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "communication"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "curriculum development",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "- team leadership",
+            "teaching and presentation skills",
+            "clinical expertise",
+            "nursing colleges",
+            "hospitals (training departments)",
+            "healthcare institutes"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 10.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.09,
+          "consistency_flag": false
+        },
+        "total_penalty": 0
+      },
+      "penalties_applied": [],
+      "explanation": "Final Match Score: 0.16. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: curriculum development, patient care, basic life support (bls)."
+    }
+  },
+  "Data Analyst": {},
+  "Business Analyst": {},
+  "ICU Nurse": {},
+  "Pediatric Nurse": {
+    "Nurse_Resume_Anita_Mathew": {
+      "job_title": "Pediatric Nurse",
+      "final_score": 0.33,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.2,
+          "hard_skills": [
+            "pediatric wards",
+            "patient care",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "soft_skills": [
+            "childfriendly communication",
+            "patience",
+            "empathy"
+          ],
+          "matched_skills": [
+            "patient care"
+          ],
+          "missing_skills": [
+            "pediatric wards",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "added_skills": [
+            "patient care"
+          ],
+          "removed_skills": [
+            "observation and assessment skills",
+            "children\u2019s hospitals",
+            "clinics"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 5.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 1.0
+        },
+        "semantic": {
+          "score": 0.43,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.08
+      },
+      "penalties_applied": [
+        {
+          "reason": "Domain gap: Pediatric/Neonatal Care",
+          "impact": -0.08
+        }
+      ],
+      "explanation": "Final Match Score: 0.33. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: pediatric wards, registered nurse license (rn), advanced cardiovascular life support (acls)."
+    },
+    "nurse_resume": {
+      "job_title": "Pediatric Nurse",
+      "final_score": 0.6,
+      "match_level": "Moderate Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.8,
+          "hard_skills": [
+            "pediatric wards",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "childfriendly communication",
+            "patience",
+            "empathy"
+          ],
+          "matched_skills": [
+            "patient care",
+            "registered nurse license (rn)",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)"
+          ],
+          "missing_skills": [
+            "pediatric wards"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "observation and assessment skills",
+            "children\u2019s hospitals",
+            "clinics"
+          ]
+        },
+        "experience": {
+          "score": 1.0,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.42,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.08
+      },
+      "penalties_applied": [
+        {
+          "reason": "Domain gap: Pediatric/Neonatal Care",
+          "impact": -0.08
+        }
+      ],
+      "explanation": "Final Match Score: 0.6. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience. Missing technical skills: pediatric wards."
+    },
+    "Rahul": {
+      "job_title": "Pediatric Nurse",
+      "final_score": 0.14,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "pediatric wards",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "childfriendly communication",
+            "patience",
+            "empathy"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "pediatric wards",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "data analytics tools           :  pandas",
+            "python frameworks           :  django",
+            "data science                          :  machine learning",
+            "data visualization               :  power bi",
+            "programming languages  :  python",
+            "observation and assessment skills",
+            "children\u2019s hospitals",
+            "clinics"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.15,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.08
+      },
+      "penalties_applied": [
+        {
+          "reason": "Domain gap: Pediatric/Neonatal Care",
+          "impact": -0.08
+        }
+      ],
+      "explanation": "Final Match Score: 0.14. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: pediatric wards, patient care, basic life support (bls)."
+    },
+    "Reshma resume": {
+      "job_title": "Pediatric Nurse",
+      "final_score": 0.13,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "pediatric wards",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "childfriendly communication",
+            "patience",
+            "empathy"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "pediatric wards",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "all saints college",
+            "\u2022 chemical analysis techniques",
+            "\u2022 polymer synthesis fundamentals",
+            "2. qualified typewriting english and computer word processing (lower).",
+            "3. conference attended: two-day workshop on cheminformatics and drug design",
+            "1. completed training programme titled fundamentals of polymer synthesis and characterization",
+            "\u2022 laboratory documentation and reporting",
+            "\u2022 computer word processing",
+            "observation and assessment skills",
+            "children\u2019s hospitals",
+            "clinics"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.12,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.08
+      },
+      "penalties_applied": [
+        {
+          "reason": "Domain gap: Pediatric/Neonatal Care",
+          "impact": -0.08
+        }
+      ],
+      "explanation": "Final Match Score: 0.13. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: pediatric wards, patient care, basic life support (bls)."
+    },
+    "sample_2": {
+      "job_title": "Pediatric Nurse",
+      "final_score": 0.06,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "pediatric wards",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "childfriendly communication",
+            "patience",
+            "empathy"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "pediatric wards",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "- team leadership",
+            "observation and assessment skills",
+            "children\u2019s hospitals",
+            "clinics"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 10.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.03,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.08
+      },
+      "penalties_applied": [
+        {
+          "reason": "Domain gap: Pediatric/Neonatal Care",
+          "impact": -0.08
+        }
+      ],
+      "explanation": "Final Match Score: 0.06. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: pediatric wards, patient care, basic life support (bls)."
+    }
+  },
+  "Dialysis Nurse": {
+    "Nurse_Resume_Anita_Mathew": {
+      "job_title": "Dialysis Nurse",
+      "final_score": 0.39,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.2,
+          "hard_skills": [
+            "technical",
+            "patient care",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "soft_skills": [
+            "attention to detail"
+          ],
+          "matched_skills": [
+            "patient care"
+          ],
+          "missing_skills": [
+            "technical",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "added_skills": [
+            "patient care"
+          ],
+          "removed_skills": [
+            "patient care and monitoring",
+            "dialysis centers",
+            "hospitals"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 5.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 1.0
+        },
+        "semantic": {
+          "score": 0.46,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: technical",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.39. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical, registered nurse license (rn), advanced cardiovascular life support (acls)."
+    },
+    "nurse_resume": {
+      "job_title": "Dialysis Nurse",
+      "final_score": 0.65,
+      "match_level": "Moderate Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.8,
+          "hard_skills": [
+            "technical",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "attention to detail"
+          ],
+          "matched_skills": [
+            "patient care",
+            "registered nurse license (rn)",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)"
+          ],
+          "missing_skills": [
+            "technical"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "patient care and monitoring",
+            "dialysis centers",
+            "hospitals"
+          ]
+        },
+        "experience": {
+          "score": 1.0,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.43,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: technical",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.65. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience. Missing technical skills: technical."
+    },
+    "Rahul": {
+      "job_title": "Dialysis Nurse",
+      "final_score": 0.19,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "technical",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "attention to detail"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "technical",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "data analytics tools           :  pandas",
+            "python frameworks           :  django",
+            "data science                          :  machine learning",
+            "data visualization               :  power bi",
+            "programming languages  :  python",
+            "patient care and monitoring",
+            "dialysis centers",
+            "hospitals"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.18,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: technical",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.19. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical, patient care, basic life support (bls)."
+    },
+    "Reshma resume": {
+      "job_title": "Dialysis Nurse",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "technical",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "attention to detail"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "technical",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "all saints college",
+            "\u2022 chemical analysis techniques",
+            "\u2022 polymer synthesis fundamentals",
+            "2. qualified typewriting english and computer word processing (lower).",
+            "3. conference attended: two-day workshop on cheminformatics and drug design",
+            "1. completed training programme titled fundamentals of polymer synthesis and characterization",
+            "\u2022 laboratory documentation and reporting",
+            "\u2022 computer word processing",
+            "patient care and monitoring",
+            "dialysis centers",
+            "hospitals"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.11,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: technical",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.17. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical, patient care, basic life support (bls)."
+    },
+    "sample_2": {
+      "job_title": "Dialysis Nurse",
+      "final_score": 0.14,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "technical",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "attention to detail"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "technical",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "- team leadership",
+            "patient care and monitoring",
+            "dialysis centers",
+            "hospitals"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 10.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.12,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: technical",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.14. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical, patient care, basic life support (bls)."
+    }
+  },
+  "Director of Nursing": {
+    "Nurse_Resume_Anita_Mathew": {
+      "job_title": "Director of Nursing",
+      "final_score": 0.29,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "soft_skills": [],
+          "matched_skills": [],
+          "missing_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "added_skills": [],
+          "removed_skills": [
+            "leadership and administration",
+            "hospitals",
+            "healthcare institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 5.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 1.0
+        },
+        "semantic": {
+          "score": 0.4,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: strategic planning",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.29. Candidate matches 0/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: strategic planning, quality management, longterm care facilities."
+    },
+    "nurse_resume": {
+      "job_title": "Director of Nursing",
+      "final_score": 0.2,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities"
+          ],
+          "soft_skills": [],
+          "matched_skills": [],
+          "missing_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities"
+          ],
+          "added_skills": [],
+          "removed_skills": [
+            "leadership and administration",
+            "hospitals",
+            "healthcare institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.35,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: strategic planning",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.2. Candidate matches 0/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: strategic planning, quality management, longterm care facilities."
+    },
+    "Rahul": {
+      "job_title": "Director of Nursing",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities"
+          ],
+          "soft_skills": [],
+          "matched_skills": [],
+          "missing_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities"
+          ],
+          "added_skills": [],
+          "removed_skills": [
+            "data analytics tools           :  pandas",
+            "python frameworks           :  django",
+            "data science                          :  machine learning",
+            "data visualization               :  power bi",
+            "programming languages  :  python",
+            "leadership and administration",
+            "hospitals",
+            "healthcare institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.12,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: strategic planning",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.18. Candidate matches 0/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: strategic planning, quality management, longterm care facilities."
+    },
+    "Reshma resume": {
+      "job_title": "Director of Nursing",
+      "final_score": 0.17,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities"
+          ],
+          "soft_skills": [],
+          "matched_skills": [],
+          "missing_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities"
+          ],
+          "added_skills": [],
+          "removed_skills": [
+            "all saints college",
+            "\u2022 chemical analysis techniques",
+            "\u2022 polymer synthesis fundamentals",
+            "2. qualified typewriting english and computer word processing (lower).",
+            "3. conference attended: two-day workshop on cheminformatics and drug design",
+            "1. completed training programme titled fundamentals of polymer synthesis and characterization",
+            "\u2022 laboratory documentation and reporting",
+            "\u2022 computer word processing",
+            "leadership and administration",
+            "hospitals",
+            "healthcare institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.09,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: strategic planning",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.17. Candidate matches 0/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: strategic planning, quality management, longterm care facilities."
+    },
+    "sample_2": {
+      "job_title": "Director of Nursing",
+      "final_score": 0.13,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities"
+          ],
+          "soft_skills": [],
+          "matched_skills": [],
+          "missing_skills": [
+            "strategic planning",
+            "quality management",
+            "longterm care facilities"
+          ],
+          "added_skills": [],
+          "removed_skills": [
+            "- team leadership",
+            "leadership and administration",
+            "hospitals",
+            "healthcare institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 10.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.1,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: strategic planning",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.13. Candidate matches 0/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: strategic planning, quality management, longterm care facilities."
+    }
+  },
+  "School Nurse": {
+    "Nurse_Resume_Anita_Mathew": {
+      "job_title": "School Nurse",
+      "final_score": 0.4,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.25,
+          "hard_skills": [
+            "child care",
+            "emergency response",
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "soft_skills": [
+            "communication and patience"
+          ],
+          "matched_skills": [
+            "patient care",
+            "emergency response"
+          ],
+          "missing_skills": [
+            "child care",
+            "first aid",
+            "basic health assessment",
+            "registered nurse license (rn)",
+            "advanced cardiovascular life support (acls)",
+            "basic life support (bls)"
+          ],
+          "added_skills": [
+            "first aid",
+            "basic health assessment",
+            "patient care"
+          ],
+          "removed_skills": [
+            "schools",
+            "colleges",
+            "educational institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 5.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 1.0
+        },
+        "semantic": {
+          "score": 0.44,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: child care",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.4. Candidate matches 2/5 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: child care, first aid, basic health assessment."
+    },
+    "nurse_resume": {
+      "job_title": "School Nurse",
+      "final_score": 0.56,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.62,
+          "hard_skills": [
+            "child care",
+            "emergency response",
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "communication and patience"
+          ],
+          "matched_skills": [
+            "registered nurse license (rn)",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "emergency response",
+            "patient care"
+          ],
+          "missing_skills": [
+            "child care",
+            "first aid",
+            "basic health assessment"
+          ],
+          "added_skills": [
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "schools",
+            "colleges",
+            "educational institutions"
+          ]
+        },
+        "experience": {
+          "score": 1.0,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.36,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: child care",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.56. Candidate matches 2/5 core skills (excluding certifications). Strengths: relevant experience. Missing technical skills: child care, first aid, basic health assessment."
+    },
+    "Rahul": {
+      "job_title": "School Nurse",
+      "final_score": 0.21,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "child care",
+            "emergency response",
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "communication and patience"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "child care",
+            "emergency response",
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "data analytics tools           :  pandas",
+            "python frameworks           :  django",
+            "data science                          :  machine learning",
+            "data visualization               :  power bi",
+            "programming languages  :  python",
+            "schools",
+            "colleges",
+            "educational institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.23,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: child care",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.21. Candidate matches 0/5 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: child care, emergency response, first aid."
+    },
+    "Reshma resume": {
+      "job_title": "School Nurse",
+      "final_score": 0.18,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "child care",
+            "emergency response",
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "communication and patience"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "child care",
+            "emergency response",
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "all saints college",
+            "\u2022 chemical analysis techniques",
+            "\u2022 polymer synthesis fundamentals",
+            "2. qualified typewriting english and computer word processing (lower).",
+            "3. conference attended: two-day workshop on cheminformatics and drug design",
+            "1. completed training programme titled fundamentals of polymer synthesis and characterization",
+            "\u2022 laboratory documentation and reporting",
+            "\u2022 computer word processing",
+            "schools",
+            "colleges",
+            "educational institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 2.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.7
+        },
+        "semantic": {
+          "score": 0.14,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: child care",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.18. Candidate matches 0/5 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: child care, emergency response, first aid."
+    },
+    "sample_2": {
+      "job_title": "School Nurse",
+      "final_score": 0.1,
+      "match_level": "Weak Match",
+      "score_breakdown": {
+        "skill": {
+          "score": 0.0,
+          "hard_skills": [
+            "child care",
+            "emergency response",
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "soft_skills": [
+            "communication and patience"
+          ],
+          "matched_skills": [],
+          "missing_skills": [
+            "child care",
+            "emergency response",
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "added_skills": [
+            "first aid",
+            "basic health assessment",
+            "patient care",
+            "basic life support (bls)",
+            "advanced cardiovascular life support (acls)",
+            "registered nurse license (rn)"
+          ],
+          "removed_skills": [
+            "- team leadership",
+            "schools",
+            "colleges",
+            "educational institutions"
+          ]
+        },
+        "experience": {
+          "score": 0.5,
+          "years": 10.0,
+          "required": 2.0
+        },
+        "education": {
+          "score": 0.3
+        },
+        "semantic": {
+          "score": 0.01,
+          "consistency_flag": false
+        },
+        "total_penalty": -0.03
+      },
+      "penalties_applied": [
+        {
+          "reason": "Missing critical: child care",
+          "impact": -0.03
+        }
+      ],
+      "explanation": "Final Match Score: 0.1. Candidate matches 0/5 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: child care, emergency response, first aid."
+    }
+  }
+}
