@@ -11,9 +11,9 @@
           "ventilator management",
           "hemodynamic monitoring",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "analytical thinking",
@@ -21,15 +21,15 @@
           "team coordination"
         ],
         "matched_skills": [
-          "patient care",
-          "critical care nursing"
+          "critical care nursing",
+          "patient care"
         ],
         "missing_skills": [
           "ventilator management",
           "hemodynamic monitoring",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "critical care nursing",
@@ -59,7 +59,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.52. Candidate matches 2/4 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match) and high role relevance. Missing technical skills: ventilator management, hemodynamic monitoring, basic life support (bls)."
+    "explanation": "Final Match Score: 0.52. Candidate matches 2/4 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match) and high role relevance. Missing technical skills: ventilator management, hemodynamic monitoring, registered nurse license (rn)."
   },
   {
     "job_title": "Staff Nurse (Registered Nurse – RN)",
@@ -70,9 +70,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication",
@@ -84,9 +84,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -113,7 +113,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.46. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.46. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Bedside Nurse",
@@ -124,9 +124,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "compassion",
@@ -137,9 +137,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -164,7 +164,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.46. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.46. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Clinical Research Nurse",
@@ -175,9 +175,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail"
@@ -186,9 +186,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -216,7 +216,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.46. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.46. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Patient Care Nurse",
@@ -229,9 +229,9 @@
           "patient care",
           "clinical procedures",
           "basic nursing care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication",
@@ -243,9 +243,9 @@
         "missing_skills": [
           "clinical procedures",
           "basic nursing care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care",
@@ -274,7 +274,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.45. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match) and high role relevance. Missing technical skills: clinical procedures, basic nursing care, basic life support (bls)."
+    "explanation": "Final Match Score: 0.45. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match) and high role relevance. Missing technical skills: clinical procedures, basic nursing care, registered nurse license (rn)."
   },
   {
     "job_title": "Rural Health Nurse",
@@ -285,9 +285,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "problem-solving"
@@ -296,9 +296,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -326,7 +326,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.44. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.44. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Mental Health Nurse",
@@ -337,9 +337,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "patience",
@@ -350,9 +350,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -381,7 +381,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.44. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.44. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Military Nurse",
@@ -392,9 +392,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "teamwork"
@@ -403,9 +403,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -434,7 +434,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.44. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.44. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Palliative Care Nurse",
@@ -446,9 +446,9 @@
         "hard_skills": [
           "counseling",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "compassion",
@@ -460,9 +460,9 @@
         ],
         "missing_skills": [
           "counseling",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -489,7 +489,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.44. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: counseling, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.44. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: counseling, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Geriatric Nurse",
@@ -500,9 +500,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "patience",
@@ -513,9 +513,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -542,7 +542,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.44. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.44. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Operating Room (OR) Nurse",
@@ -553,9 +553,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail",
@@ -565,9 +565,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -595,7 +595,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.43. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.43. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Nurse Educator",
@@ -607,9 +607,9 @@
         "hard_skills": [
           "curriculum development",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication"
@@ -619,9 +619,9 @@
         ],
         "missing_skills": [
           "curriculum development",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -649,7 +649,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.43. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: curriculum development, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.43. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: curriculum development, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Disaster Relief Nurse",
@@ -663,9 +663,9 @@
           "quick decisionmaking",
           "emergency response organizations",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "emotional resilience",
@@ -678,9 +678,9 @@
         "missing_skills": [
           "crisis management",
           "quick decisionmaking",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -714,7 +714,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.43. Candidate matches 2/4 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: crisis management, quick decisionmaking, basic life support (bls)."
+    "explanation": "Final Match Score: 0.43. Candidate matches 2/4 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: crisis management, quick decisionmaking, registered nurse license (rn)."
   },
   {
     "job_title": "Licensed Practical Nurse (LPN) /",
@@ -726,9 +726,9 @@
         "hard_skills": [
           "longterm care facilities",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail"
@@ -738,9 +738,9 @@
         ],
         "missing_skills": [
           "longterm care facilities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -767,7 +767,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: longterm care facilities, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: longterm care facilities, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Trauma Nurse",
@@ -779,9 +779,9 @@
         "hard_skills": [
           "highpressure response capability",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -789,9 +789,9 @@
         ],
         "missing_skills": [
           "highpressure response capability",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -824,7 +824,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: highpressure response capability, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: highpressure response capability, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Oncology Nurse",
@@ -836,9 +836,9 @@
         "hard_skills": [
           "patient counseling",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -846,9 +846,9 @@
         ],
         "missing_skills": [
           "patient counseling",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -876,7 +876,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: patient counseling, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: patient counseling, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Psychiatric Nurse",
@@ -888,9 +888,9 @@
         "hard_skills": [
           "crisis intervention",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -898,9 +898,9 @@
         ],
         "missing_skills": [
           "crisis intervention",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -930,7 +930,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: crisis intervention, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: crisis intervention, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Nurse Manager",
@@ -942,9 +942,9 @@
         "hard_skills": [
           "organizational",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "problem-solving"
@@ -954,9 +954,9 @@
         ],
         "missing_skills": [
           "organizational",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -984,7 +984,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: organizational, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: organizational, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Insurance Nurse",
@@ -998,9 +998,9 @@
           "thirdparty administrators tpa",
           "healthcare firms",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "analytical thinking",
@@ -1013,9 +1013,9 @@
           "decisionmaking",
           "thirdparty administrators tpa",
           "healthcare firms",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1052,9 +1052,9 @@
         "hard_skills": [
           "government agencies",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail"
@@ -1064,9 +1064,9 @@
         ],
         "missing_skills": [
           "government agencies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1093,7 +1093,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: government agencies, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: government agencies, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Travel Nurse",
@@ -1105,9 +1105,9 @@
         "hard_skills": [
           "quick learning ability",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "adaptability and flexibility",
@@ -1118,9 +1118,9 @@
         ],
         "missing_skills": [
           "quick learning ability",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1147,7 +1147,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: quick learning ability, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: quick learning ability, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Infection Control Nurse",
@@ -1159,9 +1159,9 @@
         "hard_skills": [
           "laboratories",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "analytical",
@@ -1172,9 +1172,9 @@
         ],
         "missing_skills": [
           "laboratories",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1200,7 +1200,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: laboratories, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: laboratories, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Counseling Nurse",
@@ -1212,9 +1212,9 @@
         "hard_skills": [
           "emotional intelligence",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "problem-solving"
@@ -1224,9 +1224,9 @@
         ],
         "missing_skills": [
           "emotional intelligence",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1255,7 +1255,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: emotional intelligence, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: emotional intelligence, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Government Staff Nurse",
@@ -1267,9 +1267,9 @@
         "hard_skills": [
           "government hospitals",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication and teamwork"
@@ -1279,9 +1279,9 @@
         ],
         "missing_skills": [
           "government hospitals",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1308,7 +1308,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: government hospitals, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.42. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: government hospitals, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Nurse Midwife (CNM)",
@@ -1321,9 +1321,9 @@
           "counseling",
           "maternity clinics",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication"
@@ -1334,9 +1334,9 @@
         "missing_skills": [
           "counseling",
           "maternity clinics",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1365,7 +1365,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.41. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: counseling, maternity clinics, basic life support (bls)."
+    "explanation": "Final Match Score: 0.41. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: counseling, maternity clinics, registered nurse license (rn)."
   },
   {
     "job_title": "Home Health Nurse",
@@ -1377,9 +1377,9 @@
         "hard_skills": [
           "independence and responsibility",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "time management"
@@ -1389,9 +1389,9 @@
         ],
         "missing_skills": [
           "independence and responsibility",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1422,7 +1422,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.41. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: independence and responsibility, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.41. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: independence and responsibility, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "ICU Nurse (Intensive Care Unit Nurse)",
@@ -1433,9 +1433,9 @@
         "score": 0.25,
         "hard_skills": [
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail"
@@ -1444,9 +1444,9 @@
           "patient care"
         ],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1479,7 +1479,7 @@
         "impact": -0.05
       }
     ],
-    "explanation": "Final Match Score: 0.41. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.41. Candidate matches 1/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Endocrinology Nurse",
@@ -1491,9 +1491,9 @@
         "hard_skills": [
           "longterm care management",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -1501,9 +1501,9 @@
         ],
         "missing_skills": [
           "longterm care management",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1531,7 +1531,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.41. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: longterm care management, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.41. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: longterm care management, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "School Nurse",
@@ -1546,24 +1546,24 @@
           "first aid",
           "basic health assessment",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication and patience"
         ],
         "matched_skills": [
-          "patient care",
-          "emergency response"
+          "emergency response",
+          "patient care"
         ],
         "missing_skills": [
           "child care",
           "first aid",
           "basic health assessment",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "first aid",
@@ -1610,9 +1610,9 @@
           "organizational",
           "healthcare organizations",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "coordination and communication",
@@ -1625,9 +1625,9 @@
           "patient advocacy",
           "organizational",
           "healthcare organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1665,9 +1665,9 @@
           "fast decisionmaking",
           "multitasking",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "strong communication"
@@ -1678,9 +1678,9 @@
         "missing_skills": [
           "fast decisionmaking",
           "multitasking",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1716,7 +1716,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.39. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: fast decisionmaking, multitasking, basic life support (bls)."
+    "explanation": "Final Match Score: 0.39. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: fast decisionmaking, multitasking, registered nurse license (rn)."
   },
   {
     "job_title": "Forensic Nurse",
@@ -1730,9 +1730,9 @@
           "forensic labs",
           "law enforcement agencies",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail",
@@ -1745,9 +1745,9 @@
           "documentation accuracy",
           "forensic labs",
           "law enforcement agencies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1787,22 +1787,22 @@
           "crisis management",
           "cultural sensitivity",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
-          "patient care",
-          "emergency response"
+          "emergency response",
+          "patient care"
         ],
         "missing_skills": [
           "independence and decisionmaking",
           "crisis management",
           "cultural sensitivity",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1844,9 +1844,9 @@
         "hard_skills": [
           "patient assessment",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication"
@@ -1856,9 +1856,9 @@
         ],
         "missing_skills": [
           "patient assessment",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1890,7 +1890,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.39. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: patient assessment, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.39. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: patient assessment, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Dialysis Nurse",
@@ -1902,9 +1902,9 @@
         "hard_skills": [
           "technical",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail"
@@ -1914,9 +1914,9 @@
         ],
         "missing_skills": [
           "technical",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -1947,7 +1947,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.39. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.39. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Addiction Nurse",
@@ -1960,9 +1960,9 @@
           "crisis management",
           "rehabilitation facilities",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "patience",
@@ -1974,9 +1974,9 @@
         "missing_skills": [
           "crisis management",
           "rehabilitation facilities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2004,7 +2004,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.39. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: crisis management, rehabilitation facilities, basic life support (bls)."
+    "explanation": "Final Match Score: 0.39. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: crisis management, rehabilitation facilities, registered nurse license (rn)."
   },
   {
     "job_title": "Public Health Nurse",
@@ -2017,9 +2017,9 @@
           "policy understanding",
           "government health departments",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -2028,9 +2028,9 @@
         "missing_skills": [
           "policy understanding",
           "government health departments",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2062,7 +2062,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.38. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: policy understanding, government health departments, basic life support (bls)."
+    "explanation": "Final Match Score: 0.38. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: policy understanding, government health departments, registered nurse license (rn)."
   },
   {
     "job_title": "Phlebotomy Nurse",
@@ -2075,9 +2075,9 @@
           "diagnostic laboratories",
           "blood banks",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication",
@@ -2089,9 +2089,9 @@
         "missing_skills": [
           "diagnostic laboratories",
           "blood banks",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2118,7 +2118,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.38. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: diagnostic laboratories, blood banks, basic life support (bls)."
+    "explanation": "Final Match Score: 0.38. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: diagnostic laboratories, blood banks, registered nurse license (rn)."
   },
   {
     "job_title": "Community Health Nurse",
@@ -2133,9 +2133,9 @@
           "government health programs",
           "ngos",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -2146,9 +2146,9 @@
           "preventive healthcare knowledge",
           "government health programs",
           "ngos",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2191,9 +2191,9 @@
           "neurological assessment",
           "neurology wards",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "patience",
@@ -2205,9 +2205,9 @@
         "missing_skills": [
           "neurological assessment",
           "neurology wards",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2238,7 +2238,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.37. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: neurological assessment, neurology wards, basic life support (bls)."
+    "explanation": "Final Match Score: 0.37. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: neurological assessment, neurology wards, registered nurse license (rn)."
   },
   {
     "job_title": "Perioperative Nurse",
@@ -2251,9 +2251,9 @@
           "holistic patient care",
           "surgical knowledge",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "critical thinking"
@@ -2264,9 +2264,9 @@
         "missing_skills": [
           "holistic patient care",
           "surgical knowledge",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2302,7 +2302,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.37. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: holistic patient care, surgical knowledge, basic life support (bls)."
+    "explanation": "Final Match Score: 0.37. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: holistic patient care, surgical knowledge, registered nurse license (rn)."
   },
   {
     "job_title": "Labor & Delivery Nurse",
@@ -2316,9 +2316,9 @@
           "delivery rooms",
           "maternity wards",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -2328,9 +2328,9 @@
           "quick decisionmaking",
           "delivery rooms",
           "maternity wards",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2374,9 +2374,9 @@
           "knowledge of pharmacology",
           "training organizations",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication"
@@ -2387,9 +2387,9 @@
         "missing_skills": [
           "knowledge of pharmacology",
           "training organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2420,7 +2420,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.37. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: knowledge of pharmacology, training organizations, basic life support (bls)."
+    "explanation": "Final Match Score: 0.37. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: knowledge of pharmacology, training organizations, registered nurse license (rn)."
   },
   {
     "job_title": "Rehabilitation Nurse",
@@ -2433,9 +2433,9 @@
           "physical rehabilitation knowledge",
           "longterm care facilities",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication"
@@ -2446,9 +2446,9 @@
         "missing_skills": [
           "physical rehabilitation knowledge",
           "longterm care facilities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2479,7 +2479,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.37. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: physical rehabilitation knowledge, longterm care facilities, basic life support (bls)."
+    "explanation": "Final Match Score: 0.37. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: physical rehabilitation knowledge, longterm care facilities, registered nurse license (rn)."
   },
   {
     "job_title": "Nursing Officer",
@@ -2491,18 +2491,18 @@
         "hard_skills": [
           "organizational",
           "government hospitals",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [],
         "missing_skills": [
           "organizational",
           "government hospitals",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -2527,7 +2527,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.36. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: organizational, government hospitals, basic life support (bls)."
+    "explanation": "Final Match Score: 0.36. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: organizational, government hospitals, registered nurse license (rn)."
   },
   {
     "job_title": "Neonatal Nurse (NICU Nurse)",
@@ -2542,22 +2542,22 @@
           "neonatal care",
           "ventilator support",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
-          "patient care",
-          "critical care nursing"
+          "critical care nursing",
+          "patient care"
         ],
         "missing_skills": [
           "maternity hospitals",
           "neonatal care",
           "ventilator support",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "neonatal care",
@@ -2604,9 +2604,9 @@
           "digital literacy",
           "telemedicine platforms",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -2615,9 +2615,9 @@
         "missing_skills": [
           "digital literacy",
           "telemedicine platforms",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2649,7 +2649,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.36. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: digital literacy, telemedicine platforms, basic life support (bls)."
+    "explanation": "Final Match Score: 0.36. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: digital literacy, telemedicine platforms, registered nurse license (rn)."
   },
   {
     "job_title": "Legal Nurse Consultant",
@@ -2663,9 +2663,9 @@
           "law firms",
           "independent consulting",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "analytical thinking",
@@ -2678,9 +2678,9 @@
           "strong documentation",
           "law firms",
           "independent consulting",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2725,9 +2725,9 @@
           "ngos",
           "international health organizations",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "adaptability",
@@ -2742,9 +2742,9 @@
           "resource management",
           "ngos",
           "international health organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2786,9 +2786,9 @@
           "aesthetic sense",
           "medical spas",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -2797,9 +2797,9 @@
         "missing_skills": [
           "aesthetic sense",
           "medical spas",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2831,7 +2831,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.36. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: aesthetic sense, medical spas, basic life support (bls)."
+    "explanation": "Final Match Score: 0.36. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: aesthetic sense, medical spas, registered nurse license (rn)."
   },
   {
     "job_title": "Behavioral Health Nurse",
@@ -2845,9 +2845,9 @@
           "counseling",
           "behavioral therapy knowledge",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication"
@@ -2859,9 +2859,9 @@
           "emotional intelligence",
           "counseling",
           "behavioral therapy knowledge",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2908,9 +2908,9 @@
           "patient counseling",
           "telehealth platforms",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -2920,9 +2920,9 @@
           "diagnostic reasoning",
           "patient counseling",
           "telehealth platforms",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -2971,9 +2971,9 @@
           "corporate offices",
           "industrial sites",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -2985,9 +2985,9 @@
           "factories",
           "corporate offices",
           "industrial sites",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3031,22 +3031,22 @@
           "ecg",
           "cardiac monitoring",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
-          "quick emergency response",
-          "patient care"
+          "patient care",
+          "quick emergency response"
         ],
         "missing_skills": [
           "ecg interpretation",
           "ecg",
           "cardiac monitoring",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "ecg",
@@ -3097,9 +3097,9 @@
           "technical dialysis",
           "patient education",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -3108,9 +3108,9 @@
         "missing_skills": [
           "technical dialysis",
           "patient education",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3142,7 +3142,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.35. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical dialysis, patient education, basic life support (bls)."
+    "explanation": "Final Match Score: 0.35. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical dialysis, patient education, registered nurse license (rn)."
   },
   {
     "job_title": "Hospital Administrator (Nursing",
@@ -3155,9 +3155,9 @@
           "financial planning",
           "healthcare chains",
           "corporate healthcare organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication and coordination"
@@ -3167,9 +3167,9 @@
           "financial planning",
           "healthcare chains",
           "corporate healthcare organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -3204,9 +3204,9 @@
         "score": 0.0,
         "hard_skills": [
           "cros",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication and coordination"
@@ -3214,9 +3214,9 @@
         "matched_skills": [],
         "missing_skills": [
           "cros",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -3241,7 +3241,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.35. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: cros, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.35. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: cros, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Clinical Data Analyst (Nursing",
@@ -3253,9 +3253,9 @@
         "hard_skills": [
           "technical",
           "healthcare analytics companies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "critical thinking",
@@ -3265,9 +3265,9 @@
         "missing_skills": [
           "technical",
           "healthcare analytics companies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -3291,7 +3291,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.35. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical, healthcare analytics companies, basic life support (bls)."
+    "explanation": "Final Match Score: 0.35. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: technical, healthcare analytics companies, registered nurse license (rn)."
   },
   {
     "job_title": "Ward Nurse",
@@ -3304,9 +3304,9 @@
           "multitasking",
           "coordination",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "time management"
@@ -3317,9 +3317,9 @@
         "missing_skills": [
           "multitasking",
           "coordination",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3352,7 +3352,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.34. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: multitasking, coordination, basic life support (bls)."
+    "explanation": "Final Match Score: 0.34. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: multitasking, coordination, registered nurse license (rn)."
   },
   {
     "job_title": "Clinical Nurse Specialist (CNS)",
@@ -3366,9 +3366,9 @@
           "teaching and mentoring",
           "quality improvement expertise",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -3378,9 +3378,9 @@
           "deep specialization knowledge",
           "teaching and mentoring",
           "quality improvement expertise",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3431,9 +3431,9 @@
           "postoperative care knowledge",
           "surgical wards",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail"
@@ -3446,9 +3446,9 @@
           "wound care expertise",
           "postoperative care knowledge",
           "surgical wards",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3497,9 +3497,9 @@
           "risk assessment",
           "maternity clinics",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication"
@@ -3512,9 +3512,9 @@
           "counseling",
           "risk assessment",
           "maternity clinics",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3559,9 +3559,9 @@
           "universities",
           "healthcare organizations",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "critical thinking",
@@ -3575,9 +3575,9 @@
           "statistical analysis",
           "universities",
           "healthcare organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3622,9 +3622,9 @@
         "hard_skills": [
           "health it companies",
           "government health departments",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "analytical thinking",
@@ -3634,9 +3634,9 @@
         "missing_skills": [
           "health it companies",
           "government health departments",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -3660,7 +3660,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.34. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: health it companies, government health departments, basic life support (bls)."
+    "explanation": "Final Match Score: 0.34. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: health it companies, government health departments, registered nurse license (rn)."
   },
   {
     "job_title": "Health Inspector (Nursing Background)",
@@ -3672,9 +3672,9 @@
         "hard_skills": [
           "municipal corporations",
           "government agencies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication and reporting"
@@ -3683,9 +3683,9 @@
         "missing_skills": [
           "municipal corporations",
           "government agencies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -3709,7 +3709,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.34. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: municipal corporations, government agencies, basic life support (bls)."
+    "explanation": "Final Match Score: 0.34. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: municipal corporations, government agencies, registered nurse license (rn)."
   },
   {
     "job_title": "Nurse Anesthetist (CRNA)",
@@ -3722,9 +3722,9 @@
           "crisis management",
           "quick decisionmaking",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -3733,9 +3733,9 @@
         "missing_skills": [
           "crisis management",
           "quick decisionmaking",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3768,7 +3768,7 @@
         "impact": -0.08
       }
     ],
-    "explanation": "Final Match Score: 0.33. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: crisis management, quick decisionmaking, basic life support (bls)."
+    "explanation": "Final Match Score: 0.33. Candidate matches 1/3 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: crisis management, quick decisionmaking, registered nurse license (rn)."
   },
   {
     "job_title": "Pediatric Nurse",
@@ -3780,9 +3780,9 @@
         "hard_skills": [
           "pediatric wards",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "childfriendly communication",
@@ -3794,9 +3794,9 @@
         ],
         "missing_skills": [
           "pediatric wards",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3827,7 +3827,7 @@
         "impact": -0.08
       }
     ],
-    "explanation": "Final Match Score: 0.33. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: pediatric wards, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.33. Candidate matches 1/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: pediatric wards, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Healthcare AI Trainer (Nursing)",
@@ -3841,9 +3841,9 @@
           "healthtech companies",
           "ai startups",
           "research labs",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "analytical thinking",
@@ -3855,9 +3855,9 @@
           "healthtech companies",
           "ai startups",
           "research labs",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -3893,9 +3893,9 @@
           "coordination",
           "patient education",
           "patient care",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [
@@ -3905,9 +3905,9 @@
           "critical care knowledge",
           "coordination",
           "patient education",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [
           "patient care"
@@ -3952,9 +3952,9 @@
         "score": 0.0,
         "hard_skills": [
           "physical stamina",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "compassion and patience",
@@ -3963,9 +3963,9 @@
         "matched_skills": [],
         "missing_skills": [
           "physical stamina",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -3991,7 +3991,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.33. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: physical stamina, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.33. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: physical stamina, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Chief Nursing Officer (CNO)",
@@ -4005,9 +4005,9 @@
           "highlevel decisionmaking",
           "healthcare systems",
           "corporate healthcare organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [],
@@ -4016,9 +4016,9 @@
           "highlevel decisionmaking",
           "healthcare systems",
           "corporate healthcare organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4053,17 +4053,17 @@
         "score": 0.0,
         "hard_skills": [
           "universities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [],
         "missing_skills": [
           "universities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4089,7 +4089,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.32. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: universities, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.32. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: universities, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Medical Advisor (Healthcare",
@@ -4102,9 +4102,9 @@
           "industry awareness",
           "medical device companies",
           "healthtech firms",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication and presentation",
@@ -4115,9 +4115,9 @@
           "industry awareness",
           "medical device companies",
           "healthtech firms",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4153,9 +4153,9 @@
           "consulting firms",
           "healthcare organizations",
           "government agencies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "strategic thinking",
@@ -4166,9 +4166,9 @@
           "consulting firms",
           "healthcare organizations",
           "government agencies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4204,18 +4204,18 @@
         "hard_skills": [
           "decisionmaking under pressure",
           "coordination and multitasking",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [],
         "missing_skills": [
           "decisionmaking under pressure",
           "coordination and multitasking",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4244,7 +4244,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.31. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: decisionmaking under pressure, coordination and multitasking, basic life support (bls)."
+    "explanation": "Final Match Score: 0.31. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: decisionmaking under pressure, coordination and multitasking, registered nurse license (rn)."
   },
   {
     "job_title": "Nursing Lecturer",
@@ -4257,9 +4257,9 @@
           "strong subject knowledge",
           "research aptitude",
           "universities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "teaching and communication"
@@ -4269,9 +4269,9 @@
           "strong subject knowledge",
           "research aptitude",
           "universities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4308,18 +4308,18 @@
       "skill": {
         "score": 0.0,
         "hard_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "attention to detail"
         ],
         "matched_skills": [],
         "missing_skills": [
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4345,7 +4345,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.31. Candidate matches 0/0 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic life support (bls), advanced cardiovascular life support (acls), registered nurse license (rn)."
+    "explanation": "Final Match Score: 0.31. Candidate matches 0/0 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: registered nurse license (rn), advanced cardiovascular life support (acls), basic life support (bls)."
   },
   {
     "job_title": "Health Care Assistant (HCA)",
@@ -4356,9 +4356,9 @@
         "score": 0.0,
         "hard_skills": [
           "basic caregiving",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "empathy and patience",
@@ -4368,9 +4368,9 @@
         "matched_skills": [],
         "missing_skills": [
           "basic caregiving",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4395,7 +4395,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.3. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic caregiving, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.3. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic caregiving, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Director of Nursing",
@@ -4408,9 +4408,9 @@
           "strategic planning",
           "quality management",
           "longterm care facilities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [],
@@ -4418,9 +4418,9 @@
           "strategic planning",
           "quality management",
           "longterm care facilities",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4460,9 +4460,9 @@
         "score": 0.0,
         "hard_skills": [
           "basic teaching",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "patience and mentoring"
@@ -4470,9 +4470,9 @@
         "matched_skills": [],
         "missing_skills": [
           "basic teaching",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4501,7 +4501,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.29. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic teaching, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.29. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: basic teaching, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Policy Advisor (Healthcare)",
@@ -4513,9 +4513,9 @@
         "hard_skills": [
           "government ministries",
           "international organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "strategic thinking",
@@ -4525,9 +4525,9 @@
         "missing_skills": [
           "government ministries",
           "international organizations",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4551,7 +4551,7 @@
       "total_penalty": 0
     },
     "penalties_applied": [],
-    "explanation": "Final Match Score: 0.29. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: government ministries, international organizations, basic life support (bls)."
+    "explanation": "Final Match Score: 0.29. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: government ministries, international organizations, registered nurse license (rn)."
   },
   {
     "job_title": "Medical Claims Reviewer",
@@ -4564,9 +4564,9 @@
           "decisionmaking",
           "thirdparty administrators tpa",
           "healthcare firms",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "analytical thinking",
@@ -4577,9 +4577,9 @@
           "decisionmaking",
           "thirdparty administrators tpa",
           "healthcare firms",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4613,17 +4613,17 @@
         "score": 0.0,
         "hard_skills": [
           "mentoring ability",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [],
         "missing_skills": [
           "mentoring ability",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4654,7 +4654,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.27. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: mentoring ability, basic life support (bls), advanced cardiovascular life support (acls)."
+    "explanation": "Final Match Score: 0.27. Candidate matches 0/1 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: mentoring ability, registered nurse license (rn), advanced cardiovascular life support (acls)."
   },
   {
     "job_title": "Evidence-Based Practice Specialist",
@@ -4666,18 +4666,18 @@
         "hard_skills": [
           "research interpretation",
           "quality improvement knowledge",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [],
         "matched_skills": [],
         "missing_skills": [
           "research interpretation",
           "quality improvement knowledge",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [
@@ -4707,7 +4707,7 @@
         "impact": -0.03
       }
     ],
-    "explanation": "Final Match Score: 0.27. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: research interpretation, quality improvement knowledge, basic life support (bls)."
+    "explanation": "Final Match Score: 0.27. Candidate matches 0/2 core skills (excluding certifications). Strengths: relevant experience (experience reduced due to low skill match). Missing technical skills: research interpretation, quality improvement knowledge, registered nurse license (rn)."
   },
   {
     "job_title": "Program Manager (Public Health",
@@ -4722,9 +4722,9 @@
           "government health departments",
           "ngos",
           "international health agencies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "soft_skills": [
           "communication"
@@ -4736,9 +4736,9 @@
           "government health departments",
           "ngos",
           "international health agencies",
-          "basic life support (bls)",
+          "registered nurse license (rn)",
           "advanced cardiovascular life support (acls)",
-          "registered nurse license (rn)"
+          "basic life support (bls)"
         ],
         "added_skills": [],
         "removed_skills": [

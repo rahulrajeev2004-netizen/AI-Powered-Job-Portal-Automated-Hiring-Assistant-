@@ -62,12 +62,12 @@ The project follows a modular architecture designed to separate concerns and sca
    pytest
    ```
 * Ensure you cover edge cases and mocked API calls (e.g., when connecting to OpenAI or HuggingFace).
-## AI Data Architecture & Governance
+## Documentation
 
-To ensure consistency, traceability, and high-quality AI inference across the platform, we maintain a set of core documentation regarding how data flows and is stored:
+For detailed technical information, refer to the following documents:
 
-* **[AI Data Pipeline](docs/AI_DATA_PIPELINE.md)**: A high-level view of the data lifecycle from upload to hiring.
-* **[Storage Structure & Lifecycle](docs/storage_structure_and_lifecycle.md)**: Technical details on where and how resumes, parsed profiles, and reports are persisted.
-* **[Metadata Standards](docs/metadata_standards.md)**: Specification for the core IDs and versioning tags used to track every piece of AI-generated content.
+* **[ATS Technical Documentation](docs/ATS_TECHNICAL_DOCUMENTATION.md)**: In-depth overview of system modules and workflow.
+* **[Architecture Diagrams](docs/ARCHITECTURE_DIAGRAMS.md)**: Visual representation of systems and data flow.
+* **[Scoring Logic Documentation](docs/SCORING_LOGIC.md)**: Detailed breakdown of the scoring formula, weights, and penalties.
+* **[Developer Guide & Troubleshooting](docs/DEVELOPER_GUIDE.md)**: Technical setup, extension guide, and common fixes.
 
-By following these standards, we ensure that every candidate evaluation is auditable, reproducible, and ready for continuous model improvement loops.
