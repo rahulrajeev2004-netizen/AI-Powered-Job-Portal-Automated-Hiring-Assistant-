@@ -62,6 +62,30 @@ The project follows a modular architecture designed to separate concerns and sca
    pytest
    ```
 * Ensure you cover edge cases and mocked API calls (e.g., when connecting to OpenAI or HuggingFace).
+## Production ATS Module
+
+The system now features a production-grade ATS AI module capable of handling end-to-end resume evaluation and ranking with high precision and transparency.
+
+### Key Features
+- **Deterministic Ranking**: Ensures stable and consistent candidate ranking.
+- **Rich Output**: Generates detailed JSON responses including score breakdowns, normalization factors, and fairness adjustments.
+- **Bias Reduction**: Implements a `FairnessEngine` to adjust scores for mid-range candidates, ensuring an equitable hiring process.
+- **System Metrics**: Tracks processing time, latency, and system confidence scores.
+
+### End-to-End Pipeline
+1. **Ingestion**: Upload resumes via the FastAPI-based upload endpoint.
+2. **Parsing**: Automated extraction of skills, experience, and education.
+3. **Scoring**: Hybrid engine combining rule-based weights with semantic relevance.
+4. **Normalization**: Min-max normalization for consistent cross-role comparison.
+5. **Ranking**: Automated sorting and classification of candidates into Shortlist/Review/Rejected zones.
+
+### Validation and Reports
+To validate the production pipeline and generate a compliance report:
+```powershell
+python validate_production_pipeline.py
+```
+The final report is saved to `outputs/final_ats_production_report.json`.
+
 ## Documentation
 
 For detailed technical information, refer to the following documents:

@@ -113,30 +113,30 @@ async def score_candidates_background(job_id: str, queue_id: str, db: Session):
                 parsed_resumes.append({
                     "candidate_id": r.candidate_id,
                     "resume_id": r.id,
-                    "skills": r.parsed_data.skills, # This is a list from SkillExtractor
+                    "skills": r.parsed_data.skills,
                     "experience_years": r.parsed_data.experience_years or 0.0,
                     "education": str(r.parsed_data.education)
                 })
 
-        logger.info(f"Scoring {len(parsed_resumes)} candidates for job {job_id}")
-        results = logic.score_candidates(parsed_resumes, job.job_description)
+        logger.info(f"Scoring {len(parsed_resumes)} candidates for job {job_id} in background")
+        # In background task, we just run the logic and store results
+        rich_results = logic.score_candidates(parsed_resumes, job.job_description)
 
         # Clear old scores for this job
         db.query(models.Score).filter(models.Score.job_id == job_id).delete()
 
-        # Save new scores
-        for res in results:
-            # Match resume_id from candidate_id
-            resume_ref = next((r for r in resumes if r.candidate_id == res["candidate_id"]), None)
+        # Save scores (basic fields for now, as model hasn't changed)
+        for cand in rich_results["ranked_candidates"]:
+            resume_ref = next((r for r in resumes if r.candidate_id == cand["candidate_id"]), None)
             if not resume_ref: continue
 
             score_entry = models.Score(
                 resume_id=resume_ref.id,
                 job_id=job_id,
-                original_score=res["original_score"],
-                normalized_score=res["normalized_score"],
-                adjusted_score=res["adjusted_score"],
-                rank=res["rank"]
+                original_score=cand["score_breakdown"]["skills"], # We use this as a reference
+                normalized_score=cand["final_score"], # Simplified for DB
+                adjusted_score=cand["final_score"],
+                rank=cand["rank"]
             )
             db.add(score_entry)
 
@@ -212,9 +212,9 @@ async def create_job(job_description: str, db: Session = Depends(database.get_db
     db.commit()
     return standard_response(data={"job_id": job_id})
 
-@app.post("/api/v1/jobs/{job_id}/score", response_model=List[schemas.CandidateResult])
+@app.post("/api/v1/jobs/{job_id}/score", response_model=schemas.ATSFinalResponse)
 async def run_scoring(job_id: str, db: Session = Depends(database.get_db)):
-    logger.info(f"Starting scoring for job_id: {job_id}")
+    logger.info(f"Starting production scoring for job_id: {job_id}")
     
     # 1. Fetch Job
     job = db.query(models.Job).filter(models.Job.id == job_id).first()
@@ -245,41 +245,33 @@ async def run_scoring(job_id: str, db: Session = Depends(database.get_db)):
 
     # 4. Use service layer for scoring, normalization, bias adjustment, and ranking
     try:
-        results = logic.score_candidates(parsed_resumes, job.job_description)
+        final_output = logic.score_candidates(parsed_resumes, job.job_description)
     except Exception as e:
         logger.error(f"Scoring failed for job {job_id}: {str(e)}")
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=f"Scoring logic failed: {str(e)}")
 
-    # 5. Persist scores for future shortlisting
-    # Clear old scores for this job
+    # 5. Persist scores (minimal persistence to support existing shortlist endpoint)
     db.query(models.Score).filter(models.Score.job_id == job_id).delete()
-    for res in results:
-        resume_ref = next((r for r in resumes if r.candidate_id == res["candidate_id"]), None)
+    for cand in final_output["ranked_candidates"]:
+        resume_ref = next((r for r in resumes if r.candidate_id == cand["candidate_id"]), None)
         if not resume_ref: continue
         
         score_entry = models.Score(
             resume_id=resume_ref.id,
             job_id=job_id,
-            original_score=res["original_score"],
-            normalized_score=res["normalized_score"],
-            adjusted_score=res["adjusted_score"],
-            rank=res["rank"]
+            original_score=cand["score_breakdown"]["skills"], # Proxy for original
+            normalized_score=cand["final_score"],
+            adjusted_score=cand["final_score"],
+            rank=cand["rank"]
         )
         db.add(score_entry)
     db.commit()
 
-    logger.info(f"Successfully completed scoring for job_id: {job_id}. Candidates scored: {len(results)}")
+    logger.info(f"Successfully completed production scoring for job_id: {job_id}. Candidates scored: {len(final_output['ranked_candidates'])}")
     
-    # Return STRICT List of results as requested
-    return [
-        schemas.CandidateResult(
-            candidate_id=res["candidate_id"],
-            original_score=res["original_score"],
-            normalized_score=res["normalized_score"],
-            adjusted_score=res["adjusted_score"],
-            rank=res["rank"]
-        ) for res in results
-    ]
+    return final_output
 
 @app.post("/api/v1/jobs/{job_id}/shortlist", response_model=schemas.APIResponse)
 async def shortlist_candidates(job_id: str, req: schemas.ShortlistRequest, db: Session = Depends(database.get_db)):

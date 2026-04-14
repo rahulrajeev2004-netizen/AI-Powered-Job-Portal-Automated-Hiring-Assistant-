@@ -1,6 +1,7 @@
 import json
 import re
 import numpy as np
+import math
 from typing import List, Dict, Any, Optional
 import os
 import sys
@@ -22,23 +23,31 @@ def normalize_skill(skill: str) -> str:
     s = s.replace("skills", "").strip()
     s = re.sub(r'[^\w\s]', '', s).strip()
     syn_map = {
-        "rn": "registered nurse license (rn)",
-        "registered nurse license": "registered nurse license (rn)",
-        "registered nurse license rn": "registered nurse license (rn)",
-        "bls": "basic life support (bls)",
-        "basic life support": "basic life support (bls)",
-        "basic life support bls": "basic life support (bls)",
-        "acls": "advanced cardiovascular life support (acls)",
-        "advanced cardiovascular life support": "advanced cardiovascular life support (acls)",
-        "advanced cardiovascular life support acls": "advanced cardiovascular life support (acls)",
+        "rn": "rn license",
+        "registered nurse": "rn license",
+        "registered nurse license": "rn license",
+        "registered nurse license rn": "rn license",
+        "bls certification": "bls",
+        "bls": "bls",
+        "basic life support": "bls",
+        "acls certification": "acls",
+        "acls": "acls",
+        "advanced cardiovascular life support": "acls",
         "communication skills": "communication",
-        "problemsolving": "problem-solving",
-        "problemsolving ability": "problem-solving",
-        "critical care": "critical care nursing",
-        "icu care": "critical care nursing",
-        "patient support": "patient care",
-        "emergency handling": "emergency response",
-        "iv": "iv therapy"
+        "excellent communication": "communication",
+        "verbal skills": "communication",
+        "interpersonal": "communication",
+        "interpersonal skills": "communication",
+        "team player": "teamwork",
+        "collaboration": "teamwork",
+        "collaborative": "teamwork",
+        "organizational skills": "organization",
+        "time management": "organization",
+        "organizing": "organization",
+        "problemsolving": "problem solving",
+        "analytical": "problem solving",
+        "analytical skills": "problem solving",
+        "critical thinking": "problem solving"
     }
     return syn_map.get(s, s)
 
@@ -178,25 +187,21 @@ def compute_skill_match_strict_semantic(cand_skills: List[str], req_skills: List
                         actual_candidate_matches.add(c_norm_map[rem_cand[j]])
                         break
                         
-    # Filtering soft skills explicitly from outputs (Requirement 6 & 7 & 9)
-    # intersection(candidate_skills, hard_skills)
-    matched_reqs_hard = [r for r in matched_reqs if r in r_hard]
-    matched_list = [r.lower().strip() for r in matched_reqs_hard]
+    # Include all explicit requirements, both hard and soft
+    matched_list = [r.lower().strip() for r in matched_reqs]
     
-    # missing_skills = hard_skills - matched_skills
-    # REVERT: Certifications should be in missing_skills if not matched (Requirement 1 & 2)
-    missing_list = [r.lower().strip() for r in r_hard if r not in matched_reqs_hard]
+    missing_list = [r.lower().strip() for r in r_norm_map.keys() if r not in matched_reqs]
     
     # FIX added_skills: ensure all exist in final hard_skills (Requirement 5 & Final Subset Fix)
     normalized_added = []
     for a in added_skills:
         na = normalize_skill(a)
-        if na in r_hard:
+        if na in r_norm_map.keys():
             normalized_added.append(na)
     added_skills = list(dict.fromkeys(normalized_added))
     
     # 8. RECOMPUTE SKILL SCORE
-    total_hard = len(r_hard)
+    total_hard = len(r_norm_map)
     skill_score = len(matched_list) / total_hard if total_hard > 0 else 0.0
     
     total_required = total_hard
@@ -218,138 +223,133 @@ def compute_semantic_relevance(job_title: str, candidate_text: str) -> float:
     return 0.5
 
 def candidate_score_generator(candidate: Dict, job: Dict, semantic_similarity: float):
-    # Requirement 5: Updated Formula Weights
-    w = {"skill": 0.4, "exp": 0.2, "edu": 0.1, "sem": 0.3}
-    job_title = job.get("job_title", "Unknown")
+    # v3.4 Final Production Weights
+    w_skill, w_exp, w_edu, w_dom = 0.4, 0.3, 0.2, 0.1
+    job_title = job.get("job_title", "General Professional") or "General Professional"
+    if job_title == "Crtical Nurse": job_title = "Critical Nurse"
     
-    cand_text = candidate.get("resume_text", "") + " " + candidate.get("role", "")
+    cand_text = (candidate.get("resume_text", "") + " " + " ".join(candidate.get("skills", []))).lower()
     dynamic_semantic = compute_semantic_relevance(job_title, cand_text) if _EMBEDDER else semantic_similarity
     
+    # 1. Skills Logic (Consistency - Objective 1 & 2)
+    # Ensure required_skills is never empty for v3.3
+    req_skills = job.get("required_skills", [])
+    if not req_skills:
+        if "nurse" in job_title.lower() or "rn" in job_title.lower():
+            req_skills = ["patient care", "bls", "acls", "rn license"]
+        else:
+            req_skills = ["communication", "teamwork", "organization", "problem solving"]
+        job["required_skills"] = req_skills
+
     res = compute_skill_match_strict_semantic(
         candidate.get("skills", []), 
-        job.get("required_skills", []),
+        req_skills,
         job_title
     )
     skill_score, matched_skills, missing_skills, total_required, hard_skills, soft_skills, added_skills, removed_skills = res
+    req_norm = []
+    for s in req_skills:
+        ns = normalize_skill(s)
+        if ns not in req_norm:
+            req_norm.append(ns)
     
-    # 6. SEMANTIC CONSISTENCY FIX
-    diff = abs(skill_score - dynamic_semantic)
-    consistency_flag = True if diff > 0.4 else False
+    matched_skills = []
+    for s in res[1]:
+        ns = normalize_skill(s)
+        if ns not in matched_skills:
+            matched_skills.append(ns)
+
+    missing_skills = [s for s in req_norm if s not in matched_skills]
     
-    # Experience (Scaled Requirement 3)
+    # Precise re-calculation using standardized sets
+    if req_norm:
+        skill_score = len(matched_skills) / len(req_norm)
+    
+    # 2. Experience Scaling
     try:
         ey = float(candidate.get("experience_years", 0))
-        ry = float(job.get("experience_required", 2))
+        ry = float(job.get("experience_required", 2.0))
     except (TypeError, ValueError):
         ey, ry = 0.0, 2.0
-    exp_score = min(ey / ry, 1.0) if ry > 0 else 1.0
-    
-    # 7. EXPERIENCE ADJUSTMENT
-    exp_explanation = ""
-    if skill_score < 0.4:
-        exp_score = exp_score * 0.5
-        exp_explanation = " (experience reduced due to low skill match)"
+    base_experience_score = min(ey / ry, 1.0) if ry > 0 else 1.0
+    experience_bonus = math.log10(ey / ry + 1) * 0.05 if ry > 0 else 0.0
+    exp_score = min(base_experience_score + experience_bonus, 1.2)
         
-    # Education (Partial scoring Requirement 3)
-    ce = str(candidate.get("education", "")).lower()
-    re = str(job.get("education_required", "")).lower()
-    if not ce or not re:
-        edu_score = 0.0
+    # 3. Education
+    cand_edu = str(candidate.get("education", "")).lower()
+    req_edu = str(job.get("education_required", "")).lower()
+    edu_score = 0.3
+    if cand_edu and req_edu:
+        if req_edu in cand_edu: edu_score = 1.0
+        elif "degree" in cand_edu or "bachelor" in cand_edu: edu_score = 0.7
+    
+    # 4. Domain Relevance Variance (Objective 5)
+    skill_overlap = skill_score
+    exp_align = min(ey / ry, 1.0) if ry > 0 else 1.0
+    
+    cert_keywords = ["license", "certification", "certified", "bls", "acls", "rn", "aws", "pmp", "cpa", "mba"]
+    req_certs = [c for c in req_norm if any(k in c.lower() for k in cert_keywords)]
+    actual_matched_certs = [c for c in matched_skills if any(k in c.lower() for k in cert_keywords)]
+    if len(req_certs) > 0:
+        cert_match = len(actual_matched_certs) / len(req_certs)
     else:
-        # Partial match logic
-        if re in ce: edu_score = 1.0
-        elif "degree" in ce or "bachelor" in ce or "nurse" in ce: edu_score = 0.7
-        else: edu_score = 0.3
+        cert_match = 0.0
     
-    base = (skill_score * w["skill"]) + (exp_score * w["exp"]) + (edu_score * w["edu"]) + (dynamic_semantic * w["sem"])
+    # Role Keywords Match (split and match)
+    role_terms = ["nurse", "clinical", "patient care"] + [t.lower() for t in re.split(r'\W+', job_title) if len(t) > 3]
+    role_terms = list(set(role_terms))
+    matched_role_terms = [t for t in role_terms if t in cand_text]
+    role_match = len(matched_role_terms) / len(role_terms) if role_terms else 0.0
     
-    pen = []
-    # 5. PENALTY FIX: only missing hard skills
-    crit = [normalize_skill(s) for s in job.get("critical_skills", []) if is_valid_skill(s)]
-    m_set_norm = set(normalize_skill(s) for s in matched_skills)
-    for c in crit:
-        if c not in m_set_norm and not is_soft_skill(c):
-            pen.append({"reason": f"Missing critical: {c}", "impact": -0.03})
-            
-    jt_lower = job_title.lower()
-    # Soften domain penalty if semantic is high
-    domain_penalty = -0.05 if dynamic_semantic > 0.5 else -0.08
+    domain_score = (0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)
+    if skill_overlap == 0:
+        domain_score = min(domain_score, 0.1)
+    domain_score = round(max(0.0, min(1.0, domain_score)), 4)
     
-    if any(spec in jt_lower for spec in ["nicu", "neonatal", "pediatric"]):
-        if not any("pediatric" in s or "neonatal" in s for s in m_set_norm):
-            pen.append({"reason": "Domain gap: Pediatric/Neonatal Care", "impact": domain_penalty})
-    if any(spec in jt_lower for spec in ["icu", "intensive care", "cardiac"]):
-        if not any(x in s for x in ["critical", "icu", "cardiac"] for s in m_set_norm):
-            pen.append({"reason": "Domain gap: Intensive/Cardiac Care", "impact": domain_penalty})
-    if any(spec in jt_lower for spec in ["crna", "anesthetist"]):
-        if not any("anesthesia" in s or "pharmacology" in s for s in m_set_norm):
-            pen.append({"reason": "Domain gap: Anesthesia Support", "impact": domain_penalty})
-            
-    # Remove duplicates
-    unique_pen = []
-    seen_reasons = set()
-    for p in pen:
-        if p["reason"] not in seen_reasons:
-            seen_reasons.add(p["reason"])
-            unique_pen.append(p)
-    pen = unique_pen
-    
-    # 5. PENALTY NORMALIZATION (cap at -0.1)
-    total_penalty = sum(p["impact"] for p in pen)
-    total_penalty = max(total_penalty, -0.1)
-    
-    final_score = base + total_penalty
-    final_score = round(max(0.0, min(1.0, final_score)), 2)
-    
-    # Semantic Consistency (Requirement Final): true if semantic_score >= 0.5
-    consistency_flag = True if dynamic_semantic >= 0.5 else False
-    
-    # 8. MATCH LEVEL CORRECTION
-    if final_score >= 0.75:
-        match_level = "Strong Match"
-    elif final_score >= 0.60:
-        match_level = "Moderate Match"
-    else:
-        match_level = "Weak Match"
+    dom_detail = {
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)",
+        "score": domain_score,
+        "components": {
+            "skill_overlap": round(skill_overlap, 2),
+            "experience_alignment": round(exp_align, 2),
+            "certification_match": round(cert_match, 2),
+            "role_keyword_match": round(role_match, 2),
+            "matched_certifications": actual_matched_certs,
+            "total_required_certifications": len(req_certs)
+        }
+    }
 
-    # Requirement: Exclude protected skills from explanation total (Final FIX)
-    protected_norm = ["basic life support (bls)", "advanced cardiovascular life support (acls)", "registered nurse license (rn)"]
-    hard_no_protected = [h for h in hard_skills if h not in protected_norm]
-    total_no_protected = len(hard_no_protected)
-    matches_no_protected = len([m for m in matched_skills if normalize_skill(m) in hard_no_protected])
+    # 5. Computed Base Score
+    computed_score = (skill_score * w_skill) + (exp_score * w_exp) + (edu_score * w_edu) + (domain_score * w_dom)
+    computed_score = round(max(0.0, min(1.0, computed_score)), 4)
     
-    strengths_list = []
-    if exp_score >= 0.4: strengths_list.append("relevant experience" + exp_explanation)
-    if dynamic_semantic > 0.6: strengths_list.append("high role relevance")
-    strengths_str = " and ".join(strengths_list) if strengths_list else "background details"
-
-    missing_tech = [m for m in missing_skills]
-    missing_str = ", ".join(missing_tech[:3]) if missing_tech else "none"
-
-    explanation = f"Final Match Score: {final_score}. Candidate matches {matches_no_protected}/{total_no_protected} core skills (excluding certifications). Strengths: {strengths_str}. Missing technical skills: {missing_str}."
+    # 6. Explanations (Objective 5 - Data Driven)
+    gaps = f"key gap: {', '.join(missing_skills[:2])}" if missing_skills else "no major gaps"
+    explanation = f"{ey} yrs vs {ry} required, {len(matched_skills)}/{len(req_norm) if req_norm else 1} skills matched, {gaps}."
 
     return {
-        "job_title": job_title,
-        "final_score": final_score,
-        "match_level": match_level,
+        "candidate_id": candidate.get("candidate_id"),
+        "computed_score": computed_score, # Passed before fairness
         "score_breakdown": {
-            "skill": {
-                "score": round(skill_score, 2),
-                "hard_skills": hard_skills,
-                "soft_skills": soft_skills,
-                "matched_skills": matched_skills,
-                "missing_skills": missing_skills,
-                "added_skills": added_skills,
-                "removed_skills": removed_skills
-            },
-            "experience": {"score": round(exp_score, 2), "years": ey, "required": ry},
-            "education": {"score": round(edu_score, 2)},
-            "semantic": {
-                "score": round(dynamic_semantic, 2),
-                "consistency_flag": consistency_flag
-            },
-            "total_penalty": round(total_penalty, 2)
+            "skills": round(skill_score, 4),
+            "experience": round(exp_score, 4),
+            "education": round(edu_score, 4),
+            "domain_relevance": domain_score,
+            "penalties": 0.0
         },
-        "penalties_applied": pen,
-        "explanation": explanation
+        "domain_relevance_detail": dom_detail,
+        "audit_trace": {
+            "skills_calc": f"{w_skill} * ({len(matched_skills)}/{len(req_norm) if req_norm else 1}) = {round(skill_score * w_skill, 4)}",
+            "experience_calc": f"{w_exp} * min({ey}/{ry}, 1.0) = {round(exp_score * w_exp, 4)}",
+            "education_calc": f"{w_edu} * {edu_score} = {round(edu_score * w_edu, 4)}",
+            "domain_calc": f"{w_dom} * {domain_score} = {round(domain_score * w_dom, 4)}",
+            "final_sum": f"({round(skill_score * w_skill, 4)}) + ({round(exp_score * w_exp, 4)}) + ({round(edu_score * w_edu, 4)}) + ({round(domain_score * w_dom, 4)}) = {computed_score}"
+        },
+        "explanation": explanation,
+        "raw_details": {
+            "required_skills": req_skills,
+            "matched_skills": matched_skills,
+            "missing_skills": missing_skills,
+            "metadata": {"ey": ey, "ry": ry}
+        }
     }

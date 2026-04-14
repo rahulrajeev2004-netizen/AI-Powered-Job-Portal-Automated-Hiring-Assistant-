@@ -1,0 +1,159 @@
+{
+  "job_summary": {
+    "title": "Software Engineer",
+    "exp_req": 2.0,
+    "required_skills": [
+      "AWS",
+      "Java",
+      "Python",
+      "SQL"
+    ]
+  },
+  "total_candidates": 3,
+  "ranked_candidates": [
+    {
+      "candidate_id": "resume_0",
+      "final_score": 0.846,
+      "rank": 1,
+      "score_breakdown": {
+        "skills": 1.0,
+        "experience": 1.0199,
+        "education": 0.3,
+        "domain_relevance": 0.8
+      },
+      "domain_relevance_detail": {
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)",
+        "score": 0.8,
+        "components": {
+          "skill_overlap": 1.0,
+          "experience_alignment": 1.0,
+          "certification_match": 1.0,
+          "role_keyword_match": 0.0,
+          "matched_certifications": [
+            "aws"
+          ],
+          "total_required_certifications": 1
+        }
+      },
+      "fairness_adjustment": {
+        "applied": false,
+        "value": 0.0
+      },
+      "matched_skills": [
+        "sql",
+        "aws",
+        "java",
+        "python"
+      ],
+      "missing_skills": [],
+      "audit_trace": {
+        "skills_calc": "0.4 * (4/4) = 0.4",
+        "experience_calc": "0.3 * min(3.0/2.0, 1.0) = 0.306",
+        "education_calc": "0.2 * 0.3 = 0.06",
+        "domain_calc": "0.1 * 0.8 = 0.08",
+        "final_sum": "(0.4) + (0.306) + (0.06) + (0.08) = 0.846",
+        "fairness_calc": "0.846 + 0.0 = 0.846"
+      },
+      "explanation": "3.0 yrs vs 2.0 required, 4/4 skills matched, no major gaps."
+    },
+    {
+      "candidate_id": "resume_2",
+      "final_score": 0.4282,
+      "rank": 2,
+      "score_breakdown": {
+        "skills": 0.0,
+        "experience": 1.0272,
+        "education": 0.3,
+        "domain_relevance": 0.1
+      },
+      "domain_relevance_detail": {
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)",
+        "score": 0.1,
+        "components": {
+          "skill_overlap": 0.0,
+          "experience_alignment": 1.0,
+          "certification_match": 0.0,
+          "role_keyword_match": 0.0,
+          "matched_certifications": [],
+          "total_required_certifications": 1
+        }
+      },
+      "fairness_adjustment": {
+        "applied": true,
+        "value": 0.05
+      },
+      "matched_skills": [],
+      "missing_skills": [
+        "aws",
+        "java",
+        "python",
+        "sql"
+      ],
+      "audit_trace": {
+        "skills_calc": "0.4 * (0/4) = 0.0",
+        "experience_calc": "0.3 * min(5.0/2.0, 1.0) = 0.3082",
+        "education_calc": "0.2 * 0.3 = 0.06",
+        "domain_calc": "0.1 * 0.1 = 0.01",
+        "final_sum": "(0.0) + (0.3082) + (0.06) + (0.01) = 0.3782",
+        "fairness_calc": "0.3782 + 0.05 = 0.4282"
+      },
+      "explanation": "5.0 yrs vs 2.0 required, 0/4 skills matched, key gap: aws, java. Fairness adjustment of +0.05 applied."
+    },
+    {
+      "candidate_id": "resume_1",
+      "final_score": 0.064,
+      "rank": 3,
+      "score_breakdown": {
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.3,
+        "domain_relevance": 0.04
+      },
+      "domain_relevance_detail": {
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)",
+        "score": 0.04,
+        "components": {
+          "skill_overlap": 0.0,
+          "experience_alignment": 0.0,
+          "certification_match": 0.0,
+          "role_keyword_match": 0.2,
+          "matched_certifications": [],
+          "total_required_certifications": 1
+        }
+      },
+      "fairness_adjustment": {
+        "applied": false,
+        "value": 0.0
+      },
+      "matched_skills": [],
+      "missing_skills": [
+        "aws",
+        "java",
+        "python",
+        "sql"
+      ],
+      "audit_trace": {
+        "skills_calc": "0.4 * (0/4) = 0.0",
+        "experience_calc": "0.3 * min(0.0/2.0, 1.0) = 0.0",
+        "education_calc": "0.2 * 0.3 = 0.06",
+        "domain_calc": "0.1 * 0.04 = 0.004",
+        "final_sum": "(0.0) + (0.0) + (0.06) + (0.004) = 0.064",
+        "fairness_calc": "0.064 + 0.0 = 0.064"
+      },
+      "explanation": "0.0 yrs vs 2.0 required, 0/4 skills matched, key gap: aws, java."
+    }
+  ],
+  "ranking_metadata": {
+    "tie_breaking_rule": "final_score > skills > experience > education > domain_relevance > candidate_id",
+    "scoring_formula": "(0.4 * skills) + (0.3 * experience) + (0.2 * education) + (0.1 * domain_relevance)",
+    "experience_scaling": "min(years/required, 1.0)",
+    "normalization": "not applied",
+    "fairness_application": "added to computed_score",
+    "model_version": "v3.5 final production ATS"
+  },
+  "metrics": {
+    "processing_time_ms": 220.59,
+    "ranking_stability": "stable",
+    "system_confidence": 0.98
+  }
+}

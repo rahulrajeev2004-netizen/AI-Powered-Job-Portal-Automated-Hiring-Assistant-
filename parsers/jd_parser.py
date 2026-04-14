@@ -234,16 +234,16 @@ DEGREE_NORMALIZATIONS: dict[str, str] = {
 # SECTION HEADING PATTERNS (for JD document splitting)
 # ---------------------------------------------------------------------------
 _SECTION_PATTERNS = {
-    "summary":          r"(?i)^(?:job\s+)?summary|^about\s+the\s+(?:role|job|position)|^overview",
-    "responsibilities": r"(?i)^responsibilities|^duties|^what\s+you[''']?ll\s+do|^role\s+&?\s*responsibilities|^key\s+responsibilities",
-    "requirements":     r"(?i)^requirements|^what\s+we[''']?re?\s+looking\s+for|^must[\s-]have",
-    "qualifications":   r"(?i)^qualifications|^minimum\s+qualifications",
-    "skills":           r"(?i)^skills\s*(?:required|needed)?$|^technical\s+skills|^tech\s+stack|^core\s+competenc|^skills\s+required",
-    "education":        r"(?i)^education(?:al)?\s*(?:requirements?|qualifications?|background)?",
-    "experience":       r"(?i)^experience\s*(?:required|requirements?)?",
-    "benefits":         r"(?i)^benefits?|^perks|^what\s+we\s+offer|^compensation|^why\s+(?:join\s+us|us)",
-    "preferred":        r"(?i)^preferred|^nice[\s-]to[\s-]have|^bonus|^good\s+to\s+have|^plus\s+if\s+you",
-    "work_settings":    r"(?i)^work\s+settings?|^work\s+environment|^settings?\s+include|^where\s+you[''']?ll\s+work",
+    "summary":          r"(?i)^\s*(?:job\s+)?summary|^about\s+the\s+(?:role|job|position)|^overview",
+    "responsibilities": r"(?i)^\s*responsibilities|^duties|^what\s+you[''']?ll\s+do|^role\s+&?\s*responsibilities|^key\s+responsibilities",
+    "requirements":     r"(?i)^\s*requirements|^what\s+we[''']?re?\s+looking\s+for|^must[\s-]have",
+    "qualifications":   r"(?i)^\s*qualifications|^minimum\s+qualifications",
+    "skills":           r"(?i)^\s*(?:required\s+)?skills\s*(?:required|needed)?[:\-]*$|^technical\s+skills|^tech\s+stack|^core\s+competenc",
+    "education":        r"(?i)^\s*education(?:al)?\s*(?:requirements?|qualifications?|background)?",
+    "experience":       r"(?i)^\s*experience\s*(?:required|requirements?)?",
+    "benefits":         r"(?i)^\s*benefits?|^perks|^what\s+we\s+offer|^compensation|^why\s+(?:join\s+us|us)",
+    "preferred":        r"(?i)^\s*preferred|^nice[\s-]to[\s-]have|^bonus|^good\s+to\s+have|^plus\s+if\s+you",
+    "work_settings":    r"(?i)^\s*work\s+settings?|^work\s+environment|^settings?\s+include|^where\s+you[''']?ll\s+work",
 }
 
 # ---------------------------------------------------------------------------
