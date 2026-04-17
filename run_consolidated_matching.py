@@ -119,14 +119,34 @@ def generate_comprehensive_report():
             }
             
             semantic_score = 0.85 if any(k in jd_processed["job_title"].lower() for k in ["nurse", "clinical", "health"]) else 0.2
-            match_result = candidate_score_generator(resume_processed, jd_processed, semantic_score)
-            all_candidate_matches[res_key].append(match_result)
+            
+            resume_processed["candidate_id"] = res_key
+            full_result = candidate_score_generator(resume_processed, jd_processed, semantic_score)
+            
+            # SIMPLIFIED STRUCTURE (AS PER SCREENSHOT)
+            score = full_result["computed_score"]
+            match_level = "Weak Match"
+            if score >= 0.65: match_level = "Strong Match"
+            elif score >= 0.40: match_level = "Moderate Match"
+            
+            # Determine if any major penalty was applied
+            penalties = []
+            if full_result.get("domain_relevance_detail", {}).get("note"):
+                penalties.append("Domain Penalty")
 
-        # Sort matches for this candidate: By Level priority then by Score
-        # Match Level Hierarchy: Strong=3, Moderate=2, Weak=1
+            simplified_result = {
+                "job_title": jd_processed["job_title"].lower(),
+                "final_score": round(score, 2),
+                "match_level": match_level,
+                "penalty_applied": penalties
+            }
+            
+            all_candidate_matches[res_key].append(simplified_result)
+
+        # Sort matches: By Level priority then by Score
         def sort_key(x):
             level_map = {"Strong Match": 3, "Moderate Match": 2, "Weak Match": 1}
-            return (level_map.get(x.get("match_level", "Weak Match"), 0), x.get("final_score", 0.0))
+            return (level_map.get(x["match_level"], 0), x["final_score"])
             
         all_candidate_matches[res_key].sort(key=sort_key, reverse=True)
 

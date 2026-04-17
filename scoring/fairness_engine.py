@@ -53,40 +53,27 @@ class FairnessEngine:
                 "bias_analysis": {"bias_detected": False, "reason": "No candidates.", "method": "min-max"}
             }
 
-        # 1. Duplicate Detection & Deduplication (Objective 4)
-        seen_fingerprints = {}
-        unique_candidates = []
-        for cand in candidates:
-            # Fingerprint based on breakdown values and explanation to detect true duplicates
-            breakdown = cand.get("breakdown", {})
-            explanation = cand.get("explanation", "")
-            fingerprint = f"{json.dumps(breakdown, sort_keys=True)}|{explanation}"
-            
-            if fingerprint in seen_fingerprints:
-                print(f"[DEBUG FAIRNESS] Duplicate candidate detected: {cand.get('candidate_id')}. Matching with {seen_fingerprints[fingerprint]}")
-                continue # Skip duplicates
-            
-            seen_fingerprints[fingerprint] = cand.get("candidate_id")
-            unique_candidates.append(cand)
+        # 1. Normalization (Objective 2)
+        raw_scores = [c.get("original_score", 0.0) for c in candidates]
+        if not raw_scores:
+            return job_data # Fallback
 
-        # 2. Normalization (Objective 2)
-        raw_scores = [c.get("original_score", 0.0) for c in unique_candidates]
         max_s = max(raw_scores)
         min_s = min(raw_scores)
         rng = max_s - min_s
         scaling_factor = round(1.0 / rng, 4) if rng > 0 else 1.0
-
+        
         processed = []
-        for c in unique_candidates:
+        for c in candidates:
             orig = c.get("original_score", 0.0)
             norm = (orig - min_s) / rng if rng > 0 else 1.0
             norm = round(norm, 4)
 
-            # 3. Bias Adjustment (Objective 6)
+            # 2. Bias Adjustment (Objective 6)
             flag = self._should_flag(norm)
             adj = min(norm + self.boost, 1.0) if flag else norm
             
-            # Extract breakdown metrics for tie-breaking (Objective 1)
+            # Extract breakdown metrics for tie-breaking
             breakdown = c.get("breakdown", {})
             processed.append({
                 "candidate_id": c.get("candidate_id"),
@@ -95,19 +82,18 @@ class FairnessEngine:
                 "bias_flag": flag,
                 "adjustment_applied": self.boost if flag else 0.0,
                 "adjusted_score": round(adj, 4),
-                "final_score": round(adj, 2), # Final display score
+                "final_score": round(adj, 2),
                 "skills": breakdown.get("skills", 0.0),
                 "experience": breakdown.get("experience", 0.0),
                 "education": breakdown.get("education", 0.0),
                 "domain_relevance": breakdown.get("domain_relevance", 0.0)
             })
 
-        # 4. Deterministic Ranking (Objective 1)
-        # Hierarchy: final_score -> skills -> experience -> education -> domain_relevance -> candidate_id
+        # 3. Deterministic Multi-Level Sort (Requirement 11)
         sorted_c = sorted(
             processed,
             key=lambda x: (
-                -x["final_score"], 
+                -x["adjusted_score"], 
                 -x["skills"], 
                 -x["experience"], 
                 -x["education"], 
@@ -119,6 +105,27 @@ class FairnessEngine:
         final = []
         for i, c in enumerate(sorted_c):
             c["rank"] = i + 1
+            tie_break_field = None
+            
+            # Requirement 11: Apply tie-break info only to entries that actually benefited or were ranked relative to a tied score
+            neighbors = []
+            if i > 0: neighbors.append(sorted_c[i-1])
+            if i < len(sorted_c) - 1: neighbors.append(sorted_c[i+1])
+            
+            for n in neighbors:
+                if c["adjusted_score"] == n["adjusted_score"]:
+                    # Score tie exists
+                    for field in ["skills", "experience", "education", "domain_relevance"]:
+                        if c[field] != n[field]:
+                            tie_break_field = field
+                            break
+                    if not tie_break_field and c["candidate_id"] != n["candidate_id"]:
+                        tie_break_field = "candidate_id"
+                if tie_break_field: break
+            
+            if tie_break_field:
+                c["tie_break_applied"] = tie_break_field
+            
             final.append(c)
 
         bias_analysis = self._build_bias_analysis(final)

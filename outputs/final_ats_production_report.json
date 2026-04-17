@@ -9,30 +9,32 @@
       "SQL"
     ]
   },
-  "total_candidates": 3,
+  "total_candidates": 4,
   "ranked_candidates": [
     {
       "candidate_id": "resume_0",
-      "final_score": 0.846,
+      "final_score": 0.84,
       "rank": 1,
       "score_breakdown": {
-        "skills": 1.0,
-        "experience": 1.0199,
-        "education": 0.3,
-        "domain_relevance": 0.8
+        "skills": 0.4,
+        "experience": 0.3,
+        "education": 0.06,
+        "domain_relevance": 0.08
       },
       "domain_relevance_detail": {
-        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)",
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match_value) + (0.2 * role_match)",
         "score": 0.8,
         "components": {
           "skill_overlap": 1.0,
           "experience_alignment": 1.0,
-          "certification_match": 1.0,
-          "role_keyword_match": 0.0,
-          "matched_certifications": [
-            "aws"
-          ],
-          "total_required_certifications": 1
+          "cert_match_value": 1.0,
+          "certification_details": {
+            "matched": [
+              "aws"
+            ],
+            "missing": []
+          },
+          "role_keyword_match": 0.0
         }
       },
       "fairness_adjustment": {
@@ -40,47 +42,101 @@
         "value": 0.0
       },
       "matched_skills": [
-        "sql",
         "aws",
         "java",
+        "sql",
         "python"
       ],
       "missing_skills": [],
       "audit_trace": {
         "skills_calc": "0.4 * (4/4) = 0.4",
-        "experience_calc": "0.3 * min(3.0/2.0, 1.0) = 0.306",
+        "experience_calc": "0.3 * min(3.0/2.0, 1.0) = 0.3",
         "education_calc": "0.2 * 0.3 = 0.06",
         "domain_calc": "0.1 * 0.8 = 0.08",
-        "final_sum": "(0.4) + (0.306) + (0.06) + (0.08) = 0.846",
-        "fairness_calc": "0.846 + 0.0 = 0.846"
+        "final_sum": "(0.4) + (0.3) + (0.06) + (0.08) = 0.84",
+        "fairness_calc": "0.84 + 0.0 = 0.84"
       },
-      "explanation": "3.0 yrs vs 2.0 required, 4/4 skills matched, no major gaps."
+      "explanation": "Exp: 3.0\u21921.0 (cap), Skills: 4/4, Certs: 1/1, Domain: 0.8; No major gaps",
+      "tie_break_applied": "candidate_id"
     },
     {
-      "candidate_id": "resume_2",
-      "final_score": 0.4282,
+      "candidate_id": "resume_0_dup",
+      "final_score": 0.84,
       "rank": 2,
       "score_breakdown": {
-        "skills": 0.0,
-        "experience": 1.0272,
-        "education": 0.3,
-        "domain_relevance": 0.1
+        "skills": 0.4,
+        "experience": 0.3,
+        "education": 0.06,
+        "domain_relevance": 0.08
       },
       "domain_relevance_detail": {
-        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)",
-        "score": 0.1,
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match_value) + (0.2 * role_match)",
+        "score": 0.8,
         "components": {
-          "skill_overlap": 0.0,
+          "skill_overlap": 1.0,
           "experience_alignment": 1.0,
-          "certification_match": 0.0,
-          "role_keyword_match": 0.0,
-          "matched_certifications": [],
-          "total_required_certifications": 1
+          "cert_match_value": 1.0,
+          "certification_details": {
+            "matched": [
+              "aws"
+            ],
+            "missing": []
+          },
+          "role_keyword_match": 0.0
         }
       },
       "fairness_adjustment": {
-        "applied": true,
-        "value": 0.05
+        "applied": false,
+        "value": 0.0
+      },
+      "matched_skills": [
+        "aws",
+        "java",
+        "sql",
+        "python"
+      ],
+      "missing_skills": [],
+      "audit_trace": {
+        "skills_calc": "0.4 * (4/4) = 0.4",
+        "experience_calc": "0.3 * min(3.0/2.0, 1.0) = 0.3",
+        "education_calc": "0.2 * 0.3 = 0.06",
+        "domain_calc": "0.1 * 0.8 = 0.08",
+        "final_sum": "(0.4) + (0.3) + (0.06) + (0.08) = 0.84",
+        "fairness_calc": "0.84 + 0.0 = 0.84"
+      },
+      "explanation": "Exp: 3.0\u21921.0 (cap), Skills: 4/4, Certs: 1/1, Domain: 0.8; No major gaps",
+      "tie_break_applied": "candidate_id"
+    },
+    {
+      "candidate_id": "resume_2",
+      "final_score": 0.365,
+      "rank": 3,
+      "score_breakdown": {
+        "skills": 0.0,
+        "experience": 0.3,
+        "education": 0.06,
+        "domain_relevance": 0.005
+      },
+      "domain_relevance_detail": {
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match_value) + (0.2 * role_match)",
+        "score": 0.05,
+        "components": {
+          "skill_overlap": 0.0,
+          "experience_alignment": 1.0,
+          "cert_match_value": 0.0,
+          "certification_details": {
+            "matched": [],
+            "missing": [
+              "aws"
+            ]
+          },
+          "role_keyword_match": 0.0
+        },
+        "note": "Low due to zero skill overlap"
+      },
+      "fairness_adjustment": {
+        "applied": false,
+        "value": 0.0
       },
       "matched_skills": [],
       "missing_skills": [
@@ -91,35 +147,40 @@
       ],
       "audit_trace": {
         "skills_calc": "0.4 * (0/4) = 0.0",
-        "experience_calc": "0.3 * min(5.0/2.0, 1.0) = 0.3082",
+        "experience_calc": "0.3 * min(5.0/2.0, 1.0) = 0.3",
         "education_calc": "0.2 * 0.3 = 0.06",
-        "domain_calc": "0.1 * 0.1 = 0.01",
-        "final_sum": "(0.0) + (0.3082) + (0.06) + (0.01) = 0.3782",
-        "fairness_calc": "0.3782 + 0.05 = 0.4282"
+        "domain_calc": "0.1 * 0.05 = 0.005",
+        "final_sum": "(0.0) + (0.3) + (0.06) + (0.005) = 0.365",
+        "fairness_calc": "0.365 + 0.0 = 0.365"
       },
-      "explanation": "5.0 yrs vs 2.0 required, 0/4 skills matched, key gap: aws, java. Fairness adjustment of +0.05 applied."
+      "explanation": "Exp: 5.0\u21921.0 (cap), Skills: 0/4, Certs: 0/1, Domain: 0.05; Gaps: aws, java, python (+1 more)"
     },
     {
       "candidate_id": "resume_1",
-      "final_score": 0.064,
-      "rank": 3,
+      "final_score": 0.061,
+      "rank": 4,
       "score_breakdown": {
         "skills": 0.0,
         "experience": 0.0,
-        "education": 0.3,
-        "domain_relevance": 0.04
+        "education": 0.06,
+        "domain_relevance": 0.001
       },
       "domain_relevance_detail": {
-        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)",
-        "score": 0.04,
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match_value) + (0.2 * role_match)",
+        "score": 0.01,
         "components": {
           "skill_overlap": 0.0,
           "experience_alignment": 0.0,
-          "certification_match": 0.0,
-          "role_keyword_match": 0.2,
-          "matched_certifications": [],
-          "total_required_certifications": 1
-        }
+          "cert_match_value": 0.0,
+          "certification_details": {
+            "matched": [],
+            "missing": [
+              "aws"
+            ]
+          },
+          "role_keyword_match": 0.25
+        },
+        "note": "Low due to zero skill overlap"
       },
       "fairness_adjustment": {
         "applied": false,
@@ -136,11 +197,11 @@
         "skills_calc": "0.4 * (0/4) = 0.0",
         "experience_calc": "0.3 * min(0.0/2.0, 1.0) = 0.0",
         "education_calc": "0.2 * 0.3 = 0.06",
-        "domain_calc": "0.1 * 0.04 = 0.004",
-        "final_sum": "(0.0) + (0.0) + (0.06) + (0.004) = 0.064",
-        "fairness_calc": "0.064 + 0.0 = 0.064"
+        "domain_calc": "0.1 * 0.01 = 0.001",
+        "final_sum": "(0.0) + (0.0) + (0.06) + (0.001) = 0.061",
+        "fairness_calc": "0.061 + 0.0 = 0.061"
       },
-      "explanation": "0.0 yrs vs 2.0 required, 0/4 skills matched, key gap: aws, java."
+      "explanation": "Exp: 0.0\u21920.0, Skills: 0/4, Certs: 0/1, Domain: 0.01; Gaps: aws, java, python (+1 more)"
     }
   ],
   "ranking_metadata": {
@@ -152,7 +213,7 @@
     "model_version": "v3.5 final production ATS"
   },
   "metrics": {
-    "processing_time_ms": 220.59,
+    "processing_time_ms": 218.97,
     "ranking_stability": "stable",
     "system_confidence": 0.98
   }

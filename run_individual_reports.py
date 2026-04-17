@@ -101,7 +101,19 @@ def generate_individual_cross_reports():
         cand_matches = []
         for jd in all_jds:
             semantic_score = 0.85 if any(k in jd["job_title"].lower() for k in ["nurse", "clinical", "health"]) else 0.2
+            # Add candidate_id for new scorer
+            resume_processed["candidate_id"] = res_key
             result = candidate_score_generator(resume_processed, jd, semantic_score)
+            
+            # Map computed_score to final_score for legacy script support
+            result["final_score"] = result["computed_score"]
+            
+            # Add back match_level logic for sorting
+            score = result["final_score"]
+            if score >= 0.65: result["match_level"] = "Strong Match"
+            elif score >= 0.40: result["match_level"] = "Moderate Match"
+            else: result["match_level"] = "Weak Match"
+            
             cand_matches.append(result)
             
         # Sort matches for this candidate: By Level priority then by Score

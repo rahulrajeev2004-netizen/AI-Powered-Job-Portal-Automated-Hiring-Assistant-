@@ -60,13 +60,18 @@ class CandidateRanker:
                 "summary": {"total_candidates": 0, "shortlisted": 0, "review": 0, "rejected": 0, "top_score": 0.0, "pool_quality": "N/A"}
             }
 
-        # Preserve Ranking Integrity
+        # Preserve Ranking Integrity (Day 20 Tie-break Rules)
         def sort_key(c):
+            # Sort by: final_score DESC
+            # Tie-break: skills > experience > education > domain_relevance > candidate_id
+            breakdown = c.get("score_breakdown", {})
             return (
                 -float(c.get("final_score", 0.0)),
-                -float(c.get("skill_match_ratio", 0.0)),
-                -float(c.get("experience_score", c.get("score_breakdown", {}).get("experience", {}).get("score", 0.0))),
-                -float(c.get("semantic_score", c.get("score_breakdown", {}).get("semantic", {}).get("score", 0.0)))
+                -float(breakdown.get("skills", 0.0)),
+                -float(breakdown.get("experience", 0.0)),
+                -float(breakdown.get("education", 0.0)),
+                -float(breakdown.get("domain_relevance", 0.0)),
+                c.get("candidate_id", "Unknown") # candidate_id ASC for stable tie-break
             )
 
         sorted_candidates = sorted(raw_candidates, key=sort_key)

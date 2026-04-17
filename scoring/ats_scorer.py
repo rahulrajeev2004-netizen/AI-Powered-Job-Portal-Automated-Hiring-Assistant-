@@ -2,9 +2,12 @@ import json
 import re
 import numpy as np
 import math
-from typing import List, Dict, Any, Optional
 import os
 import sys
+import logging
+from typing import List, Dict, Any, Optional
+
+logger = logging.getLogger("ats_scorer")
 
 # Optional: Add project root to path for Embedder access
 project_root = os.path.dirname(os.path.abspath(__file__))
@@ -47,7 +50,9 @@ def normalize_skill(skill: str) -> str:
         "problemsolving": "problem solving",
         "analytical": "problem solving",
         "analytical skills": "problem solving",
-        "critical thinking": "problem solving"
+        "critical thinking": "problem solving",
+        "patient care": "patient care",
+        "team coordination": "teamwork"
     }
     return syn_map.get(s, s)
 
@@ -235,10 +240,8 @@ def candidate_score_generator(candidate: Dict, job: Dict, semantic_similarity: f
     # Ensure required_skills is never empty for v3.3
     req_skills = job.get("required_skills", [])
     if not req_skills:
-        if "nurse" in job_title.lower() or "rn" in job_title.lower():
-            req_skills = ["patient care", "bls", "acls", "rn license"]
-        else:
-            req_skills = ["communication", "teamwork", "organization", "problem solving"]
+        # Generic defaults for validation or catch-all
+        req_skills = ["communication", "teamwork", "organization", "problem solving"]
         job["required_skills"] = req_skills
 
     res = compute_skill_match_strict_semantic(
@@ -261,6 +264,14 @@ def candidate_score_generator(candidate: Dict, job: Dict, semantic_similarity: f
 
     missing_skills = [s for s in req_norm if s not in matched_skills]
     
+    def missing_sort_key(s):
+        sl = s.lower()
+        cert_terms = ["license", "certification", "certified", "rn", "aws", "pmp", "cpa", "mba", "msc", "btech"]
+        if any(k in sl for k in cert_terms): return 0
+        if any(k in sl for k in ["acls", "bls"]): return 1
+        return 2
+    missing_skills = sorted(missing_skills, key=missing_sort_key)
+    
     # Precise re-calculation using standardized sets
     if req_norm:
         skill_score = len(matched_skills) / len(req_norm)
@@ -271,17 +282,27 @@ def candidate_score_generator(candidate: Dict, job: Dict, semantic_similarity: f
         ry = float(job.get("experience_required", 2.0))
     except (TypeError, ValueError):
         ey, ry = 0.0, 2.0
-    base_experience_score = min(ey / ry, 1.0) if ry > 0 else 1.0
-    experience_bonus = math.log10(ey / ry + 1) * 0.05 if ry > 0 else 0.0
-    exp_score = min(base_experience_score + experience_bonus, 1.2)
+    exp_score = min(ey / ry, 1.0) if ry > 0 else 1.0
         
-    # 3. Education
+    # 3. Education Score (Discrete - Day 20 Production Rule)
+    edu_score = 0.0
     cand_edu = str(candidate.get("education", "")).lower()
-    req_edu = str(job.get("education_required", "")).lower()
-    edu_score = 0.3
-    if cand_edu and req_edu:
-        if req_edu in cand_edu: edu_score = 1.0
-        elif "degree" in cand_edu or "bachelor" in cand_edu: edu_score = 0.7
+    
+    # Domain specific relevance
+    if any(k in job_title.lower() for k in ["nurse", "clinical", "icu", "health"]):
+        if any(k in cand_edu for k in ["nursing", "bsn", "msc", "nurse"]):
+            edu_score = 1.0
+        elif any(k in cand_edu for k in ["medical", "pharma", "biology"]):
+            edu_score = 0.5
+    elif any(k in job_title.lower() for k in ["engineer", "developer", "software", "tech"]):
+        if any(k in cand_edu for k in ["computer", "engineering", "software"]):
+            edu_score = 1.0
+        elif any(k in cand_edu for k in ["science", "math", "physics"]):
+            edu_score = 0.5
+    else:
+        # General role fallback
+        if len(cand_edu) > 5:
+            edu_score = 0.3
     
     # 4. Domain Relevance Variance (Objective 5)
     skill_overlap = skill_score
@@ -290,60 +311,106 @@ def candidate_score_generator(candidate: Dict, job: Dict, semantic_similarity: f
     cert_keywords = ["license", "certification", "certified", "bls", "acls", "rn", "aws", "pmp", "cpa", "mba"]
     req_certs = [c for c in req_norm if any(k in c.lower() for k in cert_keywords)]
     actual_matched_certs = [c for c in matched_skills if any(k in c.lower() for k in cert_keywords)]
+    actual_missing_certs = [c for c in req_certs if c not in actual_matched_certs]
     if len(req_certs) > 0:
-        cert_match = len(actual_matched_certs) / len(req_certs)
+        cert_match_value = len(actual_matched_certs) / len(req_certs)
     else:
-        cert_match = 0.0
+        cert_match_value = 0.0
+        
+    cert_data = {
+        "matched": actual_matched_certs,
+        "missing": actual_missing_certs
+    }
+    cert_status_text = f"{len(actual_matched_certs)}/{len(req_certs)}" if req_certs else "N/A"
     
-    # Role Keywords Match (split and match)
-    role_terms = ["nurse", "clinical", "patient care"] + [t.lower() for t in re.split(r'\W+', job_title) if len(t) > 3]
+    # Role Keywords Match (discrete normalization: 0, 0.25, 0.5, 0.75, 1.0)
+    role_terms = [t.lower() for t in re.split(r'\W+', job_title) if len(t) > 3]
+    if not role_terms:
+        # Fallback terms for general professional context
+        role_terms = ["management", "operations", "specialist"]
+        
     role_terms = list(set(role_terms))
     matched_role_terms = [t for t in role_terms if t in cand_text]
-    role_match = len(matched_role_terms) / len(role_terms) if role_terms else 0.0
+    raw_role_match = len(matched_role_terms) / len(role_terms) if role_terms else 0.0
     
-    domain_score = (0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)
+    # Snap to discrete values (Normalization 0-1)
+    if raw_role_match >= 0.875: role_match = 1.0
+    elif raw_role_match >= 0.625: role_match = 0.75
+    elif raw_role_match >= 0.375: role_match = 0.5
+    elif raw_role_match >= 0.125: role_match = 0.25
+    else: role_match = 0.0
+    
+    # STRICT RULE: IF skill_overlap == 0, cap role match to 0.3 (non-technical match only)
     if skill_overlap == 0:
-        domain_score = min(domain_score, 0.1)
+        role_match = min(role_match, 0.3)
+        
+    domain_score = (0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match_value) + (0.2 * role_match)
+    
+    # 3. Apply Domain Penalty Rule (CRITICAL Day 20 Requirement)
+    if skill_overlap == 0:
+        domain_score = min(domain_score, 0.02) # Hard cap at 0.02 as per Day 20 Strict Rule
+        cand_id = candidate.get("candidate_id", "Unknown")
+        logger.info(f"Applying strict domain penalty for {cand_id}: skill_overlap is 0.")
+    
     domain_score = round(max(0.0, min(1.0, domain_score)), 4)
     
     dom_detail = {
-        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match) + (0.2 * role_match)",
+        "formula": "(0.35 * skill_overlap) + (0.25 * exp_align) + (0.2 * cert_match_value) + (0.2 * role_match)",
         "score": domain_score,
         "components": {
             "skill_overlap": round(skill_overlap, 2),
             "experience_alignment": round(exp_align, 2),
-            "certification_match": round(cert_match, 2),
-            "role_keyword_match": round(role_match, 2),
-            "matched_certifications": actual_matched_certs,
-            "total_required_certifications": len(req_certs)
+            "cert_match_value": round(cert_match_value, 2),
+            "certification_details": cert_data,
+            "role_keyword_match": round(role_match, 2)
         }
     }
+    if skill_overlap == 0:
+        dom_detail["note"] = "Strong penalty applied due to zero skill overlap (score capped ≤ 0.02)"
 
     # 5. Computed Base Score
-    computed_score = (skill_score * w_skill) + (exp_score * w_exp) + (edu_score * w_edu) + (domain_score * w_dom)
-    computed_score = round(max(0.0, min(1.0, computed_score)), 4)
+    skills_comp = round(skill_score * w_skill, 4)
+    exp_comp = round(exp_score * w_exp, 4)
+    edu_comp = round(edu_score * w_edu, 4)
+    dom_comp = round(domain_score * w_dom, 4)
+    computed_score = round(skills_comp + exp_comp + edu_comp + dom_comp, 4)
     
     # 6. Explanations (Objective 5 - Data Driven)
-    gaps = f"key gap: {', '.join(missing_skills[:2])}" if missing_skills else "no major gaps"
-    explanation = f"{ey} yrs vs {ry} required, {len(matched_skills)}/{len(req_norm) if req_norm else 1} skills matched, {gaps}."
+    # Clean Explanation
+    cert_status = cert_status_text if cert_status_text != "0/0" else "N/A"
+    if len(missing_skills) > 3:
+        gaps = f"Gaps: {', '.join(missing_skills[:3])} (+{len(missing_skills)-3} more)"
+    elif missing_skills:
+        gaps = f"Gaps: {', '.join(missing_skills)}"
+    else:
+        gaps = "No major gaps"
+    
+    explanation = f"Exp: {ey}\u2192{round(exp_score,2)} (cap), Skills: {len(matched_skills)}/{len(req_norm) if req_norm else 1}, Certs: {cert_status}, Domain: {domain_score}; {gaps}"
+    
+    is_low_quality = (len(matched_skills) == 0 and ey == 0)
+    if is_low_quality:
+        explanation = "[LOW QUALITY] " + explanation
+    elif skill_overlap == 0:
+        explanation = "No Skill Match: " + explanation
 
     return {
         "candidate_id": candidate.get("candidate_id"),
         "computed_score": computed_score, # Passed before fairness
+        "quality_flag": "LOW QUALITY" if is_low_quality else "STANDARD",
         "score_breakdown": {
-            "skills": round(skill_score, 4),
-            "experience": round(exp_score, 4),
-            "education": round(edu_score, 4),
-            "domain_relevance": domain_score,
+            "skills": skills_comp,
+            "experience": exp_comp,
+            "education": edu_comp,
+            "domain_relevance": dom_comp,
             "penalties": 0.0
         },
         "domain_relevance_detail": dom_detail,
         "audit_trace": {
-            "skills_calc": f"{w_skill} * ({len(matched_skills)}/{len(req_norm) if req_norm else 1}) = {round(skill_score * w_skill, 4)}",
-            "experience_calc": f"{w_exp} * min({ey}/{ry}, 1.0) = {round(exp_score * w_exp, 4)}",
-            "education_calc": f"{w_edu} * {edu_score} = {round(edu_score * w_edu, 4)}",
-            "domain_calc": f"{w_dom} * {domain_score} = {round(domain_score * w_dom, 4)}",
-            "final_sum": f"({round(skill_score * w_skill, 4)}) + ({round(exp_score * w_exp, 4)}) + ({round(edu_score * w_edu, 4)}) + ({round(domain_score * w_dom, 4)}) = {computed_score}"
+            "skills_calc": f"{w_skill} * ({len(matched_skills)}/{len(req_norm) if req_norm else 1}) = {skills_comp}",
+            "experience_calc": f"{w_exp} * min({ey}/{ry}, 1.0) = {exp_comp}",
+            "education_calc": f"{w_edu} * {edu_score} = {edu_comp}",
+            "domain_calc": f"{w_dom} * {domain_score} = {dom_comp}",
+            "final_sum": f"({skills_comp}) + ({exp_comp}) + ({edu_comp}) + ({dom_comp}) = {computed_score}"
         },
         "explanation": explanation,
         "raw_details": {

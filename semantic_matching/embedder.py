@@ -19,6 +19,9 @@ if hf_token:
 
 warnings.filterwarnings("ignore", category=UserWarning, module="huggingface_hub")
 
+import transformers
+transformers.logging.set_verbosity_error()
+
 
 class Embedder:
     def __init__(self, model_name='sentence-transformers/all-MiniLM-L6-v2'):

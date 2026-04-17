@@ -125,6 +125,9 @@ SKILL_SYNONYMS: dict[str, list[str]] = {
     "Counseling":            ["counseling skills", "patient counseling", "patient counseling and education", "counseling sessions"],
     "Attention to Detail":   ["attention to detail", "high attention to detail", "precision and attention to detail"],
     "CPR / BLS":             ["cpr", "basic life support", "bls", "advanced cardiac life support", "acls"],
+    "RN License":            ["registered nurse", "rn", "rn license", "registered nurse license", "nursing license"],
+    "ICU Care":              ["icu", "intensive care unit", "critical care nursing", "icu care"],
+    "Patient Care":          ["direct patient care", "patient care", "nursing care"],
 }
 
 # Build reverse lookup: alias (lower) → canonical
@@ -501,17 +504,26 @@ def _extract_company(text: str) -> str:
 
 def _extract_job_title(text: str) -> str:
     """Extract job title from JD – typically the first meaningful line or 'Title: ...' pattern."""
-    # Explicit label
+    # 0. Clean the text of common prefixes
+    text = re.sub(r'^\s*\d+[\.\)]\s*', '', text) # Remove "1. " or "1) " at the very start
+
+    # 1. Explicit label (Title: ...)
     m = re.search(r"(?:job\s+)?title\s*[:\-]\s*(.+)", text, re.IGNORECASE)
     if m:
         return m.group(1).strip()
 
-    # First short line that looks like a job title (capitalised, < 8 words)
+    # 2. Heuristic: Look for first short line that looks like a title
     for line in text.split("\n"):
-        stripped = line.strip()
-        words = stripped.split()
-        if 1 < len(words) <= 8 and stripped[0].isupper():
-            return stripped
+        # Skip leading numbers in line
+        clean_line = re.sub(r'^\s*\d+[\.\)]\s*', '', line).strip()
+        if not clean_line:
+            continue
+            
+        words = clean_line.split()
+        # Role titles are usually short and start with uppercase
+        if 1 <= len(words) <= 12 and any(c.isupper() for c in clean_line[:3]):
+            return clean_line
+            
     return ""
 
 

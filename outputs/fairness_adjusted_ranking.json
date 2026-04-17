@@ -3,52 +3,31 @@
     "job_id": "Critical Care Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.59,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.52,
-        "normalized_score": 0.84,
-        "adjusted_score": 0.89,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.42. Variance indicator=0.58. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -56,52 +35,31 @@
     "job_id": "Staff Nurse (Registered Nurse \u2013 RN)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.81,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.46,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.18,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -109,52 +67,31 @@
     "job_id": "Bedside Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.78,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.46,
-        "normalized_score": 0.48,
-        "adjusted_score": 0.53,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.08,
-        "adjusted_score": 0.08,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -162,52 +99,31 @@
     "job_id": "Clinical Research Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.78,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.46,
-        "normalized_score": 0.48,
-        "adjusted_score": 0.53,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.25,
-        "normalized_score": 0.15,
-        "adjusted_score": 0.15,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.24,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -215,52 +131,31 @@
     "job_id": "Patient Care Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.68,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.45,
-        "normalized_score": 0.56,
-        "adjusted_score": 0.61,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.23,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.36. Variance indicator=0.64. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -268,52 +163,31 @@
     "job_id": "Rural Health Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.76,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.44,
-        "normalized_score": 0.46,
-        "adjusted_score": 0.51,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.19,
-        "normalized_score": 0.03,
-        "adjusted_score": 0.03,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.31. Variance indicator=0.69. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -321,52 +195,31 @@
     "job_id": "Mental Health Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.74,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.44,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.19,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -374,52 +227,31 @@
     "job_id": "Military Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.75,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.44,
-        "normalized_score": 0.47,
-        "adjusted_score": 0.52,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.18,
-        "normalized_score": 0.02,
-        "adjusted_score": 0.02,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.32. Variance indicator=0.68. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -427,52 +259,31 @@
     "job_id": "Palliative Care Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.68,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.44,
-        "normalized_score": 0.56,
-        "adjusted_score": 0.61,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.18,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -480,52 +291,31 @@
     "job_id": "Geriatric Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.75,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.44,
-        "normalized_score": 0.47,
-        "adjusted_score": 0.52,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.05,
-        "adjusted_score": 0.05,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.19,
-        "normalized_score": 0.03,
-        "adjusted_score": 0.03,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.31. Variance indicator=0.69. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -533,52 +323,31 @@
     "job_id": "Operating Room (OR) Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.74,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.43,
-        "normalized_score": 0.47,
-        "adjusted_score": 0.52,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.18,
-        "normalized_score": 0.05,
-        "adjusted_score": 0.05,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -586,52 +355,31 @@
     "job_id": "Nurse Educator",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.7,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.43,
-        "normalized_score": 0.5,
-        "adjusted_score": 0.55,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.26,
-        "normalized_score": 0.19,
-        "adjusted_score": 0.19,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.24,
-        "normalized_score": 0.15,
-        "adjusted_score": 0.15,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.37. Variance indicator=0.63. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -639,52 +387,31 @@
     "job_id": "Disaster Relief Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.57,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.43,
-        "normalized_score": 0.69,
-        "adjusted_score": 0.74,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.17,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.13,
-        "normalized_score": 0.02,
-        "adjusted_score": 0.02,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.36. Variance indicator=0.64. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -692,52 +419,31 @@
     "job_id": "Licensed Practical Nurse (LPN) /",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.71,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.5,
-        "adjusted_score": 0.55,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -745,52 +451,31 @@
     "job_id": "Trauma Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.65,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.56,
-        "adjusted_score": 0.61,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.16,
-        "normalized_score": 0.06,
-        "adjusted_score": 0.06,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -798,52 +483,31 @@
     "job_id": "Oncology Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.68,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.51,
-        "adjusted_score": 0.56,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.22,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -851,52 +515,31 @@
     "job_id": "Psychiatric Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.67,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -904,52 +547,31 @@
     "job_id": "Nurse Manager",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.68,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.23,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.08,
-        "adjusted_score": 0.08,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -957,52 +579,31 @@
     "job_id": "Insurance Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.61,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.57,
-        "adjusted_score": 0.62,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.23,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.36. Variance indicator=0.64. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1010,52 +611,31 @@
     "job_id": "Nurse Auditor",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.69,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.48,
-        "adjusted_score": 0.53,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.22,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.08,
-        "adjusted_score": 0.08,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1063,52 +643,31 @@
     "job_id": "Travel Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.67,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.5,
-        "adjusted_score": 0.55,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.23,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.06,
-        "adjusted_score": 0.06,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1116,52 +675,31 @@
     "job_id": "Infection Control Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.71,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1169,52 +707,31 @@
     "job_id": "Counseling Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.69,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.22,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1222,52 +739,31 @@
     "job_id": "Government Staff Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.68,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.42,
-        "normalized_score": 0.52,
-        "adjusted_score": 0.57,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.17,
-        "normalized_score": 0.06,
-        "adjusted_score": 0.06,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1275,52 +771,31 @@
     "job_id": "Nurse Midwife (CNM)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.63,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.41,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1328,52 +803,31 @@
     "job_id": "Home Health Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.66,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.41,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.17,
-        "normalized_score": 0.08,
-        "adjusted_score": 0.08,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1381,52 +835,31 @@
     "job_id": "ICU Nurse (Intensive Care Unit Nurse)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.66,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.41,
-        "normalized_score": 0.57,
-        "adjusted_score": 0.62,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.13,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.1,
-        "normalized_score": 0.03,
-        "adjusted_score": 0.03,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.08,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1434,52 +867,31 @@
     "job_id": "Endocrinology Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.68,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.41,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1487,52 +899,31 @@
     "job_id": "School Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.56,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.4,
-        "normalized_score": 0.65,
-        "adjusted_score": 0.7,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.24,
-        "adjusted_score": 0.24,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.18,
-        "normalized_score": 0.17,
-        "adjusted_score": 0.17,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.1,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.41. Variance indicator=0.59. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1540,52 +931,31 @@
     "job_id": "Nurse Case Manager",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.6,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.4,
-        "normalized_score": 0.52,
-        "adjusted_score": 0.57,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.24,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.05,
-        "adjusted_score": 0.05,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.18,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1593,52 +963,31 @@
     "job_id": "Emergency Room (ER) Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.56,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.39,
-        "normalized_score": 0.63,
-        "adjusted_score": 0.68,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.15,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.11,
-        "normalized_score": 0.02,
-        "adjusted_score": 0.02,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.1,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1646,52 +995,31 @@
     "job_id": "Forensic Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.58,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.39,
-        "normalized_score": 0.55,
-        "adjusted_score": 0.6,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.23,
-        "normalized_score": 0.17,
-        "adjusted_score": 0.17,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.23,
-        "normalized_score": 0.17,
-        "adjusted_score": 0.17,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.38. Variance indicator=0.62. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1699,52 +1027,31 @@
     "job_id": "Cruise Ship Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.55,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.39,
-        "normalized_score": 0.64,
-        "adjusted_score": 0.69,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.16,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.14,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.1,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.37. Variance indicator=0.63. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1752,52 +1059,31 @@
     "job_id": "Pain Management Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.66,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.39,
-        "normalized_score": 0.5,
-        "adjusted_score": 0.55,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.17,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.16,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1805,52 +1091,31 @@
     "job_id": "Dialysis Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.65,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.39,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.17,
-        "normalized_score": 0.06,
-        "adjusted_score": 0.06,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1858,52 +1123,31 @@
     "job_id": "Addiction Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.62,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.39,
-        "normalized_score": 0.52,
-        "adjusted_score": 0.57,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.23,
-        "normalized_score": 0.19,
-        "adjusted_score": 0.19,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.15,
-        "adjusted_score": 0.15,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.37. Variance indicator=0.63. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1911,52 +1155,31 @@
     "job_id": "Public Health Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.6,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.38,
-        "normalized_score": 0.54,
-        "adjusted_score": 0.59,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.17,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.16,
-        "normalized_score": 0.08,
-        "adjusted_score": 0.08,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -1964,52 +1187,31 @@
     "job_id": "Phlebotomy Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.61,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.38,
-        "normalized_score": 0.51,
-        "adjusted_score": 0.56,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.15,
-        "adjusted_score": 0.15,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.19,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2017,52 +1219,31 @@
     "job_id": "Community Health Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.54,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.37,
-        "normalized_score": 0.6,
-        "adjusted_score": 0.65,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.19,
-        "adjusted_score": 0.19,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.16,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.38. Variance indicator=0.62. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2070,52 +1251,31 @@
     "job_id": "Neurology Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.6,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.37,
-        "normalized_score": 0.51,
-        "adjusted_score": 0.56,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.18,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.17,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2123,52 +1283,31 @@
     "job_id": "Perioperative Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.57,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.37,
-        "normalized_score": 0.59,
-        "adjusted_score": 0.64,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.13,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.12,
-        "normalized_score": 0.08,
-        "adjusted_score": 0.08,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.08,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2176,52 +1315,31 @@
     "job_id": "Labor & Delivery Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.54,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.37,
-        "normalized_score": 0.59,
-        "adjusted_score": 0.64,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.18,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.15,
-        "normalized_score": 0.05,
-        "adjusted_score": 0.05,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2229,52 +1347,31 @@
     "job_id": "Pharmaceutical Nurse Educator",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.62,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.37,
-        "normalized_score": 0.52,
-        "adjusted_score": 0.57,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.25,
-        "normalized_score": 0.29,
-        "adjusted_score": 0.29,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.21,
-        "adjusted_score": 0.21,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.1,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.4. Variance indicator=0.6. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2282,52 +1379,31 @@
     "job_id": "Rehabilitation Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.6,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.37,
-        "normalized_score": 0.52,
-        "adjusted_score": 0.57,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.18,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.17,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2335,52 +1411,31 @@
     "job_id": "Nursing Officer",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.36,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.28,
-        "normalized_score": 0.58,
-        "adjusted_score": 0.63,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.24,
-        "normalized_score": 0.37,
-        "adjusted_score": 0.37,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.22,
-        "normalized_score": 0.26,
-        "adjusted_score": 0.26,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.44. Variance indicator=0.56. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2388,52 +1443,31 @@
     "job_id": "Neonatal Nurse (NICU Nurse)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.46,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.36,
-        "normalized_score": 0.76,
-        "adjusted_score": 0.81,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.1,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.08,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.05,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.39. Variance indicator=0.61. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2441,52 +1475,31 @@
     "job_id": "Telehealth Nurse / Telenurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.58,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.36,
-        "normalized_score": 0.52,
-        "adjusted_score": 0.57,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.15,
-        "adjusted_score": 0.15,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.17,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.36. Variance indicator=0.64. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2494,52 +1507,31 @@
     "job_id": "Legal Nurse Consultant",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.58,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.36,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.19,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2547,52 +1539,31 @@
     "job_id": "NGO / Humanitarian Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.49,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.36,
-        "normalized_score": 0.63,
-        "adjusted_score": 0.68,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.15,
-        "normalized_score": 0.03,
-        "adjusted_score": 0.03,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.15,
-        "normalized_score": 0.03,
-        "adjusted_score": 0.03,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2600,52 +1571,31 @@
     "job_id": "Cosmetic / Aesthetic Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.56,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.36,
-        "normalized_score": 0.51,
-        "adjusted_score": 0.56,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.19,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.16,
-        "normalized_score": 0.02,
-        "adjusted_score": 0.02,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2653,52 +1603,31 @@
     "job_id": "Behavioral Health Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.55,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.36,
-        "normalized_score": 0.55,
-        "adjusted_score": 0.6,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.16,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2706,52 +1635,31 @@
     "job_id": "Nurse Practitioner (NP)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.57,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.35,
-        "normalized_score": 0.49,
-        "adjusted_score": 0.54,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2759,52 +1667,31 @@
     "job_id": "Occupational Health Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.5,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.35,
-        "normalized_score": 0.59,
-        "adjusted_score": 0.64,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.16,
-        "adjusted_score": 0.16,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.18,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.38. Variance indicator=0.62. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2812,52 +1699,31 @@
     "job_id": "Cardiac Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.51,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.35,
-        "normalized_score": 0.63,
-        "adjusted_score": 0.68,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.12,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.1,
-        "normalized_score": 0.05,
-        "adjusted_score": 0.05,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.08,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2865,52 +1731,31 @@
     "job_id": "Nephrology Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.6,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.35,
-        "normalized_score": 0.47,
-        "adjusted_score": 0.52,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.19,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.16,
-        "normalized_score": 0.06,
-        "adjusted_score": 0.06,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.33. Variance indicator=0.67. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2918,52 +1763,31 @@
     "job_id": "Hospital Administrator (Nursing",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.35,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.29,
-        "normalized_score": 0.67,
-        "adjusted_score": 0.72,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.22,
-        "adjusted_score": 0.22,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.22,
-        "adjusted_score": 0.22,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.17,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.42. Variance indicator=0.58. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -2971,52 +1795,31 @@
     "job_id": "Research Coordinator (Nursing)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.35,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.26,
-        "normalized_score": 0.47,
-        "adjusted_score": 0.52,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.24,
-        "normalized_score": 0.35,
-        "adjusted_score": 0.35,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.24,
-        "normalized_score": 0.35,
-        "adjusted_score": 0.35,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.18,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.43. Variance indicator=0.57. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3024,52 +1827,31 @@
     "job_id": "Clinical Data Analyst (Nursing",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.35,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.31,
-        "normalized_score": 0.76,
-        "adjusted_score": 0.81,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.29,
-        "normalized_score": 0.65,
-        "adjusted_score": 0.7,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.23,
-        "normalized_score": 0.29,
-        "adjusted_score": 0.29,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.18,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
       "bias_detected": false,
-      "reason": "Score distribution is balanced: min=0.0, max=1.0, avg=0.54. Variance indicator=0.46. 2 candidate(s) received fairness adjustment.",
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3077,52 +1859,31 @@
     "job_id": "Ward Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.56,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.34,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.15,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.11,
-        "normalized_score": 0.04,
-        "adjusted_score": 0.04,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.09,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3130,52 +1891,31 @@
     "job_id": "Clinical Nurse Specialist (CNS)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.56,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.34,
-        "normalized_score": 0.52,
-        "adjusted_score": 0.57,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.15,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.15,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.1,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.35. Variance indicator=0.65. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3183,52 +1923,31 @@
     "job_id": "Surgical Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.5,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.34,
-        "normalized_score": 0.61,
-        "adjusted_score": 0.66,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.15,
-        "normalized_score": 0.15,
-        "adjusted_score": 0.15,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.13,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.09,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.37. Variance indicator=0.63. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3236,52 +1955,31 @@
     "job_id": "Obstetric Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.52,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.34,
-        "normalized_score": 0.56,
-        "adjusted_score": 0.61,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.17,
-        "normalized_score": 0.15,
-        "adjusted_score": 0.15,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.16,
-        "normalized_score": 0.12,
-        "adjusted_score": 0.12,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.11,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.37. Variance indicator=0.63. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3289,52 +1987,31 @@
     "job_id": "Nurse Researcher",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.51,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.34,
-        "normalized_score": 0.57,
-        "adjusted_score": 0.62,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.23,
-        "adjusted_score": 0.23,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.23,
-        "adjusted_score": 0.23,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.11,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.41. Variance indicator=0.59. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3342,52 +2019,31 @@
     "job_id": "Nursing Informatics Specialist",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.34,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.29,
-        "normalized_score": 0.67,
-        "adjusted_score": 0.72,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.27,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.24,
-        "normalized_score": 0.33,
-        "adjusted_score": 0.33,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.19,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
       "bias_detected": false,
-      "reason": "Score distribution is balanced: min=0.0, max=1.0, avg=0.51. Variance indicator=0.49. 2 candidate(s) received fairness adjustment.",
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3395,52 +2051,31 @@
     "job_id": "Health Inspector (Nursing Background)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.34,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.26,
-        "normalized_score": 0.56,
-        "adjusted_score": 0.61,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.33,
-        "adjusted_score": 0.33,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.22,
-        "adjusted_score": 0.22,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.42. Variance indicator=0.58. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3448,52 +2083,31 @@
     "job_id": "Nurse Anesthetist (CRNA)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.55,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.33,
-        "normalized_score": 0.54,
-        "adjusted_score": 0.59,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.12,
-        "normalized_score": 0.1,
-        "adjusted_score": 0.1,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.11,
-        "normalized_score": 0.08,
-        "adjusted_score": 0.08,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.07,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3501,52 +2115,31 @@
     "job_id": "Pediatric Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.6,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.33,
-        "normalized_score": 0.5,
-        "adjusted_score": 0.55,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.14,
-        "normalized_score": 0.15,
-        "adjusted_score": 0.15,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.13,
-        "normalized_score": 0.13,
-        "adjusted_score": 0.13,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.06,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.36. Variance indicator=0.64. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3554,52 +2147,31 @@
     "job_id": "Healthcare AI Trainer (Nursing)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.33,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.26,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.25,
-        "normalized_score": 0.47,
-        "adjusted_score": 0.52,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.19,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.18,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.41. Variance indicator=0.59. 2 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3607,52 +2179,31 @@
     "job_id": "Transplant Nurse",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "nurse_resume",
-        "original_score": 0.51,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.33,
-        "normalized_score": 0.57,
-        "adjusted_score": 0.62,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.15,
-        "normalized_score": 0.14,
-        "adjusted_score": 0.14,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.12,
-        "normalized_score": 0.07,
-        "adjusted_score": 0.07,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.09,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.36. Variance indicator=0.64. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3660,52 +2211,31 @@
     "job_id": "Nursing Assistant (CNA \u2013 Certified",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.33,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.28,
-        "normalized_score": 0.71,
-        "adjusted_score": 0.76,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.24,
-        "adjusted_score": 0.24,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.24,
-        "adjusted_score": 0.24,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.16,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.44. Variance indicator=0.56. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3713,52 +2243,31 @@
     "job_id": "Chief Nursing Officer (CNO)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.32,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.25,
-        "normalized_score": 0.59,
-        "adjusted_score": 0.64,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.29,
-        "adjusted_score": 0.29,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.18,
-        "normalized_score": 0.18,
-        "adjusted_score": 0.18,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.41. Variance indicator=0.59. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3766,52 +2275,31 @@
     "job_id": "Professor of Nursing",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.32,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.24,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.23,
-        "normalized_score": 0.47,
-        "adjusted_score": 0.52,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.22,
-        "normalized_score": 0.41,
-        "adjusted_score": 0.46,
-        "rank": 4,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.15,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.48. Variance indicator=0.52. 3 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3819,52 +2307,31 @@
     "job_id": "Medical Advisor (Healthcare",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.32,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.24,
-        "normalized_score": 0.38,
-        "adjusted_score": 0.38,
-        "rank": 2,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.24,
-        "normalized_score": 0.38,
-        "adjusted_score": 0.38,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.22,
-        "normalized_score": 0.23,
-        "adjusted_score": 0.23,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.19,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.4. Variance indicator=0.6. 0 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3872,52 +2339,31 @@
     "job_id": "Healthcare Consultant",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.32,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.26,
-        "normalized_score": 0.54,
-        "adjusted_score": 0.59,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.24,
-        "normalized_score": 0.38,
-        "adjusted_score": 0.38,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.24,
-        "normalized_score": 0.38,
-        "adjusted_score": 0.38,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.19,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.46. Variance indicator=0.54. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3925,52 +2371,31 @@
     "job_id": "Nursing Supervisor",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.31,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.23,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.35,
-        "adjusted_score": 0.35,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.35,
-        "adjusted_score": 0.35,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.45. Variance indicator=0.55. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -3978,52 +2403,31 @@
     "job_id": "Nursing Lecturer",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.31,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.23,
-        "normalized_score": 0.58,
-        "adjusted_score": 0.63,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.47,
-        "adjusted_score": 0.52,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.2,
-        "normalized_score": 0.42,
-        "adjusted_score": 0.47,
-        "rank": 4,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.49. Variance indicator=0.51. 3 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4031,52 +2435,31 @@
     "job_id": "Patient Care Technician (PCT)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.31,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.25,
-        "normalized_score": 0.68,
-        "adjusted_score": 0.73,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.23,
-        "normalized_score": 0.58,
-        "adjusted_score": 0.63,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.22,
-        "normalized_score": 0.53,
-        "adjusted_score": 0.58,
-        "rank": 4,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
       "bias_detected": false,
-      "reason": "Score distribution is balanced: min=0.0, max=1.0, avg=0.56. Variance indicator=0.44. 3 candidate(s) received fairness adjustment.",
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4084,52 +2467,31 @@
     "job_id": "Health Care Assistant (HCA)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.3,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.23,
-        "normalized_score": 0.36,
-        "adjusted_score": 0.36,
-        "rank": 2,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.27,
-        "adjusted_score": 0.27,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.09,
-        "adjusted_score": 0.09,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.19,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.34. Variance indicator=0.66. 0 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4137,52 +2499,31 @@
     "job_id": "Director of Nursing",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.29,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.2,
-        "normalized_score": 0.44,
-        "adjusted_score": 0.49,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.18,
-        "normalized_score": 0.31,
-        "adjusted_score": 0.31,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.17,
-        "normalized_score": 0.25,
-        "adjusted_score": 0.25,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.4. Variance indicator=0.6. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4190,52 +2531,31 @@
     "job_id": "Nursing Tutor",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.29,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.23,
-        "normalized_score": 0.67,
-        "adjusted_score": 0.72,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.61,
-        "adjusted_score": 0.66,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.21,
-        "normalized_score": 0.56,
-        "adjusted_score": 0.61,
-        "rank": 4,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.11,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
       "bias_detected": false,
-      "reason": "Score distribution is balanced: min=0.0, max=1.0, avg=0.57. Variance indicator=0.43. 3 candidate(s) received fairness adjustment.",
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4243,52 +2563,31 @@
     "job_id": "Policy Advisor (Healthcare)",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.29,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.24,
-        "normalized_score": 0.44,
-        "adjusted_score": 0.49,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.21,
-        "normalized_score": 0.11,
-        "adjusted_score": 0.11,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.2,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.2,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.31. Variance indicator=0.69. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4296,52 +2595,31 @@
     "job_id": "Medical Claims Reviewer",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.28,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.23,
-        "normalized_score": 0.64,
-        "adjusted_score": 0.69,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.18,
-        "normalized_score": 0.29,
-        "adjusted_score": 0.29,
-        "rank": 3,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.17,
-        "normalized_score": 0.21,
-        "adjusted_score": 0.21,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.14,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.43. Variance indicator=0.57. 1 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4349,52 +2627,31 @@
     "job_id": "Clinical Instructor",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.27,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.23,
-        "normalized_score": 0.76,
-        "adjusted_score": 0.81,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.22,
-        "normalized_score": 0.71,
-        "adjusted_score": 0.76,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.21,
-        "normalized_score": 0.65,
-        "adjusted_score": 0.7,
-        "rank": 4,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.1,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
       "bias_detected": false,
-      "reason": "Score distribution is balanced: min=0.0, max=1.0, avg=0.62. Variance indicator=0.38. 3 candidate(s) received fairness adjustment.",
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4402,52 +2659,31 @@
     "job_id": "Evidence-Based Practice Specialist",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.27,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.24,
-        "normalized_score": 0.79,
-        "adjusted_score": 0.84,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.21,
-        "normalized_score": 0.57,
-        "adjusted_score": 0.62,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.21,
-        "normalized_score": 0.57,
-        "adjusted_score": 0.62,
-        "rank": 4,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.13,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
       "bias_detected": false,
-      "reason": "Score distribution is balanced: min=0.0, max=1.0, avg=0.59. Variance indicator=0.41. 3 candidate(s) received fairness adjustment.",
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   },
@@ -4455,52 +2691,31 @@
     "job_id": "Program Manager (Public Health",
     "fairness_adjusted": true,
     "normalization_method": "min-max",
+    "normalization_factor": 1.0,
+    "normalization_range": {
+      "min": 0.0,
+      "max": 0.0
+    },
     "bias_adjustment_method": "rule-based (+0.05 boost capped at 1.0)",
     "candidates": [
       {
         "candidate_id": "Nurse_Resume_Anita_Mathew",
-        "original_score": 0.22,
+        "raw_score": 0.0,
         "normalized_score": 1.0,
+        "bias_flag": false,
+        "adjustment_applied": 0.0,
         "adjusted_score": 1.0,
-        "rank": 1,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "Rahul",
-        "original_score": 0.19,
-        "normalized_score": 0.7,
-        "adjusted_score": 0.75,
-        "rank": 2,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "nurse_resume",
-        "original_score": 0.16,
-        "normalized_score": 0.4,
-        "adjusted_score": 0.45,
-        "rank": 3,
-        "bias_flag": true
-      },
-      {
-        "candidate_id": "Reshma resume",
-        "original_score": 0.15,
-        "normalized_score": 0.3,
-        "adjusted_score": 0.3,
-        "rank": 4,
-        "bias_flag": false
-      },
-      {
-        "candidate_id": "sample_2",
-        "original_score": 0.12,
-        "normalized_score": 0.0,
-        "adjusted_score": 0.0,
-        "rank": 5,
-        "bias_flag": false
+        "final_score": 1.0,
+        "skills": 0.0,
+        "experience": 0.0,
+        "education": 0.0,
+        "domain_relevance": 0.0,
+        "rank": 1
       }
     ],
     "bias_analysis": {
-      "bias_detected": true,
-      "reason": "Score imbalance detected: min=0.0, max=1.0, avg=0.48. Variance indicator=0.52. 2 candidate(s) received fairness adjustment.",
+      "bias_detected": false,
+      "reason": "Score distribution is balanced: min=1.0, max=1.0, avg=1.0. Variance indicator=0.0. 0 candidate(s) received fairness adjustment.",
       "method": "min-max + rule-based adjustment"
     }
   }

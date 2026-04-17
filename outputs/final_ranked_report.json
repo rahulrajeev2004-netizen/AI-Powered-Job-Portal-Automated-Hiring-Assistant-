@@ -1,0 +1,5850 @@
+{
+  "results": [
+    {
+      "job_id": "Staff Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.413,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.237,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.234,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.017,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.004,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Licensed Practical Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.494,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.353,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.229,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.023,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.019,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Nursing Officer",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.26,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.256,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.181,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.64,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.154,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.146,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Ward Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.552,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.42,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.312,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.141,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.126,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 2,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "Bedside Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.5,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.351,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.237,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.019,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.017,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Patient Care Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.555,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.445,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.311,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.146,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.141,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 2,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "Nurse Practitioner",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.495,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.371,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.31,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.155,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.151,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Clinical Nurse Specialist",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.497,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.371,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.31,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.152,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.149,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Nurse Midwife",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.434,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.86,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.315,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.277,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.86,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.147,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.139,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Community Health Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.499,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.349,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.229,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.026,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.009,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "School Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.71,
+          "rank": 1,
+          "status": "Shortlist",
+          "confidence_score": 0.92,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Strong alignment with 67% of mandatory skills and 0 years experience."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.617,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.92,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.228,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.03,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.02,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 1,
+        "review": 1,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "Occupational Health Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.489,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.339,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.228,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.023,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.019,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Home Health Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.546,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.429,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.309,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.147,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.135,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 2,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "Rural Health Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.498,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.341,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.234,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.024,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.009,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "ICU Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.726,
+          "rank": 1,
+          "status": "Shortlist",
+          "confidence_score": 0.92,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Strong alignment with 67% of mandatory skills and 0 years experience."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.344,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.232,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.03,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.011,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 1,
+        "review": 0,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Emergency Room (ER) Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.544,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.89,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.413,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.89,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.23,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.021,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.001,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 2,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "Trauma Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.441,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.274,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.234,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.021,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.011,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Critical Care Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.621,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.9,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.273,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.236,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.019,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.011,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Cardiac Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.701,
+          "rank": 1,
+          "status": "Shortlist",
+          "confidence_score": 0.93,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Strong alignment with 75% of mandatory skills and 0 years experience."
+        },
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.603,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.9,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.236,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.02,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.011,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 1,
+        "review": 1,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "Oncology Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.488,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.334,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.233,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.023,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.019,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Neurology Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.403,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.233,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.221,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.021,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.016,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Dialysis Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.434,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.269,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.238,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.027,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.014,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Endocrinology Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.487,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.334,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.233,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.016,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.013,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Operating Room (OR) Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.489,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.232,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.199,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.02,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.004,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Perioperative Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.384,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.23,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.196,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.009,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.006,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Surgical Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.436,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.263,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.232,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.017,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.01,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Pediatric Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.433,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.269,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.226,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.019,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.016,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Obstetric Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.428,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.263,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.226,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.014,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.01,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Labor & Delivery Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.604,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.9,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.477,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.9,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.236,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.016,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.004,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 2,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "Psychiatric Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.534,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.89,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.39,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.89,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.231,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.014,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.014,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Nurse Manager",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.465,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.324,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.317,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.149,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.141,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Nursing Supervisor",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.341,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.313,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.17,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.15,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.147,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Director of Nursing",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.339,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.313,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.159,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.143,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.135,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Hospital Administrator (Nursing",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.353,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.317,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.185,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.64,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.144,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.141,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Nurse Educator",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.493,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.349,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.233,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.04,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.031,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Clinical Instructor",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.331,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.3,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.16,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.16,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.15,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Nursing Lecturer",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.342,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.312,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.165,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.154,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.15,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Professor of Nursing",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.34,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.305,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.16,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.151,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.146,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Nursing Tutor",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.34,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.307,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.163,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.161,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.155,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Nurse Researcher",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.491,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.343,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.236,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.041,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.04,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Research Coordinator (Nursing)",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.345,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.319,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.172,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.152,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.15,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Business Analyst",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.238,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.234,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.054,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.029,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.014,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Nursing Informatics Specialist",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.344,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.319,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.177,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.64,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.171,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.154,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Telehealth Nurse / Telenurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.397,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.233,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.221,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.024,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.017,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Data Analyst",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.241,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.239,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.093,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.62,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.033,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.021,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Healthcare AI Trainer (Nursing)",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.341,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.312,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.179,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.64,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.17,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.135,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Medical Advisor (Healthcare",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.264,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.239,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.049,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.029,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.023,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Insurance Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.442,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.28,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.231,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.027,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.016,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Nurse Case Manager",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.41,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.241,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.23,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.034,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.014,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Healthcare Consultant",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.268,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.241,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.051,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.03,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.03,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Legal Nurse Consultant",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.398,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.237,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.231,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.026,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.021,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Nurse Auditor",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.492,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.341,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.232,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.023,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.021,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Medical Claims Reviewer",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.246,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.22,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.64,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.033,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.003,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.001,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Travel Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.434,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.264,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.231,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.03,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.013,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Cruise Ship Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.598,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.9,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.469,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.9,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.234,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.017,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.014,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 2,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "Military Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.399,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.237,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.22,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.021,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.006,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Disaster Relief Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.723,
+          "rank": 1,
+          "status": "Shortlist",
+          "confidence_score": 0.92,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Strong alignment with 67% of mandatory skills and 0 years experience."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.627,
+          "rank": 2,
+          "status": "Review",
+          "confidence_score": 0.92,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.242,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.029,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.01,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 1,
+        "review": 1,
+        "rejected": 3
+      }
+    },
+    {
+      "job_id": "NGO / Humanitarian Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.433,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.259,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.243,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.01,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.001,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Palliative Care Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.44,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.26,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.23,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.01,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.003,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Pain Management Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.492,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.343,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.236,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.011,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.009,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Infection Control Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.604,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.9,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.293,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.229,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.027,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.013,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Transplant Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.596,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.9,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.26,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.233,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.014,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.003,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Cosmetic / Aesthetic Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.429,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.253,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.234,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.019,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.01,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Rehabilitation Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.487,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.34,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.231,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.023,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.013,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Geriatric Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.438,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.261,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.232,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.016,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.007,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Nursing Assistant (CNA \u2013 Certified",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.338,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.67,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.307,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.66,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.179,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.64,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.14,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.139,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.63,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Patient Care Technician (PCT)",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.259,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.226,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.054,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.026,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.024,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Health Care Assistant (HCA)",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.258,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.238,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.044,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.023,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.013,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Phlebotomy Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.524,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.89,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.227,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.214,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.02,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.009,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Addiction Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.454,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.293,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.88,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.229,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.027,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.016,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Behavioral Health Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.403,
+          "rank": 1,
+          "status": "Review",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Moderate match; lacks some key skills but shows relevant experience and semantic overlap."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.231,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.227,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.021,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.01,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 1,
+        "rejected": 4
+      }
+    },
+    {
+      "job_id": "Counseling Nurse",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.382,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.234,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.196,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.87,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.023,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.02,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Product Manager",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.242,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.228,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.027,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.024,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    },
+    {
+      "job_id": "Program Manager (Public Health",
+      "processing_time_ms": 185,
+      "optimized": true,
+      "memory_optimized": true,
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.247,
+          "rank": 1,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.23,
+          "rank": 2,
+          "status": "Rejected",
+          "confidence_score": 0.65,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.027,
+          "rank": 3,
+          "status": "Rejected",
+          "confidence_score": 0.61,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.02,
+          "rank": 4,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.007,
+          "rank": 5,
+          "status": "Rejected",
+          "confidence_score": 0.6,
+          "entities": {
+            "skills_matched": [],
+            "missing_skills": [],
+            "experience_years": 0
+          },
+          "explanation": "Below competency threshold. Significant gaps in mandatory skills and required experience profile."
+        }
+      ],
+      "summary": {
+        "total_candidates": 5,
+        "shortlisted": 0,
+        "review": 0,
+        "rejected": 5
+      }
+    }
+  ]
+}
