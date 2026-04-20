@@ -1,0 +1,5702 @@
+{
+  "batch_id": "PRODUCTION_ELIGIBILITY_DAY20_REFINED",
+  "processed_at": "2026-04-20T10:50:00Z",
+  "total_jobs": 85,
+  "results": [
+    {
+      "job_id": "JOB-SAMPLE-001",
+      "job_title": "Staff Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 1,
+        "review": 0,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.74,
+          "eligibility_status": "Eligible",
+          "decision_confidence": "High",
+          "reasons": [
+            "Strong ATS score",
+            "Relevant skill match"
+          ],
+          "next_action": "AI Interview"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.16,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-002",
+      "job_title": "Licensed Practical Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.5433,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.2433,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-003",
+      "job_title": "Nursing Officer",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.39,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0933,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-004",
+      "job_title": "Ward Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-005",
+      "job_title": "Bedside Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.5433,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-006",
+      "job_title": "Patient Care Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.13,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-007",
+      "job_title": "Nurse Practitioner",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.38,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.08,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.06,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-008",
+      "job_title": "Clinical Nurse Specialist",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.13,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-009",
+      "job_title": "Staff Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 1,
+        "review": 1,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.7,
+          "eligibility_status": "Eligible",
+          "decision_confidence": "High",
+          "reasons": [
+            "Strong ATS score",
+            "Relevant skill match"
+          ],
+          "next_action": "AI Interview"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.3,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-010",
+      "job_title": "Nurse Midwife",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.3671,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-011",
+      "job_title": "Community Health Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-012",
+      "job_title": "Community Health Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0933,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-013",
+      "job_title": "School Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.5433,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.2433,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-014",
+      "job_title": "Occupational Health Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-015",
+      "job_title": "Home Health Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 1,
+        "review": 1,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.7233,
+          "eligibility_status": "Eligible",
+          "decision_confidence": "High",
+          "reasons": [
+            "Strong ATS score",
+            "Relevant skill match"
+          ],
+          "next_action": "AI Interview"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.2433,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-016",
+      "job_title": "Rural Health Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-017",
+      "job_title": "ICU Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 1,
+        "review": 0,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.7,
+          "eligibility_status": "Eligible",
+          "decision_confidence": "High",
+          "reasons": [
+            "Strong ATS score",
+            "Relevant skill match"
+          ],
+          "next_action": "AI Interview"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.13,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-018",
+      "job_title": "Emergency Room (ER) Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.686,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.286,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-019",
+      "job_title": "Trauma Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-020",
+      "job_title": "Critical Care Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.56,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.16,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-021",
+      "job_title": "Cardiac Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.52,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.22,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-022",
+      "job_title": "Oncology Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-023",
+      "job_title": "Neurology Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.398,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.074,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-024",
+      "job_title": "Dialysis Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-025",
+      "job_title": "Endocrinology Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-026",
+      "job_title": "Operating Room (OR) Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.4967,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-027",
+      "job_title": "Perioperative Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.4967,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.1967,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-028",
+      "job_title": "Surgical Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.52,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.22,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-029",
+      "job_title": "Pediatric Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.38,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-030",
+      "job_title": "ICU Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 1,
+        "review": 0,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.7233,
+          "eligibility_status": "Eligible",
+          "decision_confidence": "High",
+          "reasons": [
+            "Strong ATS score",
+            "Relevant skill match"
+          ],
+          "next_action": "AI Interview"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.13,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-031",
+      "job_title": "Obstetric Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-032",
+      "job_title": "Labor & Delivery Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 1,
+        "review": 1,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.7,
+          "eligibility_status": "Eligible",
+          "decision_confidence": "High",
+          "reasons": [
+            "Strong ATS score",
+            "Relevant skill match"
+          ],
+          "next_action": "AI Interview"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.22,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-033",
+      "job_title": "Psychiatric Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.206,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-034",
+      "job_title": "Psychiatric Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.374,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-035",
+      "job_title": "Nurse Manager",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.04,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-036",
+      "job_title": "Nursing Supervisor",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.04,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-037",
+      "job_title": "Nursing Officer",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.26,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-038",
+      "job_title": "Director of Nursing",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.06,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-039",
+      "job_title": "Hospital Administrator (Nursing",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0267,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-040",
+      "job_title": "Nurse Educator",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.38,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.08,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-041",
+      "job_title": "Clinical Instructor",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.38,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.08,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-042",
+      "job_title": "Nursing Lecturer",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-043",
+      "job_title": "Professor of Nursing",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.06,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-044",
+      "job_title": "Nursing Tutor",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.39,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-045",
+      "job_title": "Nurse Researcher",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-046",
+      "job_title": "Nurse Researcher",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-047",
+      "job_title": "Research Coordinator (Nursing)",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.506,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.206,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-048",
+      "job_title": "Business Analyst",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 0,
+        "rejected": 5
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-049",
+      "job_title": "Nursing Informatics Specialist",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-050",
+      "job_title": "Telehealth Nurse / Telenurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.374,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.074,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-051",
+      "job_title": "Data Analyst",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.206,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-052",
+      "job_title": "Healthcare AI Trainer (Nursing)",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.56,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-053",
+      "job_title": "Medical Advisor (Healthcare",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.374,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.074,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-054",
+      "job_title": "Nurse Educator",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-055",
+      "job_title": "Insurance Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-056",
+      "job_title": "Nurse Case Manager",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-057",
+      "job_title": "Healthcare Consultant",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0267,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-058",
+      "job_title": "Legal Nurse Consultant",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.506,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.074,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-059",
+      "job_title": "Legal Nurse Consultant",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.506,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.074,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-060",
+      "job_title": "Nurse Auditor",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-061",
+      "job_title": "Medical Claims Reviewer",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 0,
+        "rejected": 5
+      },
+      "candidates": [
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-062",
+      "job_title": "Travel Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-063",
+      "job_title": "Cruise Ship Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 3,
+        "rejected": 2
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.52,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.23,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.22,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-064",
+      "job_title": "Military Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.04,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-065",
+      "job_title": "Disaster Relief Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.5433,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.2433,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-066",
+      "job_title": "NGO / Humanitarian Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.38,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-067",
+      "job_title": "Palliative Care Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.56,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.13,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-068",
+      "job_title": "Pain Management Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-069",
+      "job_title": "Infection Control Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 1,
+        "review": 0,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.7,
+          "eligibility_status": "Eligible",
+          "decision_confidence": "High",
+          "reasons": [
+            "Strong ATS score",
+            "Relevant skill match"
+          ],
+          "next_action": "AI Interview"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.13,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-070",
+      "job_title": "Dialysis Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.52,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.22,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-071",
+      "job_title": "Transplant Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.52,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-072",
+      "job_title": "Cosmetic / Aesthetic Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-073",
+      "job_title": "Rehabilitation Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-074",
+      "job_title": "Geriatric Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.38,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-075",
+      "job_title": "Nursing Assistant (CNA \u2013 Certified",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-076",
+      "job_title": "Patient Care Technician (PCT)",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.13,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-077",
+      "job_title": "Health Care Assistant (HCA)",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.554,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-078",
+      "job_title": "Phlebotomy Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.506,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-079",
+      "job_title": "Addiction Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.5071,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Partial skill match"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.19,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-080",
+      "job_title": "Behavioral Health Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-081",
+      "job_title": "Counseling Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.37,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.05,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-082",
+      "job_title": "Staff Nurse",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 1,
+        "rejected": 4
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.53,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.13,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-083",
+      "job_title": "Business Analyst",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 0,
+        "rejected": 5
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-084",
+      "job_title": "Product Manager",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 0,
+        "rejected": 5
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    },
+    {
+      "job_id": "JOB-SAMPLE-085",
+      "job_title": "Program Manager (Public Health",
+      "total_candidates_processed": 5,
+      "decision_summary": {
+        "eligible": 0,
+        "review": 2,
+        "rejected": 3
+      },
+      "candidates": [
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.35,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "Rahul",
+          "final_score": 0.23,
+          "eligibility_status": "Review",
+          "decision_confidence": "Medium",
+          "reasons": [
+            "Score in review range",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Recruiter Review"
+        },
+        {
+          "candidate_id": "sample_2",
+          "final_score": 0.04,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        },
+        {
+          "candidate_id": "Reshma resume",
+          "final_score": 0.0,
+          "eligibility_status": "Rejected",
+          "decision_confidence": "High",
+          "reasons": [
+            "Very low score",
+            "Weak or missing required skills"
+          ],
+          "next_action": "Reject"
+        }
+      ]
+    }
+  ]
+}

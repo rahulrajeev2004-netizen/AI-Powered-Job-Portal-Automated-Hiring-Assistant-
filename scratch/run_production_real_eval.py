@@ -1,191 +1,165 @@
-import os
 import json
+import os
+import re
 import sys
-import uuid
-import hashlib
-import time
 from typing import List, Dict, Any
 
-# Add project root to path
-project_root = os.getcwd()
-if project_root not in sys.path:
-    sys.path.append(project_root)
+# Ensure project root is in path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# Import necessary modules from the project
-from app.core import logic
-from scoring.ats_scorer import candidate_score_generator
-from scoring.fairness_engine import FairnessEngine
-from parsers.jd_parser import parse_jd
+from app.core.eligibility_engine import EligibilityEngine
 
-def generate_production_eval():
-    print("Initializing Day 20 Production Evaluation with ALL 85 JDS (Real Data)...")
+def parse_experience(experience_text: str) -> float:
+    """Simple heuristic to extract years of experience."""
+    if not experience_text:
+        return 0.0
+    # Look for patterns like "5+ years", "3 years", "experience in ... (2018-2020)"
+    years = re.findall(r'(\d+)\+?\s*years?', experience_text, re.IGNORECASE)
+    if years:
+        return float(years[0])
     
-    resume_dir = "data/resumes"
-    jd_txt_dir = "data/processed/individual_jds_txt"
-    output_path = "outputs/day20_production_eval.json"
+    # Try to calculate from date ranges like (2018 - 2020)
+    ranges = re.findall(r'\((\d{4})\s*[\-–]\s*(\d{4}|Present)\)', experience_text)
+    total_years = 0
+    for start, end in ranges:
+        start_yr = int(start)
+        if end.lower() == 'present':
+            end_yr = 2026 # Assuming current year is 2026 per project context
+        else:
+            end_yr = int(end)
+        total_years += (end_yr - start_yr)
     
-    # 1. Load and Parse Real Resumes
-    print(f"Loading resumes from {resume_dir}...")
-    resumes = []
-    if not os.path.exists(resume_dir):
-        print(f"Error: Resume directory {resume_dir} not found.")
+    return float(total_years) if total_years > 0 else 0.5 # Default min if some text exists
+
+def extract_location(contact_info: str) -> str:
+    """Extract location from contact info."""
+    if not contact_info:
+        return "Unknown"
+    # Look for "Location: Kochi, India" or similar
+    # Sometimes it's just "Kochi, India" after a pipe
+    parts = contact_info.split("|")
+    for part in parts:
+        if "location" in part.lower():
+            return part.split(":")[-1].strip()
+    
+    # Fallback to last part if it looks like a city
+    last_part = parts[-1].strip()
+    if "," in last_part:
+        return last_part
+        
+    return "Remote"
+
+def run_production_eligibility():
+    # 1. Load Day 20 Production Eval
+    eval_path = "outputs/day20_production_eval.json"
+    if not os.path.exists(eval_path):
+        print(f"Error: {eval_path} not found.")
         return
 
-    resume_files = [f for f in os.listdir(resume_dir) if f.lower().endswith(('.pdf', '.txt'))]
+    with open(eval_path, "r", encoding="utf-8") as f:
+        eval_data = json.load(f)
+
+    # 2. Load JDs for rules
+    jd_summary_path = "data/processed/jd_parsed_outputs/SAMPLE_SUMMARY.json"
+    with open(jd_summary_path, "r", encoding="utf-8") as f:
+        all_jds = json.load(f)
     
-    for filename in resume_files:
-        path = os.path.join(resume_dir, filename)
-        print(f"  Parsing resume: {filename}...")
-        try:
-            parsed = logic.parse_resume_task(path)
-            resumes.append({
-                "candidate_id": filename,
-                "skills": parsed.get("extracted_skills", []),
-                "experience_years": parsed.get("experience_years", 0.0),
-                "education": str(parsed.get("education", "")),
-                "resume_text": parsed.get("text", "")
+    jd_map = {jd["job_id"]: jd for jd in all_jds}
+
+    # 3. Cache Resumes
+    resumes_dir = "data/samples/labeled"
+    resume_map = {}
+    for filename in os.listdir(resumes_dir):
+        if filename.endswith("_segmented.json"):
+            with open(os.path.join(resumes_dir, filename), "r", encoding="utf-8") as f:
+                res_data = json.load(f)
+                cid = filename.replace("_segmented.json", "")
+                resume_map[cid] = res_data
+
+    # 4. Process
+    all_decisions = []
+    
+    # Use the locations found in resumes to populate allowed_locations if empty
+    default_locations = ["kochi", "thiruvananthapuram", "india", "remote", "hospital"]
+
+    for job_result in eval_data.get("results", []):
+        job_id = job_result.get("job_id")
+        job_title = job_result.get("job_title")
+        
+        actual_jd = jd_map.get(job_id, {})
+        reqs = actual_jd.get("requirements", {})
+        
+        # Extract mandatory skills from JD data
+        mandatory = reqs.get("skills", {}).get("mandatory", [])
+        
+        # Extract min experience if possible
+        min_exp_req = 1.0 # Default
+        exp_field = reqs.get("experience", {})
+        if isinstance(exp_field, dict) and exp_field.get("min"):
+            min_exp_req = float(exp_field.get("min"))
+        elif isinstance(exp_field, (int, float)):
+            min_exp_req = float(exp_field)
+            
+        job_rules = {
+            "job_id": job_id,
+            "job_title": job_title,
+            "min_score": 0.65,
+            "mandatory_skills": mandatory,
+            "min_experience": min_exp_req,
+            "max_experience": 20.0,
+            "allowed_locations": default_locations, 
+            "availability_required": False,
+            "review_score_range": [0.40, 0.65] # Stricter rejection for low scores
+        }
+        
+        engine = EligibilityEngine(job_rules)
+        
+        candidates_to_process = []
+        for cand_eval in job_result.get("candidates", []):
+            cid = cand_eval.get("candidate_id")
+            res_info = resume_map.get(cid, {})
+            
+            # Combine skills from skills field and segmented text sections for better matching
+            skills_field = res_info.get("skills", "")
+            summary_field = res_info.get("summary", "")
+            exp_field = res_info.get("work_experience", "")
+            
+            # Simple word-based skill extraction for mandatory check
+            # This ensures if "Communication" is in summary but not in skills list, it's found
+            full_text = f"{skills_field} {summary_field} {exp_field}".lower()
+            
+            # The engine expects a list of skills
+            # We'll provide the exploded list plus words from text
+            cand_skills_list = [s.strip().lower() for s in re.split(r'[,|\n]', skills_field) if s.strip()]
+            
+            experience_years = parse_experience(exp_field)
+            location = extract_location(res_info.get("contact_info", ""))
+            
+            candidates_to_process.append({
+                "candidate_id": cid,
+                "final_score": cand_eval.get("final_score", 0.0),
+                "skills": cand_skills_list + [word for word in full_text.split()], # Add words for fuzzy matching
+                "experience": experience_years,
+                "location": location,
+                "available": True
             })
-        except Exception as e:
-            print(f"    Failed to parse {filename}: {e}")
+        
+        job_decision = engine.process_batch(candidates_to_process)
+        all_decisions.append(job_decision)
 
-    if not resumes:
-        print("No resumes found or parsed. Aborting.")
-        return
-
-    # 2. Load and Parse ALL 85 JDs
-    print(f"Loading and Parsing JDs from {jd_txt_dir}...")
-    if not os.path.exists(jd_txt_dir):
-        print(f"Error: Directory {jd_txt_dir} not found.")
-        return
-
-    jd_files = [f for f in os.listdir(jd_txt_dir) if f.endswith(".txt")]
-    jd_files.sort()
-    
-    print(f"Processing total of {len(jd_files)} JDs...")
-
-    eval_reports = []
-    processed_count = 0
-
-    for jd_file in jd_files:
-        jd_path = os.path.join(jd_txt_dir, jd_file)
-        try:
-            with open(jd_path, "r", encoding="utf-8") as f:
-                raw_jd_text = f.read()
-            
-            # Use production parser to get structured info
-            jd_item = parse_jd(raw_jd_text, job_id=f"JOB-{jd_file.split('_')[0] if '_' in jd_file else processed_count}")
-            
-            # Robust Title Extraction: Use parser result, fallback to cleaned filename
-            extracted_title = jd_item.get("job_title", "").strip()
-            if not extracted_title:
-                extracted_title = jd_file.replace(".txt", "").replace("_", " ")
-                # Remove leading numbers from filename fallback
-                extracted_title = re.sub(r'^\d+[\s_-]*', '', extracted_title).title()
-
-            reqs = jd_item.get("requirements", {})
-            job_data = {
-                "job_title": extracted_title,
-                "job_description": raw_jd_text,
-                "required_skills": reqs.get("skills", {}).get("mandatory", []),
-                "experience_required": float(reqs.get("experience", {}).get("min_years", 2.0)),
-                "education_required": reqs.get("education", {}).get("min_degree", "Bachelors")
-            }
-
-            # Score Resumes against this JD
-            matches = []
-            for cand in resumes:
-                gen_result = candidate_score_generator(cand, job_data, semantic_similarity=0.85)
-                
-                matches.append({
-                    "candidate_id": cand["candidate_id"],
-                    "original_score": gen_result["computed_score"],
-                    "score_breakdown": gen_result["score_breakdown"],
-                    "domain_relevance_detail": gen_result.get("domain_relevance_detail", {}),
-                    "raw_details": gen_result.get("raw_details", {}),
-                    "audit_trace": gen_result.get("audit_trace", {}),
-                    "explanation": gen_result["explanation"],
-                    "content_hash": hashlib.md5(cand["resume_text"].encode('utf-8')).hexdigest()
-                })
-
-            # Apply Fairness Engine
-            engine = FairnessEngine(boost=0.05)
-            fairness_input = []
-            for m in matches:
-                fairness_input.append({
-                    "candidate_id": m["candidate_id"],
-                    "original_score": m["original_score"],
-                    "breakdown": m["score_breakdown"],
-                    "explanation": m["explanation"],
-                    "content_hash": m.get("content_hash")
-                })
-            
-            job_wise_data = {"job_id": job_data["job_title"], "candidates": fairness_input}
-            fairness_result = engine.apply_fairness(job_wise_data)
-            
-            # Build production-grade candidate results
-            ranked_candidates = []
-            for res in fairness_result.get("candidates", []):
-                orig_match = next((m for m in matches if m["candidate_id"] == res["candidate_id"]), None)
-                base_val = res["raw_score"]
-                boost_val = res["adjustment_applied"]
-                final_score_val = round(min(base_val + boost_val, 1.0), 4)
-
-                ranked_candidates.append({
-                    "candidate_id": res["candidate_id"],
-                    "final_score": final_score_val,
-                    "rank": res["rank"],
-                    "score_breakdown": orig_match["score_breakdown"],
-                    "domain_relevance_detail": orig_match["domain_relevance_detail"],
-                    "fairness_adjustment": {"applied": res["bias_flag"], "value": boost_val},
-                    "matched_skills": orig_match["raw_details"].get("matched_skills", []),
-                    "missing_skills": orig_match["raw_details"].get("missing_skills", []),
-                    "audit_trace": {**orig_match.get("audit_trace", {}), "fairness_calc": f"{base_val} + {boost_val} = {final_score_val}"},
-                    "explanation": orig_match["explanation"] + (f"; Fairness: +{boost_val} applied" if res["bias_flag"] else ""),
-                    "quality_flag": "REAL_DATA",
-                    "tie_break_applied": res.get("tie_break_applied")
-                })
-
-            report = {
-                "job_summary": {
-                    "title": job_data["job_title"],
-                    "exp_req": job_data["experience_required"],
-                    "required_skills": job_data["required_skills"],
-                    "job_match_status": "valid_candidate_pool" if ranked_candidates and any(c["final_score"] > 0.4 for c in ranked_candidates) else "low_candidate_quality"
-                },
-                "total_candidates": len(ranked_candidates),
-                "ranked_candidates": ranked_candidates,
-                "ranking_metadata": {
-                    "tie_breaking_rule": "final_score > skills > experience > education > domain_relevance > candidate_id",
-                    "scoring_formula": "(0.4 * skills) + (0.3 * experience) + (0.2 * education) + (0.1 * domain_relevance)",
-                    "model_version": "v3.5 final production ATS"
-                },
-                "metrics": {
-                    "processing_time_ms": 135.0,
-                    "ranking_stability": "stable",
-                    "system_confidence": 1.0 # 100% Correct requirement extraction
-                }
-            }
-            eval_reports.append(report)
-            processed_count += 1
-            if processed_count % 10 == 0:
-                print(f"  Processed {processed_count} / {len(jd_files)} JDs...")
-
-        except Exception as e:
-            print(f"  Failed to process {jd_file}: {e}")
-
-    # 3. Save Final JSON
+    # 5. Save
     final_output = {
-        "evaluation_dataset": "Production Real Data (85 JDs)",
-        "resumes_processed": len(resumes),
-        "total_jds_evaluated": len(eval_reports),
-        "results": eval_reports
+        "batch_id": "PRODUCTION_ELIGIBILITY_DAY20_REFINED",
+        "processed_at": "2026-04-20T10:50:00Z",
+        "total_jobs": len(all_decisions),
+        "results": all_decisions
     }
-
-    os.makedirs("outputs", exist_ok=True)
+    
+    output_path = "outputs/day20_eligibility_decisions_refined.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(final_output, f, indent=2)
-    
-    print(f"Production evaluation complete! Processed {processed_count} JDs. Saved to {output_path}")
+
+    print(f"Refined decisions saved to: {output_path}")
 
 if __name__ == "__main__":
-    generate_production_eval()
+    run_production_eligibility()
