@@ -1,0 +1,582 @@
+{
+  "dataset_id": "HR_SCREENING_AI_READY_V11",
+  "version": "11.0.0",
+  "status": "PRODUCTION_READY",
+  "roles": [
+    "Staff Nurse",
+    "Software Engineer",
+    "Sales Executive"
+  ],
+  "scoring_system": {
+    "category_weights": {
+      "Introduction": 0.05,
+      "Education": 0.15,
+      "Experience": 0.25,
+      "Skills": 0.25,
+      "Location": 0.1,
+      "Salary": 0.1,
+      "Notice Period": 0.1
+    },
+    "scoring_engine": {
+      "execution_logic": {
+        "question_score": "IF item_type == 'informational' THEN 0.0 ELSE IF evaluation_result == 'pass' THEN 1.0 ELSE IF evaluation_result == 'partial' THEN 0.5 ELSE 0.0",
+        "question_weight": "IF item_type == 'required' THEN 1.0 ELSE IF item_type == 'preferred' THEN 0.5 ELSE 0.0",
+        "category_score": "IF sum(question_weight_across_category) == 0.0 THEN 0.0 ELSE sum(question_score * question_weight) / sum(question_weight_across_category)",
+        "base_score": "sum(category_score * category_weight)",
+        "final_score": "max(0.0, min(1.0, base_score + resume_penalty))",
+        "missing_required_penalty": "IF item_type == 'required' AND answer_is_missing THEN question_score = 0.0"
+      },
+      "confidence_logic": {
+        "formula": "max(0.0, min(1.0, (0.3 * answer_completeness) + (0.3 * semantic_match_strength) + (0.2 * resume_consistency) + (0.2 * response_coverage)))",
+        "variables": {
+          "total_scorable_requirements": "COUNT(questions WHERE item_type == 'required')",
+          "answered_scorable_requirements": "COUNT(answered_questions WHERE item_type == 'required')",
+          "answer_completeness": "IF total_scorable_requirements == 0 THEN 1.0 ELSE answered_scorable_requirements / total_scorable_requirements",
+          "total_scorable_questions": "COUNT(questions WHERE item_type != 'informational')",
+          "semantic_match_strength": "IF total_scorable_questions == 0 THEN 0.0 ELSE sum(question_score) / total_scorable_questions",
+          "resume_consistency": "max(0.0, 1.0 - abs(resume_penalty / max_penalty_cap))",
+          "response_coverage": "IF total_scorable_questions == 0 THEN 1.0 ELSE COUNT(answered_questions WHERE item_type != 'informational') / total_scorable_questions"
+        }
+      },
+      "dynamic_rules": {
+        "experience_threshold_logic": "IF candidate_input >= ideal THEN 1.0 ELSE IF candidate_input >= min_required THEN 0.5 ELSE 0.0",
+        "salary_evaluation_logic": "IF candidate_input <= budget_max AND candidate_input >= budget_min THEN 1.0 ELSE IF candidate_input <= (budget_max * 1.20) THEN 0.5 ELSE 0.0",
+        "notice_period_matrix": [
+          { "min": 0, "max": 15, "score": 1.0 },
+          { "min": 16, "max": 30, "score": 0.7 },
+          { "min": 31, "max": 60, "score": 0.5 },
+          { "min": 61, "max": 90, "score": 0.3 },
+          { "min": 91, "max": 999, "score": 0.0 }
+        ]
+      }
+    },
+    "decision_engine": {
+      "SELECT": "final_score >= 0.75",
+      "HOLD": "0.50 <= final_score < 0.75",
+      "REJECT": "final_score < 0.50 OR knockout_triggered == true"
+    },
+    "knockout_handling": {
+      "global_rule": "IMMEDIATE_TERMINATION",
+      "effects": {
+        "final_score": 0.0,
+        "decision": "REJECT",
+        "knockout_triggered": true,
+        "stop_evaluation": true
+      }
+    }
+  },
+  "resume_validation": {
+    "enabled": true,
+    "checks": [
+      "experience_consistency",
+      "skill_match_with_resume",
+      "education_validation"
+    ],
+    "resume_penalty_logic": {
+      "calculation": "max(-0.4, sum(all_detected_mismatch_penalties))",
+      "mismatch_types": {
+        "experience_mismatch_major": -0.2,
+        "experience_mismatch_minor": -0.1,
+        "skill_mismatch_major": -0.15,
+        "education_mismatch": -0.1
+      },
+      "max_penalty_cap": -0.4,
+      "metrics": {
+        "resume_match_score": "max(0.0, 1.0 - abs(sum(all_detected_mismatch_penalties) / -0.4))"
+      }
+    }
+  },
+  "structural_validation_rules": {
+    "category_overlap_prevention": "A question_id MUST map to exactly ONE dimension. No cross-mapping permitted.",
+    "experience_definition": "Experience = scope of responsibility, timelines, scale, and situational/scenario reasoning. Independent of specific toolkit.",
+    "skills_definition": "Skills = tool usage, domain certifications, stack proficiency, and technical frameworks. Independent of duration.",
+    "informational_isolation": "Questions with item_type='informational' MUST NOT influence category_score, semantic_match_strength, or resume_consistency."
+  },
+  "role_based_requirements": {
+    "Staff Nurse": {
+      "min_experience_years": 1,
+      "ideal_experience_years": 4,
+      "required_skills": [ "Electronic Health Records", "Nursing Council registration", "BLS or ACLS" ],
+      "salary_range": { "min_budget": 20000, "max_budget": 80000 },
+      "preferred_skills": [ "NABH hospital experience", "Critical Care/ICU" ]
+    },
+    "Software Engineer": {
+      "min_experience_years": 2,
+      "ideal_experience_years": 5,
+      "required_skills": [ "Python", "Backend system design", "Full-stack development" ],
+      "salary_range": { "min_budget": 40000, "max_budget": 150000 },
+      "preferred_skills": [ "Docker", "Kubernetes", "Cloud computing" ]
+    },
+    "Sales Executive": {
+      "min_experience_years": 1,
+      "ideal_experience_years": 3,
+      "required_skills": [ "B2B or B2C Sales", "CRM tools", "Driving license" ],
+      "salary_range": { "min_budget": 25000, "max_budget": 90000 },
+      "preferred_skills": [ "Team management" ]
+    }
+  },
+  "evaluation_engine": {
+    "llm_context": {
+      "prompt_template": "Evaluate '{candidate_response}' against '{expected_answer}'. Extract semantic match for '{category}'. Normalized score required.",
+      "keyword_importance": "high"
+    }
+  },
+  "output_schema": {
+    "candidate_id": "string",
+    "role": "string",
+    "final_score": "float",
+    "confidence_score": "float (0-1)",
+    "decision": "string (SELECT|HOLD|REJECT)",
+    "knockout_triggered": "boolean",
+    "knockout_triggered_reason": "string|null",
+    "evaluation_time_ms": "integer",
+    "parsing_quality": "string (low|medium|high)",
+    "recruiter_override": "boolean (default: false)",
+    "resume_match_score": "float (0-1)",
+    "category_scores": {
+      "Introduction": "float",
+      "Education": "float",
+      "Experience": "float",
+      "Skills": "float",
+      "Location": "float",
+      "Salary": "float",
+      "Notice Period": "float"
+    },
+    "response_audit": [
+      {
+        "question_id": "string",
+        "evaluation_result": "string (pass|partial|fail)",
+        "question_score": "float",
+        "item_type": "string (required|preferred|informational)"
+      }
+    ]
+  },
+  "question_bank": [
+    {
+      "question_id": "Q_INTRO_01",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Introduction",
+      "maps_to": "communication_score",
+      "item_type": "required",
+      "question_text": { "en": "Could you please introduce yourself and provide a brief overview of your professional background?" },
+      "expected_answer_type": "text",
+      "mandatory": true,
+      "scoring_weight": "low",
+      "exclude_from_score": false,
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "confidence, clarity" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_INTRO_02",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Introduction",
+      "maps_to": "availability_score",
+      "item_type": "informational",
+      "exclude_from_score": true,
+      "question_text": { "en": "Are you currently employed?" },
+      "expected_answer_type": "boolean",
+      "mandatory": true,
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EDU_01",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Education",
+      "maps_to": "skill_score",
+      "item_type": "required",
+      "question_text": { "en": "What is your highest level of education?" },
+      "expected_answer_type": "text",
+      "mandatory": true,
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "degree name" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EDU_03",
+      "roles": [ "Staff Nurse" ],
+      "category": "Education",
+      "item_type": "required",
+      "knockout": true,
+      "failure_action": "REJECT_CANDIDATE",
+      "question_text": { "en": "Do you hold a valid Nursing Council registration?" },
+      "expected_answer_type": "boolean",
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EDU_06",
+      "roles": [ "Sales Executive" ],
+      "category": "Education",
+      "maps_to": "skill_score",
+      "item_type": "preferred",
+      "question_text": { "en": "Have you completed any formal training or certification in sales methodologies or negotiation?" },
+      "expected_answer_type": "boolean",
+      "mandatory": true,
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EDU_07",
+      "roles": [ "Software Engineer" ],
+      "category": "Education",
+      "maps_to": "skill_score",
+      "item_type": "preferred",
+      "question_text": { "en": "Have you completed any continuous learning courses or bootcamps recently to update your technical stack?" },
+      "expected_answer_type": "boolean",
+      "mandatory": true,
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EXP_01",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Experience",
+      "maps_to": "experience_score",
+      "item_type": "required",
+      "knockout": true,
+      "failure_action": "REJECT_CANDIDATE",
+      "question_text": { "en": "How many total years of professional experience do you have in your field?" },
+      "expected_answer_type": "number",
+      "evaluation_logic": {
+        "type": "dynamic_threshold",
+        "rules": { "min_required": "role.min_experience_years", "ideal": "role.ideal_experience_years" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EXP_02",
+      "roles": [ "Staff Nurse" ],
+      "category": "Experience",
+      "item_type": "preferred",
+      "question_text": { "en": "How many years of clinical experience do you have in ICU?" },
+      "expected_answer_type": "number",
+      "evaluation_logic": {
+        "type": "threshold",
+        "rules": { "min_required": 1, "ideal": 3 },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EXP_08",
+      "roles": [ "Staff Nurse" ],
+      "category": "Experience",
+      "item_type": "required",
+      "question_text": { "en": "Describe a challenging situation involving a difficult patient or uncooperative family member, and how you managed it." },
+      "expected_answer_type": "text",
+      "question_type": "scenario_based",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "empathy, conflict resolution, professionalism" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EXP_09",
+      "roles": [ "Software Engineer" ],
+      "category": "Experience",
+      "item_type": "required",
+      "question_text": { "en": "What is the most complex system migration or refactoring effort you have participated in, and what was your specific role?" },
+      "expected_answer_type": "text",
+      "question_type": "scenario_based",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "technical depth, clarity of role, architecture understanding" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EXP_10",
+      "roles": [ "Sales Executive" ],
+      "category": "Experience",
+      "item_type": "required",
+      "question_text": { "en": "Tell me about a time you successfully closed a deal after initially facing a strong objection or rejection from the client." },
+      "expected_answer_type": "text",
+      "question_type": "scenario_based",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "resilience, negotiation skills, objection handling" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_EXP_11",
+      "roles": [ "Software Engineer" ],
+      "category": "Experience",
+      "item_type": "preferred",
+      "question_text": { "en": "How many years of experience do you have specific to cloud infrastructure deployment?" },
+      "expected_answer_type": "number",
+      "evaluation_logic": {
+        "type": "threshold",
+        "rules": { "min_required": 1, "ideal": 3 },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SKILL_01",
+      "roles": [ "Software Engineer" ],
+      "category": "Skills",
+      "item_type": "required",
+      "question_text": { "en": "On a scale of 1 to 10, how would you rate your proficiency in Python?" },
+      "expected_answer_type": "number",
+      "evaluation_logic": {
+        "type": "rating",
+        "rules": { "min_required": 6, "ideal": 9 },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SKILL_05",
+      "roles": [ "Software Engineer" ],
+      "category": "Skills",
+      "item_type": "preferred",
+      "question_text": { "en": "Do you have hands-on experience with Docker and Kubernetes?" },
+      "expected_answer_type": "boolean",
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SKILL_06",
+      "roles": [ "Sales Executive" ],
+      "category": "Skills",
+      "item_type": "required",
+      "question_text": { "en": "Is your experience primarily in B2B corporate sales or B2C retail sales?" },
+      "expected_answer_type": "multiple_choice",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "B2B or B2C" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SKILL_07",
+      "roles": [ "Staff Nurse" ],
+      "category": "Skills",
+      "item_type": "required",
+      "knockout": true,
+      "failure_action": "REJECT_CANDIDATE",
+      "question_text": { "en": "Do you have a valid BLS or ACLS certification?" },
+      "expected_answer_type": "boolean",
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SKILL_08",
+      "roles": [ "Staff Nurse" ],
+      "category": "Skills",
+      "item_type": "required",
+      "question_text": { "en": "You notice a patient's vitals dropping rapidly, but the assigned physician is momentarily unavailable. Walk me through your immediate clinical response." },
+      "expected_answer_type": "text",
+      "question_type": "scenario_based",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "triage knowledge, emergency procedures, communication" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SKILL_09",
+      "roles": [ "Software Engineer" ],
+      "category": "Skills",
+      "item_type": "required",
+      "question_text": { "en": "A production database query is suddenly causing large latency spikes across your microservices. What are your immediate troubleshooting and remediation steps?" },
+      "expected_answer_type": "text",
+      "question_type": "scenario_based",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "query profiling, indexing, caching, incident response" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SKILL_10",
+      "roles": [ "Sales Executive" ],
+      "category": "Skills",
+      "item_type": "required",
+      "question_text": { "en": "A high-value prospect has just informed you they are going with a lower-priced competitor. How do you attempt to salvage or navigate the deal?" },
+      "expected_answer_type": "text",
+      "question_type": "scenario_based",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": { "expected": "value proposition, relationship building, objection handling" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SKILL_11",
+      "roles": [ "Sales Executive" ],
+      "category": "Skills",
+      "item_type": "preferred",
+      "question_text": { "en": "Are you familiar with using digital lead generation tools like LinkedIn Sales Navigator?" },
+      "expected_answer_type": "boolean",
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_LOC_01",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Location",
+      "item_type": "informational",
+      "exclude_from_score": true,
+      "question_text": { "en": "Which city are you currently located in?" },
+      "expected_answer_type": "text",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": {},
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_LOC_02",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Location",
+      "item_type": "required",
+      "question_text": { "en": "Are you willing to relocate to our office location if necessary?" },
+      "expected_answer_type": "boolean",
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_LOC_03",
+      "roles": [ "Sales Executive" ],
+      "category": "Location",
+      "item_type": "required",
+      "knockout": true,
+      "failure_action": "REJECT_CANDIDATE",
+      "question_text": { "en": "Do you have a valid driving license?" },
+      "expected_answer_type": "boolean",
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SAL_01",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Salary",
+      "item_type": "informational",
+      "exclude_from_score": true,
+      "question_text": { "en": "What is your current monthly take-home salary?" },
+      "expected_answer_type": "number",
+      "evaluation_logic": {
+        "type": "extraction",
+        "rules": {},
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    },
+    {
+      "question_id": "Q_SAL_02",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Salary",
+      "item_type": "required",
+      "question_text": { "en": "What is your minimum expected monthly salary for this role?" },
+      "expected_answer_type": "number",
+      "evaluation_logic": {
+        "type": "dynamic_range_match",
+        "rules": { "budget_min": "role.salary_range.min_budget", "budget_max": "role.salary_range.max_budget" },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 },
+        "partial_margin": 0.2
+      }
+    },
+    {
+      "question_id": "Q_NP_01",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Notice Period",
+      "item_type": "required",
+      "question_text": { "en": "What is your current notice period in days?" },
+      "expected_answer_type": "number",
+      "evaluation_logic": {
+        "type": "matrix_match",
+        "rules": "scoring_system.scoring_engine.dynamic_rules.notice_period_matrix"
+      }
+    },
+    {
+      "question_id": "Q_NP_02",
+      "roles": [ "Staff Nurse", "Software Engineer", "Sales Executive" ],
+      "category": "Notice Period",
+      "item_type": "preferred",
+      "question_text": { "en": "Can your notice period be negotiated or bought out for an early joining?" },
+      "expected_answer_type": "boolean",
+      "evaluation_logic": {
+        "type": "boolean",
+        "rules": { "expected": true },
+        "scoring": { "pass": 1.0, "partial": 0.5, "fail": 0.0 }
+      }
+    }
+  ],
+  "category_mapping_by_role": {
+    "Staff Nurse": {
+      "Introduction": [ "Q_INTRO_01", "Q_INTRO_02" ],
+      "Education": [ "Q_EDU_01", "Q_EDU_03" ],
+      "Experience": [ "Q_EXP_01", "Q_EXP_02", "Q_EXP_08" ],
+      "Skills": [ "Q_SKILL_07", "Q_SKILL_08" ],
+      "Location": [ "Q_LOC_01", "Q_LOC_02" ],
+      "Salary": [ "Q_SAL_01", "Q_SAL_02" ],
+      "Notice Period": [ "Q_NP_01", "Q_NP_02" ]
+    },
+    "Software Engineer": {
+      "Introduction": [ "Q_INTRO_01", "Q_INTRO_02" ],
+      "Education": [ "Q_EDU_01", "Q_EDU_07" ],
+      "Experience": [ "Q_EXP_01", "Q_EXP_09", "Q_EXP_11" ],
+      "Skills": [ "Q_SKILL_01", "Q_SKILL_05", "Q_SKILL_09" ],
+      "Location": [ "Q_LOC_01", "Q_LOC_02" ],
+      "Salary": [ "Q_SAL_01", "Q_SAL_02" ],
+      "Notice Period": [ "Q_NP_01", "Q_NP_02" ]
+    },
+    "Sales Executive": {
+      "Introduction": [ "Q_INTRO_01", "Q_INTRO_02" ],
+      "Education": [ "Q_EDU_01", "Q_EDU_06" ],
+      "Experience": [ "Q_EXP_01", "Q_EXP_10" ],
+      "Skills": [ "Q_SKILL_06", "Q_SKILL_10", "Q_SKILL_11" ],
+      "Location": [ "Q_LOC_01", "Q_LOC_02", "Q_LOC_03" ],
+      "Salary": [ "Q_SAL_01", "Q_SAL_02" ],
+      "Notice Period": [ "Q_NP_01", "Q_NP_02" ]
+    }
+  },
+  "conversation_flow": {
+    "role_based_flow": {
+      "Staff Nurse": [
+        "Q_INTRO_01", "Q_INTRO_02", "Q_EDU_01", "Q_EDU_03", "Q_EXP_01", "Q_EXP_02", "Q_EXP_08", "Q_SKILL_07", "Q_SKILL_08",
+        "Q_LOC_01", "Q_LOC_02", "Q_SAL_01", "Q_SAL_02", "Q_NP_01", "Q_NP_02"
+      ],
+      "Software Engineer": [
+        "Q_INTRO_01", "Q_INTRO_02", "Q_EDU_01", "Q_EDU_07", "Q_EXP_01", "Q_EXP_09", "Q_EXP_11", "Q_SKILL_01", "Q_SKILL_05", "Q_SKILL_09",
+        "Q_LOC_01", "Q_LOC_02", "Q_SAL_01", "Q_SAL_02", "Q_NP_01", "Q_NP_02"
+      ],
+      "Sales Executive": [
+        "Q_INTRO_01", "Q_INTRO_02", "Q_EDU_01", "Q_EDU_06", "Q_EXP_01", "Q_EXP_10", "Q_SKILL_06", "Q_SKILL_10", "Q_SKILL_11",
+        "Q_LOC_01", "Q_LOC_02", "Q_LOC_03", "Q_SAL_01", "Q_SAL_02", "Q_NP_01", "Q_NP_02"
+      ]
+    }
+  }
+}
