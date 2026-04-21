@@ -1,0 +1,1166 @@
+[
+    {
+        "application": {
+            "candidate_id": "cand_d7e57bdf",
+            "job_id": "ROLE_SOFTWARE_ENGINEER",
+            "session_id": "sess_2fe38b9c",
+            "timestamp": "2026-04-21T10:49:08.232229Z"
+        },
+        "interaction_summary": {
+            "total_questions_answered": 16,
+            "total_duration_seconds": 190.0,
+            "average_stt_confidence": 0.95
+        },
+        "transcript": [
+            {
+                "question_id": "Q_INTRO_01",
+                "timestamp": "2026-04-21T10:49:08.231715Z",
+                "raw_transcript": "Um, Hi, I am an experienced Software Engineer. I have been in this field for many years.",
+                "normalized_text": "Hi, I am an experienced Software Engineer. I have been in this field for many years.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 11.5,
+                "intent": "introduction",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_INTRO_02",
+                "timestamp": "2026-04-21T10:49:19.731715Z",
+                "raw_transcript": "Yes, I am currently employed but looking for better opportunities.",
+                "normalized_text": "Yes, I am currently employed but looking for better opportunities.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "introduction",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EDU_01",
+                "timestamp": "2026-04-21T10:49:32.231715Z",
+                "raw_transcript": "Um, I hold a Bachelor's degree from the State University.",
+                "normalized_text": "I hold a Bachelor's degree from the State University.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 13.5,
+                "intent": "education",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EDU_07",
+                "timestamp": "2026-04-21T10:49:45.731715Z",
+                "raw_transcript": "Yes, I have completed a few specialized bootcamps.",
+                "normalized_text": "Yes, I have completed a few specialized bootcamps.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 14.5,
+                "intent": "education",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EXP_01",
+                "timestamp": "2026-04-21T10:50:00.231715Z",
+                "raw_transcript": "Um, I have 4.5 years of professional experience.",
+                "normalized_text": "I have 4.5 years of professional experience.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 15.5,
+                "intent": "experience",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_EXP_09",
+                "timestamp": "2026-04-21T10:50:15.731715Z",
+                "raw_transcript": "I successfully migrated our legacy system to microservices.",
+                "normalized_text": "I successfully migrated our legacy system to microservices.",
+                "stt_confidence": 0.8,
+                "duration_seconds": 11.5,
+                "intent": "experience",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EXP_11",
+                "timestamp": "2026-04-21T10:50:27.231715Z",
+                "raw_transcript": "Um, I have 3 years of experience in cloud infrastructure.",
+                "normalized_text": "I have 3 years of experience in cloud infrastructure.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "experience",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_01",
+                "timestamp": "2026-04-21T10:50:39.731715Z",
+                "raw_transcript": "I would rate my Python skills at an 8 out of 10.",
+                "normalized_text": "I would rate my Python skills at an 8 out of 10.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 13.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_05",
+                "timestamp": "2026-04-21T10:50:53.231715Z",
+                "raw_transcript": "Um, Yes, I have deployed containers using Docker and Kubernetes.",
+                "normalized_text": "Yes, I have deployed containers using Docker and Kubernetes.",
+                "stt_confidence": 0.8,
+                "duration_seconds": 14.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_09",
+                "timestamp": "2026-04-21T10:51:07.731715Z",
+                "raw_transcript": "I check database locks, index usage, and add read replicas if needed.",
+                "normalized_text": "I check database locks, index usage, and add read replicas if needed.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 15.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_LOC_01",
+                "timestamp": "2026-04-21T10:51:23.231715Z",
+                "raw_transcript": "Um, I am currently located in Thiruvananthapuram.",
+                "normalized_text": "I am currently located in Thiruvananthapuram.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 11.5,
+                "intent": "location",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_LOC_02",
+                "timestamp": "2026-04-21T10:51:34.731715Z",
+                "raw_transcript": "Yes, I am absolutely willing to relocate for this role.",
+                "normalized_text": "Yes, I am absolutely willing to relocate for this role.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "location",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SAL_01",
+                "timestamp": "2026-04-21T10:51:47.231715Z",
+                "raw_transcript": "Um, My current take-home salary is 5800 dollars.",
+                "normalized_text": "My current take-home salary is 5800 dollars.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 13.5,
+                "intent": "salary",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_SAL_02",
+                "timestamp": "2026-04-21T10:52:00.731715Z",
+                "raw_transcript": "I am expecting around 7308 dollars.",
+                "normalized_text": "I am expecting around 7308 dollars.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 14.5,
+                "intent": "salary",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_NP_01",
+                "timestamp": "2026-04-21T10:52:15.231715Z",
+                "raw_transcript": "Um, My current notice period is 30 days.",
+                "normalized_text": "My current notice period is 30 days.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 15.5,
+                "intent": "notice_period",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_NP_02",
+                "timestamp": "2026-04-21T10:52:30.731715Z",
+                "raw_transcript": "Yes, my notice period can be negotiated or bought out.",
+                "normalized_text": "Yes, my notice period can be negotiated or bought out.",
+                "stt_confidence": 0.7,
+                "intent": "notice_period",
+                "noise_level": "medium",
+                "duration_seconds": 10.0
+            }
+        ],
+        "qa_validation": [
+            {
+                "question_id": "Q_INTRO_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_INTRO_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_INTRO_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_INTRO_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EDU_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EDU_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EDU_07",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EDU_07",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_09",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_09",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_11",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_11",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_05",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_05",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_09",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_09",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_LOC_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_LOC_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_LOC_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_LOC_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SAL_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SAL_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SAL_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SAL_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_NP_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_NP_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_NP_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_NP_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            }
+        ],
+        "consistency_flags": [],
+        "extracted_entities": {
+            "current_location": "Thiruvananthapuram",
+            "willing_to_relocate": "Yes",
+            "salary_current": "5800",
+            "salary_expected": "7308",
+            "notice_period_days": "30"
+        },
+        "confidence_adjustment": -0.0,
+        "global_confidence_score": 0.95,
+        "validation_summary": "Completed validation with 0 flags and 0 incorrect mappings."
+    },
+    {
+        "application": {
+            "candidate_id": "cand_9e370756",
+            "job_id": "ROLE_SOFTWARE_ENGINEER",
+            "session_id": "sess_6c179ffc",
+            "timestamp": "2026-04-21T10:49:08.213252Z"
+        },
+        "interaction_summary": {
+            "total_questions_answered": 16,
+            "total_duration_seconds": 190.0,
+            "average_stt_confidence": 0.95
+        },
+        "transcript": [
+            {
+                "question_id": "Q_INTRO_01",
+                "timestamp": "2026-04-21T10:49:08.212356Z",
+                "raw_transcript": "Um, Hi, I am an experienced Software Engineer. I have been in this field for many years.",
+                "normalized_text": "Hi, I am an experienced Software Engineer. I have been in this field for many years.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 11.5,
+                "intent": "introduction",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_INTRO_02",
+                "timestamp": "2026-04-21T10:49:19.712356Z",
+                "raw_transcript": "Yes, I am currently employed but looking for better opportunities.",
+                "normalized_text": "Yes, I am currently employed but looking for better opportunities.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "introduction",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EDU_01",
+                "timestamp": "2026-04-21T10:49:32.212356Z",
+                "raw_transcript": "Um, I hold a Bachelor's degree from the State University.",
+                "normalized_text": "I hold a Bachelor's degree from the State University.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 13.5,
+                "intent": "education",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EDU_07",
+                "timestamp": "2026-04-21T10:49:45.712356Z",
+                "raw_transcript": "Yes, I have completed a few specialized bootcamps.",
+                "normalized_text": "Yes, I have completed a few specialized bootcamps.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 14.5,
+                "intent": "education",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EXP_01",
+                "timestamp": "2026-04-21T10:50:00.212356Z",
+                "raw_transcript": "Um, I have 4.5 years of professional experience.",
+                "normalized_text": "I have 4.5 years of professional experience.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 15.5,
+                "intent": "experience",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_EXP_09",
+                "timestamp": "2026-04-21T10:50:15.712356Z",
+                "raw_transcript": "I successfully migrated our legacy system to microservices.",
+                "normalized_text": "I successfully migrated our legacy system to microservices.",
+                "stt_confidence": 0.8,
+                "duration_seconds": 11.5,
+                "intent": "experience",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EXP_11",
+                "timestamp": "2026-04-21T10:50:27.212356Z",
+                "raw_transcript": "Um, I have 3 years of experience in cloud infrastructure.",
+                "normalized_text": "I have 3 years of experience in cloud infrastructure.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "experience",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_01",
+                "timestamp": "2026-04-21T10:50:39.712356Z",
+                "raw_transcript": "I would rate my Python skills at an 8 out of 10.",
+                "normalized_text": "I would rate my Python skills at an 8 out of 10.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 13.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_05",
+                "timestamp": "2026-04-21T10:50:53.212356Z",
+                "raw_transcript": "Um, Yes, I have deployed containers using Docker and Kubernetes.",
+                "normalized_text": "Yes, I have deployed containers using Docker and Kubernetes.",
+                "stt_confidence": 0.8,
+                "duration_seconds": 14.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_09",
+                "timestamp": "2026-04-21T10:51:07.712356Z",
+                "raw_transcript": "I check database locks, index usage, and add read replicas if needed.",
+                "normalized_text": "I check database locks, index usage, and add read replicas if needed.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 15.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_LOC_01",
+                "timestamp": "2026-04-21T10:51:23.212356Z",
+                "raw_transcript": "Um, I am currently located in Thiruvananthapuram.",
+                "normalized_text": "I am currently located in Thiruvananthapuram.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 11.5,
+                "intent": "location",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_LOC_02",
+                "timestamp": "2026-04-21T10:51:34.712356Z",
+                "raw_transcript": "Yes, I am absolutely willing to relocate for this role.",
+                "normalized_text": "Yes, I am absolutely willing to relocate for this role.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "location",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SAL_01",
+                "timestamp": "2026-04-21T10:51:47.212356Z",
+                "raw_transcript": "Um, My current take-home salary is 5500 dollars.",
+                "normalized_text": "My current take-home salary is 5500 dollars.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 13.5,
+                "intent": "salary",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_SAL_02",
+                "timestamp": "2026-04-21T10:52:00.712356Z",
+                "raw_transcript": "I am expecting around 6710 dollars.",
+                "normalized_text": "I am expecting around 6710 dollars.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 14.5,
+                "intent": "salary",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_NP_01",
+                "timestamp": "2026-04-21T10:52:15.212356Z",
+                "raw_transcript": "Um, My current notice period is 90 days.",
+                "normalized_text": "My current notice period is 90 days.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 15.5,
+                "intent": "notice_period",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_NP_02",
+                "timestamp": "2026-04-21T10:52:30.712356Z",
+                "raw_transcript": "Yes, my notice period can be negotiated or bought out.",
+                "normalized_text": "Yes, my notice period can be negotiated or bought out.",
+                "stt_confidence": 0.7,
+                "intent": "notice_period",
+                "noise_level": "medium",
+                "duration_seconds": 10.0
+            }
+        ],
+        "qa_validation": [
+            {
+                "question_id": "Q_INTRO_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_INTRO_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_INTRO_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_INTRO_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EDU_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EDU_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EDU_07",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EDU_07",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_09",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_09",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_11",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_11",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_05",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_05",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_09",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_09",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_LOC_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_LOC_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_LOC_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_LOC_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SAL_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SAL_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SAL_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SAL_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_NP_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_NP_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_NP_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_NP_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            }
+        ],
+        "consistency_flags": [],
+        "extracted_entities": {
+            "current_location": "Thiruvananthapuram",
+            "willing_to_relocate": "Yes",
+            "salary_current": "5500",
+            "salary_expected": "6710",
+            "notice_period_days": "90"
+        },
+        "confidence_adjustment": -0.0,
+        "global_confidence_score": 0.95,
+        "validation_summary": "Completed validation with 0 flags and 0 incorrect mappings."
+    },
+    {
+        "application": {
+            "candidate_id": "cand_5e60c582",
+            "job_id": "ROLE_STAFF_NURSE",
+            "session_id": "sess_78870d44",
+            "timestamp": "2026-04-21T10:49:08.148731Z"
+        },
+        "interaction_summary": {
+            "total_questions_answered": 15,
+            "total_duration_seconds": 180.0,
+            "average_stt_confidence": 0.95
+        },
+        "transcript": [
+            {
+                "question_id": "Q_INTRO_01",
+                "timestamp": "2026-04-21T10:49:08.148136Z",
+                "raw_transcript": "Um, Hi, I am an experienced Staff Nurse. I have been in this field for many years.",
+                "normalized_text": "Hi, I am an experienced Staff Nurse. I have been in this field for many years.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 11.5,
+                "intent": "introduction",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_INTRO_02",
+                "timestamp": "2026-04-21T10:49:19.648136Z",
+                "raw_transcript": "Yes, I am currently employed but looking for better opportunities.",
+                "normalized_text": "Yes, I am currently employed but looking for better opportunities.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "introduction",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EDU_01",
+                "timestamp": "2026-04-21T10:49:32.148136Z",
+                "raw_transcript": "Um, I hold a Bachelor's degree from the State University.",
+                "normalized_text": "I hold a Bachelor's degree from the State University.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 13.5,
+                "intent": "education",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EDU_03",
+                "timestamp": "2026-04-21T10:49:45.648136Z",
+                "raw_transcript": "Yes, I hold a valid Nursing Council registration.",
+                "normalized_text": "Yes, I hold a valid Nursing Council registration.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 14.5,
+                "intent": "education",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EXP_01",
+                "timestamp": "2026-04-21T10:50:00.148136Z",
+                "raw_transcript": "Um, I have 4.5 years of professional experience.",
+                "normalized_text": "I have 4.5 years of professional experience.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 15.5,
+                "intent": "experience",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_EXP_02",
+                "timestamp": "2026-04-21T10:50:15.648136Z",
+                "raw_transcript": "I have exactly 3.5 years of clinical experience in the ICU.",
+                "normalized_text": "I have 3.5 years of clinical experience in the ICU.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 11.5,
+                "intent": "experience",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EXP_08",
+                "timestamp": "2026-04-21T10:50:27.148136Z",
+                "raw_transcript": "Um, Once a patient was aggressive. I used de-escalation techniques and called for support.",
+                "normalized_text": "Once a patient was aggressive. I used de-escalation techniques and called for support.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "experience",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_07",
+                "timestamp": "2026-04-21T10:50:39.648136Z",
+                "raw_transcript": "Yes, I hold valid BLS and ACLS certifications.",
+                "normalized_text": "Yes, I hold valid BLS and ACLS certifications.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 13.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_08",
+                "timestamp": "2026-04-21T10:50:53.148136Z",
+                "raw_transcript": "Um, I would immediately check their airway, start CPR if needed, and call a Code Blue while applying oxygen.",
+                "normalized_text": "I would immediately check their airway, start CPR if needed, and call a Code Blue while applying oxygen.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 14.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_LOC_01",
+                "timestamp": "2026-04-21T10:51:07.648136Z",
+                "raw_transcript": "I am currently located in Kochi.",
+                "normalized_text": "I am currently located in Kochi.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 15.5,
+                "intent": "location",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_LOC_02",
+                "timestamp": "2026-04-21T10:51:23.148136Z",
+                "raw_transcript": "Um, Yes, I am absolutely willing to relocate for this role.",
+                "normalized_text": "Yes, I am absolutely willing to relocate for this role.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 11.5,
+                "intent": "location",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SAL_01",
+                "timestamp": "2026-04-21T10:51:34.648136Z",
+                "raw_transcript": "My current take-home salary is 3800 dollars.",
+                "normalized_text": "My current take-home salary is 3800 dollars.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 12.5,
+                "intent": "salary",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_SAL_02",
+                "timestamp": "2026-04-21T10:51:47.148136Z",
+                "raw_transcript": "Um, I am expecting around 4484 dollars.",
+                "normalized_text": "I am expecting around 4484 dollars.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 13.5,
+                "intent": "salary",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_NP_01",
+                "timestamp": "2026-04-21T10:52:00.648136Z",
+                "raw_transcript": "My current notice period is 30 days.",
+                "normalized_text": "My current notice period is 30 days.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 14.5,
+                "intent": "notice_period",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_NP_02",
+                "timestamp": "2026-04-21T10:52:15.148136Z",
+                "raw_transcript": "Um, Yes, my notice period can be negotiated or bought out.",
+                "normalized_text": "Yes, my notice period can be negotiated or bought out.",
+                "stt_confidence": 0.7,
+                "intent": "notice_period",
+                "noise_level": "medium",
+                "duration_seconds": 10.0
+            }
+        ],
+        "qa_validation": [
+            {
+                "question_id": "Q_INTRO_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_INTRO_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_INTRO_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_INTRO_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EDU_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EDU_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EDU_03",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EDU_03",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_08",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_08",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_07",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_07",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_08",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_08",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_LOC_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_LOC_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_LOC_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_LOC_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SAL_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SAL_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SAL_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SAL_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_NP_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_NP_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_NP_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_NP_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            }
+        ],
+        "consistency_flags": [],
+        "extracted_entities": {
+            "willing_to_relocate": "Yes",
+            "salary_current": "3800",
+            "salary_expected": "4484",
+            "notice_period_days": "30"
+        },
+        "confidence_adjustment": -0.0,
+        "global_confidence_score": 0.95,
+        "validation_summary": "Completed validation with 0 flags and 0 incorrect mappings."
+    },
+    {
+        "application": {
+            "candidate_id": "cand_b7543d1f",
+            "job_id": "ROLE_STAFF_NURSE",
+            "session_id": "sess_4836d7b4",
+            "timestamp": "2026-04-21T10:49:08.132197Z"
+        },
+        "interaction_summary": {
+            "total_questions_answered": 15,
+            "total_duration_seconds": 180.0,
+            "average_stt_confidence": 0.95
+        },
+        "transcript": [
+            {
+                "question_id": "Q_INTRO_01",
+                "timestamp": "2026-04-21T10:49:08.131371Z",
+                "raw_transcript": "Um, Hi, I am an experienced Staff Nurse. I have been in this field for many years.",
+                "normalized_text": "Hi, I am an experienced Staff Nurse. I have been in this field for many years.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 11.5,
+                "intent": "introduction",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_INTRO_02",
+                "timestamp": "2026-04-21T10:49:19.631371Z",
+                "raw_transcript": "Yes, I am currently employed but looking for better opportunities.",
+                "normalized_text": "Yes, I am currently employed but looking for better opportunities.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "introduction",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EDU_01",
+                "timestamp": "2026-04-21T10:49:32.131371Z",
+                "raw_transcript": "Um, I hold a Bachelor's degree from the State University.",
+                "normalized_text": "I hold a Bachelor's degree from the State University.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 13.5,
+                "intent": "education",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EDU_03",
+                "timestamp": "2026-04-21T10:49:45.631371Z",
+                "raw_transcript": "Yes, I hold a valid Nursing Council registration.",
+                "normalized_text": "Yes, I hold a valid Nursing Council registration.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 14.5,
+                "intent": "education",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EXP_01",
+                "timestamp": "2026-04-21T10:50:00.131371Z",
+                "raw_transcript": "Um, I have 4.5 years of professional experience.",
+                "normalized_text": "I have 4.5 years of professional experience.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 15.5,
+                "intent": "experience",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_EXP_02",
+                "timestamp": "2026-04-21T10:50:15.631371Z",
+                "raw_transcript": "I have exactly 3.5 years of clinical experience in the ICU.",
+                "normalized_text": "I have 3.5 years of clinical experience in the ICU.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 11.5,
+                "intent": "experience",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_EXP_08",
+                "timestamp": "2026-04-21T10:50:27.131371Z",
+                "raw_transcript": "Um, Once a patient was aggressive. I used de-escalation techniques and called for support.",
+                "normalized_text": "Once a patient was aggressive. I used de-escalation techniques and called for support.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 12.5,
+                "intent": "experience",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_07",
+                "timestamp": "2026-04-21T10:50:39.631371Z",
+                "raw_transcript": "Yes, I hold valid BLS and ACLS certifications.",
+                "normalized_text": "Yes, I hold valid BLS and ACLS certifications.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 13.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SKILL_08",
+                "timestamp": "2026-04-21T10:50:53.131371Z",
+                "raw_transcript": "Um, I would immediately check their airway, start CPR if needed, and call a Code Blue while applying oxygen.",
+                "normalized_text": "I would immediately check their airway, start CPR if needed, and call a Code Blue while applying oxygen.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 14.5,
+                "intent": "skills",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_LOC_01",
+                "timestamp": "2026-04-21T10:51:07.631371Z",
+                "raw_transcript": "I am currently located in New York.",
+                "normalized_text": "I am currently located in New York.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 15.5,
+                "intent": "location",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_LOC_02",
+                "timestamp": "2026-04-21T10:51:23.131371Z",
+                "raw_transcript": "Um, Yes, I am absolutely willing to relocate for this role.",
+                "normalized_text": "Yes, I am absolutely willing to relocate for this role.",
+                "stt_confidence": 0.7,
+                "duration_seconds": 11.5,
+                "intent": "location",
+                "noise_level": "medium"
+            },
+            {
+                "question_id": "Q_SAL_01",
+                "timestamp": "2026-04-21T10:51:34.631371Z",
+                "raw_transcript": "My current take-home salary is 6000 dollars.",
+                "normalized_text": "My current take-home salary is 6000 dollars.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 12.5,
+                "intent": "salary",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_SAL_02",
+                "timestamp": "2026-04-21T10:51:47.131371Z",
+                "raw_transcript": "Um, I am expecting around 7440 dollars.",
+                "normalized_text": "I am expecting around 7440 dollars.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 13.5,
+                "intent": "salary",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_NP_01",
+                "timestamp": "2026-04-21T10:52:00.631371Z",
+                "raw_transcript": "My current notice period is 60 days.",
+                "normalized_text": "My current notice period is 60 days.",
+                "stt_confidence": 0.6,
+                "duration_seconds": 14.5,
+                "intent": "notice_period",
+                "noise_level": "high"
+            },
+            {
+                "question_id": "Q_NP_02",
+                "timestamp": "2026-04-21T10:52:15.131371Z",
+                "raw_transcript": "Um, Yes, my notice period can be negotiated or bought out.",
+                "normalized_text": "Yes, my notice period can be negotiated or bought out.",
+                "stt_confidence": 0.7,
+                "intent": "notice_period",
+                "noise_level": "medium",
+                "duration_seconds": 10.0
+            }
+        ],
+        "qa_validation": [
+            {
+                "question_id": "Q_INTRO_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_INTRO_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_INTRO_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_INTRO_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EDU_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EDU_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EDU_03",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EDU_03",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_EXP_08",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_EXP_08",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_07",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_07",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SKILL_08",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SKILL_08",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_LOC_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_LOC_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_LOC_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_LOC_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SAL_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SAL_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_SAL_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_SAL_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_NP_01",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_NP_01",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            },
+            {
+                "question_id": "Q_NP_02",
+                "mapping_status": "correct",
+                "corrected_question_id": "Q_NP_02",
+                "intent_match_score": 1.0,
+                "notes": "Mapped correctly to expected intent."
+            }
+        ],
+        "consistency_flags": [],
+        "extracted_entities": {
+            "willing_to_relocate": "Yes",
+            "salary_current": "6000",
+            "salary_expected": "7440",
+            "notice_period_days": "60"
+        },
+        "confidence_adjustment": -0.0,
+        "global_confidence_score": 0.95,
+        "validation_summary": "Completed validation with 0 flags and 0 incorrect mappings."
+    }
+]
