@@ -1,0 +1,489 @@
+{
+  "metadata": {
+    "engine": "AI Answer Understanding Engine v2.0 (Aggregator)",
+    "candidate_id": "cand_d7e57bdf",
+    "processed_at": "2026-04-23T11:12:07.895302Z",
+    "num_transcripts": 16
+  },
+  "global_profile": {
+    "skills": {
+      "explicit": [
+        "Python",
+        "Docker",
+        "Kubernetes"
+      ],
+      "inferred": [
+        {
+          "name": "System Design",
+          "confidence": 0.85,
+          "sources": [
+            "Q_EXP_09"
+          ]
+        },
+        {
+          "name": "Distributed Systems",
+          "confidence": 0.85,
+          "sources": [
+            "Q_EXP_09"
+          ]
+        },
+        {
+          "name": "API Design",
+          "confidence": 0.85,
+          "sources": [
+            "Q_EXP_09"
+          ]
+        },
+        {
+          "name": "Database Optimization",
+          "confidence": 0.8,
+          "sources": [
+            "Q_SKILL_09"
+          ]
+        }
+      ]
+    },
+    "experience": {
+      "total_years": 4.5,
+      "domains": {
+        "Cloud Engineering": 3.0
+      }
+    },
+    "education": {
+      "degree": "Bachelor's",
+      "institution": "State University"
+    },
+    "location": {
+      "current": "Thiruvananthapuram",
+      "negotiable": true
+    },
+    "salary": {
+      "current": {
+        "value": 5800,
+        "currency": "USD",
+        "unit": "monthly"
+      },
+      "expected": {
+        "value": 7308,
+        "currency": "USD",
+        "unit": "monthly"
+      }
+    },
+    "notice_period": {
+      "days": 30,
+      "negotiable": true
+    }
+  },
+  "results": [
+    {
+      "question_id": "Q_INTRO_01",
+      "input": {
+        "question_type": "introduction",
+        "answer": "Hi, I am an experienced Software Engineer. I have been in this field for many years."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "introduction",
+          "confidence": 0.95
+        },
+        "quality": {
+          "is_vague": true,
+          "is_complete": false
+        },
+        "semantic_summary": "No structured signals extracted; response remains high-level.",
+        "confidence_score": 0.5
+      }
+    },
+    {
+      "question_id": "Q_INTRO_02",
+      "input": {
+        "question_type": "introduction",
+        "answer": "Yes, I am currently employed but looking for better opportunities."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "introduction",
+          "confidence": 0.95
+        },
+        "quality": {
+          "is_vague": true,
+          "is_complete": false
+        },
+        "semantic_summary": "No structured signals extracted; response remains high-level.",
+        "confidence_score": 0.5
+      }
+    },
+    {
+      "question_id": "Q_EDU_01",
+      "input": {
+        "question_type": "education",
+        "answer": "I hold a Bachelor's degree from the State University."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "education",
+          "confidence": 0.95
+        },
+        "entities": {
+          "education": {
+            "degree": "Bachelor's",
+            "institution": "State University"
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate confirms Bachelor's degree, validating educational baseline.",
+        "confidence_score": 0.82
+      }
+    },
+    {
+      "question_id": "Q_EDU_07",
+      "input": {
+        "question_type": "education",
+        "answer": "Yes, I have completed a few specialized bootcamps."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "education",
+          "confidence": 0.95
+        },
+        "quality": {
+          "is_vague": true,
+          "is_complete": false
+        },
+        "semantic_summary": "No structured signals extracted; response remains high-level.",
+        "confidence_score": 0.5
+      }
+    },
+    {
+      "question_id": "Q_EXP_01",
+      "input": {
+        "question_type": "experience",
+        "answer": "I have 4.5 years of professional experience."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "experience",
+          "confidence": 0.95
+        },
+        "entities": {
+          "experience": {
+            "years": 4.5
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate reports 4.5 years of professional experience, indicating engineering seniority.",
+        "confidence_score": 0.82
+      }
+    },
+    {
+      "question_id": "Q_EXP_09",
+      "input": {
+        "question_type": "experience",
+        "answer": "I successfully migrated our legacy system to microservices."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "experience",
+          "confidence": 0.95
+        },
+        "entities": {
+          "skills": {
+            "inferred": [
+              {
+                "name": "System Design",
+                "confidence": 0.85,
+                "sources": [
+                  "Q_EXP_09"
+                ]
+              },
+              {
+                "name": "Distributed Systems",
+                "confidence": 0.85,
+                "sources": [
+                  "Q_EXP_09"
+                ]
+              },
+              {
+                "name": "API Design",
+                "confidence": 0.85,
+                "sources": [
+                  "Q_EXP_09"
+                ]
+              }
+            ]
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate describes migration of legacy systems to microservices, demonstrating hands-on experience in System Design, Distributed Systems, and API Design.",
+        "confidence_score": 0.72
+      }
+    },
+    {
+      "question_id": "Q_EXP_11",
+      "input": {
+        "question_type": "experience",
+        "answer": "I have 3 years of experience in cloud infrastructure."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "experience",
+          "confidence": 0.95
+        },
+        "entities": {
+          "experience": {
+            "years": 3.0,
+            "domain": "Cloud Engineering"
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate reports 3 years of experience in Cloud Engineering, indicating domain-specific engineering seniority.",
+        "confidence_score": 0.9
+      }
+    },
+    {
+      "question_id": "Q_SKILL_01",
+      "input": {
+        "question_type": "skills",
+        "answer": "I would rate my Python skills at an 8 out of 10."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "skills",
+          "confidence": 0.95
+        },
+        "entities": {
+          "skills": {
+            "explicit": [
+              "Python"
+            ]
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate demonstrates explicit proficiency in Python, confirming core technical competencies.",
+        "confidence_score": 0.75
+      }
+    },
+    {
+      "question_id": "Q_SKILL_05",
+      "input": {
+        "question_type": "skills",
+        "answer": "Yes, I have deployed containers using Docker and Kubernetes."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "skills",
+          "confidence": 0.95
+        },
+        "entities": {
+          "skills": {
+            "explicit": [
+              "Docker",
+              "Kubernetes"
+            ]
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate demonstrates explicit, production-level proficiency in Docker, Kubernetes, confirming hands-on deployment experience.",
+        "confidence_score": 0.82
+      }
+    },
+    {
+      "question_id": "Q_SKILL_09",
+      "input": {
+        "question_type": "skills",
+        "answer": "I check database locks, index usage, and add read replicas if needed."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "skills",
+          "confidence": 0.95
+        },
+        "entities": {
+          "skills": {
+            "inferred": [
+              {
+                "name": "Database Optimization",
+                "confidence": 0.8,
+                "sources": [
+                  "Q_SKILL_09"
+                ]
+              }
+            ]
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate references performance and index strategies, establishing clear Database Optimization capabilities.",
+        "confidence_score": 0.72
+      }
+    },
+    {
+      "question_id": "Q_LOC_01",
+      "input": {
+        "question_type": "location",
+        "answer": "I am currently located in Thiruvananthapuram."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "location",
+          "confidence": 0.95
+        },
+        "entities": {
+          "location": {
+            "current": "Thiruvananthapuram"
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate confirms current location in Thiruvananthapuram.",
+        "confidence_score": 0.68
+      }
+    },
+    {
+      "question_id": "Q_LOC_02",
+      "input": {
+        "question_type": "location",
+        "answer": "Yes, I am absolutely willing to relocate for this role."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "location",
+          "confidence": 0.95
+        },
+        "entities": {
+          "location": {
+            "negotiable": true
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate expresses willingness to relocate, showing role flexibility.",
+        "confidence_score": 0.68
+      }
+    },
+    {
+      "question_id": "Q_SAL_01",
+      "input": {
+        "question_type": "salary",
+        "answer": "My current take-home salary is 5800 dollars."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "salary",
+          "confidence": 0.95
+        },
+        "entities": {
+          "salary": {
+            "value": 5800,
+            "currency": "USD",
+            "unit": "monthly"
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate reports current salary of 5800 USD monthly, establishing compensation reference.",
+        "confidence_score": 0.82
+      }
+    },
+    {
+      "question_id": "Q_SAL_02",
+      "input": {
+        "question_type": "salary",
+        "answer": "I am expecting around 7308 dollars."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "salary",
+          "confidence": 0.95
+        },
+        "entities": {
+          "salary": {
+            "value": 7308,
+            "currency": "USD",
+            "unit": "monthly"
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate states expected salary of 7308 USD monthly, defining target compensation.",
+        "confidence_score": 0.82
+      }
+    },
+    {
+      "question_id": "Q_NP_01",
+      "input": {
+        "question_type": "notice_period",
+        "answer": "My current notice period is 30 days."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "notice_period",
+          "confidence": 0.95
+        },
+        "entities": {
+          "notice_period": {
+            "days": 30
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate communicates a 30-day notice period, establishing strict timeline availability.",
+        "confidence_score": 0.82
+      }
+    },
+    {
+      "question_id": "Q_NP_02",
+      "input": {
+        "question_type": "notice_period",
+        "answer": "Yes, my notice period can be negotiated or bought out."
+      },
+      "analysis": {
+        "intent": {
+          "primary": "notice_period",
+          "confidence": 0.95
+        },
+        "entities": {
+          "notice_period": {
+            "negotiable": true
+          }
+        },
+        "quality": {
+          "is_vague": false,
+          "is_complete": true
+        },
+        "semantic_summary": "Candidate indicates notice period negotiability, allowing flexible onboarding.",
+        "confidence_score": 0.68
+      }
+    }
+  ]
+}

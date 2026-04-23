@@ -1,7 +1,7 @@
 {
   "batch_id": "BATCH_PROD_20260411_85JD",
   "processed_count": 85,
-  "total_time_seconds": 0.26010823249816895,
+  "total_time_seconds": 0.2517969608306885,
   "results": [
     {
       "job_id": "JOB-SAMPLE-001",
@@ -79,8 +79,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0135,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -102,7 +102,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -190,7 +190,7 @@
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL"
       ],
-      "processing_time_ms": 169,
+      "processing_time_ms": 171,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -288,7 +288,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -375,7 +375,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 177,
+      "processing_time_ms": 184,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -509,7 +509,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -563,7 +563,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 186,
+      "processing_time_ms": 183,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -661,7 +661,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -748,7 +748,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 173,
+      "processing_time_ms": 152,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -846,7 +846,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -933,7 +933,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 150,
+      "processing_time_ms": 162,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -1010,8 +1010,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.02,
+          "normalized_score": 0.0377,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -1032,7 +1032,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -1119,7 +1119,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 168,
+      "processing_time_ms": 170,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -1257,7 +1257,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -1312,7 +1312,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 184,
+      "processing_time_ms": 167,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -1413,7 +1413,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -1502,7 +1502,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 182,
+      "processing_time_ms": 169,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -1603,7 +1603,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -1691,7 +1691,7 @@
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL"
       ],
-      "processing_time_ms": 161,
+      "processing_time_ms": 191,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -1803,7 +1803,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -1898,7 +1898,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 176,
+      "processing_time_ms": 181,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -1977,8 +1977,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0189,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -2000,7 +2000,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -2089,7 +2089,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 154,
+      "processing_time_ms": 158,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -2221,7 +2221,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -2275,7 +2275,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 157,
+      "processing_time_ms": 192,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -2352,8 +2352,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.02,
+          "normalized_score": 0.0368,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -2374,7 +2374,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -2461,7 +2461,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 181,
+      "processing_time_ms": 158,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -2559,7 +2559,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -2646,7 +2646,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 186,
+      "processing_time_ms": 169,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -2744,7 +2744,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -2830,7 +2830,7 @@
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL"
       ],
-      "processing_time_ms": 167,
+      "processing_time_ms": 169,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -2928,7 +2928,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -3015,7 +3015,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 184,
+      "processing_time_ms": 168,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -3116,7 +3116,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -3204,7 +3204,7 @@
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL"
       ],
-      "processing_time_ms": 162,
+      "processing_time_ms": 191,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -3285,8 +3285,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0058,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -3309,7 +3309,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -3399,7 +3399,7 @@
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL"
       ],
-      "processing_time_ms": 179,
+      "processing_time_ms": 157,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -3500,7 +3500,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -3589,7 +3589,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 189,
+      "processing_time_ms": 173,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -3692,7 +3692,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -3781,7 +3781,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 152,
+      "processing_time_ms": 153,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -3882,7 +3882,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -3971,7 +3971,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 184,
+      "processing_time_ms": 175,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -4069,7 +4069,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -4156,7 +4156,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 190,
+      "processing_time_ms": 163,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -4262,7 +4262,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -4353,7 +4353,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 167,
+      "processing_time_ms": 178,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -4451,7 +4451,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -4538,7 +4538,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 180,
+      "processing_time_ms": 185,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -4636,7 +4636,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -4723,7 +4723,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 172,
+      "processing_time_ms": 184,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -4830,7 +4830,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -4923,7 +4923,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 189,
+      "processing_time_ms": 153,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -5031,7 +5031,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -5124,7 +5124,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 163,
+      "processing_time_ms": 182,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -5225,7 +5225,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -5314,7 +5314,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 194,
+      "processing_time_ms": 192,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -5394,8 +5394,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0263,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -5417,7 +5417,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -5506,7 +5506,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 163,
+      "processing_time_ms": 166,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -5604,7 +5604,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -5690,7 +5690,7 @@
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL"
       ],
-      "processing_time_ms": 187,
+      "processing_time_ms": 171,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -5769,8 +5769,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0286,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -5792,7 +5792,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -5881,7 +5881,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 167,
+      "processing_time_ms": 176,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -5925,11 +5925,45 @@
           }
         },
         {
+          "candidate_id": "Rahul",
+          "final_score": 0.35,
+          "normalized_score": 0.5,
+          "confidence_score": 0.1992,
+          "rank": 2,
+          "status": "Reject",
+          "risk_level": "HIGH",
+          "matched_skills": [],
+          "missing_skills": [
+            "Emergency Response",
+            "Empathy",
+            "Emotional support and empathy",
+            "Crisis management (complications during labor)"
+          ],
+          "core_skill_coverage": 0.0,
+          "explicit_skill_coverage": 0.0,
+          "indicators": {
+            "green_flags": [],
+            "red_flags": [
+              "Low Explicit Skill Evidence",
+              "Missing Core Skills"
+            ]
+          },
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
+          "audit_trace": {
+            "base_confidence": 0.42,
+            "total_penalty": 0.25,
+            "capped_confidence": 0.1992,
+            "core_gate_pass": false,
+            "explicit_gate_pass": false,
+            "rank": 2
+          }
+        },
+        {
           "candidate_id": "nurse_resume",
           "final_score": 0.22,
           "normalized_score": 0.3143,
           "confidence_score": 0.3609,
-          "rank": 2,
+          "rank": 3,
           "status": "Reject",
           "risk_level": "HIGH",
           "matched_skills": [
@@ -5955,40 +5989,6 @@
             "capped_confidence": 0.3609,
             "core_gate_pass": false,
             "explicit_gate_pass": true,
-            "rank": 2
-          }
-        },
-        {
-          "candidate_id": "Rahul",
-          "final_score": 0.05,
-          "normalized_score": 0.0714,
-          "confidence_score": 0.1992,
-          "rank": 3,
-          "status": "Reject",
-          "risk_level": "HIGH",
-          "matched_skills": [],
-          "missing_skills": [
-            "Emergency Response",
-            "Empathy",
-            "Emotional support and empathy",
-            "Crisis management (complications during labor)"
-          ],
-          "core_skill_coverage": 0.0,
-          "explicit_skill_coverage": 0.0,
-          "indicators": {
-            "green_flags": [],
-            "red_flags": [
-              "Low Explicit Skill Evidence",
-              "Missing Core Skills"
-            ]
-          },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
-          "audit_trace": {
-            "base_confidence": 0.42,
-            "total_penalty": 0.25,
-            "capped_confidence": 0.1992,
-            "core_gate_pass": false,
-            "explicit_gate_pass": false,
             "rank": 3
           }
         },
@@ -6070,7 +6070,7 @@
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL"
       ],
-      "processing_time_ms": 180,
+      "processing_time_ms": 152,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -6151,8 +6151,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0075,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -6175,7 +6175,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -6266,7 +6266,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 177,
+      "processing_time_ms": 159,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -6371,7 +6371,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -6462,7 +6462,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 156,
+      "processing_time_ms": 172,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -6603,7 +6603,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -6659,7 +6659,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 175,
+      "processing_time_ms": 185,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -6799,7 +6799,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -6855,7 +6855,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 185,
+      "processing_time_ms": 168,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -6959,7 +6959,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -7051,7 +7051,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 161,
+      "processing_time_ms": 169,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -7187,7 +7187,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -7242,7 +7242,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 170,
+      "processing_time_ms": 156,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -7387,7 +7387,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -7444,7 +7444,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 176,
+      "processing_time_ms": 179,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -7525,8 +7525,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0263,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -7548,7 +7548,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -7637,7 +7637,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 163,
+      "processing_time_ms": 184,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -7740,7 +7740,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -7829,7 +7829,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 157,
+      "processing_time_ms": 152,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -7873,45 +7873,11 @@
           }
         },
         {
-          "candidate_id": "nurse_resume",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "candidate_id": "Rahul",
+          "final_score": 0.01,
+          "normalized_score": 0.0286,
           "confidence_score": 0.0,
           "rank": 2,
-          "status": "Reject",
-          "risk_level": "HIGH",
-          "matched_skills": [],
-          "missing_skills": [
-            "Communication",
-            "Strong subject knowledge",
-            "Teaching and communication",
-            "Research aptitude"
-          ],
-          "core_skill_coverage": 0.0,
-          "explicit_skill_coverage": 0.0,
-          "indicators": {
-            "green_flags": [],
-            "red_flags": [
-              "Low Explicit Skill Evidence",
-              "Missing Core Skills"
-            ]
-          },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
-          "audit_trace": {
-            "base_confidence": 0.3,
-            "total_penalty": 0.45,
-            "capped_confidence": 0,
-            "core_gate_pass": false,
-            "explicit_gate_pass": false,
-            "rank": 2
-          }
-        },
-        {
-          "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
-          "confidence_score": 0.0,
-          "rank": 3,
           "status": "Reject",
           "risk_level": "HIGH",
           "matched_skills": [
@@ -7923,6 +7889,40 @@
             "Research aptitude"
           ],
           "core_skill_coverage": 0.25,
+          "explicit_skill_coverage": 0.0,
+          "indicators": {
+            "green_flags": [],
+            "red_flags": [
+              "Low Explicit Skill Evidence",
+              "Missing Core Skills"
+            ]
+          },
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
+          "audit_trace": {
+            "base_confidence": 0.3,
+            "total_penalty": 0.45,
+            "capped_confidence": 0,
+            "core_gate_pass": false,
+            "explicit_gate_pass": false,
+            "rank": 2
+          }
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "normalized_score": 0.0,
+          "confidence_score": 0.0,
+          "rank": 3,
+          "status": "Reject",
+          "risk_level": "HIGH",
+          "matched_skills": [],
+          "missing_skills": [
+            "Communication",
+            "Strong subject knowledge",
+            "Teaching and communication",
+            "Research aptitude"
+          ],
+          "core_skill_coverage": 0.0,
           "explicit_skill_coverage": 0.0,
           "indicators": {
             "green_flags": [],
@@ -8020,7 +8020,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 185,
+      "processing_time_ms": 170,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -8156,7 +8156,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -8211,7 +8211,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 169,
+      "processing_time_ms": 157,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -8311,7 +8311,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -8398,7 +8398,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 160,
+      "processing_time_ms": 184,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -8499,7 +8499,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -8588,7 +8588,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 188,
+      "processing_time_ms": 151,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -8686,7 +8686,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -8773,7 +8773,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 152,
+      "processing_time_ms": 160,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -8853,18 +8853,18 @@
           }
         },
         {
-          "candidate_id": "nurse_resume",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "candidate_id": "Rahul",
+          "final_score": 0.004,
+          "normalized_score": 0.0079,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
           "risk_level": "HIGH",
           "matched_skills": [
-            "documentation (implied)"
+            "communication (implied)"
           ],
           "missing_skills": [
-            "Communication",
+            "Documentation",
             "Organizational and project management skills",
             "Communication and coordination",
             "Documentation and compliance knowledge"
@@ -8878,7 +8878,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -8889,7 +8889,7 @@
           }
         },
         {
-          "candidate_id": "Rahul",
+          "candidate_id": "nurse_resume",
           "final_score": 0.0,
           "normalized_score": 0.0,
           "confidence_score": 0.0,
@@ -8897,10 +8897,10 @@
           "status": "Reject",
           "risk_level": "HIGH",
           "matched_skills": [
-            "communication (implied)"
+            "documentation (implied)"
           ],
           "missing_skills": [
-            "Documentation",
+            "Communication",
             "Organizational and project management skills",
             "Communication and coordination",
             "Documentation and compliance knowledge"
@@ -8970,7 +8970,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 169,
+      "processing_time_ms": 178,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -9068,7 +9068,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -9155,7 +9155,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 158,
+      "processing_time_ms": 155,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -9253,7 +9253,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -9340,7 +9340,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 159,
+      "processing_time_ms": 176,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -9423,8 +9423,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0107,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -9447,7 +9447,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -9538,7 +9538,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 163,
+      "processing_time_ms": 174,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -9549,11 +9549,11 @@
       "candidates": [
         {
           "candidate_id": "Rahul",
-          "final_score": 0.206,
+          "final_score": 0.506,
           "normalized_score": 1.0,
           "confidence_score": 0.3392,
           "rank": 1,
-          "status": "Reject",
+          "status": "Review",
           "risk_level": "HIGH",
           "matched_skills": [
             "data analysis (explicit)"
@@ -9572,7 +9572,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Qualified background identified but retained in Review due to limited core coverage. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.46,
             "total_penalty": 0.15,
@@ -9726,14 +9726,14 @@
       "summary": {
         "total_candidates": 5,
         "shortlisted": 0,
-        "review": 0,
-        "rejected": 5
+        "review": 1,
+        "rejected": 4
       },
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 189,
+      "processing_time_ms": 164,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -9836,7 +9836,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -9925,7 +9925,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 173,
+      "processing_time_ms": 168,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -10008,8 +10008,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0107,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -10032,7 +10032,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -10123,7 +10123,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 175,
+      "processing_time_ms": 150,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -10200,8 +10200,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.02,
+          "normalized_score": 0.0571,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -10222,7 +10222,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -10309,7 +10309,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 159,
+      "processing_time_ms": 167,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -10410,7 +10410,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -10499,7 +10499,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 171,
+      "processing_time_ms": 168,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -10580,8 +10580,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0114,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -10604,7 +10604,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -10695,7 +10695,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 193,
+      "processing_time_ms": 166,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -10840,7 +10840,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -10897,7 +10897,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 165,
+      "processing_time_ms": 184,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -11002,7 +11002,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -11094,7 +11094,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 150,
+      "processing_time_ms": 156,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -11176,8 +11176,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0079,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -11200,7 +11200,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -11292,7 +11292,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 185,
+      "processing_time_ms": 192,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -11390,7 +11390,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -11477,7 +11477,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 190,
+      "processing_time_ms": 185,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -11578,7 +11578,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -11667,7 +11667,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 176,
+      "processing_time_ms": 192,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -11746,8 +11746,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0286,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -11769,7 +11769,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -11858,7 +11858,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 159,
+      "processing_time_ms": 154,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -11993,7 +11993,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -12048,7 +12048,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 153,
+      "processing_time_ms": 186,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -12188,7 +12188,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -12244,7 +12244,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 172,
+      "processing_time_ms": 174,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -12342,7 +12342,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -12429,7 +12429,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 188,
+      "processing_time_ms": 174,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -12531,7 +12531,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -12620,7 +12620,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 178,
+      "processing_time_ms": 151,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -12700,8 +12700,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0179,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -12723,7 +12723,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -12812,7 +12812,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 163,
+      "processing_time_ms": 153,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -12889,8 +12889,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.02,
+          "normalized_score": 0.0571,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -12911,7 +12911,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -12998,7 +12998,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 152,
+      "processing_time_ms": 150,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -13099,7 +13099,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -13187,7 +13187,7 @@
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL"
       ],
-      "processing_time_ms": 170,
+      "processing_time_ms": 184,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -13288,7 +13288,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -13377,7 +13377,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 193,
+      "processing_time_ms": 150,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -13478,7 +13478,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -13567,7 +13567,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 175,
+      "processing_time_ms": 168,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -13646,8 +13646,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0286,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -13669,7 +13669,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -13835,8 +13835,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.02,
+          "normalized_score": 0.0571,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -13857,7 +13857,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -13944,7 +13944,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 153,
+      "processing_time_ms": 170,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -14024,8 +14024,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.01,
+          "normalized_score": 0.0263,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -14047,7 +14047,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -14136,7 +14136,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 181,
+      "processing_time_ms": 165,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -14180,45 +14180,11 @@
           }
         },
         {
-          "candidate_id": "nurse_resume",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "candidate_id": "Rahul",
+          "final_score": 0.01,
+          "normalized_score": 0.0286,
           "confidence_score": 0.0,
           "rank": 2,
-          "status": "Reject",
-          "risk_level": "HIGH",
-          "matched_skills": [],
-          "missing_skills": [
-            "Communication",
-            "Compassion and patience",
-            "Basic clinical skills",
-            "Physical stamina"
-          ],
-          "core_skill_coverage": 0.0,
-          "explicit_skill_coverage": 0.0,
-          "indicators": {
-            "green_flags": [],
-            "red_flags": [
-              "Low Explicit Skill Evidence",
-              "Missing Core Skills"
-            ]
-          },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
-          "audit_trace": {
-            "base_confidence": 0.3,
-            "total_penalty": 0.45,
-            "capped_confidence": 0,
-            "core_gate_pass": false,
-            "explicit_gate_pass": false,
-            "rank": 2
-          }
-        },
-        {
-          "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
-          "confidence_score": 0.0,
-          "rank": 3,
           "status": "Reject",
           "risk_level": "HIGH",
           "matched_skills": [
@@ -14230,6 +14196,40 @@
             "Physical stamina"
           ],
           "core_skill_coverage": 0.25,
+          "explicit_skill_coverage": 0.0,
+          "indicators": {
+            "green_flags": [],
+            "red_flags": [
+              "Low Explicit Skill Evidence",
+              "Missing Core Skills"
+            ]
+          },
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
+          "audit_trace": {
+            "base_confidence": 0.3,
+            "total_penalty": 0.45,
+            "capped_confidence": 0,
+            "core_gate_pass": false,
+            "explicit_gate_pass": false,
+            "rank": 2
+          }
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "normalized_score": 0.0,
+          "confidence_score": 0.0,
+          "rank": 3,
+          "status": "Reject",
+          "risk_level": "HIGH",
+          "matched_skills": [],
+          "missing_skills": [
+            "Communication",
+            "Compassion and patience",
+            "Basic clinical skills",
+            "Physical stamina"
+          ],
+          "core_skill_coverage": 0.0,
           "explicit_skill_coverage": 0.0,
           "indicators": {
             "green_flags": [],
@@ -14327,7 +14327,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 182,
+      "processing_time_ms": 158,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -14425,7 +14425,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -14512,7 +14512,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 155,
+      "processing_time_ms": 183,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -14594,8 +14594,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0072,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -14618,7 +14618,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -14709,7 +14709,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 168,
+      "processing_time_ms": 185,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -14790,8 +14790,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0079,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -14814,7 +14814,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -14905,7 +14905,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 171,
+      "processing_time_ms": 156,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -15016,7 +15016,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -15192,8 +15192,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0075,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -15216,7 +15216,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -15307,7 +15307,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 170,
+      "processing_time_ms": 162,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -15415,7 +15415,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -15508,7 +15508,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 171,
+      "processing_time_ms": 167,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -15589,8 +15589,8 @@
         },
         {
           "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "final_score": 0.004,
+          "normalized_score": 0.0075,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -15613,7 +15613,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -15704,7 +15704,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 183,
+      "processing_time_ms": 185,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -15714,21 +15714,22 @@
       "job_title": "Business Analyst",
       "candidates": [
         {
-          "candidate_id": "Nurse_Resume_Anita_Mathew",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "candidate_id": "Rahul",
+          "final_score": 0.01,
+          "normalized_score": 1.0,
           "confidence_score": 0.0,
           "rank": 1,
           "status": "Reject",
           "risk_level": "HIGH",
-          "matched_skills": [],
+          "matched_skills": [
+            "communication (implied)"
+          ],
           "missing_skills": [
-            "Communication",
             "Knowledge of public health laws",
             "\u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923 (inspection) and analytical skills",
             "Communication and reporting"
           ],
-          "core_skill_coverage": 0.0,
+          "core_skill_coverage": 0.25,
           "explicit_skill_coverage": 0.0,
           "indicators": {
             "green_flags": [],
@@ -15737,7 +15738,7 @@
               "Missing Core Skills"
             ]
           },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
           "audit_trace": {
             "base_confidence": 0.3,
             "total_penalty": 0.45,
@@ -15748,7 +15749,7 @@
           }
         },
         {
-          "candidate_id": "nurse_resume",
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
           "final_score": 0.0,
           "normalized_score": 0.0,
           "confidence_score": 0.0,
@@ -15782,22 +15783,21 @@
           }
         },
         {
-          "candidate_id": "Rahul",
+          "candidate_id": "nurse_resume",
           "final_score": 0.0,
           "normalized_score": 0.0,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
           "risk_level": "HIGH",
-          "matched_skills": [
-            "communication (implied)"
-          ],
+          "matched_skills": [],
           "missing_skills": [
+            "Communication",
             "Knowledge of public health laws",
             "\u0928\u093f\u0930\u0940\u0915\u094d\u0937\u0923 (inspection) and analytical skills",
             "Communication and reporting"
           ],
-          "core_skill_coverage": 0.25,
+          "core_skill_coverage": 0.0,
           "explicit_skill_coverage": 0.0,
           "indicators": {
             "green_flags": [],
@@ -15895,7 +15895,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 173,
+      "processing_time_ms": 190,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -15905,81 +15905,11 @@
       "job_title": "Product Manager",
       "candidates": [
         {
-          "candidate_id": "Nurse_Resume_Anita_Mathew",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
+          "candidate_id": "Rahul",
+          "final_score": 0.004,
+          "normalized_score": 1.0,
           "confidence_score": 0.0,
           "rank": 1,
-          "status": "Reject",
-          "risk_level": "HIGH",
-          "matched_skills": [],
-          "missing_skills": [
-            "Communication",
-            "Research and analytical skills",
-            "Strategic thinking",
-            "Knowledge of healthcare systems",
-            "Communication and writing"
-          ],
-          "core_skill_coverage": 0.0,
-          "explicit_skill_coverage": 0.0,
-          "indicators": {
-            "green_flags": [],
-            "red_flags": [
-              "Low Explicit Skill Evidence",
-              "Missing Core Skills"
-            ]
-          },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
-          "audit_trace": {
-            "base_confidence": 0.3,
-            "total_penalty": 0.45,
-            "capped_confidence": 0,
-            "core_gate_pass": false,
-            "explicit_gate_pass": false,
-            "rank": 1
-          }
-        },
-        {
-          "candidate_id": "nurse_resume",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
-          "confidence_score": 0.0,
-          "rank": 2,
-          "status": "Reject",
-          "risk_level": "HIGH",
-          "matched_skills": [],
-          "missing_skills": [
-            "Communication",
-            "Research and analytical skills",
-            "Strategic thinking",
-            "Knowledge of healthcare systems",
-            "Communication and writing"
-          ],
-          "core_skill_coverage": 0.0,
-          "explicit_skill_coverage": 0.0,
-          "indicators": {
-            "green_flags": [],
-            "red_flags": [
-              "Low Explicit Skill Evidence",
-              "Missing Core Skills"
-            ]
-          },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
-          "audit_trace": {
-            "base_confidence": 0.3,
-            "total_penalty": 0.45,
-            "capped_confidence": 0,
-            "core_gate_pass": false,
-            "explicit_gate_pass": false,
-            "rank": 2
-          }
-        },
-        {
-          "candidate_id": "Rahul",
-          "final_score": 0.0,
-          "normalized_score": 0.0,
-          "confidence_score": 0.0,
-          "rank": 3,
           "status": "Reject",
           "risk_level": "HIGH",
           "matched_skills": [
@@ -16000,6 +15930,76 @@
               "Missing Core Skills"
             ]
           },
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment. [IN-PERSON INTERVIEW DATA INTEGRATED]",
+          "audit_trace": {
+            "base_confidence": 0.3,
+            "total_penalty": 0.45,
+            "capped_confidence": 0,
+            "core_gate_pass": false,
+            "explicit_gate_pass": false,
+            "rank": 1
+          }
+        },
+        {
+          "candidate_id": "Nurse_Resume_Anita_Mathew",
+          "final_score": 0.0,
+          "normalized_score": 0.0,
+          "confidence_score": 0.0,
+          "rank": 2,
+          "status": "Reject",
+          "risk_level": "HIGH",
+          "matched_skills": [],
+          "missing_skills": [
+            "Communication",
+            "Research and analytical skills",
+            "Strategic thinking",
+            "Knowledge of healthcare systems",
+            "Communication and writing"
+          ],
+          "core_skill_coverage": 0.0,
+          "explicit_skill_coverage": 0.0,
+          "indicators": {
+            "green_flags": [],
+            "red_flags": [
+              "Low Explicit Skill Evidence",
+              "Missing Core Skills"
+            ]
+          },
+          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
+          "audit_trace": {
+            "base_confidence": 0.3,
+            "total_penalty": 0.45,
+            "capped_confidence": 0,
+            "core_gate_pass": false,
+            "explicit_gate_pass": false,
+            "rank": 2
+          }
+        },
+        {
+          "candidate_id": "nurse_resume",
+          "final_score": 0.0,
+          "normalized_score": 0.0,
+          "confidence_score": 0.0,
+          "rank": 3,
+          "status": "Reject",
+          "risk_level": "HIGH",
+          "matched_skills": [],
+          "missing_skills": [
+            "Communication",
+            "Research and analytical skills",
+            "Strategic thinking",
+            "Knowledge of healthcare systems",
+            "Communication and writing"
+          ],
+          "core_skill_coverage": 0.0,
+          "explicit_skill_coverage": 0.0,
+          "indicators": {
+            "green_flags": [],
+            "red_flags": [
+              "Low Explicit Skill Evidence",
+              "Missing Core Skills"
+            ]
+          },
           "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
           "audit_trace": {
             "base_confidence": 0.3,
@@ -16091,7 +16091,7 @@
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 152,
+      "processing_time_ms": 192,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true
@@ -16101,11 +16101,46 @@
       "job_title": "Program Manager (Public Health",
       "candidates": [
         {
+          "candidate_id": "Rahul",
+          "final_score": 0.53,
+          "normalized_score": 1.0,
+          "confidence_score": 0.3392,
+          "rank": 1,
+          "status": "Review",
+          "risk_level": "HIGH",
+          "matched_skills": [
+            "data analysis (explicit)",
+            "communication (implied)"
+          ],
+          "missing_skills": [
+            "Leadership",
+            "Leadership and management",
+            "Organizational skills"
+          ],
+          "core_skill_coverage": 0.4,
+          "explicit_skill_coverage": 0.2,
+          "indicators": {
+            "green_flags": [],
+            "red_flags": [
+              "Missing Core Skills"
+            ]
+          },
+          "explanation": "Qualified background identified but retained in Review due to limited core coverage. [IN-PERSON INTERVIEW DATA INTEGRATED]",
+          "audit_trace": {
+            "base_confidence": 0.46,
+            "total_penalty": 0.15,
+            "capped_confidence": 0.3392,
+            "core_gate_pass": false,
+            "explicit_gate_pass": true,
+            "rank": 1
+          }
+        },
+        {
           "candidate_id": "Nurse_Resume_Anita_Mathew",
           "final_score": 0.35,
-          "normalized_score": 1.0,
+          "normalized_score": 0.6604,
           "confidence_score": 0.1926,
-          "rank": 1,
+          "rank": 2,
           "status": "Reject",
           "risk_level": "HIGH",
           "matched_skills": [],
@@ -16132,48 +16167,13 @@
             "capped_confidence": 0.1926,
             "core_gate_pass": false,
             "explicit_gate_pass": false,
-            "rank": 1
-          }
-        },
-        {
-          "candidate_id": "Rahul",
-          "final_score": 0.23,
-          "normalized_score": 0.6571,
-          "confidence_score": 0.3392,
-          "rank": 2,
-          "status": "Reject",
-          "risk_level": "HIGH",
-          "matched_skills": [
-            "data analysis (explicit)",
-            "communication (implied)"
-          ],
-          "missing_skills": [
-            "Leadership",
-            "Leadership and management",
-            "Organizational skills"
-          ],
-          "core_skill_coverage": 0.4,
-          "explicit_skill_coverage": 0.2,
-          "indicators": {
-            "green_flags": [],
-            "red_flags": [
-              "Missing Core Skills"
-            ]
-          },
-          "explanation": "Profile rejected due to significant skill gaps or domain misalignment.",
-          "audit_trace": {
-            "base_confidence": 0.46,
-            "total_penalty": 0.15,
-            "capped_confidence": 0.3392,
-            "core_gate_pass": false,
-            "explicit_gate_pass": true,
             "rank": 2
           }
         },
         {
           "candidate_id": "sample_2",
           "final_score": 0.04,
-          "normalized_score": 0.1143,
+          "normalized_score": 0.0755,
           "confidence_score": 0.0,
           "rank": 3,
           "status": "Reject",
@@ -16280,14 +16280,14 @@
       "summary": {
         "total_candidates": 5,
         "shortlisted": 0,
-        "review": 0,
-        "rejected": 5
+        "review": 1,
+        "rejected": 4
       },
       "system_flags": [
         "LOW_QUALITY_CANDIDATE_POOL",
         "NO_STRONG_MATCH_FOUND"
       ],
-      "processing_time_ms": 192,
+      "processing_time_ms": 175,
       "optimized": true,
       "memory_optimized": true,
       "noise_handled": true

@@ -78,6 +78,7 @@ The system now features a production-grade ATS AI module capable of handling end
 3. **Scoring**: Hybrid engine combining rule-based weights with semantic relevance.
 4. **Normalization**: Min-max normalization for consistent cross-role comparison.
 5. **Ranking**: Automated sorting and classification of candidates into Shortlist/Review/Rejected zones.
+6. **Answer Understanding**: AI-driven analysis of interview answers for intent, entities, and quality.
 
 ### Validation and Reports
 To validate the production pipeline and generate a compliance report:
