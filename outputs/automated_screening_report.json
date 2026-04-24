@@ -1,0 +1,429 @@
+{
+  "candidate_id": "cand_d7e57bdf",
+  "job_role": "Software Engineer",
+  "application_id": "APP-BA4C56CF",
+  "evaluation_id": "EVAL-6E0B6D4F",
+  "generated_at": "2026-04-24T10:56:30Z",
+  "model_version": "enterprise_ats_v26.0",
+  "final_screening_score": 57,
+  "max_score": 100,
+  "decision": "HOLD",
+  "rank_tier": "Tier 4",
+  "shortlist_status": "HOLD",
+  "recruiter_priority": "Low",
+  "hire_readiness": "Developing",
+  "manual_review_required": true,
+  "score_formula": {
+    "base_score": 69,
+    "bonus": 6,
+    "penalty": 18,
+    "final_score": 57
+  },
+  "category_weights": {
+    "Introduction": 0.1,
+    "Education": 0.1,
+    "Experience": 0.3,
+    "Skills": 0.3,
+    "Location": 0.05,
+    "Salary": 0.05,
+    "Notice Period": 0.1
+  },
+  "category_scores": {
+    "Introduction": 54,
+    "Education": 58,
+    "Experience": 69,
+    "Skills": 71,
+    "Location": 83,
+    "Salary": 74,
+    "Notice Period": 83
+  },
+  "recruiter_recommendation": {
+    "next_step": "Technical Screening",
+    "priority": "Low",
+    "risk_level": "Medium",
+    "interview_focus_areas": [
+      "Python async/await patterns",
+      "Kubernetes networking and scale",
+      "Current compensation structure"
+    ],
+    "recommended_round": "Technical Phone Screen"
+  },
+  "question_analysis": [
+    {
+      "question_id": "Q_INTRO_01",
+      "question": "Tell me about yourself",
+      "category": "Introduction",
+      "answer": "Hi, I am an experienced Software Engineer. I have been in this field for many years.",
+      "scores": {
+        "clarity": 5,
+        "relevance": 5,
+        "completeness": 4,
+        "consistency": 5
+      },
+      "weighted_score": 48,
+      "confidence": 0.32,
+      "evidence_level": "low",
+      "risk_flag": true,
+      "explanation": "Vague claims regarding 'many years' without technology or domain specifics.",
+      "improvements": [
+        "State exact years of experience",
+        "Mention core languages like Python or Go"
+      ]
+    },
+    {
+      "question_id": "Q_INTRO_02",
+      "question": "Why are you looking for a new opportunity?",
+      "category": "Introduction",
+      "answer": "Yes, I am currently employed but looking for better opportunities.",
+      "scores": {
+        "clarity": 6,
+        "relevance": 7,
+        "completeness": 5,
+        "consistency": 6
+      },
+      "weighted_score": 60,
+      "confidence": 0.48,
+      "evidence_level": "low",
+      "risk_flag": false,
+      "explanation": "Standard generic motivation; lacks ambition or specific career growth targets.",
+      "improvements": [
+        "Detail specific technical growth goals",
+        "Mention interest in specific engineering problems"
+      ]
+    },
+    {
+      "question_id": "Q_EDU_01",
+      "question": "What is your highest degree?",
+      "category": "Education",
+      "answer": "I hold a Bachelor's degree from the State University.",
+      "scores": {
+        "clarity": 7,
+        "relevance": 7,
+        "completeness": 6,
+        "consistency": 7
+      },
+      "weighted_score": 68,
+      "confidence": 0.58,
+      "evidence_level": "medium",
+      "risk_flag": false,
+      "explanation": "Bachelor's degree confirmed but major and graduation year not specified.",
+      "improvements": [
+        "Specify major (e.g., Computer Science)",
+        "Include graduation year"
+      ]
+    },
+    {
+      "question_id": "Q_EDU_07",
+      "question": "Have you attended any bootcamps?",
+      "category": "Education",
+      "answer": "Yes, I have completed a few specialized bootcamps.",
+      "scores": {
+        "clarity": 5,
+        "relevance": 6,
+        "completeness": 3,
+        "consistency": 5
+      },
+      "weighted_score": 48,
+      "confidence": 0.28,
+      "evidence_level": "low",
+      "risk_flag": true,
+      "explanation": "Claims attendance but fails to provide program name or technical curriculum.",
+      "improvements": [
+        "Provide name of the bootcamp provider",
+        "List projects built during the program"
+      ]
+    },
+    {
+      "question_id": "Q_EXP_01",
+      "question": "How many years of experience do you have?",
+      "category": "Experience",
+      "answer": "I have 4.5 years of professional experience.",
+      "scores": {
+        "clarity": 9,
+        "relevance": 9,
+        "completeness": 7,
+        "consistency": 8
+      },
+      "weighted_score": 83,
+      "confidence": 0.82,
+      "evidence_level": "high",
+      "risk_flag": false,
+      "explanation": "4.5 years professional experience; quantified and internally consistent.",
+      "improvements": [
+        "Break down experience by tech stack",
+        "Mention primary industry (e.g., Fintech, SaaS)"
+      ]
+    },
+    {
+      "question_id": "Q_EXP_09",
+      "question": "Describe your microservices migration experience",
+      "category": "Experience",
+      "answer": "I successfully migrated our legacy system to microservices.",
+      "scores": {
+        "clarity": 5,
+        "relevance": 8,
+        "completeness": 4,
+        "consistency": 5
+      },
+      "weighted_score": 56,
+      "confidence": 0.38,
+      "evidence_level": "low",
+      "risk_flag": true,
+      "explanation": "Claims migration but omits scale, latency metrics, and orchestration details.",
+      "improvements": [
+        "Quantify service count and traffic handled",
+        "Mention orchestration via Kubernetes or ECS"
+      ]
+    },
+    {
+      "question_id": "Q_EXP_11",
+      "question": "Detail your cloud infrastructure experience",
+      "category": "Experience",
+      "answer": "I have 3 years of experience in cloud infrastructure.",
+      "scores": {
+        "clarity": 7,
+        "relevance": 7,
+        "completeness": 6,
+        "consistency": 7
+      },
+      "weighted_score": 68,
+      "confidence": 0.55,
+      "evidence_level": "medium",
+      "risk_flag": false,
+      "explanation": "3 years in cloud; missing mention of IaC (Terraform) or cost-saving metrics.",
+      "improvements": [
+        "Mention IaC tools used (Terraform, CloudFormation)",
+        "Quantify cloud cost or uptime impact"
+      ]
+    },
+    {
+      "question_id": "Q_SKILL_01",
+      "question": "Rate your Python proficiency",
+      "category": "Skills",
+      "answer": "I would rate my Python skills at an 8 out of 10.",
+      "scores": {
+        "clarity": 5,
+        "relevance": 7,
+        "completeness": 4,
+        "consistency": 5
+      },
+      "weighted_score": 54,
+      "confidence": 0.28,
+      "evidence_level": "low",
+      "risk_flag": true,
+      "explanation": "8/10 rating is unsupported by production framework or async logic details.",
+      "improvements": [
+        "Mention Django, FastAPI, or Flask experience",
+        "Discuss async/await or profiling experience"
+      ]
+    },
+    {
+      "question_id": "Q_SKILL_05",
+      "question": "Describe your containerization experience",
+      "category": "Skills",
+      "answer": "Yes, I have deployed containers using Docker and Kubernetes.",
+      "scores": {
+        "clarity": 8,
+        "relevance": 8,
+        "completeness": 6,
+        "consistency": 8
+      },
+      "weighted_score": 75,
+      "confidence": 0.68,
+      "evidence_level": "medium",
+      "risk_flag": false,
+      "explanation": "Docker and Kubernetes mentioned; missing Helm or cluster management scale.",
+      "improvements": [
+        "Describe Kubernetes cluster size or pod counts",
+        "Mention Helm or GitOps integration"
+      ]
+    },
+    {
+      "question_id": "Q_SKILL_09",
+      "question": "Explain your database optimization strategies",
+      "category": "Skills",
+      "answer": "I check database locks, index usage, and add read replicas if needed.",
+      "scores": {
+        "clarity": 9,
+        "relevance": 9,
+        "completeness": 8,
+        "consistency": 8
+      },
+      "weighted_score": 85,
+      "confidence": 0.84,
+      "evidence_level": "high",
+      "risk_flag": false,
+      "explanation": "Good technical depth; mentions locks, indexing, and read replicas.",
+      "improvements": [
+        "Mention profiling tools like pg_stat_statements",
+        "Detail specific query performance gains"
+      ]
+    },
+    {
+      "question_id": "Q_LOC_01",
+      "question": "Where are you currently located?",
+      "category": "Location",
+      "answer": "I am currently located in Thiruvananthapuram.",
+      "scores": {
+        "clarity": 8,
+        "relevance": 9,
+        "completeness": 8,
+        "consistency": 8
+      },
+      "weighted_score": 83,
+      "confidence": 0.88,
+      "evidence_level": "high",
+      "risk_flag": false,
+      "explanation": "Location: Thiruvananthapuram.",
+      "improvements": [
+        "Confirm remote vs on-site preference"
+      ]
+    },
+    {
+      "question_id": "Q_LOC_02",
+      "question": "Are you willing to relocate?",
+      "category": "Location",
+      "answer": "Yes, I am absolutely willing to relocate for this role.",
+      "scores": {
+        "clarity": 8,
+        "relevance": 9,
+        "completeness": 8,
+        "consistency": 8
+      },
+      "weighted_score": 83,
+      "confidence": 0.88,
+      "evidence_level": "high",
+      "risk_flag": false,
+      "explanation": "Explicit confirmation of relocation willingness.",
+      "improvements": [
+        "Specify preferred relocation cities"
+      ]
+    },
+    {
+      "question_id": "Q_SAL_01",
+      "question": "What is your current salary?",
+      "category": "Salary",
+      "answer": "My current take-home salary is 5800 dollars.",
+      "scores": {
+        "clarity": 8,
+        "relevance": 8,
+        "completeness": 6,
+        "consistency": 5
+      },
+      "weighted_score": 69,
+      "confidence": 0.52,
+      "evidence_level": "medium",
+      "risk_flag": true,
+      "explanation": "Current salary ($5800/mo) lacks remote work context or regional structural validation.",
+      "improvements": [
+        "Clarify if remote/hybrid context applies",
+        "Specify if fixed or including variables"
+      ]
+    },
+    {
+      "question_id": "Q_SAL_02",
+      "question": "What is your expected salary?",
+      "category": "Salary",
+      "answer": "I am expecting around 7308 dollars.",
+      "scores": {
+        "clarity": 8,
+        "relevance": 8,
+        "completeness": 8,
+        "consistency": 8
+      },
+      "weighted_score": 80,
+      "confidence": 0.78,
+      "evidence_level": "medium",
+      "risk_flag": false,
+      "explanation": "Expectation of $7308/mo follows standard market hike logic (~26%).",
+      "improvements": [
+        "Confirm if expectation is negotiable",
+        "Detail preferred bonus/equity components"
+      ]
+    },
+    {
+      "question_id": "Q_NP_01",
+      "question": "What is your notice period?",
+      "category": "Notice Period",
+      "answer": "My current notice period is 30 days.",
+      "scores": {
+        "clarity": 8,
+        "relevance": 9,
+        "completeness": 8,
+        "consistency": 8
+      },
+      "weighted_score": 83,
+      "confidence": 0.88,
+      "evidence_level": "high",
+      "risk_flag": false,
+      "explanation": "30-day notice period explicitly confirmed.",
+      "improvements": [
+        "Mention if early join is possible"
+      ]
+    },
+    {
+      "question_id": "Q_NP_02",
+      "question": "Is your notice period negotiable?",
+      "category": "Notice Period",
+      "answer": "Yes, my notice period can be negotiated or bought out.",
+      "scores": {
+        "clarity": 8,
+        "relevance": 9,
+        "completeness": 8,
+        "consistency": 8
+      },
+      "weighted_score": 83,
+      "confidence": 0.88,
+      "evidence_level": "high",
+      "risk_flag": false,
+      "explanation": "Negotiable/Buyout flexibility established.",
+      "improvements": [
+        "Confirm buyout terms if applicable"
+      ]
+    }
+  ],
+  "bonus_breakdown": {
+    "quantified_achievements": 2,
+    "production_tools": 2,
+    "system_design_depth": 2,
+    "leadership_ownership": 0,
+    "business_impact": 0,
+    "communication_clarity": 0,
+    "total_bonus": 6
+  },
+  "penalty_breakdown": {
+    "vague_claims": 5,
+    "unsupported_skills": 3,
+    "shallow_answers": 5,
+    "missing_metrics": 2,
+    "compensation_inconsistency": 3,
+    "contradictions": 0,
+    "total_penalty": 18
+  },
+  "validation_report": {
+    "formula_verified": true,
+    "weights_verified": true,
+    "decision_verified": true,
+    "tier_verified": true,
+    "bonus_sum_verified": true,
+    "penalty_sum_verified": true,
+    "json_schema_valid": true,
+    "duplicate_fields": false,
+    "anomalies_detected": true,
+    "production_ready": true
+  },
+  "candidate_summary": {
+    "top_strengths": [
+      "Proven experience (4.5 yrs) with quantified timeline",
+      "Technical depth in database optimization (locks, replicas)",
+      "Direct experience with Docker and Kubernetes"
+    ],
+    "top_risks": [
+      "Vague claims in self-introduction",
+      "Unsupported high self-rating in Python",
+      "Missing metrics in microservices migration claim"
+    ],
+    "final_recruiter_summary": "Candidate demonstrates strong fundamentals in backend engineering and cloud tools. However, several vague claims and unsupported ratings result in a final score of 57, placing them on HOLD status. Technical verification of claimed skills is mandatory.",
+    "hiring_recommendation": "Advance to Technical Screening round with a focus on deep-dive verification of microservices and Python framework experience."
+  }
+}
