@@ -1,0 +1,113 @@
+{
+  "report_metadata": {
+    "candidate_id": "cand_d7e57bdf",
+    "job_role": "Software Engineer",
+    "generated_at": "2026-04-25T11:30:14.907340Z",
+    "engine_version": "v8.0-production-balanced"
+  },
+  "executive_summary": {
+    "hiring_decision": "Hold for Review",
+    "overall_score": 50,
+    "summary_narrative": "Candidate shows mixed indicators with credible upside potential. Final score: 50. Recommendation is Hold for Review pending clarification and targeted technical validation.",
+    "recruiter_priority": "Medium"
+  },
+  "score_breakdown": {
+    "technical_skills": 65.0,
+    "communication": 85.4,
+    "experience_relevance": 69,
+    "consistency": 50,
+    "problem_solving": 70.0,
+    "risk_penalty": -18,
+    "final_score": 50
+  },
+  "candidate_profile": {
+    "years_experience": 4.5,
+    "current_location": "Thiruvananthapuram",
+    "relocation_interest": true,
+    "notice_period": "30 days",
+    "salary_expectation": "7308 USD",
+    "availability": "Notice Period"
+  },
+  "hiring_logistics": {
+    "salary": {
+      "raw_input": "7308 USD",
+      "currency": "USD",
+      "amount": 7308,
+      "period": "monthly",
+      "monthly_value": 7308,
+      "annualized_value": 87696,
+      "confidence": "Medium"
+    }
+  },
+  "technical_profile": {
+    "validated_skills": [
+      {
+        "skill": "Database Optimization Strategies",
+        "evidence": "I check database locks, index usage, and add read replicas if needed."
+      }
+    ],
+    "claimed_skills": [
+      "Python",
+      "Docker",
+      "Kubernetes"
+    ],
+    "inferred_skills": [
+      "System Design",
+      "Distributed Systems",
+      "API Design",
+      "Database Optimization"
+    ]
+  },
+  "risk_assessment": {
+    "identified_risks": [
+      {
+        "risk": "limited detail provided claims in self-introduction",
+        "evidence": "Observed during screening response analysis."
+      },
+      {
+        "risk": "requires validation high self-rating in Python",
+        "evidence": "Observed during screening response analysis."
+      },
+      {
+        "risk": "Missing metrics in microservices migration claim",
+        "evidence": "Observed during screening response analysis."
+      }
+    ],
+    "bias_safety": "Decision grounded in objective scoring dimensions with fairness-focused override rules active."
+  },
+  "contradictions": [
+    {
+      "field": "experience",
+      "claims": [
+        "Experience claim mismatch: Candidate cited 3.0y and 4.5y in the same session."
+      ],
+      "severity": "High",
+      "resolution": "Needs Clarification"
+    }
+  ],
+  "confidence_metrics": {
+    "experience": "Medium",
+    "salary": "Medium",
+    "location": "High",
+    "skills": "Medium",
+    "availability": "High"
+  },
+  "final_recommendation": {
+    "action": "Hold for Review",
+    "decision_override_reason": null,
+    "next_best_step": "Clarification + Technical Screening",
+    "interview_focus": [
+      "Python async/await patterns",
+      "Kubernetes networking and scale",
+      "Current compensation structure"
+    ]
+  },
+  "audit_log": {
+    "decision_reason_codes": [
+      "CONTRADICTION_DETECTED",
+      "TECH_SIGNAL_QUALIFIED"
+    ],
+    "model_confidence": "Medium",
+    "human_review_recommended": true
+  }
+}

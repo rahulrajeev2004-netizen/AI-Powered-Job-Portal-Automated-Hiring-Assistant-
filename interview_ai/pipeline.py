@@ -5,11 +5,13 @@ import re
 from datetime import datetime, timedelta
 from typing import Dict, Any, List
 from .normalization import TranscriptNormalizer
+from .behavioral_analyzer import BehavioralAnalyzer
 
 
 class AIVoiceScreeningPipeline:
     def __init__(self):
         self.normalizer = TranscriptNormalizer()
+        self.behavioral_analyzer = BehavioralAnalyzer()
 
     def process_stt_result(
         self,
@@ -285,6 +287,13 @@ class AIVoiceScreeningPipeline:
             end_t   = start_t + timedelta(seconds=t["duration"])
             current_time = end_t + timedelta(seconds=1.5)
 
+            # Behavioral Analysis for this QA pair
+            behavior_metrics = self.behavioral_analyzer.analyze_candidate([{
+                "question_id": t["question_id"],
+                "answer": t["normalized_text"]
+            }])
+            qa_behavior = behavior_metrics["question_level_breakdown"][0]
+
             qa_breakdown.append({
                 "question_id":       t["question_id"],
                 "question":          t["question"],
@@ -296,6 +305,12 @@ class AIVoiceScreeningPipeline:
                     "clarity":         comm,
                     "technical_depth": tech,
                     "confidence":      conf
+                },
+                "behavioral_indicators": {
+                    "hesitation": qa_behavior["hesitation"],
+                    "uncertainty": qa_behavior["uncertainty"],
+                    "sentiment": qa_behavior["sentiment"],
+                    "pace": qa_behavior.get("pace")
                 },
                 "key_entities_found": final_entities if final_entities else None,
                 "start_time": start_t.isoformat() + "Z",
@@ -484,6 +499,10 @@ class AIVoiceScreeningPipeline:
                     "computed_score": overall_score
                 }
             },
+            "behavioral_analysis": self.behavioral_analyzer.analyze_candidate([
+                {"question_id": q["question_id"], "answer": q["answer_normalized"]}
+                for q in qa_breakdown
+            ]),
             "normalized_profile": {
                 "salary": {
                     "current":  {

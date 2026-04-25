@@ -1,0 +1,312 @@
+{
+  "candidate_id": "cand_d7e57bdf",
+  "job_role": "Software Engineer",
+  "behavioral_summary": {
+    "confidence_level": "High",
+    "clarity_rating": "High",
+    "emotional_tone": "Positive",
+    "communication_strength_index": 0.854,
+    "summary_explanation": "High hiring risk detected (score: 0.84). Critical contradictions and uncertainty levels exceed acceptable enterprise thresholds."
+  },
+  "detailed_metrics": {
+    "hesitation_intensity": 0.005,
+    "uncertainty_score": 0.05,
+    "sentiment_score": 0.712,
+    "total_word_count": 146,
+    "communication_strength_index": 0.854
+  },
+  "contradiction_summary": {
+    "total_conflicts": 2,
+    "low_risk_conflicts": 1,
+    "medium_risk_conflicts": 0,
+    "high_risk_conflicts": 1,
+    "primary_conflict_theme": "experience",
+    "overall_conflict_severity": 0.82,
+    "final_verdict": "Severe",
+    "detailed_reports": [
+      {
+        "severity": 0.82,
+        "theme": "experience",
+        "desc": "Experience claim mismatch: Candidate cited 3.0y and 4.5y in the same session."
+      },
+      {
+        "severity": 0.15,
+        "theme": "other",
+        "desc": "Minor linguistic variance between self-introduction and technical responses."
+      }
+    ]
+  },
+  "question_level_breakdown": [
+    {
+      "question_id": "Q_INTRO_01",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.753,
+        "sentiment_label": "Positive"
+      },
+      "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+    },
+    {
+      "question_id": "Q_INTRO_02",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.018,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.661,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+    },
+    {
+      "question_id": "Q_EDU_01",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.651,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_EDU_07",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.807,
+        "sentiment_label": "Positive"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_EXP_01",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.776,
+        "sentiment_label": "Positive"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_EXP_09",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.726,
+        "sentiment_label": "Positive"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_EXP_11",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.661,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_SKILL_01",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.694,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+    },
+    {
+      "question_id": "Q_SKILL_05",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.005,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.649,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_SKILL_09",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.693,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+    },
+    {
+      "question_id": "Q_LOC_01",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.026,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.697,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_LOC_02",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.025,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.776,
+        "sentiment_label": "Positive"
+      },
+      "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+    },
+    {
+      "question_id": "Q_SAL_01",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.695,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_SAL_02",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.682,
+        "sentiment_label": "Neutral"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_NP_01",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.707,
+        "sentiment_label": "Positive"
+      },
+      "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+    },
+    {
+      "question_id": "Q_NP_02",
+      "hesitation": {
+        "total_fillers": 0,
+        "hesitation_intensity": 0.0,
+        "hesitation_level": "Low"
+      },
+      "uncertainty": {
+        "uncertainty_score": 0.05
+      },
+      "sentiment": {
+        "sentiment_score": 0.762,
+        "sentiment_label": "Positive"
+      },
+      "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+    }
+  ],
+  "final_decision_support": {
+    "interview_readiness": "Low",
+    "role_fit_score": 85.4,
+    "recommendation": "NO",
+    "decision_reason": "High hiring risk detected (score: 0.84). Critical contradictions and uncertainty levels exceed acceptable enterprise thresholds."
+  },
+  "risk_analysis": {
+    "overall_risk_score": 0.84,
+    "risk_level": "Critical"
+  },
+  "report_metadata": {
+    "generated_at": "2026-04-25T11:21:17.226685Z",
+    "engine_version": "v4-logic-correction",
+    "data_quality": "High"
+  }
+}
