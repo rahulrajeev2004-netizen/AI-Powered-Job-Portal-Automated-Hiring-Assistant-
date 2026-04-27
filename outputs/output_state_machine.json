@@ -1,0 +1,17 @@
+{
+  "state_machine": {
+    "initial": "START",
+    "states": {
+      "START": { "on": "DIAL_SUCCESS", "to": "GREETING" },
+      "GREETING": { "on": "CONSENT_GIVEN", "to": "ASKING_QUESTIONS" },
+      "ASKING_QUESTIONS": { "on": "ANSWER_RECEIVED", "to": "UNDERSTANDING" },
+      "UNDERSTANDING": { 
+        "on": "FOLLOWUP_REQUIRED", "to": "FOLLOWUP",
+        "on": "VALID", "to": "NEXT_QUESTION" 
+      },
+      "FOLLOWUP": { "on": "CLARIFIED", "to": "NEXT_QUESTION" },
+      "RETRY": { "on": "RETRY_LIMIT", "to": "FAILED" },
+      "END": { "type": "TERMINAL" }
+    }
+  }
+}

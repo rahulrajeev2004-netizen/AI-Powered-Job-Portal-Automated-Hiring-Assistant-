@@ -1,0 +1,16 @@
+{
+  "call_flow_logic": {
+    "entry_point": "GREETING",
+    "exit_conditions": ["COMPLETED", "FAILED", "TRANSFER", "CALLBACK"],
+    "decision_tree": {
+      "if_answered": "PROCEED",
+      "if_busy": "RETRY_LATER",
+      "if_voicemail": "DROP_MESSAGE"
+    },
+    "dynamic_branching": {
+      "on_vague_answer": "FOLLOW_UP",
+      "on_invalid_format": "REPHRASE_SIMPLER",
+      "on_not_interested": "POLITE_CLOSE"
+    }
+  }
+}

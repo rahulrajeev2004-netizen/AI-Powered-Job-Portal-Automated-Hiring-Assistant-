@@ -1,0 +1,180 @@
+{
+  "call_flow_logic": {
+    "entry": "GREETING",
+    "exit_conditions": [
+      "COMPLETED",
+      "FAILED",
+      "TRANSFER",
+      "CALLBACK"
+    ],
+    "branching": {
+      "on_answer": "NEXT_STEP",
+      "on_vague": "FOLLOW_UP",
+      "on_noise": "RETRY_SAME",
+      "on_silence": "SILENCE_RECOVERY",
+      "on_confusion": "CONFUSION_RECOVERY"
+    }
+  },
+  "state_machine": {
+    "states": [
+      {
+        "id": "START",
+        "next": "DIALING"
+      },
+      {
+        "id": "DIALING",
+        "on_pickup": "CONNECTED"
+      },
+      {
+        "id": "CONNECTED",
+        "next": "GREETING"
+      },
+      {
+        "id": "GREETING",
+        "next": "CONSENT"
+      },
+      {
+        "id": "CONSENT",
+        "on_yes": "ASKING_QUESTION",
+        "on_no": "END_CALL"
+      },
+      {
+        "id": "ASKING_QUESTION",
+        "next": "LISTENING"
+      },
+      {
+        "id": "LISTENING",
+        "next": "UNDERSTANDING"
+      },
+      {
+        "id": "FOLLOWUP",
+        "next": "ASKING_QUESTION"
+      },
+      {
+        "id": "RETRY",
+        "next": "ASKING_QUESTION"
+      },
+      {
+        "id": "END_CALL",
+        "type": "TERMINAL"
+      }
+    ]
+  },
+  "question_engine": {
+    "questions": [
+      {
+        "id": "Q_EXP",
+        "primary": "What is your total professional experience in years?",
+        "fallback_simpler": "How many years have you been working professionally?",
+        "fallback_example": "For example, have you been working for 2 years or 5 years?",
+        "retry_final": "I just need a rough number for your total work experience."
+      },
+      {
+        "id": "Q_SALARY",
+        "primary": "What is your expected monthly salary?",
+        "fallback_simpler": "How much are you looking to earn each month?",
+        "fallback_example": "Are you looking for something in the range of 3000 to 4000 dollars?",
+        "retry_final": "Could you give me an approximate salary range you'd consider?"
+      }
+    ]
+  },
+  "retry_logic": {
+    "max_retries": 3,
+    "tiers": [
+      {
+        "attempt": 1,
+        "action": "friendly_repeat"
+      },
+      {
+        "attempt": 2,
+        "action": "simplify_wording"
+      },
+      {
+        "attempt": 3,
+        "action": "skip_gracefully"
+      }
+    ]
+  },
+  "error_handling": {
+    "asr_fail": {
+      "action": "noise_warning",
+      "prompt": "I'm sorry, I'm having trouble hearing you. Could you speak up a bit?"
+    },
+    "silence_tiers": [
+      {
+        "threshold": 3,
+        "prompt": "I'm still here. Take your time."
+      },
+      {
+        "threshold": 7,
+        "prompt": "Are you still there? Please go ahead."
+      },
+      {
+        "threshold": 12,
+        "prompt": "I didn't catch that. I'll repeat the question."
+      }
+    ],
+    "intent_unclear": {
+      "action": "rephrase_logic"
+    }
+  },
+  "followup_rules": [
+    {
+      "trigger_keyword": "python",
+      "question": "How many years of experience do you have specifically with Python?"
+    },
+    {
+      "trigger_keyword": "immediate",
+      "question": "Since you can join immediately, are you currently between roles?"
+    },
+    {
+      "trigger_keyword": "fresher",
+      "question": "Have you done any internships or personal projects during your studies?"
+    }
+  ],
+  "sample_conversation": {
+    "transcript": [
+      {
+        "ai": "Hello, I'm the AI recruiter. Do you have a moment to talk?",
+        "user": "Yes, sure."
+      },
+      {
+        "ai": "Great. What is your total experience in years?",
+        "user": "Um... what?"
+      },
+      {
+        "ai": "No problem. How many years have you been working professionally?",
+        "user": "Ah, 5 years."
+      },
+      {
+        "ai": "Excellent. And what are your core skills?",
+        "user": "Mainly Python."
+      },
+      {
+        "ai": "How many years of experience do you have specifically with Python?",
+        "user": "About 3 years."
+      }
+    ]
+  },
+  "sample_conversation_output": {
+    "status": "COMPLETED",
+    "timestamp": "2026-04-27T10:21:00Z",
+    "interaction_history": [
+      {
+        "ai": "What is your total professional experience in years?",
+        "user": "Yes",
+        "state": "GREETING"
+      },
+      {
+        "ai": "I'm still here. Take your time.",
+        "user": "[SILENCE]",
+        "state": "ASKING_QUESTION"
+      },
+      {
+        "ai": "How many years of experience do you have specifically with Python?",
+        "user": "I know Python",
+        "state": "FOLLOW_UP"
+      }
+    ]
+  }
+}

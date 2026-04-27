@@ -1,0 +1,20 @@
+{
+  "error_handling": {
+    "silence": [
+      { "delay": "3s", "action": "nudge", "phrase": "Take your time, I'm here." },
+      { "delay": "7s", "action": "reprompt", "phrase": "Are you still there? Should we move on?" },
+      { "delay": "12s", "action": "timeout", "phrase": "I'll call you back later. Goodbye." }
+    ],
+    "confusion": {
+      "level_1": "repeat_primary",
+      "level_2": "use_simpler_version",
+      "level_3": "give_example",
+      "max_retries": 3
+    },
+    "technical_errors": {
+      "stt_fail": "request_clarification",
+      "tts_fail": "graceful_disconnect",
+      "duplicate_answer": "acknowledge_and_skip"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "session_id": "SES-6428",
+  "timestamp": "2026-04-27T14:40:00Z",
+  "final_state": "FOLLOW_UP",
+  "interaction_summary": {
+    "total_turns": 14,
+    "completion_status": "PARTIAL"
+  },
+  "compliance": {
+    "consent_obtained": true
+  },
+  "raw_log": [
+    {
+      "user": "Yes, speaking.",
+      "state": "GREETING"
+    },
+    {
+      "ai": "Great. Can you please confirm your full name for the record?",
+      "state": "IDENTITY_VERIFICATION"
+    },
+    {
+      "user": "Rahul Rajeev",
+      "state": "IDENTITY_VERIFICATION"
+    },
+    {
+      "ai": "Thank you. This call is recorded for automated screening. Do you consent to proceed?",
+      "state": "CONSENT"
+    },
+    {
+      "user": "I agree to the recording.",
+      "state": "CONSENT"
+    },
+    {
+      "ai": "Perfect. Let's begin. How many years of total work experience do you have?",
+      "state": "QUESTIONING"
+    },
+    {
+      "user": "5 years.",
+      "state": "QUESTIONING"
+    },
+    {
+      "ai": "In which specific technologies or domains did you work during this time?",
+      "state": "FOLLOW_UP"
+    },
+    {
+      "user": "What? I don't get the question.",
+      "state": "FOLLOW_UP"
+    },
+    {
+      "ai": "Could you please repeat that?",
+      "state": "FOLLOW_UP"
+    },
+    {
+      "user": "",
+      "state": "FOLLOW_UP"
+    },
+    {
+      "ai": "I'm still here.",
+      "state": "FOLLOW_UP"
+    },
+    {
+      "user": "",
+      "state": "FOLLOW_UP"
+    },
+    {
+      "ai": "I'm still here.",
+      "state": "FOLLOW_UP"
+    }
+  ]
+}
