@@ -39,7 +39,7 @@ class CallFlowEngine:
         if not os.path.exists(path):
             return default
         try:
-            with open(path, 'r') as f:
+            with open(path, 'r', encoding='utf-8') as f:
                 return json.load(f)
         except:
             return default
@@ -122,23 +122,44 @@ class CallFlowEngine:
         }
 
     def _is_confused(self, user_input: str, confidence: float) -> bool:
-        confusion_triggers = ["what", "repeat", "understand", "pardon", "again", "clear", "not sure"]
-        if confidence < self.decision_rules.get("error_logic", {}).get("asr_low_confidence", {}).get("threshold", 0.45):
+        confusion_triggers = ["what", "repeat", "understand", "pardon", "again", "clear", "not sure", "don't get"]
+        
+        # Check ASR Confidence
+        threshold = self.decision_rules.get("error_logic", {}).get("asr_low_confidence", {}).get("threshold", 0.45)
+        if confidence < threshold:
             return True
-        return any(trigger in user_input.lower() for trigger in confusion_triggers)
+            
+        # Check Keyword Triggers
+        user_input_lower = user_input.lower()
+        if any(trigger in user_input_lower for trigger in confusion_triggers):
+            return True
+            
+        # Check for extreme brevity (potential ambiguity)
+        if len(user_input.split()) == 0:
+            return True
+            
+        return False
 
     def _handle_confusion(self, user_input: str) -> Dict[str, Any]:
         count = self.retry_counts.get(self.current_state, 0) + 1
         self.retry_counts[self.current_state] = count
         
-        if count == 1:
-            prompt = self.prompts["scenarios"]["asking_to_repeat"][0]
-        elif count == 2:
+        scenarios = self.prompts.get("scenarios", {})
+        repeat_prompts = scenarios.get("asking_to_repeat", ["Could you please repeat that?"])
+        
+        if count <= len(repeat_prompts):
+            prompt = repeat_prompts[count-1]
+        elif count == len(repeat_prompts) + 1:
             prompt = "No problem. Let me simplify: " + self.last_ai_prompt
         else:
-            prompt = "I understand. Let's move to the next topic to keep things moving."
-            # Logic to move to next state
-            self.current_state = "QUESTIONING"
+            # Mitigation for false rejections: instead of failing, move to next topic
+            prompt = "I understand. Let's try a different topic to keep things moving. "
+            if self.current_state == "GREETING":
+                self.current_state = "FAILED" # Can't skip greeting
+                prompt = "I'm sorry, I'm unable to proceed at this time. Goodbye."
+            else:
+                self.current_state = "QUESTIONING"
+                prompt += "How many years of total work experience do you have?"
 
         return {
             "prompt": prompt,
@@ -149,30 +170,48 @@ class CallFlowEngine:
     def _transition_state(self, user_input: str) -> Dict[str, Any]:
         user_input_lower = user_input.lower()
         next_prompt = ""
-        
+          
         # Reset retry/silence counts on successful input
         self.retry_counts[self.current_state] = 0
         self.silence_count = 0
 
+        # Advanced Intent Mapping
+        intents = {
+            "affirmative": ["yes", "speaking", "it is", "correct", "sure", "ok", "agree", "consent", "proceed", "yeah", "yup"],
+            "negative": ["no", "not really", "stop", "don't", "refuse", "wrong person", "incorrect"],
+            "completion": ["done", "finished", "that's it", "nothing else"]
+        }
+
+        def has_intent(input_text, intent_list):
+            return any(word in input_text for word in intent_list)
+
         if self.current_state == "GREETING":
-            if any(word in user_input_lower for word in ["yes", "speaking", "it is", "correct"]):
+            if has_intent(user_input_lower, intents["affirmative"]):
                 self.current_state = "IDENTITY_VERIFICATION"
                 next_prompt = "Great. Can you please confirm your full name for the record?"
-            else:
+            elif has_intent(user_input_lower, intents["negative"]):
                 next_prompt = "I'm sorry, I might have the wrong number. Goodbye."
                 self.current_state = "FAILED"
+            else:
+                next_prompt = "I'm calling from Zecpath for a job interview. Am I speaking with the candidate?"
 
         elif self.current_state == "IDENTITY_VERIFICATION":
-            self.current_state = "CONSENT"
-            next_prompt = "Thank you. This call is recorded for automated screening. Do you consent to proceed?"
+            # Simple heuristic: if input has at least two words, assume it's a name
+            if len(user_input.split()) >= 2:
+                self.current_state = "CONSENT"
+                next_prompt = "Thank you. This call is recorded for automated screening. Do you consent to proceed?"
+            else:
+                next_prompt = "Could you please provide your full name as it appears on your application?"
 
         elif self.current_state == "CONSENT":
-            if any(word in user_input_lower for word in ["yes", "agree", "consent", "proceed", "sure", "ok"]):
+            if has_intent(user_input_lower, intents["affirmative"]):
                 self.current_state = "QUESTIONING"
                 next_prompt = "Perfect. Let's begin. How many years of total work experience do you have?"
-            else:
+            elif has_intent(user_input_lower, intents["negative"]):
                 next_prompt = "Understood. We require consent to continue. I will close the call now."
                 self.current_state = "FAILED"
+            else:
+                next_prompt = "To continue, I need your verbal consent to record this call. Do you agree?"
 
         elif self.current_state == "QUESTIONING":
             if self._trigger_followup(user_input):
@@ -186,7 +225,7 @@ class CallFlowEngine:
             next_prompt = "Excellent. Now, tell me about your primary technical skills."
 
         if not next_prompt:
-            next_prompt = "Thank you for that information. Let's move on."
+            next_prompt = "Thank you for that information. Let's move on to the next section."
 
         self.last_ai_prompt = next_prompt
         return {
@@ -196,10 +235,19 @@ class CallFlowEngine:
         }
 
     def _trigger_followup(self, user_input: str) -> bool:
-        # Vague experience trigger
-        num_matches = [s for s in user_input.split() if s.isdigit()]
-        if num_matches and len(user_input.split()) < 5:
+        # Vague experience trigger: if only a number is provided without context
+        words = user_input.split()
+        num_matches = [s for s in words if any(char.isdigit() for char in s)]
+        
+        # Threshold-based follow-up trigger
+        if num_matches and len(words) < 4:
             return True
+            
+        # Check for ambiguity keywords
+        ambiguity_keywords = ["roughly", "about", "maybe", "around"]
+        if any(kw in user_input.lower() for kw in ambiguity_keywords):
+            return True
+            
         return False
 
     def _get_followup_question(self, user_input: str) -> str:

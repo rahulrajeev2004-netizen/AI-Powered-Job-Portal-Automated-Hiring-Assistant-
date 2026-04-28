@@ -1,0 +1,37 @@
+{
+  "silence_logic": {
+    "max_repeated_silences": 3,
+    "tiers": [
+      {
+        "min_sec": 3,
+        "max_sec": 6,
+        "action": "encourage"
+      },
+      {
+        "min_sec": 6,
+        "max_sec": 10,
+        "action": "reprompt"
+      },
+      {
+        "min_sec": 10,
+        "max_sec": 999,
+        "action": "callback_request"
+      }
+    ]
+  },
+  "error_logic": {
+    "asr_low_confidence": {
+      "threshold": 0.40,
+      "action": "ask_repeat"
+    },
+    "intent_ambiguity": {
+      "threshold": 0.60,
+      "action": "clarify"
+    }
+  },
+  "scoring_thresholds": {
+    "min_experience_years": 1,
+    "min_technical_score": 0.5,
+    "false_rejection_protection": true
+  }
+}

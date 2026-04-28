@@ -111,12 +111,12 @@ class BulkTranscriptProcessor:
     def process_session(self, session_record: Dict[str, Any]) -> Dict[str, Any]:
         application = session_record.get("application", {})
         session_id = application.get("session_id", "sess_unknown")
-        transcript_entries = session_record.get("transcript", [])
+        transcript_entries = session_record.get("transcript") or session_record.get("qa_breakdown", [])
         
         responses = []
         for entry in transcript_entries:
-            res = self._processor.process(entry.get("question_id", "Q_UNSET"), 
-                                        entry.get("raw_transcript") or entry.get("normalized_text", ""))
+            raw_text = entry.get("raw_transcript") or entry.get("answer_raw") or entry.get("normalized_text") or entry.get("answer_normalized", "")
+            res = self._processor.process(entry.get("question_id", "Q_UNSET"), raw_text)
             responses.append(res)
 
         # 1. Identity Calibration

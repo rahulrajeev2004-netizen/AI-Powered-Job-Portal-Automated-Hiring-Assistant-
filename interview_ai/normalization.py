@@ -32,16 +32,30 @@ class TranscriptNormalizer:
         joined = re.sub(r'(\d)\s+\.\s+(\d)', r'\1.\2', joined)
         return joined
 
-    def normalize(self, text: str) -> str:
+    def normalize(self, text: str) -> dict:
         """
         Applies Day-23 strict payload normalization.
-        No grammar inferencing or context derivation is executed.
+        Returns a dictionary with the normalized text and the list of applied rules.
         """
         if not text:
-            return ""
+            return {"text": "", "applied_rules": []}
             
+        applied_rules = []
         current_text = text
-        current_text = self.remove_filler_words(current_text)
-        current_text = self.convert_numbers_to_digits(current_text)
         
-        return current_text
+        # 1. Remove filler words
+        clean_filler = self.remove_filler_words(current_text)
+        if clean_filler != current_text:
+            applied_rules.append("filler_word_removal")
+            current_text = clean_filler
+            
+        # 2. Convert numbers to digits
+        clean_num = self.convert_numbers_to_digits(current_text)
+        if clean_num != current_text:
+            applied_rules.append("numeric_normalization")
+            current_text = clean_num
+            
+        return {
+            "text": current_text,
+            "applied_rules": applied_rules
+        }

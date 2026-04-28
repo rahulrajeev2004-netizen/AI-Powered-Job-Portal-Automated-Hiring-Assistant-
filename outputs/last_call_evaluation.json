@@ -1,5 +1,5 @@
 {
-  "session_id": "SES-6428",
+  "session_id": "SES-3775",
   "timestamp": "2026-04-27T14:40:00Z",
   "final_state": "FOLLOW_UP",
   "interaction_summary": {
@@ -47,7 +47,7 @@
       "state": "FOLLOW_UP"
     },
     {
-      "ai": "Could you please repeat that?",
+      "ai": "I'm sorry, I didn't quite catch that. Could you please say it again?",
       "state": "FOLLOW_UP"
     },
     {
@@ -55,7 +55,7 @@
       "state": "FOLLOW_UP"
     },
     {
-      "ai": "I'm still here.",
+      "ai": "It's been a moment of silence. Shall we continue with the next question?",
       "state": "FOLLOW_UP"
     },
     {
@@ -63,7 +63,7 @@
       "state": "FOLLOW_UP"
     },
     {
-      "ai": "I'm still here.",
+      "ai": "I'm still here. Are you there?",
       "state": "FOLLOW_UP"
     }
   ]

@@ -1,0 +1,20 @@
+{
+  "scenarios": {
+    "asking_to_repeat": [
+      "I'm sorry, I didn't quite catch that. Could you please say it again?",
+      "Could you repeat that once more? I want to make sure I get it right."
+    ],
+    "silence_recovery": [
+      "I'm still here. Are you there?",
+      "It's been a moment of silence. Shall we continue with the next question?"
+    ],
+    "callback_request": [
+      "It seems like we're having some connection issues or silence. Would you like me to call you back in a few minutes?",
+      "I'll disconnect for now and try reaching you later. Have a good day!"
+    ],
+    "greetings": [
+      "Hello! This is Zecpath AI. Am I speaking with the candidate?",
+      "Hi there! Calling from Zecpath for your screening. Is this the right person?"
+    ]
+  }
+}

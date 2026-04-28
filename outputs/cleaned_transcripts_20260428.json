@@ -1,0 +1,413 @@
+{
+    "metadata": {
+        "engine": "ATS Scoring Calibration Engine v6.5",
+        "project": "Project Zecpath",
+        "generated_at": "2026-04-28T05:36:14.106346Z",
+        "source_file": "bulk_resumes_voice_eval.json",
+        "schema_version": "transcript_processed_v6.5_calibrated"
+    },
+    "sessions": [
+        {
+            "candidate_profile": {
+                "candidate_name": "CANDIDATE_sess_f2619f73",
+                "total_experience_years": 4.5,
+                "core_skills": [
+                    "Nursing",
+                    "ICU",
+                    "Clinical Care",
+                    "De-escalation",
+                    "BLS",
+                    "ACLS",
+                    "CPR"
+                ],
+                "skill_domains": [
+                    "Soft Skills",
+                    "Healthcare",
+                    "Emergency"
+                ]
+            },
+            "aggregated_profile": {
+                "primary_role": "Staff Nurse / ICU Specialist",
+                "seniority_level": "Mid-level",
+                "strongest_skills": [
+                    "Nursing",
+                    "ICU",
+                    "Clinical Care",
+                    "De-escalation",
+                    "BLS"
+                ],
+                "skill_confidence_map": {
+                    "Nursing": 0.99,
+                    "ICU": 0.95,
+                    "Clinical Care": 0.95,
+                    "De-escalation": 0.95,
+                    "BLS": 0.95,
+                    "ACLS": 0.95,
+                    "CPR": 0.95
+                },
+                "cross_signal_strength": 0.95
+            },
+            "session_summary": {
+                "final_score": 0.644,
+                "decision": "HOLD",
+                "score_breakdown": {
+                    "skills": 0.95,
+                    "experience": 0.75,
+                    "fit": 0.85,
+                    "communication": 0.43,
+                    "impact": 0.35,
+                    "penalties_applied": -0.17
+                },
+                "score_explanation": {
+                    "top_strengths": [
+                        {
+                            "normalized": "Nursing",
+                            "category": "Healthcare",
+                            "confidence": 0.99,
+                            "evidence": "\"Um, Hi, I am an experienced Staff Nurse.\"",
+                            "question_ref": "Q_INTRO_01",
+                            "reasoning": "Verified across multiple responses"
+                        },
+                        {
+                            "normalized": "ICU",
+                            "category": "Healthcare",
+                            "confidence": 0.95,
+                            "evidence": "\"I have exactly 3.5 years of clinical experience in the ICU.\"",
+                            "question_ref": "Q_EXP_02",
+                            "reasoning": "Directly cited ICU in context of Q_EXP_02"
+                        },
+                        {
+                            "normalized": "Clinical Care",
+                            "category": "Healthcare",
+                            "confidence": 0.95,
+                            "evidence": "\"I have exactly 3.5 years of clinical experience in the ICU.\"",
+                            "question_ref": "Q_EXP_02",
+                            "reasoning": "Directly cited Clinical Care in context of Q_EXP_02"
+                        }
+                    ],
+                    "key_gaps": [
+                        "Failed to provide quantified results (evidence: zero % or scale mentions)",
+                        "Technical depth limited to implementation (evidence: missing architecture skills)"
+                    ],
+                    "risk_level": "MEDIUM"
+                }
+            },
+            "identity_resolution": {
+                "status": "RESOLVED",
+                "candidate_name": "CANDIDATE_sess_f2619f73",
+                "confidence": 0.8,
+                "method": "session_linked"
+            },
+            "errors": [],
+            "warnings": [
+                {
+                    "type": "PENALTY",
+                    "message": "No measurable metrics found in session",
+                    "impact_on_score": -0.1
+                },
+                {
+                    "type": "PENALTY",
+                    "message": "Lack of high-level system architectural depth",
+                    "impact_on_score": -0.07
+                }
+            ]
+        },
+        {
+            "candidate_profile": {
+                "candidate_name": "CANDIDATE_sess_45eafb6d",
+                "total_experience_years": 4.5,
+                "core_skills": [
+                    "Microservices",
+                    "Cloud",
+                    "Python",
+                    "Docker",
+                    "Kubernetes",
+                    "Database"
+                ],
+                "skill_domains": [
+                    "Infrastructure",
+                    "Backend",
+                    "Cloud Services",
+                    "Architecture",
+                    "Programming"
+                ]
+            },
+            "aggregated_profile": {
+                "primary_role": "Backend / Distributed Systems Engineer",
+                "seniority_level": "Mid-level",
+                "strongest_skills": [
+                    "Microservices",
+                    "Cloud",
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ],
+                "skill_confidence_map": {
+                    "Microservices": 0.95,
+                    "Cloud": 0.95,
+                    "Python": 0.95,
+                    "Docker": 0.95,
+                    "Kubernetes": 0.95,
+                    "Database": 0.95
+                },
+                "cross_signal_strength": 0.95
+            },
+            "session_summary": {
+                "final_score": 0.682,
+                "decision": "HIRE",
+                "score_breakdown": {
+                    "skills": 0.95,
+                    "experience": 0.75,
+                    "fit": 0.85,
+                    "communication": 0.42,
+                    "impact": 0.35,
+                    "penalties_applied": -0.1
+                },
+                "score_explanation": {
+                    "top_strengths": [
+                        {
+                            "normalized": "Microservices",
+                            "category": "Architecture",
+                            "confidence": 0.95,
+                            "evidence": "\"I successfully migrated our legacy system to microservices.\"",
+                            "question_ref": "Q_EXP_09",
+                            "reasoning": "Directly cited Microservices in context of Q_EXP_09"
+                        },
+                        {
+                            "normalized": "Cloud",
+                            "category": "Cloud Services",
+                            "confidence": 0.95,
+                            "evidence": "\"Um, I have 3 years of experience in cloud infrastructure.\"",
+                            "question_ref": "Q_EXP_11",
+                            "reasoning": "Directly cited Cloud in context of Q_EXP_11"
+                        },
+                        {
+                            "normalized": "Python",
+                            "category": "Programming",
+                            "confidence": 0.95,
+                            "evidence": "\"I would rate my Python skills at an 8 out of 10.\"",
+                            "question_ref": "Q_SKILL_01",
+                            "reasoning": "Directly cited Python in context of Q_SKILL_01"
+                        }
+                    ],
+                    "key_gaps": [
+                        "Failed to provide quantified results (evidence: zero % or scale mentions)"
+                    ],
+                    "risk_level": "MEDIUM"
+                }
+            },
+            "identity_resolution": {
+                "status": "RESOLVED",
+                "candidate_name": "CANDIDATE_sess_45eafb6d",
+                "confidence": 0.8,
+                "method": "session_linked"
+            },
+            "errors": [],
+            "warnings": [
+                {
+                    "type": "PENALTY",
+                    "message": "No measurable metrics found in session",
+                    "impact_on_score": -0.1
+                }
+            ]
+        },
+        {
+            "candidate_profile": {
+                "candidate_name": "CANDIDATE_sess_d20791fc",
+                "total_experience_years": 4.5,
+                "core_skills": [
+                    "Microservices",
+                    "Cloud",
+                    "Python",
+                    "Docker",
+                    "Kubernetes",
+                    "Database"
+                ],
+                "skill_domains": [
+                    "Infrastructure",
+                    "Backend",
+                    "Cloud Services",
+                    "Architecture",
+                    "Programming"
+                ]
+            },
+            "aggregated_profile": {
+                "primary_role": "Backend / Distributed Systems Engineer",
+                "seniority_level": "Mid-level",
+                "strongest_skills": [
+                    "Microservices",
+                    "Cloud",
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ],
+                "skill_confidence_map": {
+                    "Microservices": 0.95,
+                    "Cloud": 0.95,
+                    "Python": 0.95,
+                    "Docker": 0.95,
+                    "Kubernetes": 0.95,
+                    "Database": 0.95
+                },
+                "cross_signal_strength": 0.95
+            },
+            "session_summary": {
+                "final_score": 0.713,
+                "decision": "HIRE",
+                "score_breakdown": {
+                    "skills": 0.95,
+                    "experience": 0.75,
+                    "fit": 0.85,
+                    "communication": 0.42,
+                    "impact": 0.35,
+                    "penalties_applied": -0.1
+                },
+                "score_explanation": {
+                    "top_strengths": [
+                        {
+                            "normalized": "Microservices",
+                            "category": "Architecture",
+                            "confidence": 0.95,
+                            "evidence": "\"I successfully migrated our legacy system to microservices.\"",
+                            "question_ref": "Q_EXP_09",
+                            "reasoning": "Directly cited Microservices in context of Q_EXP_09"
+                        },
+                        {
+                            "normalized": "Cloud",
+                            "category": "Cloud Services",
+                            "confidence": 0.95,
+                            "evidence": "\"Um, I have 3 years of experience in cloud infrastructure.\"",
+                            "question_ref": "Q_EXP_11",
+                            "reasoning": "Directly cited Cloud in context of Q_EXP_11"
+                        },
+                        {
+                            "normalized": "Python",
+                            "category": "Programming",
+                            "confidence": 0.95,
+                            "evidence": "\"I would rate my Python skills at an 8 out of 10.\"",
+                            "question_ref": "Q_SKILL_01",
+                            "reasoning": "Directly cited Python in context of Q_SKILL_01"
+                        }
+                    ],
+                    "key_gaps": [
+                        "Failed to provide quantified results (evidence: zero % or scale mentions)"
+                    ],
+                    "risk_level": "MEDIUM"
+                }
+            },
+            "identity_resolution": {
+                "status": "RESOLVED",
+                "candidate_name": "CANDIDATE_sess_d20791fc",
+                "confidence": 0.8,
+                "method": "session_linked"
+            },
+            "errors": [],
+            "warnings": [
+                {
+                    "type": "PENALTY",
+                    "message": "No measurable metrics found in session",
+                    "impact_on_score": -0.1
+                }
+            ]
+        },
+        {
+            "candidate_profile": {
+                "candidate_name": "CANDIDATE_sess_1ae2f90a",
+                "total_experience_years": 4.5,
+                "core_skills": [
+                    "Microservices",
+                    "Cloud",
+                    "Python",
+                    "Docker",
+                    "Kubernetes",
+                    "Database"
+                ],
+                "skill_domains": [
+                    "Infrastructure",
+                    "Backend",
+                    "Cloud Services",
+                    "Architecture",
+                    "Programming"
+                ]
+            },
+            "aggregated_profile": {
+                "primary_role": "Backend / Distributed Systems Engineer",
+                "seniority_level": "Mid-level",
+                "strongest_skills": [
+                    "Microservices",
+                    "Cloud",
+                    "Python",
+                    "Docker",
+                    "Kubernetes"
+                ],
+                "skill_confidence_map": {
+                    "Microservices": 0.95,
+                    "Cloud": 0.95,
+                    "Python": 0.95,
+                    "Docker": 0.95,
+                    "Kubernetes": 0.95,
+                    "Database": 0.95
+                },
+                "cross_signal_strength": 0.95
+            },
+            "session_summary": {
+                "final_score": 0.713,
+                "decision": "HIRE",
+                "score_breakdown": {
+                    "skills": 0.95,
+                    "experience": 0.75,
+                    "fit": 0.85,
+                    "communication": 0.42,
+                    "impact": 0.35,
+                    "penalties_applied": -0.1
+                },
+                "score_explanation": {
+                    "top_strengths": [
+                        {
+                            "normalized": "Microservices",
+                            "category": "Architecture",
+                            "confidence": 0.95,
+                            "evidence": "\"I successfully migrated our legacy system to microservices.\"",
+                            "question_ref": "Q_EXP_09",
+                            "reasoning": "Directly cited Microservices in context of Q_EXP_09"
+                        },
+                        {
+                            "normalized": "Cloud",
+                            "category": "Cloud Services",
+                            "confidence": 0.95,
+                            "evidence": "\"Um, I have 3 years of experience in cloud infrastructure.\"",
+                            "question_ref": "Q_EXP_11",
+                            "reasoning": "Directly cited Cloud in context of Q_EXP_11"
+                        },
+                        {
+                            "normalized": "Python",
+                            "category": "Programming",
+                            "confidence": 0.95,
+                            "evidence": "\"I would rate my Python skills at an 8 out of 10.\"",
+                            "question_ref": "Q_SKILL_01",
+                            "reasoning": "Directly cited Python in context of Q_SKILL_01"
+                        }
+                    ],
+                    "key_gaps": [
+                        "Failed to provide quantified results (evidence: zero % or scale mentions)"
+                    ],
+                    "risk_level": "MEDIUM"
+                }
+            },
+            "identity_resolution": {
+                "status": "RESOLVED",
+                "candidate_name": "CANDIDATE_sess_1ae2f90a",
+                "confidence": 0.8,
+                "method": "session_linked"
+            },
+            "errors": [],
+            "warnings": [
+                {
+                    "type": "PENALTY",
+                    "message": "No measurable metrics found in session",
+                    "impact_on_score": -0.1
+                }
+            ]
+        }
+    ]
+}

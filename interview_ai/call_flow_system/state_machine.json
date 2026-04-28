@@ -1,0 +1,34 @@
+{
+  "states": [
+    "INIT",
+    "GREETING",
+    "IDENTITY_VERIFICATION",
+    "CONSENT",
+    "QUESTIONING",
+    "FOLLOW_UP",
+    "CALLBACK_REQUEST",
+    "COMPLETED",
+    "FAILED"
+  ],
+  "transitions": {
+    "GREETING": {
+      "positive": "IDENTITY_VERIFICATION",
+      "negative": "FAILED"
+    },
+    "IDENTITY_VERIFICATION": {
+      "success": "CONSENT"
+    },
+    "CONSENT": {
+      "agree": "QUESTIONING",
+      "refuse": "FAILED"
+    },
+    "QUESTIONING": {
+      "vague": "FOLLOW_UP",
+      "clear": "QUESTIONING",
+      "done": "COMPLETED"
+    },
+    "FOLLOW_UP": {
+      "back": "QUESTIONING"
+    }
+  }
+}
