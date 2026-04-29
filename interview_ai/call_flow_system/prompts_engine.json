@@ -15,6 +15,14 @@
     "greetings": [
       "Hello! This is Zecpath AI. Am I speaking with the candidate?",
       "Hi there! Calling from Zecpath for your screening. Is this the right person?"
+    ],
+    "noise_recovery": [
+      "I'm sorry, there's quite a bit of background noise. Could you please move to a quieter place?",
+      "I'm having trouble hearing you over the background noise. Could you repeat that clearly?"
+    ],
+    "escalation": [
+      "I'm sorry, I'm having persistent trouble understanding. I'll have a human recruiter reach out to you.",
+      "We're experiencing technical difficulties. I'll schedule a callback for you shortly."
     ]
   }
 }

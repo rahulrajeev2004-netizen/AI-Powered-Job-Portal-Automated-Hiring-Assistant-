@@ -1,6 +1,15 @@
 import json
 import os
+import sys
+import re
 from typing import Dict, Any, List, Optional
+
+# Ensure project root is in sys.path for direct execution
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if project_root not in sys.path:
+    sys.path.append(project_root)
+
+from interview_ai.error_handling_framework import ErrorHandlingFramework
 
 class CallFlowEngine:
     """
@@ -11,6 +20,7 @@ class CallFlowEngine:
     def __init__(self, config_dir: str, language: str = "en"):
         self.config_dir = config_dir
         self.language = language
+        self.session_id = "SES-" + str(os.getpid()) + "-" + str(int(os.times()[4] * 1000) % 1000)
         
         # Load configs with robust defaults
         self.state_machine = self._load_json("state_machine.json", {"states": ["INIT", "GREETING", "QUESTIONING", "FAILED"]})
@@ -22,7 +32,9 @@ class CallFlowEngine:
             "scenarios": {
                 "asking_to_repeat": ["Could you please repeat that?"],
                 "silence_recovery": ["I'm still here.", "Are you there?"],
-                "callback_request": ["Should I call you back?"]
+                "callback_request": ["Should I call you back?"],
+                "noise_recovery": ["I'm sorry, it's too noisy. Could you move to a quieter spot?"],
+                "escalation": ["I'll have a human recruiter reach out to you."]
             }
         })
         
@@ -33,6 +45,9 @@ class CallFlowEngine:
         self.session_data = {}
         self.last_ai_prompt = ""
         self.interaction_history = []
+        
+        # Error Handling Framework
+        self.error_handler = ErrorHandlingFramework(session_id=self.session_id, candidate_id="CAND-001")
 
     def _load_json(self, filename: str, default: Dict[str, Any]) -> Dict[str, Any]:
         path = os.path.join(self.config_dir, filename)
@@ -54,41 +69,77 @@ class CallFlowEngine:
     def generate_evaluation(self) -> Dict[str, Any]:
         """Generates the final structured evaluation JSON."""
         return {
-            "session_id": "SES-" + str(hash(str(self.interaction_history)) % 10000),
+            "session_id": self.session_id,
             "timestamp": "2026-04-27T14:40:00Z",
             "final_state": self.current_state,
             "interaction_summary": {
                 "total_turns": len(self.interaction_history),
-                "completion_status": "SUCCESS" if self.current_state in ["COMPLETED", "QUESTIONING"] else "PARTIAL"
+                "completion_status": "SUCCESS" if self.current_state in ["COMPLETED", "QUESTIONING", "CONSENT"] else "PARTIAL",
+                "errors_encountered": self.error_handler.session_errors.get(self.session_id, {})
             },
             "compliance": {
-                "consent_obtained": any("consent" in str(h).lower() for h in self.interaction_history)
+                "consent_obtained": any("consent" in str(h).get("user", "").lower() for h in self.interaction_history if "user" in h)
             },
             "raw_log": self.interaction_history
         }
 
     def process_turn(self, user_input: str, stt_confidence: float = 1.0, silence_sec: float = 0) -> Dict[str, Any]:
         """
-        Processes a single turn with multi-language support and tracking.
+        Processes a single turn using the upgraded Robustness Engine.
         """
-        self.interaction_history.append({"user": user_input, "state": self.current_state})
+        self.interaction_history.append({"user": user_input, "state": self.current_state, "confidence": stt_confidence})
         
         # 1. Handle Silence Logic
         if silence_sec > 2:
-            res = self._handle_silence(silence_sec)
-            self.interaction_history.append({"ai": res["prompt"], "state": res["state"]})
-            return res
+            robust_silence = self.error_handler.handle_silence(int(silence_sec))
+            event = robust_silence["silence_event"]
+            
+            prompt = self.last_ai_prompt # Default
+            if event["action"] == "REPROMPT":
+                prompt = "I'm sorry, I didn't hear anything. " + self.last_ai_prompt
+            elif event["action"] == "RETRY_QUESTION":
+                prompt = "Are you still there? Let me repeat: " + self.last_ai_prompt
+            elif event["action"] == "SKIP_FALLBACK":
+                return self._handle_fallback("It seems we're having connection issues.")
 
-        # 2. Handle Confusion Logic
-        if self._is_confused(user_input, stt_confidence):
-            res = self._handle_confusion(user_input)
-            self.interaction_history.append({"ai": res["prompt"], "state": res["state"]})
-            return res
+            self.interaction_history.append({"ai": prompt, "state": self.current_state, "silence": True})
+            return {"prompt": prompt, "state": self.current_state, "action": event["action"]}
+
+        # 2. Robust Response Processing (NLP + Detection)
+        qid = "Q-" + self.current_state
+        robust_res = self.error_handler.process_response(user_input, qid, confidence=stt_confidence)
+        
+        if robust_res["action"] == "ESCALATE":
+            prompt = self.prompts["scenarios"].get("escalation", ["I'm having trouble. Escalating to a human."])[0]
+            self.interaction_history.append({"ai": prompt, "state": "ESCALATED", "action": "ESCALATE"})
+            return {"prompt": prompt, "state": "ESCALATED", "action": "ESCALATE"}
+
+        if robust_res["action"] == "REPROMPT":
+            reason = robust_res.get("reason", "unknown error")
+            if reason == "background_noise":
+                prompt = self.prompts["scenarios"].get("noise_recovery", ["It's too noisy."])[0]
+            else:
+                prompt = f"I didn't quite get that ({reason.replace('_', ' ')}). Could you please clarify?"
+            
+            self.interaction_history.append({"ai": prompt, "state": self.current_state, "retry": True})
+            return {"prompt": prompt, "state": self.current_state, "action": "REPROMPT"}
 
         # 3. State Transitions & Answer Processing
         res = self._transition_state(user_input)
         self.interaction_history.append({"ai": res["prompt"], "state": res["state"]})
         return res
+
+    def _handle_fallback(self, fallback_prompt: str) -> Dict[str, Any]:
+        """Safety fallback logic to keep the call moving."""
+        if self.current_state == "GREETING":
+            self.current_state = "FAILED"
+            return {"prompt": "I'm sorry, I'm unable to proceed at this time. Goodbye.", "state": "FAILED", "action": "TERMINATE"}
+        
+        # Skip to next mandatory question
+        self.current_state = "QUESTIONING"
+        next_prompt = fallback_prompt + " Let's move on. How many years of total work experience do you have?"
+        self.last_ai_prompt = next_prompt
+        return {"prompt": next_prompt, "state": self.current_state, "action": "SKIP"}
 
     def _handle_silence(self, seconds: float) -> Dict[str, Any]:
         self.silence_count += 1
@@ -121,23 +172,11 @@ class CallFlowEngine:
             "action": action.upper()
         }
 
-    def _is_confused(self, user_input: str, confidence: float) -> bool:
+    def _is_confused(self, user_input: str) -> bool:
         confusion_triggers = ["what", "repeat", "understand", "pardon", "again", "clear", "not sure", "don't get"]
-        
-        # Check ASR Confidence
-        threshold = self.decision_rules.get("error_logic", {}).get("asr_low_confidence", {}).get("threshold", 0.45)
-        if confidence < threshold:
-            return True
-            
-        # Check Keyword Triggers
         user_input_lower = user_input.lower()
         if any(trigger in user_input_lower for trigger in confusion_triggers):
             return True
-            
-        # Check for extreme brevity (potential ambiguity)
-        if len(user_input.split()) == 0:
-            return True
-            
         return False
 
     def _handle_confusion(self, user_input: str) -> Dict[str, Any]:
@@ -152,10 +191,9 @@ class CallFlowEngine:
         elif count == len(repeat_prompts) + 1:
             prompt = "No problem. Let me simplify: " + self.last_ai_prompt
         else:
-            # Mitigation for false rejections: instead of failing, move to next topic
-            prompt = "I understand. Let's try a different topic to keep things moving. "
+            prompt = "I understand. Let's try a different topic. "
             if self.current_state == "GREETING":
-                self.current_state = "FAILED" # Can't skip greeting
+                self.current_state = "FAILED"
                 prompt = "I'm sorry, I'm unable to proceed at this time. Goodbye."
             else:
                 self.current_state = "QUESTIONING"
@@ -175,7 +213,6 @@ class CallFlowEngine:
         self.retry_counts[self.current_state] = 0
         self.silence_count = 0
 
-        # Advanced Intent Mapping
         intents = {
             "affirmative": ["yes", "speaking", "it is", "correct", "sure", "ok", "agree", "consent", "proceed", "yeah", "yup"],
             "negative": ["no", "not really", "stop", "don't", "refuse", "wrong person", "incorrect"],
@@ -183,7 +220,7 @@ class CallFlowEngine:
         }
 
         def has_intent(input_text, intent_list):
-            return any(word in input_text for word in intent_list)
+            return any(re.search(rf"\b{word}\b", input_text) for word in intent_list)
 
         if self.current_state == "GREETING":
             if has_intent(user_input_lower, intents["affirmative"]):
@@ -196,7 +233,6 @@ class CallFlowEngine:
                 next_prompt = "I'm calling from Zecpath for a job interview. Am I speaking with the candidate?"
 
         elif self.current_state == "IDENTITY_VERIFICATION":
-            # Simple heuristic: if input has at least two words, assume it's a name
             if len(user_input.split()) >= 2:
                 self.current_state = "CONSENT"
                 next_prompt = "Thank you. This call is recorded for automated screening. Do you consent to proceed?"
@@ -235,38 +271,34 @@ class CallFlowEngine:
         }
 
     def _trigger_followup(self, user_input: str) -> bool:
-        # Vague experience trigger: if only a number is provided without context
         words = user_input.split()
         num_matches = [s for s in words if any(char.isdigit() for char in s)]
-        
-        # Threshold-based follow-up trigger
         if num_matches and len(words) < 4:
             return True
-            
-        # Check for ambiguity keywords
         ambiguity_keywords = ["roughly", "about", "maybe", "around"]
         if any(kw in user_input.lower() for kw in ambiguity_keywords):
             return True
-            
         return False
 
     def _get_followup_question(self, user_input: str) -> str:
         return "In which specific technologies or domains did you work during this time?"
 
 if __name__ == "__main__":
-    # Simple Local Simulation
+    # Robust Test Simulation
     engine = CallFlowEngine("c:/Users/Rahul Rajeev/OneDrive/Desktop/Project Zecpath/interview_ai/call_flow_system")
     print("AI:", engine.start_call())
     
-    # Simulating a conversation
-    turns = [
-        "Yes, this is Rahul.",
-        "Rahul Rajeev.",
-        "Yes, I consent.",
-        "5 years." # Should trigger follow-up
+    test_cases = [
+        ("Yes, this is Rahul.", 1.0, 0),            # Normal
+        ("Rahul Rajeev", 1.0, 0),                 # Normal
+        ("Yes han, I consent.", 1.0, 0),           # Language Mixing (Hinglish)
+        ("[noise] [inaudible] [static]", 0.3, 0),  # Background Noise
+        ("", 1.0, 5),                              # Silence (5s)
+        ("I prefer not to say.", 1.0, 0),          # Evasive Answer
+        ("5 years.", 1.0, 0)                       # Ambiguous (triggers follow-up)
     ]
     
-    for turn in turns:
-        print(f"Candidate: {turn}")
-        res = engine.process_turn(turn)
-        print(f"AI: {res['prompt']} (State: {res['state']})")
+    for turn, conf, silence in test_cases:
+        print(f"\nCandidate: '{turn}' (Conf: {conf}, Silence: {silence}s)")
+        res = engine.process_turn(turn, stt_confidence=conf, silence_sec=silence)
+        print(f"AI Action: {res.get('action')} | Prompt: {res['prompt']} (State: {res['state']})")

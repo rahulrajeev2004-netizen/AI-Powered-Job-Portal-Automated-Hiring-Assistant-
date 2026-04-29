@@ -2,7 +2,7 @@
     "metadata": {
         "engine": "ATS Scoring Calibration Engine v6.5",
         "project": "Project Zecpath",
-        "generated_at": "2026-04-28T05:36:14.106346Z",
+        "generated_at": "2026-04-28T12:24:49.766378Z",
         "source_file": "bulk_resumes_voice_eval.json",
         "schema_version": "transcript_processed_v6.5_calibrated"
     },
@@ -22,8 +22,8 @@
                 ],
                 "skill_domains": [
                     "Soft Skills",
-                    "Healthcare",
-                    "Emergency"
+                    "Emergency",
+                    "Healthcare"
                 ]
             },
             "aggregated_profile": {
@@ -125,11 +125,11 @@
                     "Database"
                 ],
                 "skill_domains": [
-                    "Infrastructure",
-                    "Backend",
                     "Cloud Services",
+                    "Backend",
+                    "Programming",
                     "Architecture",
-                    "Programming"
+                    "Infrastructure"
                 ]
             },
             "aggregated_profile": {
@@ -224,11 +224,11 @@
                     "Database"
                 ],
                 "skill_domains": [
-                    "Infrastructure",
-                    "Backend",
                     "Cloud Services",
+                    "Backend",
+                    "Programming",
                     "Architecture",
-                    "Programming"
+                    "Infrastructure"
                 ]
             },
             "aggregated_profile": {
@@ -323,11 +323,11 @@
                     "Database"
                 ],
                 "skill_domains": [
-                    "Infrastructure",
-                    "Backend",
                     "Cloud Services",
+                    "Backend",
+                    "Programming",
                     "Architecture",
-                    "Programming"
+                    "Infrastructure"
                 ]
             },
             "aggregated_profile": {
