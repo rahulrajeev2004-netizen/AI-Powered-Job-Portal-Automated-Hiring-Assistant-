@@ -1,0 +1,49 @@
+{
+  "candidate_id": "cand_d7e57bdf",
+  "job_id": "J1001",
+  "job_role": "Software Engineer",
+  "final_score": 58.0,
+  "decision": "Hold for Review",
+  "confidence_score": 0.4,
+  "risk_level": "High",
+  "score_breakdown": {
+    "technical": 65.0,
+    "communication": 70.0,
+    "consistency": 40.0,
+    "confidence": 50.0
+  },
+  "summary": {
+    "strengths": [
+      "Demonstrated knowledge of Database Optimization Strategies (locks, indexing, read replicas)"
+    ],
+    "risks": [
+      "Experience claim contradiction: cited both 3.0y and 4.5y in the same session",
+      "Missing metrics in microservices migration claim",
+      "High self-rating in Python requires technical validation",
+      "Limited detail provided in self-introduction"
+    ],
+    "missing_data": [
+      "Quantitative metrics for microservices migration",
+      "Clarification on true years of experience (3.0 vs 4.5)"
+    ]
+  },
+  "highlights": {
+    "salary_expectation": {
+      "amount": 7308,
+      "currency": "USD",
+      "period": "monthly"
+    },
+    "availability": {
+      "status": "Notice Period",
+      "duration_days": 30
+    },
+    "claimed_skills": [
+      "Python",
+      "Docker",
+      "Kubernetes"
+    ],
+    "validated_skills": [
+      "Database Optimization Strategies"
+    ]
+  }
+}
