@@ -1,0 +1,188 @@
+{
+  "system": "AI HR Interview System",
+  "version": "1.0",
+  "interview_state_structure": {
+    "session_id": "string (UUID)",
+    "candidate_id": "string (UUID)",
+    "current_phase": "string (Introduction, Core HR Questions, Role-based Evaluation, Closing)",
+    "current_question_id": "string",
+    "questions_asked": [
+      "string (List of Question IDs)"
+    ],
+    "responses": [
+      {
+        "question_id": "string",
+        "timestamp": "iso-8601-date",
+        "transcript": "string",
+        "audio_url": "string",
+        "analysis": {
+          "sentiment": "string (Positive, Neutral, Negative)",
+          "key_points_extracted": [
+            "string"
+          ],
+          "flags": [
+            "string (e.g., Hesitation, Inconsistency, Keyword Match)"
+          ]
+        },
+        "follow_up_eligibility": {
+          "is_eligible": "boolean",
+          "reason": "string (e.g., Vague response, Missing detail)",
+          "follow_up_count": "integer"
+        }
+      }
+    ],
+    "overall_score": "float",
+    "status": "string (In Progress, Completed, Aborted)"
+  },
+  "conversation_phases": [
+    {
+      "phase_id": "phase_1",
+      "name": "Introduction",
+      "description": "Greeting the candidate, verifying identity, and explaining the interview format."
+    },
+    {
+      "phase_id": "phase_2",
+      "name": "Core HR Questions",
+      "description": "General behavioral and background questions applicable to all candidates (e.g., Self-introduction, Career goals, Availability)."
+    },
+    {
+      "phase_id": "phase_3",
+      "name": "Role-based Evaluation",
+      "description": "Specific questions dynamically generated based on candidate experience level (Fresher/Experienced) and job role (Technical/Non-technical)."
+    },
+    {
+      "phase_id": "phase_4",
+      "name": "Closing",
+      "description": "Wrapping up the interview, answering candidate questions, and explaining next steps."
+    }
+  ],
+  "question_bank": {
+    "categories": [
+      {
+        "id": "cat_self_intro",
+        "name": "Self-introduction",
+        "questions": [
+          {
+            "id": "q_intro_01",
+            "text": "Could you please introduce yourself and give me a brief overview of your background?",
+            "target_experience": ["Fresher", "Experienced"],
+            "target_role": ["Technical", "Non-technical"],
+            "requires_follow_up": false
+          }
+        ]
+      },
+      {
+        "id": "cat_career_journey",
+        "name": "Career journey",
+        "questions": [
+          {
+            "id": "q_career_exp_01",
+            "text": "Walk me through your most recent role. What were your primary responsibilities and biggest achievements?",
+            "target_experience": ["Experienced"],
+            "target_role": ["Technical", "Non-technical"],
+            "requires_follow_up": true
+          },
+          {
+            "id": "q_career_fresh_01",
+            "text": "Since you are early in your career, can you talk about the projects or coursework that best prepared you for this role?",
+            "target_experience": ["Fresher"],
+            "target_role": ["Technical", "Non-technical"],
+            "requires_follow_up": true
+          }
+        ]
+      },
+      {
+        "id": "cat_strengths_weaknesses",
+        "name": "Strengths & weaknesses",
+        "questions": [
+          {
+            "id": "q_sw_01",
+            "text": "What would you consider to be your greatest professional strength, and what is an area you are actively trying to improve?",
+            "target_experience": ["Fresher", "Experienced"],
+            "target_role": ["Technical", "Non-technical"],
+            "requires_follow_up": true
+          }
+        ]
+      },
+      {
+        "id": "cat_teamwork_culture",
+        "name": "Teamwork & culture fit",
+        "questions": [
+          {
+            "id": "q_team_tech_01",
+            "text": "Describe a time when you had to explain a complex technical problem to a non-technical team member. How did you handle it?",
+            "target_experience": ["Fresher", "Experienced"],
+            "target_role": ["Technical"],
+            "requires_follow_up": true
+          },
+          {
+            "id": "q_team_nontech_01",
+            "text": "Tell me about a time you worked on a challenging team project. How did you collaborate to ensure its success?",
+            "target_experience": ["Fresher", "Experienced"],
+            "target_role": ["Non-technical"],
+            "requires_follow_up": true
+          }
+        ]
+      },
+      {
+        "id": "cat_career_goals",
+        "name": "Career goals",
+        "questions": [
+          {
+            "id": "q_goals_01",
+            "text": "Where do you see your career heading in the next three to five years?",
+            "target_experience": ["Fresher", "Experienced"],
+            "target_role": ["Technical", "Non-technical"],
+            "requires_follow_up": false
+          }
+        ]
+      },
+      {
+        "id": "cat_availability_commitment",
+        "name": "Availability & commitment",
+        "questions": [
+          {
+            "id": "q_avail_01",
+            "text": "If offered this position, what is your notice period or earliest available start date?",
+            "target_experience": ["Fresher", "Experienced"],
+            "target_role": ["Technical", "Non-technical"],
+            "requires_follow_up": false
+          }
+        ]
+      }
+    ]
+  },
+  "role_based_generator_logic": {
+    "description": "Rules for dynamically pulling questions during Phase 3: Role-based Evaluation.",
+    "rules": [
+      {
+        "condition": {
+          "experience": "Fresher",
+          "role": "Technical"
+        },
+        "strategy": "Select 1 question from Career Journey (Fresher), 1 from Teamwork (Technical). Emphasize coursework, fundamental knowledge, and basic problem-solving skills."
+      },
+      {
+        "condition": {
+          "experience": "Experienced",
+          "role": "Technical"
+        },
+        "strategy": "Select 1 question from Career Journey (Experienced), 1 from Teamwork (Technical). Emphasize system design, past deliverables, architectural decisions, and technical leadership."
+      },
+      {
+        "condition": {
+          "experience": "Fresher",
+          "role": "Non-technical"
+        },
+        "strategy": "Select 1 question from Career Journey (Fresher), 1 from Teamwork (Non-technical). Emphasize adaptability, communication skills, and willingness to learn."
+      },
+      {
+        "condition": {
+          "experience": "Experienced",
+          "role": "Non-technical"
+        },
+        "strategy": "Select 1 question from Career Journey (Experienced), 1 from Teamwork (Non-technical). Emphasize leadership, process improvement, stakeholder management, and measurable business impact."
+      }
+    ]
+  }
+}
