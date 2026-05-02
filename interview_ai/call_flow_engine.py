@@ -10,6 +10,8 @@ if project_root not in sys.path:
     sys.path.append(project_root)
 
 from interview_ai.error_handling_framework import ErrorHandlingFramework
+from interview_ai.followup_engine import FollowUpDetector, FollowUpGenerator
+from interview_ai.adaptive_engine import AdaptiveDifficultyManager, AdaptiveQuestionBuilder
 
 class CallFlowEngine:
     """
@@ -48,6 +50,8 @@ class CallFlowEngine:
         
         # Error Handling Framework
         self.error_handler = ErrorHandlingFramework(session_id=self.session_id, candidate_id="CAND-001")
+        # Follow-ups counter to prevent infinite looping
+        self.follow_ups_triggered = 0
 
     def _load_json(self, filename: str, default: Dict[str, Any]) -> Dict[str, Any]:
         path = os.path.join(self.config_dir, filename)
@@ -250,15 +254,29 @@ class CallFlowEngine:
                 next_prompt = "To continue, I need your verbal consent to record this call. Do you agree?"
 
         elif self.current_state == "QUESTIONING":
-            if self._trigger_followup(user_input):
+            answer_quality = FollowUpDetector.evaluate_quality(user_input)
+            
+            if answer_quality != "good" and self.follow_ups_triggered < 2:
                 self.current_state = "FOLLOW_UP"
-                next_prompt = self._get_followup_question(user_input)
+                next_prompt = FollowUpGenerator.create_prompt(self.last_ai_prompt, answer_quality)
+                self.follow_ups_triggered += 1
             else:
-                next_prompt = "Got it. And what are your primary technical skills?"
+                self.current_state = "QUESTIONING"
+                self.follow_ups_triggered = 0
+                mode = AdaptiveDifficultyManager.determine_level(answer_quality, 1.0)
+                next_prompt = AdaptiveQuestionBuilder.build("What are your primary technical skills?", mode)
         
         elif self.current_state == "FOLLOW_UP":
-            self.current_state = "QUESTIONING"
-            next_prompt = "Excellent. Now, tell me about your primary technical skills."
+            answer_quality = FollowUpDetector.evaluate_quality(user_input)
+            
+            if answer_quality != "good" and self.follow_ups_triggered < 2:
+                next_prompt = FollowUpGenerator.create_prompt(self.last_ai_prompt, answer_quality)
+                self.follow_ups_triggered += 1
+            else:
+                self.current_state = "QUESTIONING"
+                self.follow_ups_triggered = 0
+                mode = AdaptiveDifficultyManager.determine_level(answer_quality, 1.0)
+                next_prompt = AdaptiveQuestionBuilder.build("What are your primary technical skills?", mode)
 
         if not next_prompt:
             next_prompt = "Thank you for that information. Let's move on to the next section."
@@ -271,17 +289,12 @@ class CallFlowEngine:
         }
 
     def _trigger_followup(self, user_input: str) -> bool:
-        words = user_input.split()
-        num_matches = [s for s in words if any(char.isdigit() for char in s)]
-        if num_matches and len(words) < 4:
-            return True
-        ambiguity_keywords = ["roughly", "about", "maybe", "around"]
-        if any(kw in user_input.lower() for kw in ambiguity_keywords):
-            return True
+        # Legacy stub - logic now handled inline using AdaptiveQuestioningFramework
         return False
 
     def _get_followup_question(self, user_input: str) -> str:
-        return "In which specific technologies or domains did you work during this time?"
+        # Legacy stub - logic now handled inline using AdaptiveQuestioningFramework
+        return ""
 
 if __name__ == "__main__":
     # Robust Test Simulation
@@ -295,7 +308,10 @@ if __name__ == "__main__":
         ("[noise] [inaudible] [static]", 0.3, 0),  # Background Noise
         ("", 1.0, 5),                              # Silence (5s)
         ("I prefer not to say.", 1.0, 0),          # Evasive Answer
-        ("5 years.", 1.0, 0)                       # Ambiguous (triggers follow-up)
+        ("5 years.", 1.0, 0),                       # Ambiguous (triggers follow-up clarification)
+        ("I worked at Google.", 1.0, 0),            # Ambiguous (triggers clarification 2)
+        ("I led a team of 10 engineers where we architected a scalable distributed backend using microservices, optimized the database queries, and successfully deployed it to production reducing latency by 40%.", 1.0, 0), # Confident (scenario)
+        ("I built the frontend with React and Redux.", 1.0, 0), # Simple (deepening)
     ]
     
     for turn, conf, silence in test_cases:
