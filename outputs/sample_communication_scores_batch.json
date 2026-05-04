@@ -1,0 +1,31 @@
+{
+    "CANDIDATE_sess_f2619f73": {
+        "combined_text": "Um, Hi, I am an experienced Staff Nurse. I have exactly 3.5 years of clinical experience in the ICU. I have exactly 3.5 years of clinical experience in the ICU.",
+        "score_evaluation": {
+            "communication_score": 78.0,
+            "breakdown": {
+                "fluency": 1.0,
+                "grammar": 1.0,
+                "vocabulary": 0.7,
+                "clarity": 1.0,
+                "structure": 0.7
+            },
+            "penalty_applied": 0.1
+        }
+    },
+    "CANDIDATE_sess_45eafb6d": {
+        "combined_text": "I successfully migrated our legacy system to microservices. Um, I have 3 years of experience in cloud infrastructure. I would rate my Python skills at an 8 out of 10.",
+        "score_evaluation": {
+            "communication_score": 84.0,
+            "breakdown": {
+                "fluency": 1.0,
+                "grammar": 1.0,
+                "vocabulary": 1.0,
+                "clarity": 1.0,
+                "structure": 0.7
+            },
+            "penalty_applied": 0.1
+        }
+    }
+
+}
