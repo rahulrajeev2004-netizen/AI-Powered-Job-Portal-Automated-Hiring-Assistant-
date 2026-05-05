@@ -32,23 +32,41 @@ class BehavioralAnalyzer:
             "refused", "denied", "impossible", "negative", "quit",
             "fired", "rejected", "bottleneck", "downside"
         ]
+        self.stress_indicators = [
+            "nervous", "anxious", "stress", "stressed", "overwhelmed", "panic",
+            "worried", "scared", "intimidated", "blanked out", "stuck", "frustrated", "confused",
+            "uhm", "err"
+        ]
 
     def _get_jitter(self) -> float:
         """Adds a small amount of non-deterministic noise (-0.03 to 0.03)."""
         return random.uniform(-0.03, 0.03)
 
     def detect_hesitations(self, text: str) -> Dict[str, Any]:
-        """Detect filler words and hesitation patterns."""
+        """Detect filler words, long pauses, repeated words, and hesitation patterns."""
         text_lower = text.lower()
-        total_count = sum(len(re.findall(rf'\b{word}\b', text_lower)) for word in self.filler_words)
+        
+        # Filler words
+        filler_count = sum(len(re.findall(rf'\b{word}\b', text_lower)) for word in self.filler_words)
+        
+        # Long pauses (e.g. ellipses or explicit tags)
+        long_pauses = len(re.findall(r'\.\.\.|\[pause\]|\<pause\>', text_lower))
+        
+        # Repeated words (e.g., "I I", "the the")
+        repeated_words = len(re.findall(r'\b(\w+)\s+\1\b', text_lower))
+        
+        total_events = filler_count + long_pauses + repeated_words
         
         words = text_lower.split()
         word_count = len(words)
-        base_intensity = total_count / word_count if word_count > 0 else 0
+        base_intensity = total_events / word_count if word_count > 0 else 0
         intensity = max(0.0, min(1.0, base_intensity + self._get_jitter()))
         
         return {
-            "total_fillers": total_count,
+            "total_fillers": filler_count,
+            "long_pauses": long_pauses,
+            "repeated_words": repeated_words,
+            "total_hesitation_events": total_events,
             "hesitation_intensity": round(intensity, 3),
             "hesitation_level": "High" if intensity > 0.12 else ("Medium" if intensity > 0.05 else "Low")
         }
@@ -94,6 +112,29 @@ class BehavioralAnalyzer:
         return {
             "sentiment_score": final_score,
             "sentiment_label": label
+        }
+
+    def measure_stress(self, text: str, hesitation_intensity: float) -> Dict[str, Any]:
+        """Measure stress indicators based on vocabulary and hesitation."""
+        text_lower = text.lower()
+        stress_word_count = sum(len(re.findall(rf'\b{term}\b', text_lower)) for term in self.stress_indicators)
+        
+        words = text_lower.split()
+        word_count = len(words)
+        stress_word_ratio = stress_word_count / word_count if word_count > 0 else 0
+        
+        # Stress is a combination of direct stress keywords and indirect hesitation
+        base_stress = (stress_word_ratio * 3.0) + (hesitation_intensity * 0.6)
+        stress_score = max(0.05, min(0.95, base_stress + self._get_jitter()))
+        
+        if stress_score > 0.55: label = "High"
+        elif stress_score > 0.30: label = "Medium"
+        else: label = "Low"
+        
+        return {
+            "stress_score": round(stress_score, 3),
+            "stress_level": label,
+            "stress_keywords_detected": stress_word_count
         }
 
     def _generate_answer_note(self, h: float, u: float, s: str, words: int) -> str:
@@ -167,7 +208,7 @@ class BehavioralAnalyzer:
     def analyze_candidate(self, qa_data: List[Dict[str, Any]]) -> Dict[str, Any]:
         """ATS Behavioral Intelligence Engine - Risk Logic Consistency Fix."""
         results = []
-        h_sum, u_sum, s_sum, c_sum = 0, 0, 0, 0
+        h_sum, u_sum, s_sum, c_sum, stress_sum = 0, 0, 0, 0, 0
         total_words = 0
         
         for qa in qa_data:
@@ -175,11 +216,13 @@ class BehavioralAnalyzer:
             h = self.detect_hesitations(text)
             u = self.detect_uncertainty(text)
             s = self.analyze_sentiment(text)
+            stress = self.measure_stress(text, h["hesitation_intensity"])
             
             h_sum += h["hesitation_intensity"]
             u_sum += u["uncertainty_score"]
             s_sum += s["sentiment_score"]
             c_sum += u["confidence_score"]
+            stress_sum += stress["stress_score"]
             w_count = len(text.split())
             total_words += w_count
             
@@ -188,6 +231,7 @@ class BehavioralAnalyzer:
                 "hesitation": h,
                 "uncertainty": {"uncertainty_score": u["uncertainty_score"]},
                 "sentiment": s,
+                "stress": stress,
                 "answer_quality_note": self._generate_answer_note(h["hesitation_intensity"], u["uncertainty_score"], s["sentiment_label"], w_count)
             })
             
@@ -196,13 +240,15 @@ class BehavioralAnalyzer:
         avg_u = u_sum / n
         avg_s = s_sum / n
         avg_c = c_sum / n
+        avg_stress = stress_sum / n
         
         # Communication Strength Index (CSI)
         clarity = round(max(0.40, min(0.95, (1.0 - avg_h) * 0.95 + self._get_jitter())), 3)
         low_hes_factor = round(max(0.40, min(0.95, (1.0 - avg_h) + self._get_jitter())), 3)
         consistency = round(random.uniform(0.70, 0.90), 3) # Simplified for fix
         
-        csi = (clarity * 0.25) + (avg_c * 0.30) + (consistency * 0.20) + (avg_s * 0.15) + (low_hes_factor * 0.10)
+        # Deduct some CSI if stress is high
+        csi = (clarity * 0.25) + (avg_c * 0.30) + (consistency * 0.20) + (avg_s * 0.15) + (low_hes_factor * 0.10) - (avg_stress * 0.10)
         csi = round(max(0.40, min(0.95, csi)), 3)
 
         # Risk Analysis Logic (FIXED MAPPING)
@@ -234,9 +280,10 @@ class BehavioralAnalyzer:
             "job_role": qa_data[0].get("job_role", "Unknown"),
             
             "behavioral_summary": {
-                "confidence_level": "High" if avg_c > 0.8 else ("Medium" if avg_c > 0.6 else "Low"),
+                "confidence_level": "High" if avg_c > 0.75 else ("Medium" if avg_c > 0.55 else "Low"),
                 "clarity_rating": "High" if clarity > 0.8 else ("Medium" if clarity > 0.6 else "Low"),
                 "emotional_tone": "Mixed" if avg_s < 0.55 else "Positive",
+                "stress_level": "High" if avg_stress > 0.55 else ("Medium" if avg_stress > 0.30 else "Low"),
                 "communication_strength_index": csi,
                 "summary_explanation": reason
             },
@@ -245,6 +292,7 @@ class BehavioralAnalyzer:
                 "hesitation_intensity": round(avg_h, 3),
                 "uncertainty_score": round(avg_u, 3),
                 "sentiment_score": round(avg_s, 3),
+                "stress_score": round(avg_stress, 3),
                 "total_word_count": total_words,
                 "communication_strength_index": csi
             },
