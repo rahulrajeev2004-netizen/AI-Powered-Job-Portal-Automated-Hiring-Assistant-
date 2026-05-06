@@ -1,0 +1,173 @@
+{
+    "candidate_id": "cand_e9e691f2",
+    "hr_interview_score": 78.52,
+    "decision": "Hire",
+    "breakdown": [
+        {
+            "question_id": "Q_INTRO_01",
+            "final_score": 75.45,
+            "scores": {
+                "relevance": 0.7,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_INTRO_02",
+            "final_score": 78.6,
+            "scores": {
+                "relevance": 0.79,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_EDU_01",
+            "final_score": 75.8,
+            "scores": {
+                "relevance": 0.71,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_EDU_07",
+            "final_score": 86.25,
+            "scores": {
+                "relevance": 0.78,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 1.0
+            }
+        },
+        {
+            "question_id": "Q_EXP_01",
+            "final_score": 72.65,
+            "scores": {
+                "relevance": 0.62,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_EXP_09",
+            "final_score": 84.15,
+            "scores": {
+                "relevance": 0.72,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 1.0
+            }
+        },
+        {
+            "question_id": "Q_EXP_11",
+            "final_score": 86.25,
+            "scores": {
+                "relevance": 0.78,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 1.0
+            }
+        },
+        {
+            "question_id": "Q_SKILL_01",
+            "final_score": 83.8,
+            "scores": {
+                "relevance": 0.71,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 1.0
+            }
+        },
+        {
+            "question_id": "Q_SKILL_05",
+            "final_score": 83.45,
+            "scores": {
+                "relevance": 0.7,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 1.0
+            }
+        },
+        {
+            "question_id": "Q_SKILL_09",
+            "final_score": 85.9,
+            "scores": {
+                "relevance": 0.77,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 1.0
+            }
+        },
+        {
+            "question_id": "Q_LOC_01",
+            "final_score": 72.3,
+            "scores": {
+                "relevance": 0.61,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_LOC_02",
+            "final_score": 75.8,
+            "scores": {
+                "relevance": 0.71,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_SAL_01",
+            "final_score": 73.7,
+            "scores": {
+                "relevance": 0.65,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_SAL_02",
+            "final_score": 71.95,
+            "scores": {
+                "relevance": 0.6,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_NP_01",
+            "final_score": 74.75,
+            "scores": {
+                "relevance": 0.68,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        },
+        {
+            "question_id": "Q_NP_02",
+            "final_score": 75.45,
+            "scores": {
+                "relevance": 0.7,
+                "communication": 0.76,
+                "confidence": 0.95,
+                "consistency": 0.6
+            }
+        }
+    ],
+    "summary": {
+        "avg_relevance": 0.7,
+        "avg_communication": 0.76,
+        "avg_confidence": 0.95,
+        "avg_consistency": 0.75
+    }
+}

@@ -6,6 +6,7 @@ from datetime import datetime, timedelta
 from typing import Dict, Any, List
 from .normalization import TranscriptNormalizer
 from .behavioral_analyzer import BehavioralAnalyzer
+from .hr_scoring_engine import HREvaluationProcessor
 
 
 class AIVoiceScreeningPipeline:
@@ -503,6 +504,18 @@ class AIVoiceScreeningPipeline:
                 {"question_id": q["question_id"], "answer": q["answer_normalized"]}
                 for q in qa_breakdown
             ]),
+            "hr_scoring_report": (lambda: (
+                proc := HREvaluationProcessor("experienced" if global_total_exp > 0 else "fresher"),
+                answers := [proc.process_single_answer({
+                    "question_id": qa["question_id"],
+                    "relevance_score": qa["score"]["relevance"],
+                    "communication_score": agg_comm * 100,
+                    "confidence_score": (1.0 - (qa["behavioral_indicators"]["uncertainty"]["uncertainty_score"] if "uncertainty" in qa["behavioral_indicators"] else 0.5)) * 100,
+                    "contradiction": False,
+                    "is_vague": qa["score"]["technical_depth"] < 0.6
+                }) for qa in qa_breakdown],
+                proc.format_hr_report(answers, candidate_id=candidate_id)
+            ))()[2],
             "normalized_profile": {
                 "salary": {
                     "current":  {
