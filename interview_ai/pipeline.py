@@ -7,7 +7,7 @@ from typing import Dict, Any, List
 from .normalization import TranscriptNormalizer
 from .behavioral_analyzer import BehavioralAnalyzer
 from .hr_scoring_engine import HREvaluationProcessor
-
+from .report_builder import RecruiterReportBuilder
 
 class AIVoiceScreeningPipeline:
     def __init__(self):
@@ -508,9 +508,11 @@ class AIVoiceScreeningPipeline:
                 proc := HREvaluationProcessor("experienced" if global_total_exp > 0 else "fresher"),
                 answers := [proc.process_single_answer({
                     "question_id": qa["question_id"],
+                    "answer_text": qa["answer_normalized"],
                     "relevance_score": qa["score"]["relevance"],
                     "communication_score": agg_comm * 100,
                     "confidence_score": (1.0 - (qa["behavioral_indicators"]["uncertainty"]["uncertainty_score"] if "uncertainty" in qa["behavioral_indicators"] else 0.5)) * 100,
+                    "aptitude_score": proc.cognitive_evaluator.aptitude_engine.score_response(qa["answer_normalized"])["aptitude_score"],
                     "contradiction": False,
                     "is_vague": qa["score"]["technical_depth"] < 0.6
                 }) for qa in qa_breakdown],
@@ -547,5 +549,34 @@ class AIVoiceScreeningPipeline:
                 "driving_factors": list(dict.fromkeys(driving_factors))[:4]
             },
             "validation_flags": validation_flags,
-            "qa_breakdown":     qa_breakdown
+            "qa_breakdown":     qa_breakdown,
+            "recruiter_intelligence_report": (lambda: (
+                builder := RecruiterReportBuilder(candidate_id),
+                # Construct mock/temp data for the builder from current session
+                builder.set_data(
+                    raw_analysis={
+                        "global_profile": {
+                            "experience": {"total_years": global_total_exp},
+                            "location": {"current": global_loc, "negotiable": global_relocate},
+                            "salary": {"expected": {"value": global_sal_exp, "currency": "USD"}},
+                            "notice_period": {"days": global_np_days}
+                        }
+                    },
+                    evaluation={
+                        "job_role": classified_role,
+                        "category_scores": {"Skills": agg_tech * 100, "Experience": agg_relevance * 100},
+                        "question_analysis": [
+                            {"question": qa["question"], "answer": qa["answer_normalized"], "relevance_score": qa["score"]["relevance"]}
+                            for qa in qa_breakdown
+                        ],
+                        "candidate_summary": {"top_risks": [f["detail"] for f in validation_flags]}
+                    },
+                    behavioral=self.behavioral_analyzer.analyze_candidate([
+                        {"question_id": q["question_id"], "answer": q["answer_normalized"]}
+                        for q in qa_breakdown
+                    ])
+                ),
+                builder.build(),
+                builder.generate_markdown()
+            ))()
         }
