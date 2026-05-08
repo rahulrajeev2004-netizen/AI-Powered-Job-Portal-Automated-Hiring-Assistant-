@@ -1,5 +1,6 @@
 from typing import Dict, Any, List
 import math
+from .cognitive_evaluator import CognitiveEvaluator
 
 class HREvaluationProcessor:
     """
@@ -9,16 +10,18 @@ class HREvaluationProcessor:
     
     ROLE_WEIGHT_PROFILES = {
         "fresher": {
-            "relevance": 0.25,
-            "communication": 0.30,
-            "confidence": 0.25,
-            "consistency": 0.20
+            "relevance": 0.20,
+            "communication": 0.25,
+            "confidence": 0.20,
+            "consistency": 0.15,
+            "aptitude": 0.20
         },
         "experienced": {
-            "relevance": 0.35,
-            "communication": 0.20,
-            "confidence": 0.25,
-            "consistency": 0.20
+            "relevance": 0.30,
+            "communication": 0.15,
+            "confidence": 0.20,
+            "consistency": 0.15,
+            "aptitude": 0.20
         }
     }
 
@@ -28,6 +31,7 @@ class HREvaluationProcessor:
         if profile not in self.ROLE_WEIGHT_PROFILES:
             profile = "fresher"
         self.active_weights = self.ROLE_WEIGHT_PROFILES[profile]
+        self.cognitive_evaluator = CognitiveEvaluator()
 
     def _evaluate_consistency(self, answer_data: Dict[str, Any]) -> float:
         """Determines consistency score based on contradictions and vagueness."""
@@ -48,7 +52,8 @@ class HREvaluationProcessor:
             "relevance": answer_data.get("relevance_score", 0.7),
             "communication": answer_data.get("communication_score", 70.0) / 100.0,
             "confidence": answer_data.get("confidence_score", 70.0) / 100.0,
-            "consistency": self._evaluate_consistency(answer_data)
+            "consistency": self._evaluate_consistency(answer_data),
+            "aptitude": answer_data.get("aptitude_score", 70.0) / 100.0
         }
         
         # Calculate the weighted total
@@ -130,6 +135,18 @@ class HREvaluationProcessor:
         avg_communication = sum(a["component_scores"]["communication"] for a in processed_answers) / interview_length
         avg_confidence = sum(a["component_scores"]["confidence"] for a in processed_answers) / interview_length
         avg_consistency = sum(a["component_scores"]["consistency"] for a in processed_answers) / interview_length
+        avg_aptitude = sum(a["component_scores"].get("aptitude", 0.0) for a in processed_answers) / interview_length
+        
+        # Generate cognitive report from raw answers
+        cognitive_answers = []
+        for ans in processed_answers:
+            if "answer_text" in ans:
+                cognitive_answers.append({
+                    "scenario_id": ans.get("question_id"),
+                    "answer_text": ans["answer_text"]
+                })
+        
+        cognitive_report = self.cognitive_evaluator.evaluate_candidate_cognition(candidate_id, cognitive_answers)
         
         # Compute raw aggregate score
         total_accumulated = sum(ans["answer_final_score"] for ans in processed_answers)
@@ -144,12 +161,7 @@ class HREvaluationProcessor:
             breakdown.append({
                 "question_id": ans["question_id"],
                 "final_score": ans["answer_final_score"],
-                "scores": {
-                    "relevance": ans["component_scores"]["relevance"],
-                    "communication": ans["component_scores"]["communication"],
-                    "confidence": ans["component_scores"]["confidence"],
-                    "consistency": ans["component_scores"]["consistency"]
-                }
+                "scores": ans["component_scores"]
             })
             
         return {
@@ -157,11 +169,13 @@ class HREvaluationProcessor:
             "hr_interview_score": normalized_score,
             "decision": self._get_decision(normalized_score),
             "breakdown": breakdown,
+            "cognitive_evaluation": cognitive_report,
             "summary": {
                 "avg_relevance": round(avg_relevance, 2),
                 "avg_communication": round(avg_communication, 2),
                 "avg_confidence": round(avg_confidence, 2),
-                "avg_consistency": round(avg_consistency, 2)
+                "avg_consistency": round(avg_consistency, 2),
+                "avg_aptitude": round(avg_aptitude, 2)
             }
         }
 

@@ -3,6 +3,8 @@ import os
 import re
 from datetime import datetime, timezone
 from typing import Dict, Any, List, Tuple, Optional
+from .recruiter_insights import RecruiterInsightGenerator
+from .summary_generator import InterviewSummaryGenerator
 
 class RecruiterReportBuilder:
     """
@@ -15,10 +17,13 @@ class RecruiterReportBuilder:
         self.raw_analysis = {}
         self.evaluation = {}
         self.behavioral = {}
+        self.behavioral = {}
         self.report = {}
+        self.insights_engine = RecruiterInsightGenerator()
+        self.summary_engine = InterviewSummaryGenerator()
 
     def load_data(self, analysis_path: str, evaluation_path: str, behavioral_path: str):
-        """Loads data from the various AI engines."""
+        """Loads data from the various AI engines from file paths."""
         if os.path.exists(analysis_path):
             with open(analysis_path, 'r', encoding='utf-8') as f:
                 self.raw_analysis = json.load(f)
@@ -30,6 +35,12 @@ class RecruiterReportBuilder:
         if os.path.exists(behavioral_path):
             with open(behavioral_path, 'r', encoding='utf-8') as f:
                 self.behavioral = json.load(f)
+
+    def set_data(self, raw_analysis: Dict, evaluation: Dict, behavioral: Dict):
+        """Sets data directly from memory dictionaries."""
+        self.raw_analysis = raw_analysis
+        self.evaluation = evaluation
+        self.behavioral = behavioral
 
     def _soften_language(self, text: str) -> str:
         """Applies v8.0 Risk Language Policy (Section 7)."""
@@ -202,19 +213,31 @@ class RecruiterReportBuilder:
                 "evidence": "Observed during screening response analysis."
             })
 
+        # 5. Advanced Recruiter Insights & Core Summary (NEW)
+        qa_data = [{"question_id": qa.get("question_id"), "answer_text": qa.get("answer", "")} for qa in q_analysis]
+        
+        # Use the new Summary Generator logic (30/30/40 weightage)
+        core_summary = self.summary_engine.generate_interview_summary(
+            self.candidate_id,
+            [{"question_id": qa.get("question_id"), "final_score": qa.get("relevance_score", 0.7)*100} for qa in q_analysis],
+            {"communication_score": self.behavioral.get("detailed_metrics", {}).get("communication_strength_index", 0.7) * 100},
+            {
+                "behavioral_score": self.behavioral.get("behavioral_summary", {}).get("communication_strength_index", 0.7) * 100,
+                "confidence": {"confidence_score": self.behavioral.get("detailed_metrics", {}).get("confidence_score", 0.7) * 100},
+                "contradiction": self.behavioral.get("contradiction_summary", {}).get("overall_conflict_severity", 0) > 0.5
+            },
+            " ".join([qa.get("answer", "") for qa in q_analysis])
+        )
+
+        culture_fit = self.insights_engine.analyze_cultural_fit([{"answer": qa.get("answer", "")} for qa in q_analysis])
+        sw = self.insights_engine.generate_strengths_weaknesses(scores, self.behavioral)
+        
         # 6. Final Report Assembly
         salary_data = self._normalize_salary()
         global_profile = self.raw_analysis.get("global_profile", {})
         
-        # Executive Summary (Section 11)
-        if decision == "Not Proceeding":
-            summary = f"Current evidence does not meet advancement criteria based on available information. Final score: {scores['final_score']}."
-        elif decision == "Hold for Review":
-            summary = f"Candidate shows mixed indicators with credible upside potential. Final score: {scores['final_score']}. Recommendation is Hold for Review pending clarification and targeted technical validation."
-        elif decision == "Further Evaluation":
-            summary = f"Candidate demonstrates relevant potential with moderate confidence. Final score: {scores['final_score']}. Recommendation is Further Evaluation."
-        else:
-            summary = f"Candidate demonstrates strong evidence across relevant dimensions. Final score: {scores['final_score']}."
+        # Executive Summary (Upgraded Narrative using new Summary Generator)
+        summary_narrative = core_summary["natural_language_summary"]
 
         self.report = {
             "report_metadata": {
@@ -224,11 +247,12 @@ class RecruiterReportBuilder:
                 "engine_version": "v8.0-production-balanced"
             },
             "executive_summary": {
-                "hiring_decision": decision,
-                "overall_score": scores["final_score"],
-                "summary_narrative": summary,
-                "recruiter_priority": "High" if "Shortlist" in decision else "Medium"
+                "hiring_decision": core_summary["decision"],
+                "overall_score": core_summary["overall_score"],
+                "summary_narrative": summary_narrative,
+                "recruiter_priority": "High" if core_summary["decision"] == "Strong Hire" else "Medium"
             },
+            "core_logic_summary": core_summary["summary"],
             "score_breakdown": scores,
             "candidate_profile": {
                 "years_experience": global_profile.get("experience", {}).get("total_years"),
@@ -249,6 +273,11 @@ class RecruiterReportBuilder:
             "risk_assessment": {
                 "identified_risks": risks,
                 "bias_safety": "Decision grounded in objective scoring dimensions with fairness-focused override rules active."
+            },
+            "recruiter_insights": {
+                "strengths": sw["strengths"],
+                "weaknesses": sw["weaknesses"],
+                "culture_fit": culture_fit
             },
             "contradictions": contradictions,
             "confidence_metrics": {
@@ -305,6 +334,22 @@ class RecruiterReportBuilder:
         md += f"- **Location:** {p['current_location']}\n"
         md += f"- **Salary Expectation:** {p['salary_expectation']}\n"
         md += f"- **Availability:** {p['availability']} ({p['notice_period']})\n\n"
+        
+        md += "## 💡 Recruiter Intelligence\n"
+        md += "### 💪 Top Strengths\n"
+        for s in r['recruiter_insights']['strengths']:
+            md += f"- {s}\n"
+            
+        md += "\n### 📉 Development Areas\n"
+        for w in r['recruiter_insights']['weaknesses']:
+            md += f"- {w}\n"
+            
+        md += "\n### 🤝 Cultural Fit Indicators\n"
+        cf = r['recruiter_insights']['culture_fit']
+        md += f"- **Narrative:** {cf['culture_fit_narrative']}\n"
+        md += "| Collaboration | Growth Mindset | Ownership | Adaptability |\n"
+        md += "| :--- | :--- | :--- | :--- |\n"
+        md += f"| {cf['category_ratings']['collaboration']} | {cf['category_ratings']['growth_mindset']} | {cf['category_ratings']['ownership']} | {cf['category_ratings']['adaptability']} |\n\n"
 
         md += "## 🛠️ Technical Evidence Profile\n"
         md += "### Validated Skills\n"

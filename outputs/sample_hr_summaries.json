@@ -1,0 +1,62 @@
+[
+  {
+    "candidate_id": "Nurse_Resume_Anita_Mathew",
+    "overall_score": 88.5,
+    "decision": "Strong Hire",
+    "summary": {
+      "strengths": [
+        "5+ years of experience at Apollo Hospital",
+        "BSc Nursing from Rajagiri College",
+        "Active BLS and ACLS certifications"
+      ],
+      "weaknesses": [],
+      "risks": [],
+      "inconsistencies": [],
+      "cultural_fit": "Good"
+    },
+    "natural_language_summary": "The candidate (Anita Mathew) demonstrates strong clinical performance and extensive experience in ICU/General wards. Professional communication and high certification compliance identified. Final Recommendation: Strong Hire."
+  },
+  {
+    "candidate_id": "Rahul_Rajeev_Resume",
+    "overall_score": 65.2,
+    "decision": "Consider",
+    "summary": {
+      "strengths": [
+        "Strong foundation in Python and Data Science",
+        "Internship experience at Scope India",
+        "Highly motivated student profile"
+      ],
+      "weaknesses": [
+        "Currently ongoing education (2025 grad)",
+        "Limited full-time industry exposure"
+      ],
+      "risks": [
+        "Junior level experience"
+      ],
+      "inconsistencies": [],
+      "cultural_fit": "Moderate"
+    },
+    "natural_language_summary": "The candidate (Rahul Rajeev) shows good technical potential in Data Science and AI. While strong in academic projects, limited professional experience suggests a 'Consider' status for junior roles. Final Recommendation: Consider."
+  },
+  {
+    "candidate_id": "Template_Nurse_Resume",
+    "overall_score": 45.0,
+    "decision": "Reject",
+    "summary": {
+      "strengths": [],
+      "weaknesses": [
+        "Incomplete profile with template placeholders",
+        "Missing specific hospital names and dates",
+        "Poor detail in work history"
+      ],
+      "risks": [
+        "Low authenticity detected (Template usage)"
+      ],
+      "inconsistencies": [
+        "Missing contact details and location"
+      ],
+      "cultural_fit": "Low"
+    },
+    "natural_language_summary": "The candidate (Based on nurse_resume.pdf) submitted a template-based profile with no specific clinical evidence or verifiable history. Significant risk of low engagement. Final Recommendation: Reject."
+  }
+]

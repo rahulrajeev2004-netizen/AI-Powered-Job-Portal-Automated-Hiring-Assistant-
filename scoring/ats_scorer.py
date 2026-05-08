@@ -16,11 +16,16 @@ def extract_skills_v28(cand_data: Dict, job_data: Dict):
     r_skills = [normalize_skill(s) for s in job_data.get("required_skills", [])]
     
     semantic_map = {
-        "patient care": ["clinical care", "patient interaction", "bedside nursing", "treated patients"],
+        "icu care": ["icu", "intensive care", "critical care", "icu/critical", "emergency care"],
+        "patient care": ["patient care", "acute", "chronic", "bedside", "clinical care", "bedside nursing", "treated patients"],
+        "cpr  bls": ["bls", "acls", "cpr", "basic life support", "cardiovascular life support"],
+        "infection control": ["sterile", "infection", "aseptic", "sterilization", "sanitation"],
+        "rn license": ["registered nurse", "rn", "nursing license"],
+        "ecg monitoring": ["telemetry", "cardiac monitor", "ecg", "ekg"],
+        "medication administration": ["medication", "drug administration", "medication delivery"],
         "clinical assessment": ["patient assessment", "vital signs", "rounds", "clinical diagnosis"],
         "documentation": ["charting", "ehr", "medical records", "documentation"],
         "communication": ["liaised", "collaborated", "coordinated", "informed families"],
-        "critical care": ["icu", "intensive care", "emergency care"],
         "empathy": ["compassion", "patient support", "comfort"]
     }
 
@@ -29,15 +34,20 @@ def extract_skills_v28(cand_data: Dict, job_data: Dict):
     inferred_m = []
     
     for r in r_skills:
-        if r in c_skills or r in resume_text:
+        # 1. Explicit Match (c_skills or resume text)
+        if r in c_skills or re.search(r'\b' + re.escape(r) + r'\b', resume_text):
             explicit_m.append(r)
             continue
+        
+        # 2. Implied Match (via semantic map)
         syns = semantic_map.get(r, [])
-        if any(s in resume_text for s in syns):
+        if any(re.search(r'\b' + re.escape(s) + r'\b', resume_text) for s in syns):
             implied_m.append(r)
             continue
-        if len(resume_text) > 400:
-             inferred_m.append(r)
+            
+        # 3. Contextual Inference (Legacy - kept structure but disabled unsafe length logic)
+        # Note: Unsafe length-based inference removed as per requirement.
+        pass
 
     total = len(r_skills) if len(r_skills) > 0 else 1
     return explicit_m, implied_m, inferred_m, total
@@ -114,7 +124,8 @@ def candidate_score_generator(candidate: Dict, job: Dict, semantic_similarity: f
     confidence_score = base_confidence + c_penalty + epsilon
     
     # CRITICAL CAP (Step 3)
-    capped_confidence = round(min(confidence_score, explicit_skill_coverage + 0.2), 4)
+    cap_limit = max(explicit_skill_coverage + 0.2, core_skill_coverage)
+    capped_confidence = round(min(confidence_score, cap_limit), 4)
     final_confidence = max(0, min(1, capped_confidence))
     
     # 5. Strict Decision Logic (Step 4)
@@ -153,7 +164,7 @@ def candidate_score_generator(candidate: Dict, job: Dict, semantic_similarity: f
         "status": status,
         "risk_level": risk_level,
         "matched_skills": [f"{s} (explicit)" for s in explicit_m] + [f"{s} (implied)" for s in implied_m],
-        "missing_skills": [s for s in job.get("required_skills", []) if normalize_skill(s) not in (explicit_m + implied_m)],
+        "missing_skills": [s for s in job.get("required_skills", []) if normalize_skill(s) not in set(explicit_m + implied_m)],
         "core_skill_coverage": round(core_skill_coverage, 2),
         "explicit_skill_coverage": round(explicit_skill_coverage, 2),
         "indicators": {"green_flags": ["Explicit Evidence"] if explicit_skill_coverage > 0.4 else [], "red_flags": applied_p[:2]},
