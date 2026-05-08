@@ -1,5 +1,5 @@
 # Zecpath AI Development Environment
-
+...............
 This repository contains the core AI systems for the Zecpath project, including resume parsing, applicant tracking (ATS) scoring, and AI-driven candidate screening and interviewing. 
 
 ## Project Structure
