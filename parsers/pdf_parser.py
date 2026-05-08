@@ -1,6 +1,7 @@
 import fitz  # PyMuPDF
 import re
-from utils.logger import get_logger
+from utils.logger import get_logger 
+##
 
 logger = get_logger('pdf_parser', 'logs/extraction.log')
 

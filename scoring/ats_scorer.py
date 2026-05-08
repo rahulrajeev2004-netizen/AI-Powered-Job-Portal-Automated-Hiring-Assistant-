@@ -3,6 +3,7 @@ import math
 import json
 from typing import List, Dict, Any, Tuple
 
+## This module implements the ATS scoring logic, including skill extraction, scoring, confidence calibration, and decision logic.   
 def normalize_skill(skill: str) -> str:
     s = str(skill).lower().strip()
     return re.sub(r'[^a-z0-9 ]', '', s)
