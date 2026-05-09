@@ -1,0 +1,2291 @@
+{
+    "CAND-CONFIDENT": {
+        "application": {
+            "candidate_id": "CAND-CONFIDENT",
+            "job_id": "JOB-SWE-001",
+            "session_id": "sess_CAND-CONFIDENT",
+            "timestamp": "2026-05-09T05:39:44.231622Z"
+        },
+        "interaction_summary": {
+            "total_questions_answered": 6,
+            "total_duration_seconds": 43.0,
+            "average_stt_confidence": 0.95
+        },
+        "aggregate_scores": {
+            "overall_relevance": 0.74,
+            "overall_communication": 0.81,
+            "technical_competency": 0.38,
+            "overall_score": 0.62,
+            "score_breakdown": {
+                "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+                "computed_score": 0.62
+            }
+        },
+        "behavioral_analysis": {
+            "candidate_id": "Unknown",
+            "job_role": "Unknown",
+            "behavioral_summary": {
+                "confidence_level": "High",
+                "clarity_rating": "High",
+                "emotional_tone": "Positive",
+                "stress_level": "Low",
+                "communication_strength_index": 0.886,
+                "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+            },
+            "detailed_metrics": {
+                "hesitation_intensity": 0.013,
+                "uncertainty_score": 0.05,
+                "sentiment_score": 0.681,
+                "stress_score": 0.05,
+                "total_word_count": 69,
+                "communication_strength_index": 0.886
+            },
+            "contradiction_summary": {
+                "total_conflicts": 1,
+                "low_risk_conflicts": 1,
+                "medium_risk_conflicts": 0,
+                "high_risk_conflicts": 0,
+                "primary_conflict_theme": "other",
+                "overall_conflict_severity": 0.15,
+                "final_verdict": "None",
+                "detailed_reports": [
+                    {
+                        "severity": 0.15,
+                        "theme": "other",
+                        "desc": "Minor linguistic variance between self-introduction and technical responses."
+                    }
+                ]
+            },
+            "question_level_breakdown": [
+                {
+                    "question_id": "Q-INTRO-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.028,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.665,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+                },
+                {
+                    "question_id": "Q-EXP-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.7,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+                },
+                {
+                    "question_id": "Q-SKILL-05",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.024,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.702,
+                        "sentiment_label": "Positive"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+                },
+                {
+                    "question_id": "Q-SAL-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.012,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.683,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                },
+                {
+                    "question_id": "Q-SAL-02",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.017,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.661,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                },
+                {
+                    "question_id": "Q-NP-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.673,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                }
+            ],
+            "final_decision_support": {
+                "interview_readiness": "High",
+                "role_fit_score": 88.6,
+                "recommendation": "YES",
+                "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+            },
+            "risk_analysis": {
+                "overall_risk_score": 0.17,
+                "risk_level": "Low"
+            },
+            "report_metadata": {
+                "generated_at": "",
+                "engine_version": "v4-logic-correction",
+                "data_quality": "Medium"
+            }
+        },
+        "hr_scoring_report": {
+            "candidate_id": "CAND-CONFIDENT",
+            "hr_interview_score": 71.58,
+            "decision": "Hire",
+            "breakdown": [
+                {
+                    "question_id": "Q-INTRO-01",
+                    "final_score": 73.35,
+                    "scores": {
+                        "relevance": 0.75,
+                        "communication": 0.81,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.51
+                    }
+                },
+                {
+                    "question_id": "Q-EXP-01",
+                    "final_score": 77.65,
+                    "scores": {
+                        "relevance": 0.77,
+                        "communication": 0.81,
+                        "confidence": 0.95,
+                        "consistency": 1.0,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-SKILL-05",
+                    "final_score": 79.35,
+                    "scores": {
+                        "relevance": 0.75,
+                        "communication": 0.81,
+                        "confidence": 0.95,
+                        "consistency": 1.0,
+                        "aptitude": 0.51
+                    }
+                },
+                {
+                    "question_id": "Q-SAL-01",
+                    "final_score": 71.45,
+                    "scores": {
+                        "relevance": 0.76,
+                        "communication": 0.81,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-SAL-02",
+                    "final_score": 71.25,
+                    "scores": {
+                        "relevance": 0.75,
+                        "communication": 0.81,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-NP-01",
+                    "final_score": 69.65,
+                    "scores": {
+                        "relevance": 0.67,
+                        "communication": 0.81,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                }
+            ],
+            "cognitive_evaluation": {
+                "candidate_id": "CAND-CONFIDENT",
+                "cognitive_summary": {
+                    "overall_aptitude_score": 0.0,
+                    "cognitive_band": "Needs Improvement",
+                    "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+                },
+                "detailed_evaluations": []
+            },
+            "summary": {
+                "avg_relevance": 0.74,
+                "avg_communication": 0.81,
+                "avg_confidence": 0.95,
+                "avg_consistency": 0.73,
+                "avg_aptitude": 0.44
+            }
+        },
+        "normalized_profile": {
+            "salary": {
+                "current": {
+                    "amount": 0,
+                    "currency": "USD",
+                    "period": "monthly",
+                    "confidence": 0.0
+                },
+                "expected": {
+                    "amount": 0,
+                    "currency": "USD",
+                    "period": "monthly",
+                    "confidence": 0.0
+                }
+            },
+            "location": {
+                "current_location": "Unknown",
+                "willing_to_relocate": false,
+                "confidence": 0.0
+            },
+            "notice_period": {
+                "days": 0,
+                "negotiable": false,
+                "confidence": 0.0
+            }
+        },
+        "final_decision": {
+            "status": "HOLD",
+            "decision_justification": "HOLD pending recruiter review. Gaps: technical depth below threshold (0.38 < 0.65).",
+            "explainable_reasoning": [
+                {
+                    "statement": "Microservices migration cited (Q_EXP_09) but omits transactional consistency strategy, service discovery pattern, and rollback handling.",
+                    "evidence_question_id": "Q-SKILL-05",
+                    "answer_excerpt": "I actively use Docker and Kubernetes to deploy microservices. I manage...",
+                    "confidence": 0.8
+                }
+            ]
+        },
+        "decision_trace": {
+            "driving_factors": [
+                "Q-SKILL-05"
+            ]
+        },
+        "validation_flags": [],
+        "qa_breakdown": [
+            {
+                "question_id": "Q-INTRO-01",
+                "question": "Can you introduce yourself?",
+                "answer_raw": "Hello, I am a software engineer with 5 years of experience in backend development. I specialize in building scalable applications.",
+                "answer_normalized": "Hello, I am a software engineer with 5 years of experience in backend development. I specialize in building scalable applications.",
+                "intent": "introduction",
+                "score": {
+                    "relevance": 0.75,
+                    "clarity": 0.8,
+                    "technical_depth": 0.3,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.659,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:39:44.224735Z",
+                "end_time": "2026-05-09T05:39:56.224735Z"
+            },
+            {
+                "question_id": "Q-EXP-01",
+                "question": "How many years of experience do you have?",
+                "answer_raw": "I have 5 years of total experience in software development.",
+                "answer_normalized": "I have 5 years of total experience in software development.",
+                "intent": "experience",
+                "score": {
+                    "relevance": 0.77,
+                    "clarity": 0.82,
+                    "technical_depth": 0.6,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.01,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.676,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:39:57.724735Z",
+                "end_time": "2026-05-09T05:40:02.724735Z"
+            },
+            {
+                "question_id": "Q-SKILL-05",
+                "question": "Describe your experience with deployment.",
+                "answer_raw": "I actively use Docker and Kubernetes to deploy microservices. I manage CI/CD pipelines to ensure seamless delivery.",
+                "answer_normalized": "I actively use Docker and Kubernetes to deploy microservices. I manage CI/CD pipelines to ensure seamless delivery.",
+                "intent": "skills",
+                "score": {
+                    "relevance": 0.75,
+                    "clarity": 0.8,
+                    "technical_depth": 0.75,
+                    "confidence": 0.8
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.001,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.681,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "key_entities_found": {
+                    "entities": [
+                        {
+                            "value": "Docker",
+                            "type": "infrastructure",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'docker'"
+                        },
+                        {
+                            "value": "Kubernetes",
+                            "type": "infrastructure",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'kubernetes'"
+                        },
+                        {
+                            "value": "Microservices",
+                            "type": "architecture",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'microservices'"
+                        },
+                        {
+                            "value": "CI/CD Pipeline",
+                            "type": "devops",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'ci/cd'"
+                        }
+                    ]
+                },
+                "start_time": "2026-05-09T05:40:04.224735Z",
+                "end_time": "2026-05-09T05:40:19.224735Z"
+            },
+            {
+                "question_id": "Q-SAL-01",
+                "question": "What is your current salary?",
+                "answer_raw": "My current salary is 6000 USD per month.",
+                "answer_normalized": "My current salary is 6000 USD per month.",
+                "intent": "salary",
+                "score": {
+                    "relevance": 0.76,
+                    "clarity": 0.81,
+                    "technical_depth": 0.2,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.688,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:20.724735Z",
+                "end_time": "2026-05-09T05:40:24.724735Z"
+            },
+            {
+                "question_id": "Q-SAL-02",
+                "question": "What is your expected salary?",
+                "answer_raw": "I am expecting around 7000 USD per month.",
+                "answer_normalized": "I am expecting around 7000 USD per month.",
+                "intent": "salary",
+                "score": {
+                    "relevance": 0.75,
+                    "clarity": 0.8,
+                    "technical_depth": 0.2,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.659,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:26.224735Z",
+                "end_time": "2026-05-09T05:40:30.224735Z"
+            },
+            {
+                "question_id": "Q-NP-01",
+                "question": "What is your notice period?",
+                "answer_raw": "My notice period is 30 days.",
+                "answer_normalized": "My notice period is 30 days.",
+                "intent": "notice_period",
+                "score": {
+                    "relevance": 0.67,
+                    "clarity": 0.82,
+                    "technical_depth": 0.2,
+                    "confidence": 0.6
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.691,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:31.724735Z",
+                "end_time": "2026-05-09T05:40:34.724735Z"
+            }
+        ],
+        "recruiter_intelligence_report": "# intelligence Screening Report: CAND-CONFIDENT\n**Role:** Software Engineer | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `63/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Clarification + Technical Screening\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 38.0 | 30% |\n| Problem Solving | 56.0 | 20% |\n| Experience Relevance | 74.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 87.8 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **63** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+    },
+    "CAND-HESITANT": {
+        "application": {
+            "candidate_id": "CAND-HESITANT",
+            "job_id": "JOB-SWE-001",
+            "session_id": "sess_CAND-HESITANT",
+            "timestamp": "2026-05-09T05:39:44.244714Z"
+        },
+        "interaction_summary": {
+            "total_questions_answered": 6,
+            "total_duration_seconds": 53.0,
+            "average_stt_confidence": 0.8
+        },
+        "aggregate_scores": {
+            "overall_relevance": 0.67,
+            "overall_communication": 0.74,
+            "technical_competency": 0.34,
+            "overall_score": 0.56,
+            "score_breakdown": {
+                "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+                "computed_score": 0.56
+            }
+        },
+        "behavioral_analysis": {
+            "candidate_id": "Unknown",
+            "job_role": "Unknown",
+            "behavioral_summary": {
+                "confidence_level": "High",
+                "clarity_rating": "High",
+                "emotional_tone": "Positive",
+                "stress_level": "Low",
+                "communication_strength_index": 0.876,
+                "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+            },
+            "detailed_metrics": {
+                "hesitation_intensity": 0.005,
+                "uncertainty_score": 0.102,
+                "sentiment_score": 0.681,
+                "stress_score": 0.05,
+                "total_word_count": 48,
+                "communication_strength_index": 0.876
+            },
+            "contradiction_summary": {
+                "total_conflicts": 1,
+                "low_risk_conflicts": 1,
+                "medium_risk_conflicts": 0,
+                "high_risk_conflicts": 0,
+                "primary_conflict_theme": "other",
+                "overall_conflict_severity": 0.15,
+                "final_verdict": "None",
+                "detailed_reports": [
+                    {
+                        "severity": 0.15,
+                        "theme": "other",
+                        "desc": "Minor linguistic variance between self-introduction and technical responses."
+                    }
+                ]
+            },
+            "question_level_breakdown": [
+                {
+                    "question_id": "Q-INTRO-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.676,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+                },
+                {
+                    "question_id": "Q-EXP-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.008,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.651,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+                },
+                {
+                    "question_id": "Q-SKILL-05",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.01,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.084
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.703,
+                        "sentiment_label": "Positive"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+                },
+                {
+                    "question_id": "Q-SAL-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.655,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                },
+                {
+                    "question_id": "Q-SAL-02",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.331
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.695,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Frequent use of hedging language ('maybe', 'I think') suggests a lack of direct ownership or uncertainty in technical execution."
+                },
+                {
+                    "question_id": "Q-NP-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.014,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.706,
+                        "sentiment_label": "Positive"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                }
+            ],
+            "final_decision_support": {
+                "interview_readiness": "High",
+                "role_fit_score": 87.6,
+                "recommendation": "YES",
+                "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+            },
+            "risk_analysis": {
+                "overall_risk_score": 0.191,
+                "risk_level": "Low"
+            },
+            "report_metadata": {
+                "generated_at": "",
+                "engine_version": "v4-logic-correction",
+                "data_quality": "Medium"
+            }
+        },
+        "hr_scoring_report": {
+            "candidate_id": "CAND-HESITANT",
+            "hr_interview_score": 66.38,
+            "decision": "Review",
+            "breakdown": [
+                {
+                    "question_id": "Q-INTRO-01",
+                    "final_score": 71.0,
+                    "scores": {
+                        "relevance": 0.72,
+                        "communication": 0.74,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.51
+                    }
+                },
+                {
+                    "question_id": "Q-EXP-01",
+                    "final_score": 68.1,
+                    "scores": {
+                        "relevance": 0.68,
+                        "communication": 0.74,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-SKILL-05",
+                    "final_score": 75.42,
+                    "scores": {
+                        "relevance": 0.7,
+                        "communication": 0.74,
+                        "confidence": 0.89,
+                        "consistency": 1.0,
+                        "aptitude": 0.51
+                    }
+                },
+                {
+                    "question_id": "Q-SAL-01",
+                    "final_score": 68.3,
+                    "scores": {
+                        "relevance": 0.69,
+                        "communication": 0.74,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-SAL-02",
+                    "final_score": 60.98,
+                    "scores": {
+                        "relevance": 0.61,
+                        "communication": 0.74,
+                        "confidence": 0.66,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-NP-01",
+                    "final_score": 66.7,
+                    "scores": {
+                        "relevance": 0.61,
+                        "communication": 0.74,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                }
+            ],
+            "cognitive_evaluation": {
+                "candidate_id": "CAND-HESITANT",
+                "cognitive_summary": {
+                    "overall_aptitude_score": 0.0,
+                    "cognitive_band": "Needs Improvement",
+                    "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+                },
+                "detailed_evaluations": []
+            },
+            "summary": {
+                "avg_relevance": 0.67,
+                "avg_communication": 0.74,
+                "avg_confidence": 0.89,
+                "avg_consistency": 0.67,
+                "avg_aptitude": 0.44
+            }
+        },
+        "normalized_profile": {
+            "salary": {
+                "current": {
+                    "amount": 0,
+                    "currency": "USD",
+                    "period": "monthly",
+                    "confidence": 0.0
+                },
+                "expected": {
+                    "amount": 0,
+                    "currency": "USD",
+                    "period": "monthly",
+                    "confidence": 0.0
+                }
+            },
+            "location": {
+                "current_location": "Unknown",
+                "willing_to_relocate": false,
+                "confidence": 0.0
+            },
+            "notice_period": {
+                "days": 0,
+                "negotiable": false,
+                "confidence": 0.0
+            }
+        },
+        "final_decision": {
+            "status": "REJECTED",
+            "decision_justification": "Score 0.56 below rejection threshold (0.60). Technical competency 0.34 insufficient for role requirements.",
+            "explainable_reasoning": []
+        },
+        "decision_trace": {
+            "driving_factors": []
+        },
+        "validation_flags": [],
+        "qa_breakdown": [
+            {
+                "question_id": "Q-INTRO-01",
+                "question": "Can you introduce yourself?",
+                "answer_raw": "Um, hi, I am, uh, a developer. I like, work on backend systems.",
+                "answer_normalized": "hi, I am, , a developer. I , work on backend systems.",
+                "intent": "introduction",
+                "score": {
+                    "relevance": 0.72,
+                    "clarity": 0.72,
+                    "technical_depth": 0.3,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.026,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.705,
+                        "sentiment_label": "Positive"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:39:44.242400Z",
+                "end_time": "2026-05-09T05:39:59.242400Z"
+            },
+            {
+                "question_id": "Q-EXP-01",
+                "question": "How many years of experience do you have?",
+                "answer_raw": "I have worked a lot, like many years in different companies.",
+                "answer_normalized": "I have worked a lot, many years in different companies.",
+                "intent": "experience",
+                "score": {
+                    "relevance": 0.68,
+                    "clarity": 0.78,
+                    "technical_depth": 0.5,
+                    "confidence": 0.6
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.009,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.677,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:00.742400Z",
+                "end_time": "2026-05-09T05:40:10.742400Z"
+            },
+            {
+                "question_id": "Q-SKILL-05",
+                "question": "Describe your experience with deployment.",
+                "answer_raw": "I used, um, Python mostly. I haven't done much with Docker, but I know it.",
+                "answer_normalized": "I used, , Python mostly. I haven't done much with Docker, but I know it.",
+                "intent": "skills",
+                "score": {
+                    "relevance": 0.7,
+                    "clarity": 0.7,
+                    "technical_depth": 0.65,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.109
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.656,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "key_entities_found": {
+                    "entities": [
+                        {
+                            "value": "Docker",
+                            "type": "infrastructure",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'docker'"
+                        },
+                        {
+                            "value": "Python",
+                            "type": "language",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'python'"
+                        }
+                    ]
+                },
+                "start_time": "2026-05-09T05:40:12.242400Z",
+                "end_time": "2026-05-09T05:40:26.242400Z"
+            },
+            {
+                "question_id": "Q-SAL-01",
+                "question": "What is your current salary?",
+                "answer_raw": "Currently I make 5000 USD.",
+                "answer_normalized": "Currently I make 5000 USD.",
+                "intent": "salary",
+                "score": {
+                    "relevance": 0.69,
+                    "clarity": 0.84,
+                    "technical_depth": 0.2,
+                    "confidence": 0.6
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.653,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:27.742400Z",
+                "end_time": "2026-05-09T05:40:32.742400Z"
+            },
+            {
+                "question_id": "Q-SAL-02",
+                "question": "What is your expected salary?",
+                "answer_raw": "Uh, maybe 7500 USD?",
+                "answer_normalized": "maybe 7500 USD?",
+                "intent": "salary",
+                "score": {
+                    "relevance": 0.61,
+                    "clarity": 0.71,
+                    "technical_depth": 0.2,
+                    "confidence": 0.6
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.012,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.336
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.657,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:34.242400Z",
+                "end_time": "2026-05-09T05:40:39.242400Z"
+            },
+            {
+                "question_id": "Q-NP-01",
+                "question": "What is your notice period?",
+                "answer_raw": "Um, it's 60 days.",
+                "answer_normalized": "it's 60 days.",
+                "intent": "notice_period",
+                "score": {
+                    "relevance": 0.61,
+                    "clarity": 0.71,
+                    "technical_depth": 0.2,
+                    "confidence": 0.6
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.683,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:40.742400Z",
+                "end_time": "2026-05-09T05:40:44.742400Z"
+            }
+        ],
+        "recruiter_intelligence_report": "# intelligence Screening Report: CAND-HESITANT\n**Role:** Software Engineer | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `58/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Clarification + Technical Screening\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 34.0 | 30% |\n| Problem Solving | 50.5 | 20% |\n| Experience Relevance | 67.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 85.1 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **58** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+    },
+    "CAND-INEXPERIENCED": {
+        "application": {
+            "candidate_id": "CAND-INEXPERIENCED",
+            "job_id": "JOB-SWE-001",
+            "session_id": "sess_CAND-INEXPERIENCED",
+            "timestamp": "2026-05-09T05:39:44.254360Z"
+        },
+        "interaction_summary": {
+            "total_questions_answered": 6,
+            "total_duration_seconds": 38.0,
+            "average_stt_confidence": 0.91
+        },
+        "aggregate_scores": {
+            "overall_relevance": 0.72,
+            "overall_communication": 0.79,
+            "technical_competency": 0.36,
+            "overall_score": 0.6,
+            "score_breakdown": {
+                "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+                "computed_score": 0.6
+            }
+        },
+        "behavioral_analysis": {
+            "candidate_id": "Unknown",
+            "job_role": "Unknown",
+            "behavioral_summary": {
+                "confidence_level": "High",
+                "clarity_rating": "High",
+                "emotional_tone": "Positive",
+                "stress_level": "Low",
+                "communication_strength_index": 0.849,
+                "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+            },
+            "detailed_metrics": {
+                "hesitation_intensity": 0.006,
+                "uncertainty_score": 0.05,
+                "sentiment_score": 0.681,
+                "stress_score": 0.05,
+                "total_word_count": 57,
+                "communication_strength_index": 0.849
+            },
+            "contradiction_summary": {
+                "total_conflicts": 1,
+                "low_risk_conflicts": 1,
+                "medium_risk_conflicts": 0,
+                "high_risk_conflicts": 0,
+                "primary_conflict_theme": "other",
+                "overall_conflict_severity": 0.15,
+                "final_verdict": "None",
+                "detailed_reports": [
+                    {
+                        "severity": 0.15,
+                        "theme": "other",
+                        "desc": "Minor linguistic variance between self-introduction and technical responses."
+                    }
+                ]
+            },
+            "question_level_breakdown": [
+                {
+                    "question_id": "Q-INTRO-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.007,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.713,
+                        "sentiment_label": "Positive"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+                },
+                {
+                    "question_id": "Q-EXP-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.649,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                },
+                {
+                    "question_id": "Q-SKILL-05",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.028,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.635,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+                },
+                {
+                    "question_id": "Q-SAL-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.687,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                },
+                {
+                    "question_id": "Q-SAL-02",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.691,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                },
+                {
+                    "question_id": "Q-NP-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.709,
+                        "sentiment_label": "Positive"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                }
+            ],
+            "final_decision_support": {
+                "interview_readiness": "High",
+                "role_fit_score": 84.9,
+                "recommendation": "YES",
+                "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+            },
+            "risk_analysis": {
+                "overall_risk_score": 0.17,
+                "risk_level": "Low"
+            },
+            "report_metadata": {
+                "generated_at": "",
+                "engine_version": "v4-logic-correction",
+                "data_quality": "Medium"
+            }
+        },
+        "hr_scoring_report": {
+            "candidate_id": "CAND-INEXPERIENCED",
+            "hr_interview_score": 71.05,
+            "decision": "Hire",
+            "breakdown": [
+                {
+                    "question_id": "Q-INTRO-01",
+                    "final_score": 74.55,
+                    "scores": {
+                        "relevance": 0.73,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.61
+                    }
+                },
+                {
+                    "question_id": "Q-EXP-01",
+                    "final_score": 77.15,
+                    "scores": {
+                        "relevance": 0.77,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 1.0,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-SKILL-05",
+                    "final_score": 78.65,
+                    "scores": {
+                        "relevance": 0.74,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 1.0,
+                        "aptitude": 0.51
+                    }
+                },
+                {
+                    "question_id": "Q-SAL-01",
+                    "final_score": 69.95,
+                    "scores": {
+                        "relevance": 0.71,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-SAL-02",
+                    "final_score": 68.35,
+                    "scores": {
+                        "relevance": 0.63,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-NP-01",
+                    "final_score": 70.75,
+                    "scores": {
+                        "relevance": 0.75,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                }
+            ],
+            "cognitive_evaluation": {
+                "candidate_id": "CAND-INEXPERIENCED",
+                "cognitive_summary": {
+                    "overall_aptitude_score": 0.0,
+                    "cognitive_band": "Needs Improvement",
+                    "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+                },
+                "detailed_evaluations": []
+            },
+            "summary": {
+                "avg_relevance": 0.72,
+                "avg_communication": 0.79,
+                "avg_confidence": 0.95,
+                "avg_consistency": 0.73,
+                "avg_aptitude": 0.45
+            }
+        },
+        "normalized_profile": {
+            "salary": {
+                "current": {
+                    "amount": 0,
+                    "currency": "USD",
+                    "period": "monthly",
+                    "confidence": 0.0
+                },
+                "expected": {
+                    "amount": 0,
+                    "currency": "USD",
+                    "period": "monthly",
+                    "confidence": 0.0
+                }
+            },
+            "location": {
+                "current_location": "Unknown",
+                "willing_to_relocate": false,
+                "confidence": 0.0
+            },
+            "notice_period": {
+                "days": 0,
+                "negotiable": false,
+                "confidence": 0.0
+            }
+        },
+        "final_decision": {
+            "status": "HOLD",
+            "decision_justification": "HOLD pending recruiter review. Gaps: technical depth below threshold (0.36 < 0.65).",
+            "explainable_reasoning": []
+        },
+        "decision_trace": {
+            "driving_factors": []
+        },
+        "validation_flags": [],
+        "qa_breakdown": [
+            {
+                "question_id": "Q-INTRO-01",
+                "question": "Can you introduce yourself?",
+                "answer_raw": "Hi, I just graduated and I am looking for my first software engineering job.",
+                "answer_normalized": "Hi, I just graduated and I am looking for my first software engineering job.",
+                "intent": "introduction",
+                "score": {
+                    "relevance": 0.73,
+                    "clarity": 0.78,
+                    "technical_depth": 0.3,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.683,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:39:44.250218Z",
+                "end_time": "2026-05-09T05:39:52.250218Z"
+            },
+            {
+                "question_id": "Q-EXP-01",
+                "question": "How many years of experience do you have?",
+                "answer_raw": "I have 0.5 years of experience from my internship.",
+                "answer_normalized": "I have 0.5 years of experience from my internship.",
+                "intent": "experience",
+                "score": {
+                    "relevance": 0.77,
+                    "clarity": 0.82,
+                    "technical_depth": 0.6,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.681,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:39:53.750218Z",
+                "end_time": "2026-05-09T05:39:59.750218Z"
+            },
+            {
+                "question_id": "Q-SKILL-05",
+                "question": "Describe your experience with deployment.",
+                "answer_raw": "I don't know Docker or Kubernetes yet. I have only written basic Python scripts.",
+                "answer_normalized": "I don't know Docker or Kubernetes yet. I have only written basic Python scripts.",
+                "intent": "skills",
+                "score": {
+                    "relevance": 0.74,
+                    "clarity": 0.79,
+                    "technical_depth": 0.65,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.697,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "key_entities_found": {
+                    "entities": [
+                        {
+                            "value": "Docker",
+                            "type": "infrastructure",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'docker'"
+                        },
+                        {
+                            "value": "Kubernetes",
+                            "type": "infrastructure",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'kubernetes'"
+                        },
+                        {
+                            "value": "Python",
+                            "type": "language",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'python'"
+                        }
+                    ]
+                },
+                "start_time": "2026-05-09T05:40:01.250218Z",
+                "end_time": "2026-05-09T05:40:11.250218Z"
+            },
+            {
+                "question_id": "Q-SAL-01",
+                "question": "What is your current salary?",
+                "answer_raw": "I was making 2000 USD as an intern.",
+                "answer_normalized": "I was making 2000 USD as an intern.",
+                "intent": "salary",
+                "score": {
+                    "relevance": 0.71,
+                    "clarity": 0.76,
+                    "technical_depth": 0.2,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.006,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.714,
+                        "sentiment_label": "Positive"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:12.750218Z",
+                "end_time": "2026-05-09T05:40:17.750218Z"
+            },
+            {
+                "question_id": "Q-SAL-02",
+                "question": "What is your expected salary?",
+                "answer_raw": "I expect 3000 USD.",
+                "answer_normalized": "I expect 3000 USD.",
+                "intent": "salary",
+                "score": {
+                    "relevance": 0.63,
+                    "clarity": 0.78,
+                    "technical_depth": 0.2,
+                    "confidence": 0.6
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.008,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.663,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:19.250218Z",
+                "end_time": "2026-05-09T05:40:23.250218Z"
+            },
+            {
+                "question_id": "Q-NP-01",
+                "question": "What is your notice period?",
+                "answer_raw": "I have 0 days, I can join immediately.",
+                "answer_normalized": "I have 0 days, I can join immediately.",
+                "intent": "notice_period",
+                "score": {
+                    "relevance": 0.75,
+                    "clarity": 0.8,
+                    "technical_depth": 0.2,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.023,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.711,
+                        "sentiment_label": "Positive"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:24.750218Z",
+                "end_time": "2026-05-09T05:40:29.750218Z"
+            }
+        ],
+        "recruiter_intelligence_report": "# intelligence Screening Report: CAND-INEXPERIENCED\n**Role:** Software Engineer | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `61/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Clarification + Technical Screening\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 36.0 | 30% |\n| Problem Solving | 54.0 | 20% |\n| Experience Relevance | 72.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 87.9 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **61** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+    },
+    "CAND-OVERQUALIFIED": {
+        "application": {
+            "candidate_id": "CAND-OVERQUALIFIED",
+            "job_id": "JOB-SWE-001",
+            "session_id": "sess_CAND-OVERQUALIFIED",
+            "timestamp": "2026-05-09T05:39:44.261473Z"
+        },
+        "interaction_summary": {
+            "total_questions_answered": 6,
+            "total_duration_seconds": 54.0,
+            "average_stt_confidence": 0.97
+        },
+        "aggregate_scores": {
+            "overall_relevance": 0.73,
+            "overall_communication": 0.79,
+            "technical_competency": 0.4,
+            "overall_score": 0.62,
+            "score_breakdown": {
+                "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+                "computed_score": 0.62
+            }
+        },
+        "behavioral_analysis": {
+            "candidate_id": "Unknown",
+            "job_role": "Unknown",
+            "behavioral_summary": {
+                "confidence_level": "High",
+                "clarity_rating": "High",
+                "emotional_tone": "Positive",
+                "stress_level": "Low",
+                "communication_strength_index": 0.866,
+                "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+            },
+            "detailed_metrics": {
+                "hesitation_intensity": 0.006,
+                "uncertainty_score": 0.05,
+                "sentiment_score": 0.701,
+                "stress_score": 0.05,
+                "total_word_count": 75,
+                "communication_strength_index": 0.866
+            },
+            "contradiction_summary": {
+                "total_conflicts": 1,
+                "low_risk_conflicts": 1,
+                "medium_risk_conflicts": 0,
+                "high_risk_conflicts": 0,
+                "primary_conflict_theme": "other",
+                "overall_conflict_severity": 0.15,
+                "final_verdict": "None",
+                "detailed_reports": [
+                    {
+                        "severity": 0.15,
+                        "theme": "other",
+                        "desc": "Minor linguistic variance between self-introduction and technical responses."
+                    }
+                ]
+            },
+            "question_level_breakdown": [
+                {
+                    "question_id": "Q-INTRO-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.723,
+                        "sentiment_label": "Positive"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+                },
+                {
+                    "question_id": "Q-EXP-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.698,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+                },
+                {
+                    "question_id": "Q-SKILL-05",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.007,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.747,
+                        "sentiment_label": "Positive"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+                },
+                {
+                    "question_id": "Q-SAL-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.684,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                },
+                {
+                    "question_id": "Q-SAL-02",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.028,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.687,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Response is critically short. Fails to provide sufficient evidence of depth or domain expertise."
+                },
+                {
+                    "question_id": "Q-NP-01",
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.667,
+                        "sentiment_label": "Neutral"
+                    },
+                    "stress": {
+                        "stress_score": 0.05,
+                        "stress_level": "Low",
+                        "stress_keywords_detected": 0
+                    },
+                    "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+                }
+            ],
+            "final_decision_support": {
+                "interview_readiness": "High",
+                "role_fit_score": 86.6,
+                "recommendation": "YES",
+                "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+            },
+            "risk_analysis": {
+                "overall_risk_score": 0.17,
+                "risk_level": "Low"
+            },
+            "report_metadata": {
+                "generated_at": "",
+                "engine_version": "v4-logic-correction",
+                "data_quality": "Medium"
+            }
+        },
+        "hr_scoring_report": {
+            "candidate_id": "CAND-OVERQUALIFIED",
+            "hr_interview_score": 71.15,
+            "decision": "Hire",
+            "breakdown": [
+                {
+                    "question_id": "Q-INTRO-01",
+                    "final_score": 72.25,
+                    "scores": {
+                        "relevance": 0.72,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.51
+                    }
+                },
+                {
+                    "question_id": "Q-EXP-01",
+                    "final_score": 79.05,
+                    "scores": {
+                        "relevance": 0.76,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 1.0,
+                        "aptitude": 0.51
+                    }
+                },
+                {
+                    "question_id": "Q-SKILL-05",
+                    "final_score": 79.05,
+                    "scores": {
+                        "relevance": 0.76,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 1.0,
+                        "aptitude": 0.51
+                    }
+                },
+                {
+                    "question_id": "Q-SAL-01",
+                    "final_score": 67.75,
+                    "scores": {
+                        "relevance": 0.6,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-SAL-02",
+                    "final_score": 70.35,
+                    "scores": {
+                        "relevance": 0.73,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                },
+                {
+                    "question_id": "Q-NP-01",
+                    "final_score": 71.55,
+                    "scores": {
+                        "relevance": 0.79,
+                        "communication": 0.79,
+                        "confidence": 0.95,
+                        "consistency": 0.6,
+                        "aptitude": 0.4
+                    }
+                }
+            ],
+            "cognitive_evaluation": {
+                "candidate_id": "CAND-OVERQUALIFIED",
+                "cognitive_summary": {
+                    "overall_aptitude_score": 0.0,
+                    "cognitive_band": "Needs Improvement",
+                    "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+                },
+                "detailed_evaluations": []
+            },
+            "summary": {
+                "avg_relevance": 0.73,
+                "avg_communication": 0.79,
+                "avg_confidence": 0.95,
+                "avg_consistency": 0.73,
+                "avg_aptitude": 0.46
+            }
+        },
+        "normalized_profile": {
+            "salary": {
+                "current": {
+                    "amount": 0,
+                    "currency": "USD",
+                    "period": "monthly",
+                    "confidence": 0.0
+                },
+                "expected": {
+                    "amount": 0,
+                    "currency": "USD",
+                    "period": "monthly",
+                    "confidence": 0.0
+                }
+            },
+            "location": {
+                "current_location": "Unknown",
+                "willing_to_relocate": false,
+                "confidence": 0.0
+            },
+            "notice_period": {
+                "days": 0,
+                "negotiable": false,
+                "confidence": 0.0
+            }
+        },
+        "final_decision": {
+            "status": "HOLD",
+            "decision_justification": "HOLD pending recruiter review. Gaps: technical depth below threshold (0.40 < 0.65).",
+            "explainable_reasoning": []
+        },
+        "decision_trace": {
+            "driving_factors": []
+        },
+        "validation_flags": [],
+        "qa_breakdown": [
+            {
+                "question_id": "Q-INTRO-01",
+                "question": "Can you introduce yourself?",
+                "answer_raw": "I am a principal software architect with extensive experience leading multi-national engineering teams.",
+                "answer_normalized": "I am a principal software architect with extensive experience leading multi-national engineering teams.",
+                "intent": "introduction",
+                "score": {
+                    "relevance": 0.72,
+                    "clarity": 0.77,
+                    "technical_depth": 0.3,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.009,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.748,
+                        "sentiment_label": "Positive"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:39:44.258800Z",
+                "end_time": "2026-05-09T05:39:56.258800Z"
+            },
+            {
+                "question_id": "Q-EXP-01",
+                "question": "How many years of experience do you have?",
+                "answer_raw": "I bring 18 years of experience in system design and architecture.",
+                "answer_normalized": "I bring 18 years of experience in system design and architecture.",
+                "intent": "experience",
+                "score": {
+                    "relevance": 0.76,
+                    "clarity": 0.81,
+                    "technical_depth": 0.6,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.016,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.65,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:39:57.758800Z",
+                "end_time": "2026-05-09T05:40:05.758800Z"
+            },
+            {
+                "question_id": "Q-SKILL-05",
+                "question": "Describe your experience with deployment.",
+                "answer_raw": "I designed our entire CI/CD pipeline, migrated from legacy systems to a fully managed Kubernetes cluster using Docker microservices, and implemented read replicas for database scaling.",
+                "answer_normalized": "I designed our entire CI/CD pipeline, migrated from legacy systems to a fully managed Kubernetes cluster using Docker microservices, and implemented read replicas for database scaling.",
+                "intent": "skills",
+                "score": {
+                    "relevance": 0.76,
+                    "clarity": 0.81,
+                    "technical_depth": 0.88,
+                    "confidence": 0.92
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.77,
+                        "sentiment_label": "Positive"
+                    },
+                    "pace": null
+                },
+                "key_entities_found": {
+                    "entities": [
+                        {
+                            "value": "Docker",
+                            "type": "infrastructure",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'docker'"
+                        },
+                        {
+                            "value": "Kubernetes",
+                            "type": "infrastructure",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'kubernetes'"
+                        },
+                        {
+                            "value": "Microservices",
+                            "type": "architecture",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'microservices'"
+                        },
+                        {
+                            "value": "CI/CD Pipeline",
+                            "type": "devops",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'ci/cd'"
+                        },
+                        {
+                            "value": "Read Replica",
+                            "type": "database",
+                            "confidence": 0.88,
+                            "evidence": "Explicitly mentioned 'read replica'"
+                        }
+                    ]
+                },
+                "start_time": "2026-05-09T05:40:07.258800Z",
+                "end_time": "2026-05-09T05:40:25.258800Z"
+            },
+            {
+                "question_id": "Q-SAL-01",
+                "question": "What is your current salary?",
+                "answer_raw": "My current compensation is 15000 USD monthly.",
+                "answer_normalized": "My current compensation is 15000 USD monthly.",
+                "intent": "salary",
+                "score": {
+                    "relevance": 0.6,
+                    "clarity": 0.75,
+                    "technical_depth": 0.2,
+                    "confidence": 0.6
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.0,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.678,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:26.758800Z",
+                "end_time": "2026-05-09T05:40:31.758800Z"
+            },
+            {
+                "question_id": "Q-SAL-02",
+                "question": "What is your expected salary?",
+                "answer_raw": "I am looking for 20000 USD per month.",
+                "answer_normalized": "I am looking for 20000 USD per month.",
+                "intent": "salary",
+                "score": {
+                    "relevance": 0.73,
+                    "clarity": 0.78,
+                    "technical_depth": 0.2,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.018,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.66,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:33.258800Z",
+                "end_time": "2026-05-09T05:40:38.258800Z"
+            },
+            {
+                "question_id": "Q-NP-01",
+                "question": "What is your notice period?",
+                "answer_raw": "As a senior leader, my notice period is 120 days.",
+                "answer_normalized": "As a senior leader, my notice period is 120 days.",
+                "intent": "notice_period",
+                "score": {
+                    "relevance": 0.79,
+                    "clarity": 0.84,
+                    "technical_depth": 0.2,
+                    "confidence": 0.7
+                },
+                "behavioral_indicators": {
+                    "hesitation": {
+                        "total_fillers": 0,
+                        "long_pauses": 0,
+                        "repeated_words": 0,
+                        "total_hesitation_events": 0,
+                        "hesitation_intensity": 0.026,
+                        "hesitation_level": "Low"
+                    },
+                    "uncertainty": {
+                        "uncertainty_score": 0.05
+                    },
+                    "sentiment": {
+                        "sentiment_score": 0.666,
+                        "sentiment_label": "Neutral"
+                    },
+                    "pace": null
+                },
+                "start_time": "2026-05-09T05:40:39.758800Z",
+                "end_time": "2026-05-09T05:40:45.758800Z"
+            }
+        ],
+        "recruiter_intelligence_report": "# intelligence Screening Report: CAND-OVERQUALIFIED\n**Role:** Software Engineer | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `63/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills, Shows teamwork orientation. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Good. Final Recommendation: Strong Hire.\n- **Next Step:** Clarification + Technical Screening\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 40.0 | 30% |\n| Problem Solving | 56.5 | 20% |\n| Experience Relevance | 73.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 88.7 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **63** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+    }
+}

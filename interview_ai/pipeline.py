@@ -478,6 +478,34 @@ class AIVoiceScreeningPipeline:
                 f"Technical competency {agg_tech:.2f} insufficient for role requirements."
             )
 
+        def generate_recruiter_report():
+            builder = RecruiterReportBuilder(candidate_id)
+            builder.set_data(
+                raw_analysis={
+                    "global_profile": {
+                        "experience": {"total_years": global_total_exp},
+                        "location": {"current": global_loc, "negotiable": global_relocate},
+                        "salary": {"expected": {"value": global_sal_exp, "currency": "USD"}},
+                        "notice_period": {"days": global_np_days}
+                    }
+                },
+                evaluation={
+                    "job_role": classified_role,
+                    "category_scores": {"Skills": agg_tech * 100, "Experience": agg_relevance * 100},
+                    "question_analysis": [
+                        {"question": qa["question"], "answer": qa["answer_normalized"], "relevance_score": qa["score"]["relevance"]}
+                        for qa in qa_breakdown
+                    ],
+                    "candidate_summary": {"top_risks": [f["detail"] for f in validation_flags]}
+                },
+                behavioral=self.behavioral_analyzer.analyze_candidate([
+                    {"question_id": q["question_id"], "answer": q["answer_normalized"]}
+                    for q in qa_breakdown
+                ])
+            )
+            builder.build()
+            return builder.generate_markdown()
+
         return {
             "application": {
                 "candidate_id": candidate_id,
@@ -550,33 +578,5 @@ class AIVoiceScreeningPipeline:
             },
             "validation_flags": validation_flags,
             "qa_breakdown":     qa_breakdown,
-            "recruiter_intelligence_report": (lambda: (
-                builder := RecruiterReportBuilder(candidate_id),
-                # Construct mock/temp data for the builder from current session
-                builder.set_data(
-                    raw_analysis={
-                        "global_profile": {
-                            "experience": {"total_years": global_total_exp},
-                            "location": {"current": global_loc, "negotiable": global_relocate},
-                            "salary": {"expected": {"value": global_sal_exp, "currency": "USD"}},
-                            "notice_period": {"days": global_np_days}
-                        }
-                    },
-                    evaluation={
-                        "job_role": classified_role,
-                        "category_scores": {"Skills": agg_tech * 100, "Experience": agg_relevance * 100},
-                        "question_analysis": [
-                            {"question": qa["question"], "answer": qa["answer_normalized"], "relevance_score": qa["score"]["relevance"]}
-                            for qa in qa_breakdown
-                        ],
-                        "candidate_summary": {"top_risks": [f["detail"] for f in validation_flags]}
-                    },
-                    behavioral=self.behavioral_analyzer.analyze_candidate([
-                        {"question_id": q["question_id"], "answer": q["answer_normalized"]}
-                        for q in qa_breakdown
-                    ])
-                ),
-                builder.build(),
-                builder.generate_markdown()
-            ))()
+            "recruiter_intelligence_report": generate_recruiter_report()
         }
