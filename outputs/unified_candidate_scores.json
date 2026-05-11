@@ -1,0 +1,135 @@
+[
+  {
+    "candidate_id": "data_analyst_experienced.pdf",
+    "scores": {
+      "ats": 76.0,
+      "screening": 81.0,
+      "hr": 78.0
+    },
+    "weights": {
+      "ats": 0.35,
+      "screening": 0.4,
+      "hr": 0.25
+    },
+    "final_score": 78.5,
+    "decision": "Hire",
+    "hiring_fit": {
+      "percentage": 76.65,
+      "category": "Hire"
+    }
+  },
+  {
+    "candidate_id": "Mariya_Joseph_Resume.pdf",
+    "scores": {
+      "ats": 59.38,
+      "screening": 84.0,
+      "hr": 71.0
+    },
+    "weights": {
+      "ats": 0.3,
+      "screening": 0.3,
+      "hr": 0.4
+    },
+    "final_score": 71.41,
+    "decision": "Review",
+    "hiring_fit": {
+      "percentage": 60.64,
+      "category": "Review"
+    }
+  },
+  {
+    "candidate_id": "nurse_resume.pdf",
+    "scores": {
+      "ats": 43.62,
+      "screening": 86.0,
+      "hr": 73.0
+    },
+    "weights": {
+      "ats": 0.2,
+      "screening": 0.2,
+      "hr": 0.6
+    },
+    "final_score": 69.72,
+    "decision": "Review",
+    "hiring_fit": {
+      "percentage": 59.75,
+      "category": "Review"
+    }
+  },
+  {
+    "candidate_id": "Nurse_Resume_Anita_Mathew.pdf",
+    "scores": {
+      "ats": 65.0,
+      "screening": 79.0,
+      "hr": 74.0
+    },
+    "weights": {
+      "ats": 0.2,
+      "screening": 0.2,
+      "hr": 0.6
+    },
+    "final_score": 73.2,
+    "decision": "Review",
+    "hiring_fit": {
+      "percentage": 62.34,
+      "category": "Review"
+    }
+  },
+  {
+    "candidate_id": "Rahul.pdf",
+    "scores": {
+      "ats": 71.5,
+      "screening": 88.0,
+      "hr": 45.0
+    },
+    "weights": {
+      "ats": 0.3,
+      "screening": 0.3,
+      "hr": 0.4
+    },
+    "final_score": 65.85,
+    "decision": "Review",
+    "hiring_fit": {
+      "percentage": 62.84,
+      "category": "Review"
+    }
+  },
+  {
+    "candidate_id": "Reshma resume.pdf",
+    "scores": {
+      "ats": 45.88,
+      "screening": 86.0,
+      "hr": 74.0
+    },
+    "weights": {
+      "ats": 0.3,
+      "screening": 0.3,
+      "hr": 0.4
+    },
+    "final_score": 69.16,
+    "decision": "Review",
+    "hiring_fit": {
+      "percentage": 59.51,
+      "category": "Review"
+    }
+  },
+  {
+    "candidate_id": "software_developer_experienced.pdf",
+    "scores": {
+      "ats": 76.0,
+      "screening": 66.0,
+      "hr": 53.0
+    },
+    "weights": {
+      "ats": 0.25,
+      "screening": 0.5,
+      "hr": 0.25
+    },
+    "final_score": 65.25,
+    "decision": "Review",
+    "hiring_fit": {
+      "percentage": 63.62,
+      "category": "Review"
+    }
+  }
+]
