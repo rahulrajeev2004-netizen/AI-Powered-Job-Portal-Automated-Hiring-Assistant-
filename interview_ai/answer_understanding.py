@@ -200,116 +200,113 @@ All inferred skills MUST include: {"name": string, "confidence": float, "sources
         is_vague = False
 
         # Facts
+        # Experience detection
         ym = re.search(r"(\d+(?:\.\d+)?)\s*years?", ans_l)
         if ym: 
             entities["experience"]["years"] = float(ym.group(1))
             has_structured = True
-            dom = "Cloud Engineering" if "cloud" in ans_l else None
+            
+            # Domain detection (expanded)
+            domains = {
+                "cloud": "Cloud Engineering",
+                "backend": "Backend Development",
+                "frontend": "Frontend Development",
+                "fullstack": "Fullstack Development",
+                "data": "Data Science/Engineering",
+                "nurse": "Healthcare/Nursing",
+                "icu": "Critical Care"
+            }
+            dom = next((v for k, v in domains.items() if k in ans_l), None)
             if dom: 
                 entities["experience"]["domain"] = dom
                 has_domain = True
-            # FIX 2: Include domain context in summary when available
-            if dom:
-                summary_parts.append(f"Candidate reports {ym.group(1)} years of experience in {dom}, indicating domain-specific engineering seniority")
+                summary_parts.append(f"Candidate reports {ym.group(1)} years of experience in {dom}, indicating domain-specific seniority")
             else:
-                summary_parts.append(f"Candidate reports {ym.group(1)} years of professional experience, indicating engineering seniority")
+                summary_parts.append(f"Candidate reports {ym.group(1)} years of professional experience")
 
-        sm = re.search(r"(\d+)\s*(lpa|k|thousand|month|dollars|usd)", ans_l)
+        # Salary detection
+        sm = re.search(r"(\d+)\s*(lpa|k|thousand|month|dollars|usd|lac|lakh)", ans_l)
         if sm:
-            entities["salary"]["value"] = int(sm.group(1)) * (100000 if "lpa" in ans_l else 1)
-            entities["salary"]["currency"] = "USD" if "dollar" in ans_l or "usd" in ans_l else "INR"
-            entities["salary"]["unit"] = "monthly"
-            has_structured = True
-            # FIX 1: Distinguish current vs expected salary in summary (HARD RULE)
-            _is_current_sal = any(k in ans_l for k in ["current", "take-home", "take home", "drawing", "ctc"])
-            _is_expected_sal = any(k in question_id for k in ["SAL_02"]) or any(k in ans_l for k in ["expecting", "expect", "looking for", "want"])
-            if _is_current_sal:
-                summary_parts.append(f"Candidate reports current salary of {entities['salary']['value']} {entities['salary']['currency']} monthly, establishing compensation reference")
-            elif _is_expected_sal:
-                summary_parts.append(f"Candidate states expected salary of {entities['salary']['value']} {entities['salary']['currency']} monthly, defining target compensation")
+            val = int(sm.group(1))
+            if "lpa" in ans_l or "lac" in ans_l or "lakh" in ans_l:
+                entities["salary"]["value"] = val * 100000
+            elif "k" in ans_l or "thousand" in ans_l:
+                entities["salary"]["value"] = val * 1000
             else:
-                summary_parts.append(f"Candidate provides salary figure of {entities['salary']['value']} {entities['salary']['currency']} monthly")
-
-        nm = re.search(r"(\d+)\s*days?", ans_l)
-        if nm: 
-            entities["notice_period"]["days"] = int(nm.group(1))
+                entities["salary"]["value"] = val
+                
+            entities["salary"]["currency"] = "USD" if "dollar" in ans_l or "usd" in ans_l else "INR"
+            entities["salary"]["unit"] = "yearly" if any(x in ans_l for x in ["lpa", "lac", "lakh", "annual"]) else "monthly"
             has_structured = True
-            summary_parts.append(f"Candidate communicates a {nm.group(1)}-day notice period, establishing strict timeline availability")
-        if "negotiat" in ans_l and "notice" in ans_l or ("negotiat" in ans_l and nm):
+            
+            _is_current_sal = any(k in ans_l for k in ["current", "take-home", "take home", "drawing", "ctc"])
+            _is_expected_sal = any(k in question_id for k in ["SAL_02"]) or any(k in ans_l for k in ["expecting", "expect", "looking for", "want", "target"])
+            
+            if _is_current_sal:
+                summary_parts.append(f"Candidate reports current salary of {entities['salary']['value']} {entities['salary']['currency']}, establishing compensation reference")
+            elif _is_expected_sal:
+                summary_parts.append(f"Candidate states expected salary of {entities['salary']['value']} {entities['salary']['currency']}, defining target compensation")
+            else:
+                summary_parts.append(f"Candidate provides salary figure of {entities['salary']['value']} {entities['salary']['currency']}")
+
+        # Notice Period
+        nm = re.search(r"(\d+)\s*(day|month|week)s?", ans_l)
+        if nm: 
+            val = int(nm.group(1))
+            unit = nm.group(2)
+            days = val * 30 if "month" in unit else (val * 7 if "week" in unit else val)
+            entities["notice_period"]["days"] = days
+            has_structured = True
+            summary_parts.append(f"Candidate communicates a {days}-day notice period, establishing availability timeline")
+        
+        if "negotiat" in ans_l or "immediate" in ans_l:
             entities["notice_period"]["negotiable"] = True
             has_binary = True
-            if not nm: summary_parts.append("Candidate indicates notice period negotiability, allowing flexible onboarding")
+            if "immediate" in ans_l:
+                entities["notice_period"]["days"] = 0
+                summary_parts.append("Candidate indicates immediate availability")
 
-        if "thiruvananthapuram" in ans_l: 
-            entities["location"]["current"] = "Thiruvananthapuram"
-            has_binary = True
-            summary_parts.append("Candidate confirms current location in Thiruvananthapuram")
-        if "relocat" in ans_l: 
-            entities["location"]["negotiable"] = True
-            has_binary = True
-            summary_parts.append("Candidate expresses willingness to relocate, showing role flexibility")
-
-        if "degree" in ans_l or "bachelor" in ans_l:
-            entities["education"]["degree"] = "Bachelor's"
-            has_structured = True
-            if "university" in ans_l: entities["education"]["institution"] = "State University"
-            summary_parts.append("Candidate confirms Bachelor's degree, validating educational baseline")
-
-        # Skills & Inference
-        for t in ["Python", "Django", "React", "Node", "AWS", "Docker", "Kubernetes"]:
-            if t.lower() in ans_l: 
+        # Skills detection (expanded)
+        tech_skills = ["Python", "Django", "React", "Node", "AWS", "Docker", "Kubernetes", "Java", "Spring", "SQL", "NoSQL", "Angular", "Vue", "TypeScript"]
+        for t in tech_skills:
+            if re.search(r"\b" + re.escape(t.lower()) + r"\b", ans_l):
                 entities["skills"]["explicit"].append(t)
                 has_explicit = True
+        
         if has_explicit:
             skill_list = ', '.join(entities['skills']['explicit'])
-            # FIX 2: Include deployment/usage context when keywords imply it
-            if any(k in ans_l for k in ["deployed", "container", "production", "used"]):
-                summary_parts.append(f"Candidate demonstrates explicit, production-level proficiency in {skill_list}, confirming hands-on deployment experience")
+            if any(k in ans_l for k in ["deployed", "production", "scaled", "architected"]):
+                summary_parts.append(f"Candidate demonstrates advanced proficiency in {skill_list}, highlighting production-level experience")
             else:
-                summary_parts.append(f"Candidate demonstrates explicit proficiency in {skill_list}, confirming core technical competencies")
+                summary_parts.append(f"Candidate demonstrates proficiency in {skill_list}")
 
-        if any(w in ans_l for w in ["microservices", "system migration", "service decomposition"]):
-            entities["skills"]["inferred"].extend([
-                {"name": "System Design", "confidence": 0.85, "sources": [question_id]},
-                {"name": "Distributed Systems", "confidence": 0.85, "sources": [question_id]},
-                {"name": "API Design", "confidence": 0.85, "sources": [question_id]}
-            ])
+        # Inferred skills
+        if any(w in ans_l for w in ["microservices", "distributed", "scalability", "latency"]):
+            entities["skills"]["inferred"].append({"name": "System Design", "confidence": 0.85, "sources": [question_id]})
             has_inferred = True
-            summary_parts.append("Candidate describes migration of legacy systems to microservices, demonstrating hands-on experience in System Design, Distributed Systems, and API Design")
-
-        if any(w in ans_l for w in ["database locks", "index usage", "read replicas", "query performance"]):
-            entities["skills"]["inferred"].append({"name": "Database Optimization", "confidence": 0.80, "sources": [question_id]})
+        
+        if any(w in ans_l for w in ["ci/cd", "pipeline", "jenkins", "github actions"]):
+            entities["skills"]["inferred"].append({"name": "DevOps", "confidence": 0.80, "sources": [question_id]})
             has_inferred = True
-            summary_parts.append("Candidate references performance and index strategies, establishing clear Database Optimization capabilities")
 
         is_complete = has_structured or has_explicit or has_inferred or has_domain or has_binary
         
-        if not summary_parts and ("many" in ans_l or "experienced" in ans_l):
-            is_vague = True
-            
         if not is_complete:
-            is_vague = True
-            summary = "No structured signals extracted; response remains high-level."
-            score = 0.50
+            is_vague = len(ans_l.split()) < 8
+            summary = "No structured signals extracted; response remains high-level." if is_vague else "Candidate provided a qualitative response with no specific technical or structured data."
+            score = 0.45 if is_vague else 0.55
         else:
             summary = " ".join(summary_parts)
-            if not summary.endswith("."):
-                summary += "."
-            # FIX 3: Recalibrated confidence bands (no inflation, aligned with signal quality)
-            if has_structured and (has_explicit or has_domain):
-                score = 0.90  # Multiple strong signals
-            elif has_structured:
-                score = 0.82  # Single structured signal
-            elif has_explicit and entities["skills"]["explicit"] and len(entities["skills"]["explicit"]) > 1:
-                score = 0.82  # Multiple explicit skills
-            elif has_explicit:
-                score = 0.75  # Single explicit skill
-            elif has_inferred:
-                score = 0.72  # Inferred only - moderate, never inflated
-            elif has_binary:
-                score = 0.68  # Binary signals
-            else:
-                score = 0.55
+            if not summary.endswith("."): summary += "."
+            
+            # Calibrated confidence scoring
+            base_score = 0.60
+            if has_structured: base_score += 0.15
+            if has_explicit: base_score += 0.10
+            if has_inferred: base_score += 0.05
+            if has_domain: base_score += 0.05
+            
+            score = min(0.95, base_score)
 
         self._update_global_profile(entities, question_type, question_id)
         return self._clean_nulls({

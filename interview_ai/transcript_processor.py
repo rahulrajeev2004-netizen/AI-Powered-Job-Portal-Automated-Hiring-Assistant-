@@ -15,7 +15,10 @@ from typing import Any, Dict, List, Optional
 
 # ── Constants ─────────────────────────────────────────────────────────────────
 
-FILLER_WORDS: List[str] = ["uh", "um", "like", "you know", "i mean", "basically", "literally", "actually"]
+FILLER_WORDS: List[str] = [
+    "uh", "um", "like", "you know", "i mean", "basically", "literally", "actually",
+    "sort of", "kind of", "stuff like that", "and all", "i guess"
+]
 
 ROLE_COMBINATIONS = [
     {"role": "Backend / Distributed Systems Engineer", "requirements": ["Microservices", "Cloud", "Docker", "Database"], "min_match": 3},
@@ -24,18 +27,35 @@ ROLE_COMBINATIONS = [
     {"role": "Staff Nurse / ICU Specialist", "requirements": ["Nursing", "ICU", "CPR", "BLS", "ACLS"], "min_match": 2}
 ]
 
+STUTTER_PATTERN = re.compile(r"\b(\w+)\s+\1\b", re.IGNORECASE)
+
 ENTITY_REGISTRY: Dict[str, tuple] = {
-    "python": ("Python", "Programming"), "docker": ("Docker", "Infrastructure"),
-    "kubernetes": ("Kubernetes", "Infrastructure"), "aws": ("AWS", "Cloud Services"),
-    "terraform": ("Terraform", "Infrastructure"), "microservices": ("Microservices", "Architecture"),
+    "python": ("Python", "Programming"), "django": ("Django", "Backend"),
+    "flask": ("Flask", "Backend"), "fastapi": ("FastAPI", "Backend"),
+    "docker": ("Docker", "Infrastructure"), "kubernetes": ("Kubernetes", "Infrastructure"),
+    "k8s": ("Kubernetes", "Infrastructure"), "aws": ("AWS", "Cloud Services"),
+    "azure": ("Azure", "Cloud Services"), "gcp": ("GCP", "Cloud Services"),
+    "terraform": ("Terraform", "Infrastructure"), "ansible": ("Ansible", "Infrastructure"),
+    "microservices": ("Microservices", "Architecture"), "distributed systems": ("Distributed Systems", "Architecture"),
     "react": ("React", "Frontend"), "javascript": ("JavaScript", "Frontend"),
+    "typescript": ("TypeScript", "Frontend"), "angular": ("Angular", "Frontend"),
+    "vue": ("Vue.js", "Frontend"), "node": ("Node.js", "Backend"),
     "cloud": ("Cloud", "Cloud Services"), "ml": ("Machine Learning", "Data Science"),
+    "ai": ("AI", "Data Science"), "nlp": ("NLP", "Data Science"),
     "statistics": ("Statistics", "Data Science"), "database": ("Database", "Backend"),
+    "sql": ("SQL", "Database"), "nosql": ("NoSQL", "Database"),
+    "mongodb": ("MongoDB", "Database"), "postgres": ("PostgreSQL", "Database"),
+    "redis": ("Redis", "Database"), "kafka": ("Kafka", "Messaging"),
     "nurs": ("Nursing", "Healthcare"), "icu": ("ICU", "Healthcare"),
     "cpr": ("CPR", "Emergency"), "bls": ("BLS", "Healthcare"),
     "acls": ("ACLS", "Healthcare"), "clinical": ("Clinical Care", "Healthcare"),
-    "de-escalation": ("De-escalation", "Soft Skills")
+    "patient care": ("Patient Care", "Healthcare"), "infection control": ("Infection Control", "Healthcare"),
+    "de-escalation": ("De-escalation", "Soft Skills"), "communication": ("Communication", "Soft Skills"),
+    "leadership": ("Leadership", "Soft Skills"), "agile": ("Agile", "Management")
 }
+
+FILLER_REGEX = re.compile(r"(?i)\b(" + "|".join(re.escape(f) for f in FILLER_WORDS) + r")\b[,]?\s*")
+
 
 # ── Transcript Processor ──────────────────────────────────────────────────────
 
@@ -62,8 +82,14 @@ class TranscriptProcessor:
         }
 
     def _clean(self, text: str) -> str:
-        for filler in FILLER_WORDS: text = re.sub(r"(?i)\b" + re.escape(filler) + r"\b[,]?\s*", " ", text)
+        if not text: return ""
+        # 1. Remove fillers using pre-compiled regex (Faster)
+        text = FILLER_REGEX.sub(" ", text)
+        # 2. Remove stutters (e.g., "I I think" -> "I think")
+        text = STUTTER_PATTERN.sub(r"\1", text)
+        # 3. Clean up whitespace
         text = re.sub(r"\s{2,}", " ", text).strip()
+        # 4. Normalize casing
         if text: text = text[0].upper() + text[1:]
         return text
 

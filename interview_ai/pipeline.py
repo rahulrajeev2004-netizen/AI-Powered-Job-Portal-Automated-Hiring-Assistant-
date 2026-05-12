@@ -38,12 +38,22 @@ class AIVoiceScreeningPipeline:
             # Engineering
             "docker":        ("Docker",                    "infrastructure"),
             "kubernetes":    ("Kubernetes",                "infrastructure"),
+            "k8s":           ("Kubernetes",                "infrastructure"),
             "python":        ("Python",                    "language"),
+            "django":        ("Django",                    "framework"),
+            "fastapi":       ("FastAPI",                   "framework"),
             "microservices": ("Microservices",             "architecture"),
+            "distributed":   ("Distributed Systems",       "architecture"),
             "ci/cd":         ("CI/CD Pipeline",            "devops"),
+            "jenkins":       ("Jenkins",                   "devops"),
+            "github actions":("GitHub Actions",            "devops"),
             "rest api":      ("REST API",                  "interface"),
             "index":         ("DB Index Tuning",           "database"),
             "read replica":  ("Read Replica",              "database"),
+            "nosql":         ("NoSQL",                     "database"),
+            "mongodb":       ("MongoDB",                   "database"),
+            "redis":         ("Redis",                     "database"),
+            "kafka":         ("Kafka",                     "messaging"),
             # Clinical
             "icu":           ("ICU",                       "clinical_unit"),
             "code blue":     ("Code Blue Protocol",        "emergency_protocol"),
@@ -56,11 +66,13 @@ class AIVoiceScreeningPipeline:
             "ecg":           ("ECG Monitoring",            "monitoring"),
             "epinephrine":   ("Epinephrine",               "medication"),
             "atropine":      ("Atropine",                  "medication"),
-            "de-escalation": ("De-escalation Protocol",   "behavioral"),
-            # Sales
-            "b2b":           ("B2B Sales",                 "domain"),
-            "crm":           ("CRM",                       "tool"),
-            "linkedin":      ("LinkedIn Sales Navigator",  "tool"),
+            "infection control": ("Infection Control",     "clinical_protocol"),
+            "patient care":  ("Patient Care",              "clinical_protocol"),
+            "de-escalation": ("De-escalation Protocol",    "behavioral"),
+            # Soft Skills & Management
+            "agile":         ("Agile",                     "methodology"),
+            "leadership":    ("Leadership",                "behavioral"),
+            "communication": ("Communication",             "behavioral"),
         }
 
         # ── Phase 1: STT Normalization ─────────────────────────────────────────

@@ -88,21 +88,26 @@ class HREvaluationProcessor:
             return "Major contradictions or severe inconsistencies detected."
         return ""
 
-    def _normalize_length(self, score: float, interview_length: int, optimal_length: int = 15) -> float:
+    def _normalize_length(self, score: float, interview_length: int, optimal_length: int = 12) -> float:
         """
         Normalize score based on interview length (e.g. number of QA turns).
-        Penalizes extremely short interviews while slightly scaling shorter ones.
+        Uses a sigmoid-style curve to reward depth while preventing score inflation.
         """
         if interview_length == 0:
             return 0.0
         
-        # Heavy penalty for extremely short interviews
+        # Linear penalty for extremely short interviews (1 or 2 turns)
         if interview_length < 3:
-            return round(score * 0.8, 2)  # 20% penalty
+            penalty = 0.4 if interview_length == 1 else 0.7
+            return round(score * penalty, 2)
             
-        # Logarithmic normalization
+        # Logarithmic normalization with a higher base for smoother scaling
+        # We want it to reach 1.0 around optimal_length
         length_factor = min(1.0, math.log1p(interview_length) / math.log1p(optimal_length))
-        normalized = score * (0.9 + 0.1 * length_factor)
+        
+        # Base multiplier starts at 0.85 for 3 turns and goes to 1.0
+        multiplier = 0.85 + (0.15 * length_factor)
+        normalized = score * multiplier
         
         return round(min(100.0, max(0.0, normalized)), 2)
 
