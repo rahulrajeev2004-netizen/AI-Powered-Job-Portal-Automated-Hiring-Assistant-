@@ -68,6 +68,10 @@ _BIAS_PATTERNS: Dict[str, List[str]] = {
         r"\b(fluent\s+in\s+(hindi|tamil|telugu|malayalam|kannada|marathi)\s+mandatory)\b",
         r"\b(local\s+language\s+mandatory)\b",
     ],
+    "disability_bias": [
+        r"\b(must\s+be\s+able\s+bodied|no\s+disabilities|healthy\s+only)\b",
+        r"\b(physical\s+deformity|handicapped|crippled)\b",
+    ]
 }
 
 # Pre-compile all patterns
@@ -200,11 +204,34 @@ def compare_bias(jd_report: BiasReport, resume_report: BiasReport) -> dict:
         "shared_bias_categories": sorted(shared),
         "systemic_bias_risk":     len(shared) > 0,
         "recommendation": (
-            "Review shared bias categories to ensure fair evaluation."
-            if shared else
             "No systemic bias overlap between JD and resume detected."
         )
     }
+
+
+def mask_demographics(text: str) -> str:
+    """
+    Removes demographic signals from text before processing by AI.
+    This is a critical step for ethical AI compliance (Objective 3).
+    """
+    if not text:
+        return ""
+
+    # 1. Mask Gendered Pronouns (Replace with 'they/them/their')
+    text = re.sub(r"\b(he|she)\b", "they", text, flags=re.IGNORECASE)
+    text = re.sub(r"\b(him|her)\b", "them", text, flags=re.IGNORECASE)
+    text = re.sub(r"\b(his|hers)\b", "their", text, flags=re.IGNORECASE)
+
+    # 2. Mask Age references (e.g., '25 years old' -> '[AGE] years old')
+    text = re.sub(r"\b(\d{2})\s*years?\s+old\b", "[AGE] years old", text, flags=re.IGNORECASE)
+    text = re.sub(r"\b(born\s+in\s+)\d{4}\b", r"\1[YEAR]", text, flags=re.IGNORECASE)
+
+    # 3. Mask potential Ethnicity/Religion markers (broadly)
+    for category in ["religion_bias", "ethnicity_bias"]:
+        for pattern in _COMPILED_PATTERNS[category]:
+            text = pattern.sub("[DEMOGRAPHIC_MASK]", text)
+
+    return text
 
 
 # ---------------------------------------------------------------------------

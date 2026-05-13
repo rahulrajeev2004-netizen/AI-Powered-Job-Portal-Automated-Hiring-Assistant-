@@ -64,11 +64,16 @@ class TranscriptProcessor:
     
     def process(self, question_id: str, raw_text: str) -> Dict[str, Any]:
         raw_text = (raw_text or "").strip()
-        cleaned_text = self._clean(raw_text)
         
-        skills = self._extract_skills(cleaned_text, question_id, raw_text)
+        # ETHICAL COMPLIANCE: Mask demographic signals before any analysis
+        from scoring.bias_indicator import mask_demographics
+        masked_text = mask_demographics(raw_text)
+        
+        cleaned_text = self._clean(masked_text)
+        
+        skills = self._extract_skills(cleaned_text, question_id, masked_text)
         impact_metrics = self._extract_impact_metrics(cleaned_text)
-        comm_signals = self._analyze_communication(raw_text, cleaned_text)
+        comm_signals = self._analyze_communication(masked_text, cleaned_text)
         
         return {
             "question": question_id,
