@@ -1,0 +1,154 @@
+[
+  {
+    "candidate_id": "Rahul",
+    "role": "Data Scientist / AI Engineer",
+    "experience": "Ongoing Trainee",
+    "answers": [
+      {
+        "question": "Could you briefly introduce yourself and your technical background?",
+        "answer": "I am a Data Science student currently training at Scope India. My foundation is in Python, machine learning, and data analysis. I have hands-on experience with Pandas, NumPy, and Scikit-learn for building predictive models."
+      },
+      {
+        "question": "Can you describe a challenging project you worked on recently?",
+        "answer": "For my major project, I worked on an AI Smart Construction management system. We used computer vision and machine learning to monitor construction activities, predict delays, and detect safety risks."
+      },
+      {
+        "question": "What tools do you use for data visualization and why?",
+        "answer": "I primarily use Matplotlib and Seaborn in Python for exploratory data analysis, and Power BI or Tableau when I need to present insights to non-technical stakeholders clearly."
+      }
+    ]
+  },
+  {
+    "candidate_id": "Nurse_Resume_Anita_Mathew",
+    "role": "ICU Staff Nurse",
+    "experience": "5 years",
+    "answers": [
+      {
+        "question": "Please walk me through your clinical experience.",
+        "answer": "I have 5 years of experience, currently working as a Staff Nurse at Apollo Hospital in Kochi. My primary focus is providing direct patient care in the ICU and assisting in emergency procedures."
+      },
+      {
+        "question": "How do you handle high-pressure emergency situations like a Code Blue?",
+        "answer": "I am ACLS and BLS certified, so I immediately follow protocol. I secure the airway, initiate CPR, and administer required medications like Epinephrine while ensuring continuous patient monitoring."
+      },
+      {
+        "question": "What is your approach to infection control in critical care?",
+        "answer": "Infection control is critical in the ICU. I strictly follow IV therapy sanitation guidelines and ensure proper clinical documentation and sterilization of all equipment between patients."
+      }
+    ]
+  },
+  {
+    "candidate_id": "Reshma_resume",
+    "role": "Analytical Chemist",
+    "experience": "Postgraduate",
+    "answers": [
+      {
+        "question": "Tell me about your academic background in chemistry.",
+        "answer": "I hold an MSc in Analytical Chemistry from the University of Kerala, where I scored 75%. I have a strong foundation in polymer synthesis and laboratory documentation."
+      },
+      {
+        "question": "What laboratory techniques are you most comfortable with?",
+        "answer": "I am well-versed in chemical analysis techniques and fundamentals of polymer synthesis. I also attended a workshop on Cheminformatics and Drug Design to further my understanding of computational chemistry."
+      },
+      {
+        "question": "How do you ensure accuracy in your chemical analysis reporting?",
+        "answer": "I rely on strict laboratory documentation and reporting protocols. I also use my computer word processing skills to maintain clear and accessible digital records of all my findings."
+      }
+    ]
+  },
+  {
+    "candidate_id": "sample_2",
+    "role": "Cloud Architect",
+    "experience": "10+ years",
+    "answers": [
+      {
+        "question": "Can you summarize your experience as a Cloud Architect?",
+        "answer": "I am a Cloud Architect with over 10 years of experience in AWS and Azure. Since 2015, I have been working at CloudNine Systems developing scalable serverless architectures."
+      },
+      {
+        "question": "Describe a major responsibility you held at CloudNine Systems.",
+        "answer": "I led a team of DevOps engineers to modernize our infrastructure and managed a budget of $5M to ensure cost-effective cloud deployments."
+      },
+      {
+        "question": "What are your core technical strengths?",
+        "answer": "My primary strengths are in Cloud Architecture design, DevOps pipelines, and technical Team Leadership."
+      }
+    ]
+  },
+  {
+    "candidate_id": "nurse_resume",
+    "role": "Registered Nurse",
+    "experience": "Experienced",
+    "answers": [
+      {
+        "question": "What is your nursing background?",
+        "answer": "I am a Registered Nurse with experience in patient care, clinical support, and medical procedures. I am skilled in patient assessment and medication administration."
+      },
+      {
+        "question": "What certifications do you currently hold?",
+        "answer": "I hold an active Registered Nurse License, as well as Basic Life Support (BLS) and Advanced Cardiovascular Life Support (ACLS) certifications."
+      },
+      {
+        "question": "How do you handle emergency response and infection control?",
+        "answer": "During emergencies, I rely on my ACLS training for vital signs assessment and IV therapy. For infection control, I strictly follow hospital protocols to prevent cross-contamination."
+      }
+    ]
+  },
+  {
+    "candidate_id": "Mariya_Joseph_Resume",
+    "role": "Backend Developer",
+    "experience": "2 years",
+    "answers": [
+      {
+        "question": "Tell me about yourself.",
+        "answer": "I am a backend developer with 2 years of experience. I specialize in building robust APIs and server-side logic using Python and Node.js."
+      },
+      {
+        "question": "Can you give an example of teamwork?",
+        "answer": "In my previous role, I worked closely with the frontend team and QA engineers to deliver a high-traffic e-commerce platform on time using Agile methodologies."
+      },
+      {
+        "question": "What are your biggest strengths?",
+        "answer": "My biggest strengths are my problem-solving abilities and my capacity to learn quickly. I enjoy tackling complex database optimization challenges."
+      }
+    ]
+  },
+  {
+    "candidate_id": "data_analyst_experienced",
+    "role": "Data Analyst",
+    "experience": "4 years",
+    "answers": [
+      {
+        "question": "What is your experience in data analysis?",
+        "answer": "I have 4 years of experience working as a Data Analyst. I frequently use SQL for querying large datasets and Python for data cleaning and manipulation."
+      },
+      {
+        "question": "How do you present your findings to stakeholders?",
+        "answer": "I build interactive dashboards in Tableau and Power BI that highlight key performance indicators, allowing non-technical stakeholders to make data-driven decisions easily."
+      },
+      {
+        "question": "Describe a time you solved a complex data problem.",
+        "answer": "We had a fragmented database with inconsistent customer records. I wrote a Python script to automate data deduplication and standardization, which improved reporting accuracy by 20%."
+      }
+    ]
+  },
+  {
+    "candidate_id": "software_developer_experienced",
+    "role": "Software Developer",
+    "experience": "5 years",
+    "answers": [
+      {
+        "question": "What technologies do you primarily work with?",
+        "answer": "I am a full-stack developer with 5 years of experience, primarily working with React on the frontend and Java with Spring Boot on the backend."
+      },
+      {
+        "question": "How do you approach software testing and quality assurance?",
+        "answer": "I strongly believe in Test-Driven Development. I write unit tests for all my code using JUnit and Jest, and ensure our CI/CD pipelines automate testing before deployment."
+      },
+      {
+        "question": "Have you ever led a feature implementation?",
+        "answer": "Yes, I led the migration of our monolithic application to a microservices architecture, which significantly improved the scalability and maintainability of our system."
+      }
+    ]
+  }
+]

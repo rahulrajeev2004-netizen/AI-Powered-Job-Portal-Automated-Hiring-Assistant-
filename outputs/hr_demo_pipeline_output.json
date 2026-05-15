@@ -1,0 +1,2937 @@
+[
+  {
+    "application": {
+      "candidate_id": "Rahul",
+      "job_id": "JOB-DEMO-001",
+      "session_id": "SESSION-Rahul",
+      "timestamp": "2026-05-15T06:00:31.160733Z"
+    },
+    "interaction_summary": {
+      "total_questions_answered": 3,
+      "total_duration_seconds": 45.0,
+      "average_stt_confidence": 0.95
+    },
+    "aggregate_scores": {
+      "overall_relevance": 0.73,
+      "overall_communication": 0.78,
+      "technical_competency": 0.63,
+      "overall_score": 0.7,
+      "score_breakdown": {
+        "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+        "computed_score": 0.7
+      }
+    },
+    "behavioral_analysis": {
+      "candidate_id": "Unknown",
+      "job_role": "Unknown",
+      "behavioral_summary": {
+        "confidence_level": "High",
+        "clarity_rating": "High",
+        "emotional_tone": "Positive",
+        "stress_level": "Low",
+        "communication_strength_index": 0.851,
+        "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "detailed_metrics": {
+        "hesitation_intensity": 0.0,
+        "uncertainty_score": 0.05,
+        "sentiment_score": 0.669,
+        "stress_score": 0.05,
+        "total_word_count": 91,
+        "communication_strength_index": 0.851
+      },
+      "contradiction_summary": {
+        "total_conflicts": 1,
+        "low_risk_conflicts": 1,
+        "medium_risk_conflicts": 0,
+        "high_risk_conflicts": 0,
+        "primary_conflict_theme": "other",
+        "overall_conflict_severity": 0.15,
+        "final_verdict": "None",
+        "detailed_reports": [
+          {
+            "severity": 0.15,
+            "theme": "other",
+            "desc": "Minor linguistic variance between self-introduction and technical responses."
+          }
+        ]
+      },
+      "question_level_breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.665,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.691,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.65,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        }
+      ],
+      "final_decision_support": {
+        "interview_readiness": "High",
+        "role_fit_score": 85.1,
+        "recommendation": "YES",
+        "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "risk_analysis": {
+        "overall_risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "report_metadata": {
+        "generated_at": "",
+        "engine_version": "v4-logic-correction",
+        "data_quality": "Medium"
+      }
+    },
+    "hr_scoring_report": {
+      "candidate_id": "Rahul",
+      "hr_interview_score": 72.75,
+      "decision": "Hire",
+      "breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "final_score": 77.8,
+          "scores": {
+            "relevance": 0.71,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "final_score": 78.0,
+          "scores": {
+            "relevance": 0.72,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "final_score": 78.6,
+          "scores": {
+            "relevance": 0.75,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        }
+      ],
+      "cognitive_evaluation": {
+        "candidate_id": "Rahul",
+        "cognitive_summary": {
+          "overall_aptitude_score": 0.0,
+          "cognitive_band": "Needs Improvement",
+          "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+        },
+        "detailed_evaluations": []
+      },
+      "summary": {
+        "avg_relevance": 0.73,
+        "avg_communication": 0.78,
+        "avg_confidence": 0.95,
+        "avg_consistency": 1.0,
+        "avg_aptitude": 0.51
+      }
+    },
+    "normalized_profile": {
+      "salary": {
+        "current": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        },
+        "expected": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        }
+      },
+      "location": {
+        "current_location": "Unknown",
+        "willing_to_relocate": false,
+        "confidence": 0.0
+      },
+      "notice_period": {
+        "days": 0,
+        "negotiable": false,
+        "confidence": 0.0
+      }
+    },
+    "final_decision": {
+      "status": "HOLD",
+      "decision_justification": "HOLD pending recruiter review. Gaps: technical depth below threshold (0.63 < 0.65).",
+      "explainable_reasoning": []
+    },
+    "decision_trace": {
+      "driving_factors": []
+    },
+    "validation_flags": [],
+    "qa_breakdown": [
+      {
+        "question_id": "Q_SKILL_01",
+        "question": "Could you briefly introduce yourself and your technical background?",
+        "answer_raw": "I am a Data Science student currently training at Scope India. My foundation is in Python, machine learning, and data analysis. I have hands-on experience with Pandas, NumPy, and Scikit-learn for building predictive models.",
+        "answer_normalized": "I am a Data Science student currently training at Scope India. My foundation is in Python, machine learning, and data analysis. I have hands-on experience with Pandas, NumPy, and Scikit-learn for building predictive models.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.71,
+          "clarity": 0.76,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.023,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.679,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Python",
+              "type": "language",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'python'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:31.153161Z",
+        "end_time": "2026-05-15T06:00:46.153161Z"
+      },
+      {
+        "question_id": "Q_SKILL_02",
+        "question": "Can you describe a challenging project you worked on recently?",
+        "answer_raw": "For my major project, I worked on an AI Smart Construction management system. We used computer vision and machine learning to monitor construction activities, predict delays, and detect safety risks.",
+        "answer_normalized": "For my major project, I worked on an AI Smart Construction management system. We used computer vision and machine learning to monitor construction activities, predict delays, and detect safety risks.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.72,
+          "clarity": 0.77,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.03,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.718,
+            "sentiment_label": "Positive"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:00:47.653161Z",
+        "end_time": "2026-05-15T06:01:02.653161Z"
+      },
+      {
+        "question_id": "Q_SKILL_03",
+        "question": "What tools do you use for data visualization and why?",
+        "answer_raw": "I primarily use Matplotlib and Seaborn in Python for exploratory data analysis, and Power BI or Tableau when I need to present insights to non-technical stakeholders clearly.",
+        "answer_normalized": "I primarily use Matplotlib and Seaborn in Python for exploratory data analysis, and Power BI or Tableau when I need to present insights to non-technical stakeholders clearly.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.75,
+          "clarity": 0.8,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.656,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Python",
+              "type": "language",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'python'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:01:04.153161Z",
+        "end_time": "2026-05-15T06:01:19.153161Z"
+      }
+    ],
+    "recruiter_intelligence_report": "# intelligence Screening Report: Rahul\n**Role:** Data Scientist / AI Engineer | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `68/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Technical Interview\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 50.0 | 30% |\n| Problem Solving | 68.0 | 20% |\n| Experience Relevance | 73.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 87.6 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **68** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Medium | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+  },
+  {
+    "application": {
+      "candidate_id": "Nurse_Resume_Anita_Mathew",
+      "job_id": "JOB-DEMO-001",
+      "session_id": "SESSION-Nurse_Resume_Anita_Mathew",
+      "timestamp": "2026-05-15T06:00:31.171116Z"
+    },
+    "interaction_summary": {
+      "total_questions_answered": 3,
+      "total_duration_seconds": 45.0,
+      "average_stt_confidence": 0.95
+    },
+    "aggregate_scores": {
+      "overall_relevance": 0.76,
+      "overall_communication": 0.81,
+      "technical_competency": 0.68,
+      "overall_score": 0.74,
+      "score_breakdown": {
+        "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+        "computed_score": 0.74
+      }
+    },
+    "behavioral_analysis": {
+      "candidate_id": "Unknown",
+      "job_role": "Unknown",
+      "behavioral_summary": {
+        "confidence_level": "High",
+        "clarity_rating": "High",
+        "emotional_tone": "Positive",
+        "stress_level": "Low",
+        "communication_strength_index": 0.869,
+        "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "detailed_metrics": {
+        "hesitation_intensity": 0.033,
+        "uncertainty_score": 0.05,
+        "sentiment_score": 0.668,
+        "stress_score": 0.05,
+        "total_word_count": 86,
+        "communication_strength_index": 0.869
+      },
+      "contradiction_summary": {
+        "total_conflicts": 1,
+        "low_risk_conflicts": 1,
+        "medium_risk_conflicts": 0,
+        "high_risk_conflicts": 0,
+        "primary_conflict_theme": "other",
+        "overall_conflict_severity": 0.15,
+        "final_verdict": "None",
+        "detailed_reports": [
+          {
+            "severity": 0.15,
+            "theme": "other",
+            "desc": "Minor linguistic variance between self-introduction and technical responses."
+          }
+        ]
+      },
+      "question_level_breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.025,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.681,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "hesitation": {
+            "total_fillers": 1,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 1,
+            "hesitation_intensity": 0.061,
+            "hesitation_level": "Medium"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.651,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.013,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.673,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        }
+      ],
+      "final_decision_support": {
+        "interview_readiness": "High",
+        "role_fit_score": 86.9,
+        "recommendation": "YES",
+        "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "risk_analysis": {
+        "overall_risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "report_metadata": {
+        "generated_at": "",
+        "engine_version": "v4-logic-correction",
+        "data_quality": "Medium"
+      }
+    },
+    "hr_scoring_report": {
+      "candidate_id": "Nurse_Resume_Anita_Mathew",
+      "hr_interview_score": 74.07,
+      "decision": "Hire",
+      "breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "final_score": 80.15,
+          "scores": {
+            "relevance": 0.79,
+            "communication": 0.81,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "final_score": 78.75,
+          "scores": {
+            "relevance": 0.72,
+            "communication": 0.81,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "final_score": 79.75,
+          "scores": {
+            "relevance": 0.77,
+            "communication": 0.81,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        }
+      ],
+      "cognitive_evaluation": {
+        "candidate_id": "Nurse_Resume_Anita_Mathew",
+        "cognitive_summary": {
+          "overall_aptitude_score": 0.0,
+          "cognitive_band": "Needs Improvement",
+          "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+        },
+        "detailed_evaluations": []
+      },
+      "summary": {
+        "avg_relevance": 0.76,
+        "avg_communication": 0.81,
+        "avg_confidence": 0.95,
+        "avg_consistency": 1.0,
+        "avg_aptitude": 0.51
+      }
+    },
+    "normalized_profile": {
+      "salary": {
+        "current": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        },
+        "expected": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        }
+      },
+      "location": {
+        "current_location": "Unknown",
+        "willing_to_relocate": false,
+        "confidence": 0.0
+      },
+      "notice_period": {
+        "days": 0,
+        "negotiable": false,
+        "confidence": 0.0
+      }
+    },
+    "final_decision": {
+      "status": "HOLD",
+      "decision_justification": "HOLD pending recruiter review. Gaps: scores borderline across all dimensions.",
+      "explainable_reasoning": []
+    },
+    "decision_trace": {
+      "driving_factors": []
+    },
+    "validation_flags": [],
+    "qa_breakdown": [
+      {
+        "question_id": "Q_SKILL_01",
+        "question": "Please walk me through your clinical experience.",
+        "answer_raw": "I have 5 years of experience, currently working as a Staff Nurse at Apollo Hospital in Kochi. My primary focus is providing direct patient care in the ICU and assisting in emergency procedures.",
+        "answer_normalized": "I have 5 years of experience, currently working as a Staff Nurse at Apollo Hospital in Kochi. My primary focus is providing direct patient care in the ICU and assisting in emergency procedures.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.79,
+          "clarity": 0.84,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.023,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.682,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "ICU",
+              "type": "clinical_unit",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'icu'"
+            },
+            {
+              "value": "Patient Care",
+              "type": "clinical_protocol",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'patient care'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:31.168538Z",
+        "end_time": "2026-05-15T06:00:46.168538Z"
+      },
+      {
+        "question_id": "Q_SKILL_02",
+        "question": "How do you handle high-pressure emergency situations like a Code Blue?",
+        "answer_raw": "I am ACLS and BLS certified, so I immediately follow protocol. I secure the airway, initiate CPR, and administer required medications like Epinephrine while ensuring continuous patient monitoring.",
+        "answer_normalized": "I am ACLS and BLS certified, so I immediately follow protocol. I secure the airway, initiate CPR, and administer required medications Epinephrine while ensuring continuous patient monitoring.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.72,
+          "clarity": 0.77,
+          "technical_depth": 0.75,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 1,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 1,
+            "hesitation_intensity": 0.021,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.662,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "BLS Certification",
+              "type": "certification",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'bls'"
+            },
+            {
+              "value": "ACLS Certification",
+              "type": "certification",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'acls'"
+            },
+            {
+              "value": "Epinephrine",
+              "type": "medication",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'epinephrine'"
+            }
+          ],
+          "clinical_protocols": [
+            {
+              "name": "Airway Management",
+              "confidence": 0.88,
+              "evidence": "Described action: 'airway'"
+            },
+            {
+              "name": "CPR",
+              "confidence": 0.88,
+              "evidence": "Described action: 'cpr'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:47.668538Z",
+        "end_time": "2026-05-15T06:01:02.668538Z"
+      },
+      {
+        "question_id": "Q_SKILL_03",
+        "question": "What is your approach to infection control in critical care?",
+        "answer_raw": "Infection control is critical in the ICU. I strictly follow IV therapy sanitation guidelines and ensure proper clinical documentation and sterilization of all equipment between patients.",
+        "answer_normalized": "Infection control is critical in the ICU. I strictly follow IV therapy sanitation guidelines and ensure proper clinical documentation and sterilization of all equipment between patients.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.77,
+          "clarity": 0.82,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.652,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "ICU",
+              "type": "clinical_unit",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'icu'"
+            },
+            {
+              "value": "Infection Control",
+              "type": "clinical_protocol",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'infection control'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:01:04.168538Z",
+        "end_time": "2026-05-15T06:01:19.168538Z"
+      }
+    ],
+    "recruiter_intelligence_report": "# intelligence Screening Report: Nurse_Resume_Anita_Mathew\n**Role:** ICU Staff Nurse | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `70/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Hiring Manager Round\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 50.0 | 30% |\n| Problem Solving | 72.0 | 20% |\n| Experience Relevance | 76.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 87.0 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **70** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+  },
+  {
+    "application": {
+      "candidate_id": "Reshma_resume",
+      "job_id": "JOB-DEMO-001",
+      "session_id": "SESSION-Reshma_resume",
+      "timestamp": "2026-05-15T06:00:31.178670Z"
+    },
+    "interaction_summary": {
+      "total_questions_answered": 3,
+      "total_duration_seconds": 45.0,
+      "average_stt_confidence": 0.95
+    },
+    "aggregate_scores": {
+      "overall_relevance": 0.74,
+      "overall_communication": 0.79,
+      "technical_competency": 0.6,
+      "overall_score": 0.7,
+      "score_breakdown": {
+        "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+        "computed_score": 0.7
+      }
+    },
+    "behavioral_analysis": {
+      "candidate_id": "Unknown",
+      "job_role": "Unknown",
+      "behavioral_summary": {
+        "confidence_level": "High",
+        "clarity_rating": "High",
+        "emotional_tone": "Positive",
+        "stress_level": "Low",
+        "communication_strength_index": 0.855,
+        "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "detailed_metrics": {
+        "hesitation_intensity": 0.02,
+        "uncertainty_score": 0.05,
+        "sentiment_score": 0.689,
+        "stress_score": 0.05,
+        "total_word_count": 84,
+        "communication_strength_index": 0.855
+      },
+      "contradiction_summary": {
+        "total_conflicts": 1,
+        "low_risk_conflicts": 1,
+        "medium_risk_conflicts": 0,
+        "high_risk_conflicts": 0,
+        "primary_conflict_theme": "other",
+        "overall_conflict_severity": 0.15,
+        "final_verdict": "None",
+        "detailed_reports": [
+          {
+            "severity": 0.15,
+            "theme": "other",
+            "desc": "Minor linguistic variance between self-introduction and technical responses."
+          }
+        ]
+      },
+      "question_level_breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.019,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.723,
+            "sentiment_label": "Positive"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "hesitation": {
+            "total_fillers": 1,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 1,
+            "hesitation_intensity": 0.015,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.68,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.025,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.665,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        }
+      ],
+      "final_decision_support": {
+        "interview_readiness": "High",
+        "role_fit_score": 85.5,
+        "recommendation": "YES",
+        "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "risk_analysis": {
+        "overall_risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "report_metadata": {
+        "generated_at": "",
+        "engine_version": "v4-logic-correction",
+        "data_quality": "Medium"
+      }
+    },
+    "hr_scoring_report": {
+      "candidate_id": "Reshma_resume",
+      "hr_interview_score": 74.41,
+      "decision": "Hire",
+      "breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "final_score": 80.45,
+          "scores": {
+            "relevance": 0.74,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.59
+          }
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "final_score": 80.45,
+          "scores": {
+            "relevance": 0.74,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.59
+          }
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "final_score": 78.85,
+          "scores": {
+            "relevance": 0.75,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        }
+      ],
+      "cognitive_evaluation": {
+        "candidate_id": "Reshma_resume",
+        "cognitive_summary": {
+          "overall_aptitude_score": 0.0,
+          "cognitive_band": "Needs Improvement",
+          "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+        },
+        "detailed_evaluations": []
+      },
+      "summary": {
+        "avg_relevance": 0.74,
+        "avg_communication": 0.79,
+        "avg_confidence": 0.95,
+        "avg_consistency": 1.0,
+        "avg_aptitude": 0.56
+      }
+    },
+    "normalized_profile": {
+      "salary": {
+        "current": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        },
+        "expected": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        }
+      },
+      "location": {
+        "current_location": "Unknown",
+        "willing_to_relocate": false,
+        "confidence": 0.0
+      },
+      "notice_period": {
+        "days": 0,
+        "negotiable": false,
+        "confidence": 0.0
+      }
+    },
+    "final_decision": {
+      "status": "HOLD",
+      "decision_justification": "HOLD pending recruiter review. Gaps: technical depth below threshold (0.60 < 0.65).",
+      "explainable_reasoning": []
+    },
+    "decision_trace": {
+      "driving_factors": []
+    },
+    "validation_flags": [],
+    "qa_breakdown": [
+      {
+        "question_id": "Q_SKILL_01",
+        "question": "Tell me about your academic background in chemistry.",
+        "answer_raw": "I hold an MSc in Analytical Chemistry from the University of Kerala, where I scored 75%. I have a strong foundation in polymer synthesis and laboratory documentation.",
+        "answer_normalized": "I hold an MSc in Analytical Chemistry from the University of Kerala, where I scored 75%. I have a strong foundation in polymer synthesis and laboratory documentation.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.74,
+          "clarity": 0.79,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.009,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.758,
+            "sentiment_label": "Positive"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:00:31.176376Z",
+        "end_time": "2026-05-15T06:00:46.176376Z"
+      },
+      {
+        "question_id": "Q_SKILL_02",
+        "question": "What laboratory techniques are you most comfortable with?",
+        "answer_raw": "I am well-versed in chemical analysis techniques and fundamentals of polymer synthesis. I also attended a workshop on Cheminformatics and Drug Design to further my understanding of computational chemistry.",
+        "answer_normalized": "I am well-versed in chemical analysis techniques and fundamentals of polymer synthesis. I also attended a workshop on Cheminformatics and Drug Design to further my understanding of computational chemistry.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.74,
+          "clarity": 0.79,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 1,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 1,
+            "hesitation_intensity": 0.027,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.694,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:00:47.676376Z",
+        "end_time": "2026-05-15T06:01:02.676376Z"
+      },
+      {
+        "question_id": "Q_SKILL_03",
+        "question": "How do you ensure accuracy in your chemical analysis reporting?",
+        "answer_raw": "I rely on strict laboratory documentation and reporting protocols. I also use my computer word processing skills to maintain clear and accessible digital records of all my findings.",
+        "answer_normalized": "I rely on strict laboratory documentation and reporting protocols. I also use my computer word processing skills to maintain clear and accessible digital records of all my findings.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.75,
+          "clarity": 0.8,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.7,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:01:04.176376Z",
+        "end_time": "2026-05-15T06:01:19.176376Z"
+      }
+    ],
+    "recruiter_intelligence_report": "# intelligence Screening Report: Reshma_resume\n**Role:** Analytical Chemist | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `68/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Technical Interview\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 50.0 | 30% |\n| Problem Solving | 67.0 | 20% |\n| Experience Relevance | 74.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 87.9 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **68** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+  },
+  {
+    "application": {
+      "candidate_id": "sample_2",
+      "job_id": "JOB-DEMO-001",
+      "session_id": "SESSION-sample_2",
+      "timestamp": "2026-05-15T06:00:31.186032Z"
+    },
+    "interaction_summary": {
+      "total_questions_answered": 3,
+      "total_duration_seconds": 45.0,
+      "average_stt_confidence": 0.95
+    },
+    "aggregate_scores": {
+      "overall_relevance": 0.73,
+      "overall_communication": 0.78,
+      "technical_competency": 0.62,
+      "overall_score": 0.7,
+      "score_breakdown": {
+        "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+        "computed_score": 0.7
+      }
+    },
+    "behavioral_analysis": {
+      "candidate_id": "Unknown",
+      "job_role": "Unknown",
+      "behavioral_summary": {
+        "confidence_level": "High",
+        "clarity_rating": "High",
+        "emotional_tone": "Positive",
+        "stress_level": "Low",
+        "communication_strength_index": 0.876,
+        "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "detailed_metrics": {
+        "hesitation_intensity": 0.001,
+        "uncertainty_score": 0.05,
+        "sentiment_score": 0.7,
+        "stress_score": 0.05,
+        "total_word_count": 64,
+        "communication_strength_index": 0.876
+      },
+      "contradiction_summary": {
+        "total_conflicts": 1,
+        "low_risk_conflicts": 1,
+        "medium_risk_conflicts": 0,
+        "high_risk_conflicts": 0,
+        "primary_conflict_theme": "other",
+        "overall_conflict_severity": 0.15,
+        "final_verdict": "None",
+        "detailed_reports": [
+          {
+            "severity": 0.15,
+            "theme": "other",
+            "desc": "Minor linguistic variance between self-introduction and technical responses."
+          }
+        ]
+      },
+      "question_level_breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.002,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.679,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.745,
+            "sentiment_label": "Positive"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.676,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        }
+      ],
+      "final_decision_support": {
+        "interview_readiness": "High",
+        "role_fit_score": 87.6,
+        "recommendation": "YES",
+        "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "risk_analysis": {
+        "overall_risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "report_metadata": {
+        "generated_at": "",
+        "engine_version": "v4-logic-correction",
+        "data_quality": "Medium"
+      }
+    },
+    "hr_scoring_report": {
+      "candidate_id": "sample_2",
+      "hr_interview_score": 72.87,
+      "decision": "Hire",
+      "breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "final_score": 79.0,
+          "scores": {
+            "relevance": 0.77,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "final_score": 77.8,
+          "scores": {
+            "relevance": 0.71,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "final_score": 78.0,
+          "scores": {
+            "relevance": 0.72,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        }
+      ],
+      "cognitive_evaluation": {
+        "candidate_id": "sample_2",
+        "cognitive_summary": {
+          "overall_aptitude_score": 0.0,
+          "cognitive_band": "Needs Improvement",
+          "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+        },
+        "detailed_evaluations": []
+      },
+      "summary": {
+        "avg_relevance": 0.73,
+        "avg_communication": 0.78,
+        "avg_confidence": 0.95,
+        "avg_consistency": 1.0,
+        "avg_aptitude": 0.51
+      }
+    },
+    "normalized_profile": {
+      "salary": {
+        "current": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        },
+        "expected": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        }
+      },
+      "location": {
+        "current_location": "Unknown",
+        "willing_to_relocate": false,
+        "confidence": 0.0
+      },
+      "notice_period": {
+        "days": 0,
+        "negotiable": false,
+        "confidence": 0.0
+      }
+    },
+    "final_decision": {
+      "status": "HOLD",
+      "decision_justification": "HOLD pending recruiter review. Gaps: technical depth below threshold (0.62 < 0.65).",
+      "explainable_reasoning": []
+    },
+    "decision_trace": {
+      "driving_factors": []
+    },
+    "validation_flags": [],
+    "qa_breakdown": [
+      {
+        "question_id": "Q_SKILL_01",
+        "question": "Can you summarize your experience as a Cloud Architect?",
+        "answer_raw": "I am a Cloud Architect with over 10 years of experience in AWS and Azure. Since 2015, I have been working at CloudNine Systems developing scalable serverless architectures.",
+        "answer_normalized": "I am a Cloud Architect with over 10 years of experience in AWS and Azure. Since 2015, I have been working at CloudNine Systems developing scalable serverless architectures.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.77,
+          "clarity": 0.82,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.006,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.676,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:00:31.183655Z",
+        "end_time": "2026-05-15T06:00:46.183655Z"
+      },
+      {
+        "question_id": "Q_SKILL_02",
+        "question": "Describe a major responsibility you held at CloudNine Systems.",
+        "answer_raw": "I led a team of DevOps engineers to modernize our infrastructure and managed a budget of $5M to ensure cost-effective cloud deployments.",
+        "answer_normalized": "I led a team of DevOps engineers to modernize our infrastructure and managed a budget of $5M to ensure cost-effective cloud deployments.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.71,
+          "clarity": 0.76,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.022,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.72,
+            "sentiment_label": "Positive"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:00:47.683655Z",
+        "end_time": "2026-05-15T06:01:02.683655Z"
+      },
+      {
+        "question_id": "Q_SKILL_03",
+        "question": "What are your core technical strengths?",
+        "answer_raw": "My primary strengths are in Cloud Architecture design, DevOps pipelines, and technical Team Leadership.",
+        "answer_normalized": "My primary strengths are in Cloud Architecture design, DevOps pipelines, and technical Team Leadership.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.72,
+          "clarity": 0.77,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.008,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.655,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Leadership",
+              "type": "behavioral",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'leadership'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:01:04.183655Z",
+        "end_time": "2026-05-15T06:01:19.183655Z"
+      }
+    ],
+    "recruiter_intelligence_report": "# intelligence Screening Report: sample_2\n**Role:** Cloud Architect | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `68/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills, Shows teamwork orientation. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Good. Final Recommendation: Strong Hire.\n- **Next Step:** Technical Interview\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 50.0 | 30% |\n| Problem Solving | 67.5 | 20% |\n| Experience Relevance | 73.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 85.0 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **68** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Medium | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+  },
+  {
+    "application": {
+      "candidate_id": "nurse_resume",
+      "job_id": "JOB-DEMO-001",
+      "session_id": "SESSION-nurse_resume",
+      "timestamp": "2026-05-15T06:00:31.192108Z"
+    },
+    "interaction_summary": {
+      "total_questions_answered": 3,
+      "total_duration_seconds": 45.0,
+      "average_stt_confidence": 0.95
+    },
+    "aggregate_scores": {
+      "overall_relevance": 0.76,
+      "overall_communication": 0.81,
+      "technical_competency": 0.65,
+      "overall_score": 0.73,
+      "score_breakdown": {
+        "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+        "computed_score": 0.73
+      }
+    },
+    "behavioral_analysis": {
+      "candidate_id": "Unknown",
+      "job_role": "Unknown",
+      "behavioral_summary": {
+        "confidence_level": "High",
+        "clarity_rating": "High",
+        "emotional_tone": "Positive",
+        "stress_level": "Low",
+        "communication_strength_index": 0.864,
+        "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "detailed_metrics": {
+        "hesitation_intensity": 0.026,
+        "uncertainty_score": 0.05,
+        "sentiment_score": 0.708,
+        "stress_score": 0.05,
+        "total_word_count": 71,
+        "communication_strength_index": 0.864
+      },
+      "contradiction_summary": {
+        "total_conflicts": 1,
+        "low_risk_conflicts": 1,
+        "medium_risk_conflicts": 0,
+        "high_risk_conflicts": 0,
+        "primary_conflict_theme": "other",
+        "overall_conflict_severity": 0.15,
+        "final_verdict": "None",
+        "detailed_reports": [
+          {
+            "severity": 0.15,
+            "theme": "other",
+            "desc": "Minor linguistic variance between self-introduction and technical responses."
+          }
+        ]
+      },
+      "question_level_breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.023,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.768,
+            "sentiment_label": "Positive"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "hesitation": {
+            "total_fillers": 1,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 1,
+            "hesitation_intensity": 0.056,
+            "hesitation_level": "Medium"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.69,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.666,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        }
+      ],
+      "final_decision_support": {
+        "interview_readiness": "High",
+        "role_fit_score": 86.4,
+        "recommendation": "YES",
+        "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "risk_analysis": {
+        "overall_risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "report_metadata": {
+        "generated_at": "",
+        "engine_version": "v4-logic-correction",
+        "data_quality": "Medium"
+      }
+    },
+    "hr_scoring_report": {
+      "candidate_id": "nurse_resume",
+      "hr_interview_score": 74.0,
+      "decision": "Hire",
+      "breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "final_score": 79.35,
+          "scores": {
+            "relevance": 0.75,
+            "communication": 0.81,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "final_score": 79.55,
+          "scores": {
+            "relevance": 0.76,
+            "communication": 0.81,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "final_score": 79.55,
+          "scores": {
+            "relevance": 0.76,
+            "communication": 0.81,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        }
+      ],
+      "cognitive_evaluation": {
+        "candidate_id": "nurse_resume",
+        "cognitive_summary": {
+          "overall_aptitude_score": 0.0,
+          "cognitive_band": "Needs Improvement",
+          "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+        },
+        "detailed_evaluations": []
+      },
+      "summary": {
+        "avg_relevance": 0.76,
+        "avg_communication": 0.81,
+        "avg_confidence": 0.95,
+        "avg_consistency": 1.0,
+        "avg_aptitude": 0.51
+      }
+    },
+    "normalized_profile": {
+      "salary": {
+        "current": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        },
+        "expected": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        }
+      },
+      "location": {
+        "current_location": "Unknown",
+        "willing_to_relocate": false,
+        "confidence": 0.0
+      },
+      "notice_period": {
+        "days": 0,
+        "negotiable": false,
+        "confidence": 0.0
+      }
+    },
+    "final_decision": {
+      "status": "HOLD",
+      "decision_justification": "HOLD pending recruiter review. Gaps: scores borderline across all dimensions.",
+      "explainable_reasoning": []
+    },
+    "decision_trace": {
+      "driving_factors": []
+    },
+    "validation_flags": [],
+    "qa_breakdown": [
+      {
+        "question_id": "Q_SKILL_01",
+        "question": "What is your nursing background?",
+        "answer_raw": "I am a Registered Nurse with experience in patient care, clinical support, and medical procedures. I am skilled in patient assessment and medication administration.",
+        "answer_normalized": "I am a Registered Nurse with experience in patient care, clinical support, and medical procedures. I am skilled in patient assessment and medication administration.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.75,
+          "clarity": 0.8,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.746,
+            "sentiment_label": "Positive"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Patient Care",
+              "type": "clinical_protocol",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'patient care'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:31.190156Z",
+        "end_time": "2026-05-15T06:00:46.190156Z"
+      },
+      {
+        "question_id": "Q_SKILL_02",
+        "question": "What certifications do you currently hold?",
+        "answer_raw": "I hold an active Registered Nurse License, as well as Basic Life Support (BLS) and Advanced Cardiovascular Life Support (ACLS) certifications.",
+        "answer_normalized": "I hold an active Registered Nurse License, as well as Basic Life Support (BLS) and Advanced Cardiovascular Life Support (ACLS) certifications.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.76,
+          "clarity": 0.81,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 1,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 1,
+            "hesitation_intensity": 0.055,
+            "hesitation_level": "Medium"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.658,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "BLS Certification",
+              "type": "certification",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'bls'"
+            },
+            {
+              "value": "ACLS Certification",
+              "type": "certification",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'acls'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:47.690156Z",
+        "end_time": "2026-05-15T06:01:02.690156Z"
+      },
+      {
+        "question_id": "Q_SKILL_03",
+        "question": "How do you handle emergency response and infection control?",
+        "answer_raw": "During emergencies, I rely on my ACLS training for vital signs assessment and IV therapy. For infection control, I strictly follow hospital protocols to prevent cross-contamination.",
+        "answer_normalized": "During emergencies, I rely on my ACLS training for vital signs assessment and IV therapy. For infection control, I strictly follow hospital protocols to prevent cross-contamination.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.76,
+          "clarity": 0.81,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.03,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.67,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "ACLS Certification",
+              "type": "certification",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'acls'"
+            },
+            {
+              "value": "Infection Control",
+              "type": "clinical_protocol",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'infection control'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:01:04.190156Z",
+        "end_time": "2026-05-15T06:01:19.190156Z"
+      }
+    ],
+    "recruiter_intelligence_report": "# intelligence Screening Report: nurse_resume\n**Role:** Registered Nurse | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `69/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Technical Interview\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 50.0 | 30% |\n| Problem Solving | 70.5 | 20% |\n| Experience Relevance | 76.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 85.7 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **69** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+  },
+  {
+    "application": {
+      "candidate_id": "Mariya_Joseph_Resume",
+      "job_id": "JOB-DEMO-001",
+      "session_id": "SESSION-Mariya_Joseph_Resume",
+      "timestamp": "2026-05-15T06:00:31.200165Z"
+    },
+    "interaction_summary": {
+      "total_questions_answered": 3,
+      "total_duration_seconds": 45.0,
+      "average_stt_confidence": 0.95
+    },
+    "aggregate_scores": {
+      "overall_relevance": 0.74,
+      "overall_communication": 0.79,
+      "technical_competency": 0.63,
+      "overall_score": 0.71,
+      "score_breakdown": {
+        "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+        "computed_score": 0.71
+      }
+    },
+    "behavioral_analysis": {
+      "candidate_id": "Unknown",
+      "job_role": "Unknown",
+      "behavioral_summary": {
+        "confidence_level": "High",
+        "clarity_rating": "High",
+        "emotional_tone": "Positive",
+        "stress_level": "Low",
+        "communication_strength_index": 0.833,
+        "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "detailed_metrics": {
+        "hesitation_intensity": 0.016,
+        "uncertainty_score": 0.05,
+        "sentiment_score": 0.632,
+        "stress_score": 0.05,
+        "total_word_count": 68,
+        "communication_strength_index": 0.833
+      },
+      "contradiction_summary": {
+        "total_conflicts": 1,
+        "low_risk_conflicts": 1,
+        "medium_risk_conflicts": 0,
+        "high_risk_conflicts": 0,
+        "primary_conflict_theme": "other",
+        "overall_conflict_severity": 0.15,
+        "final_verdict": "None",
+        "detailed_reports": [
+          {
+            "severity": 0.15,
+            "theme": "other",
+            "desc": "Minor linguistic variance between self-introduction and technical responses."
+          }
+        ]
+      },
+      "question_level_breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.014,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.714,
+            "sentiment_label": "Positive"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.017,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.66,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.018,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.521,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        }
+      ],
+      "final_decision_support": {
+        "interview_readiness": "High",
+        "role_fit_score": 83.3,
+        "recommendation": "YES",
+        "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "risk_analysis": {
+        "overall_risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "report_metadata": {
+        "generated_at": "",
+        "engine_version": "v4-logic-correction",
+        "data_quality": "Medium"
+      }
+    },
+    "hr_scoring_report": {
+      "candidate_id": "Mariya_Joseph_Resume",
+      "hr_interview_score": 73.17,
+      "decision": "Hire",
+      "breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "final_score": 77.85,
+          "scores": {
+            "relevance": 0.7,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "final_score": 78.25,
+          "scores": {
+            "relevance": 0.72,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "final_score": 79.65,
+          "scores": {
+            "relevance": 0.79,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        }
+      ],
+      "cognitive_evaluation": {
+        "candidate_id": "Mariya_Joseph_Resume",
+        "cognitive_summary": {
+          "overall_aptitude_score": 0.0,
+          "cognitive_band": "Needs Improvement",
+          "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+        },
+        "detailed_evaluations": []
+      },
+      "summary": {
+        "avg_relevance": 0.74,
+        "avg_communication": 0.79,
+        "avg_confidence": 0.95,
+        "avg_consistency": 1.0,
+        "avg_aptitude": 0.51
+      }
+    },
+    "normalized_profile": {
+      "salary": {
+        "current": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        },
+        "expected": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        }
+      },
+      "location": {
+        "current_location": "Unknown",
+        "willing_to_relocate": false,
+        "confidence": 0.0
+      },
+      "notice_period": {
+        "days": 0,
+        "negotiable": false,
+        "confidence": 0.0
+      }
+    },
+    "final_decision": {
+      "status": "HOLD",
+      "decision_justification": "HOLD pending recruiter review. Gaps: technical depth below threshold (0.63 < 0.65).",
+      "explainable_reasoning": []
+    },
+    "decision_trace": {
+      "driving_factors": []
+    },
+    "validation_flags": [],
+    "qa_breakdown": [
+      {
+        "question_id": "Q_SKILL_01",
+        "question": "Tell me about yourself.",
+        "answer_raw": "I am a backend developer with 2 years of experience. I specialize in building robust APIs and server-side logic using Python and Node.js.",
+        "answer_normalized": "I am a backend developer with 2 years of experience. I specialize in building robust APIs and server-side logic using Python and Node.js.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.7,
+          "clarity": 0.75,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.698,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Python",
+              "type": "language",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'python'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:31.198397Z",
+        "end_time": "2026-05-15T06:00:46.198397Z"
+      },
+      {
+        "question_id": "Q_SKILL_02",
+        "question": "Can you give an example of teamwork?",
+        "answer_raw": "In my previous role, I worked closely with the frontend team and QA engineers to deliver a high-traffic e-commerce platform on time using Agile methodologies.",
+        "answer_normalized": "In my previous role, I worked closely with the frontend team and QA engineers to deliver a high-traffic e-commerce platform on time using Agile methodologies.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.72,
+          "clarity": 0.77,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.682,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Agile",
+              "type": "methodology",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'agile'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:47.698397Z",
+        "end_time": "2026-05-15T06:01:02.698397Z"
+      },
+      {
+        "question_id": "Q_SKILL_03",
+        "question": "What are your biggest strengths?",
+        "answer_raw": "My biggest strengths are my problem-solving abilities and my capacity to learn quickly. I enjoy tackling complex database optimization challenges.",
+        "answer_normalized": "My biggest strengths are my problem-solving abilities and my capacity to learn quickly. I enjoy tackling complex database optimization challenges.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.79,
+          "clarity": 0.84,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.547,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:01:04.198397Z",
+        "end_time": "2026-05-15T06:01:19.198397Z"
+      }
+    ],
+    "recruiter_intelligence_report": "# intelligence Screening Report: Mariya_Joseph_Resume\n**Role:** Backend Developer | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `68/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills, Shows teamwork orientation. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Good. Final Recommendation: Strong Hire.\n- **Next Step:** Technical Interview\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 50.0 | 30% |\n| Problem Solving | 68.5 | 20% |\n| Experience Relevance | 74.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 83.4 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **68** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Medium | Medium | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+  },
+  {
+    "application": {
+      "candidate_id": "data_analyst_experienced",
+      "job_id": "JOB-DEMO-001",
+      "session_id": "SESSION-data_analyst_experienced",
+      "timestamp": "2026-05-15T06:00:31.207487Z"
+    },
+    "interaction_summary": {
+      "total_questions_answered": 3,
+      "total_duration_seconds": 45.0,
+      "average_stt_confidence": 0.95
+    },
+    "aggregate_scores": {
+      "overall_relevance": 0.73,
+      "overall_communication": 0.78,
+      "technical_competency": 0.63,
+      "overall_score": 0.7,
+      "score_breakdown": {
+        "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+        "computed_score": 0.7
+      }
+    },
+    "behavioral_analysis": {
+      "candidate_id": "Unknown",
+      "job_role": "Unknown",
+      "behavioral_summary": {
+        "confidence_level": "High",
+        "clarity_rating": "High",
+        "emotional_tone": "Positive",
+        "stress_level": "Low",
+        "communication_strength_index": 0.85,
+        "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "detailed_metrics": {
+        "hesitation_intensity": 0.007,
+        "uncertainty_score": 0.05,
+        "sentiment_score": 0.684,
+        "stress_score": 0.05,
+        "total_word_count": 74,
+        "communication_strength_index": 0.85
+      },
+      "contradiction_summary": {
+        "total_conflicts": 1,
+        "low_risk_conflicts": 1,
+        "medium_risk_conflicts": 0,
+        "high_risk_conflicts": 0,
+        "primary_conflict_theme": "other",
+        "overall_conflict_severity": 0.15,
+        "final_verdict": "None",
+        "detailed_reports": [
+          {
+            "severity": 0.15,
+            "theme": "other",
+            "desc": "Minor linguistic variance between self-introduction and technical responses."
+          }
+        ]
+      },
+      "question_level_breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.015,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.641,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.006,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.661,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.75,
+            "sentiment_label": "Positive"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+        }
+      ],
+      "final_decision_support": {
+        "interview_readiness": "High",
+        "role_fit_score": 85.0,
+        "recommendation": "YES",
+        "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "risk_analysis": {
+        "overall_risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "report_metadata": {
+        "generated_at": "",
+        "engine_version": "v4-logic-correction",
+        "data_quality": "Medium"
+      }
+    },
+    "hr_scoring_report": {
+      "candidate_id": "data_analyst_experienced",
+      "hr_interview_score": 72.87,
+      "decision": "Hire",
+      "breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "final_score": 77.8,
+          "scores": {
+            "relevance": 0.71,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "final_score": 78.2,
+          "scores": {
+            "relevance": 0.73,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "final_score": 78.8,
+          "scores": {
+            "relevance": 0.76,
+            "communication": 0.78,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        }
+      ],
+      "cognitive_evaluation": {
+        "candidate_id": "data_analyst_experienced",
+        "cognitive_summary": {
+          "overall_aptitude_score": 0.0,
+          "cognitive_band": "Needs Improvement",
+          "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+        },
+        "detailed_evaluations": []
+      },
+      "summary": {
+        "avg_relevance": 0.73,
+        "avg_communication": 0.78,
+        "avg_confidence": 0.95,
+        "avg_consistency": 1.0,
+        "avg_aptitude": 0.51
+      }
+    },
+    "normalized_profile": {
+      "salary": {
+        "current": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        },
+        "expected": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        }
+      },
+      "location": {
+        "current_location": "Unknown",
+        "willing_to_relocate": false,
+        "confidence": 0.0
+      },
+      "notice_period": {
+        "days": 0,
+        "negotiable": false,
+        "confidence": 0.0
+      }
+    },
+    "final_decision": {
+      "status": "HOLD",
+      "decision_justification": "HOLD pending recruiter review. Gaps: technical depth below threshold (0.63 < 0.65).",
+      "explainable_reasoning": []
+    },
+    "decision_trace": {
+      "driving_factors": []
+    },
+    "validation_flags": [],
+    "qa_breakdown": [
+      {
+        "question_id": "Q_SKILL_01",
+        "question": "What is your experience in data analysis?",
+        "answer_raw": "I have 4 years of experience working as a Data Analyst. I frequently use SQL for querying large datasets and Python for data cleaning and manipulation.",
+        "answer_normalized": "I have 4 years of experience working as a Data Analyst. I frequently use SQL for querying large datasets and Python for data cleaning and manipulation.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.71,
+          "clarity": 0.76,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.02,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.687,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Python",
+              "type": "language",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'python'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:31.205201Z",
+        "end_time": "2026-05-15T06:00:46.205201Z"
+      },
+      {
+        "question_id": "Q_SKILL_02",
+        "question": "How do you present your findings to stakeholders?",
+        "answer_raw": "I build interactive dashboards in Tableau and Power BI that highlight key performance indicators, allowing non-technical stakeholders to make data-driven decisions easily.",
+        "answer_normalized": "I build interactive dashboards in Tableau and Power BI that highlight key performance indicators, allowing non-technical stakeholders to make data-driven decisions easily.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.73,
+          "clarity": 0.78,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.008,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.712,
+            "sentiment_label": "Positive"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:00:47.705201Z",
+        "end_time": "2026-05-15T06:01:02.705201Z"
+      },
+      {
+        "question_id": "Q_SKILL_03",
+        "question": "Describe a time you solved a complex data problem.",
+        "answer_raw": "We had a fragmented database with inconsistent customer records. I wrote a Python script to automate data deduplication and standardization, which improved reporting accuracy by 20%.",
+        "answer_normalized": "We had a fragmented database with inconsistent customer records. I wrote a Python script to automate data deduplication and standardization, which improved reporting accuracy by 20%.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.76,
+          "clarity": 0.81,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.008,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.722,
+            "sentiment_label": "Positive"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Python",
+              "type": "language",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'python'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:01:04.205201Z",
+        "end_time": "2026-05-15T06:01:19.205201Z"
+      }
+    ],
+    "recruiter_intelligence_report": "# intelligence Screening Report: data_analyst_experienced\n**Role:** Data Analyst | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `68/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Technical Interview\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 50.0 | 30% |\n| Problem Solving | 68.0 | 20% |\n| Experience Relevance | 73.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 88.4 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **68** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+  },
+  {
+    "application": {
+      "candidate_id": "software_developer_experienced",
+      "job_id": "JOB-DEMO-001",
+      "session_id": "SESSION-software_developer_experienced",
+      "timestamp": "2026-05-15T06:00:31.217322Z"
+    },
+    "interaction_summary": {
+      "total_questions_answered": 3,
+      "total_duration_seconds": 45.0,
+      "average_stt_confidence": 0.95
+    },
+    "aggregate_scores": {
+      "overall_relevance": 0.74,
+      "overall_communication": 0.79,
+      "technical_competency": 0.67,
+      "overall_score": 0.73,
+      "score_breakdown": {
+        "formula": "0.4 * technical + 0.3 * relevance + 0.3 * communication",
+        "computed_score": 0.73
+      }
+    },
+    "behavioral_analysis": {
+      "candidate_id": "Unknown",
+      "job_role": "Unknown",
+      "behavioral_summary": {
+        "confidence_level": "High",
+        "clarity_rating": "High",
+        "emotional_tone": "Positive",
+        "stress_level": "Low",
+        "communication_strength_index": 0.869,
+        "summary_explanation": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "detailed_metrics": {
+        "hesitation_intensity": 0.005,
+        "uncertainty_score": 0.05,
+        "sentiment_score": 0.724,
+        "stress_score": 0.05,
+        "total_word_count": 75,
+        "communication_strength_index": 0.869
+      },
+      "contradiction_summary": {
+        "total_conflicts": 1,
+        "low_risk_conflicts": 1,
+        "medium_risk_conflicts": 0,
+        "high_risk_conflicts": 0,
+        "primary_conflict_theme": "other",
+        "overall_conflict_severity": 0.15,
+        "final_verdict": "None",
+        "detailed_reports": [
+          {
+            "severity": 0.15,
+            "theme": "other",
+            "desc": "Minor linguistic variance between self-introduction and technical responses."
+          }
+        ]
+      },
+      "question_level_breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.001,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.727,
+            "sentiment_label": "Positive"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.673,
+            "sentiment_label": "Neutral"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Steady, objective response. Characteristic of technical analysis with neutral emotional valence."
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.014,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.773,
+            "sentiment_label": "Positive"
+          },
+          "stress": {
+            "stress_score": 0.05,
+            "stress_level": "Low",
+            "stress_keywords_detected": 0
+          },
+          "answer_quality_note": "Strong, engaged response with positive professional markers. Demonstrates confidence in the subject matter."
+        }
+      ],
+      "final_decision_support": {
+        "interview_readiness": "High",
+        "role_fit_score": 86.9,
+        "recommendation": "YES",
+        "decision_reason": "Strong behavioral profile with low risk markers. Candidate demonstrates consistent communication and reliable technical elaboration."
+      },
+      "risk_analysis": {
+        "overall_risk_score": 0.17,
+        "risk_level": "Low"
+      },
+      "report_metadata": {
+        "generated_at": "",
+        "engine_version": "v4-logic-correction",
+        "data_quality": "Medium"
+      }
+    },
+    "hr_scoring_report": {
+      "candidate_id": "software_developer_experienced",
+      "hr_interview_score": 73.17,
+      "decision": "Hire",
+      "breakdown": [
+        {
+          "question_id": "Q_SKILL_01",
+          "final_score": 78.65,
+          "scores": {
+            "relevance": 0.74,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_02",
+          "final_score": 78.05,
+          "scores": {
+            "relevance": 0.71,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        },
+        {
+          "question_id": "Q_SKILL_03",
+          "final_score": 79.05,
+          "scores": {
+            "relevance": 0.76,
+            "communication": 0.79,
+            "confidence": 0.95,
+            "consistency": 1.0,
+            "aptitude": 0.51
+          }
+        }
+      ],
+      "cognitive_evaluation": {
+        "candidate_id": "software_developer_experienced",
+        "cognitive_summary": {
+          "overall_aptitude_score": 0.0,
+          "cognitive_band": "Needs Improvement",
+          "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+        },
+        "detailed_evaluations": []
+      },
+      "summary": {
+        "avg_relevance": 0.74,
+        "avg_communication": 0.79,
+        "avg_confidence": 0.95,
+        "avg_consistency": 1.0,
+        "avg_aptitude": 0.51
+      }
+    },
+    "normalized_profile": {
+      "salary": {
+        "current": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        },
+        "expected": {
+          "amount": 0,
+          "currency": "USD",
+          "period": "monthly",
+          "confidence": 0.0
+        }
+      },
+      "location": {
+        "current_location": "Unknown",
+        "willing_to_relocate": false,
+        "confidence": 0.0
+      },
+      "notice_period": {
+        "days": 0,
+        "negotiable": false,
+        "confidence": 0.0
+      }
+    },
+    "final_decision": {
+      "status": "HOLD",
+      "decision_justification": "HOLD pending recruiter review. Gaps: scores borderline across all dimensions.",
+      "explainable_reasoning": [
+        {
+          "statement": "Microservices migration cited (Q_EXP_09) but omits transactional consistency strategy, service discovery pattern, and rollback handling.",
+          "evidence_question_id": "Q_SKILL_03",
+          "answer_excerpt": "Yes, I led the migration of our monolithic application to a microservi...",
+          "confidence": 0.8
+        }
+      ]
+    },
+    "decision_trace": {
+      "driving_factors": [
+        "Q_SKILL_03"
+      ]
+    },
+    "validation_flags": [],
+    "qa_breakdown": [
+      {
+        "question_id": "Q_SKILL_01",
+        "question": "What technologies do you primarily work with?",
+        "answer_raw": "I am a full-stack developer with 5 years of experience, primarily working with React on the frontend and Java with Spring Boot on the backend.",
+        "answer_normalized": "I am a full-stack developer with 5 years of experience, primarily working with React on the frontend and Java with Spring Boot on the backend.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.74,
+          "clarity": 0.79,
+          "technical_depth": 0.6,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.0,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.686,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "start_time": "2026-05-15T06:00:31.214584Z",
+        "end_time": "2026-05-15T06:00:46.214584Z"
+      },
+      {
+        "question_id": "Q_SKILL_02",
+        "question": "How do you approach software testing and quality assurance?",
+        "answer_raw": "I strongly believe in Test-Driven Development. I write unit tests for all my code using JUnit and Jest, and ensure our CI/CD pipelines automate testing before deployment.",
+        "answer_normalized": "I strongly believe in Test-Driven Development. I write unit tests for all my code using JUnit and Jest, and ensure our CI/CD pipelines automate testing before deployment.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.71,
+          "clarity": 0.76,
+          "technical_depth": 0.65,
+          "confidence": 0.7
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.003,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.659,
+            "sentiment_label": "Neutral"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "CI/CD Pipeline",
+              "type": "devops",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'ci/cd'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:00:47.714584Z",
+        "end_time": "2026-05-15T06:01:02.714584Z"
+      },
+      {
+        "question_id": "Q_SKILL_03",
+        "question": "Have you ever led a feature implementation?",
+        "answer_raw": "Yes, I led the migration of our monolithic application to a microservices architecture, which significantly improved the scalability and maintainability of our system.",
+        "answer_normalized": "Yes, I led the migration of our monolithic application to a microservices architecture, which significantly improved the scalability and maintainability of our system.",
+        "intent": "skills",
+        "score": {
+          "relevance": 0.76,
+          "clarity": 0.81,
+          "technical_depth": 0.75,
+          "confidence": 0.8
+        },
+        "behavioral_indicators": {
+          "hesitation": {
+            "total_fillers": 0,
+            "long_pauses": 0,
+            "repeated_words": 0,
+            "total_hesitation_events": 0,
+            "hesitation_intensity": 0.002,
+            "hesitation_level": "Low"
+          },
+          "uncertainty": {
+            "uncertainty_score": 0.05
+          },
+          "sentiment": {
+            "sentiment_score": 0.759,
+            "sentiment_label": "Positive"
+          },
+          "pace": null
+        },
+        "key_entities_found": {
+          "entities": [
+            {
+              "value": "Microservices",
+              "type": "architecture",
+              "confidence": 0.88,
+              "evidence": "Explicitly mentioned 'microservices'"
+            }
+          ]
+        },
+        "start_time": "2026-05-15T06:01:04.214584Z",
+        "end_time": "2026-05-15T06:01:19.214584Z"
+      }
+    ],
+    "recruiter_intelligence_report": "# intelligence Screening Report: software_developer_experienced\n**Role:** Software Developer | **Engine:** v8.0-production-balanced\n\n## \ud83c\udfaf Executive Summary\n- **Hiring Decision:** **Strong Hire**\n- **Overall Score:** `69/100`\n- **Narrative:** The candidate demonstrates Excellent communication skills. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Moderate. Final Recommendation: Strong Hire.\n- **Next Step:** Technical Interview\n\n## \ud83d\udcca Balanced Score Breakdown\n| Category | Score | Weight |\n| :--- | :--- | :--- |\n| Technical Skills | 50.0 | 30% |\n| Problem Solving | 70.5 | 20% |\n| Experience Relevance | 74.0 | 20% |\n| Consistency | 80 | 15% |\n| Communication | 87.8 | 15% |\n| **Risk Penalty** | **0** | - |\n| **Final Score** | **69** | 100% |\n\n## \ud83d\udc64 Candidate Profile\n- **Experience:** 0.0 years\n- **Location:** Unknown\n- **Salary Expectation:** 0 USD\n- **Availability:** Immediate (0 days)\n\n## \ud83d\udca1 Recruiter Intelligence\n### \ud83d\udcaa Top Strengths\n- High-clarity communicator with strong verbal precision and professional delivery.\n- Maintains significant composure and executive presence during high-pressure questioning.\n\n### \ud83d\udcc9 Development Areas\n- Technical depth markers are below target; suggests a need for deeper core skill validation.\n\n### \ud83e\udd1d Cultural Fit Indicators\n- **Narrative:** Standard professional alignment: Demonstrates baseline workplace etiquette and task-oriented focus.\n| Collaboration | Growth Mindset | Ownership | Adaptability |\n| :--- | :--- | :--- | :--- |\n| Low | Low | Low | Low |\n\n## \ud83d\udee0\ufe0f Technical Evidence Profile\n### Validated Skills\nNone identified.\n\n### Claimed Skills\nNone\n\n## \u26a0\ufe0f Risks & Contradictions\n\n### Identified Risks\n\n---\n*Confidential ATS Enterprise Report*"
+  }
+]

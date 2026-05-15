@@ -1,18 +1,22 @@
 {
-  "session_id": "SES-3775",
+  "session_id": "SES-23364-0",
   "timestamp": "2026-04-27T14:40:00Z",
   "final_state": "FOLLOW_UP",
   "interaction_summary": {
     "total_turns": 14,
-    "completion_status": "PARTIAL"
+    "completion_status": "PARTIAL",
+    "errors_encountered": {
+      "SILENCE": 2
+    }
   },
   "compliance": {
-    "consent_obtained": true
+    "consent_obtained": false
   },
   "raw_log": [
     {
       "user": "Yes, speaking.",
-      "state": "GREETING"
+      "state": "GREETING",
+      "confidence": 1.0
     },
     {
       "ai": "Great. Can you please confirm your full name for the record?",
@@ -20,7 +24,8 @@
     },
     {
       "user": "Rahul Rajeev",
-      "state": "IDENTITY_VERIFICATION"
+      "state": "IDENTITY_VERIFICATION",
+      "confidence": 1.0
     },
     {
       "ai": "Thank you. This call is recorded for automated screening. Do you consent to proceed?",
@@ -28,7 +33,8 @@
     },
     {
       "user": "I agree to the recording.",
-      "state": "CONSENT"
+      "state": "CONSENT",
+      "confidence": 1.0
     },
     {
       "ai": "Perfect. Let's begin. How many years of total work experience do you have?",
@@ -36,35 +42,41 @@
     },
     {
       "user": "5 years.",
-      "state": "QUESTIONING"
+      "state": "QUESTIONING",
+      "confidence": 1.0
     },
     {
-      "ai": "In which specific technologies or domains did you work during this time?",
+      "ai": "That's a bit brief. Could you elaborate more on your experience with: 'Perfect. Let's begin. How many years of total work experience do you have?'?",
       "state": "FOLLOW_UP"
     },
     {
       "user": "What? I don't get the question.",
-      "state": "FOLLOW_UP"
+      "state": "FOLLOW_UP",
+      "confidence": 1.0
     },
     {
-      "ai": "I'm sorry, I didn't quite catch that. Could you please say it again?",
-      "state": "FOLLOW_UP"
-    },
-    {
-      "user": "",
-      "state": "FOLLOW_UP"
-    },
-    {
-      "ai": "It's been a moment of silence. Shall we continue with the next question?",
+      "ai": "I see. Can you provide a specific example or more context about: 'That's a bit brief. Could you elaborate more on your experience with: 'Perfect. Let's begin. How many years of total work experience do you have?'?'?",
       "state": "FOLLOW_UP"
     },
     {
       "user": "",
-      "state": "FOLLOW_UP"
+      "state": "FOLLOW_UP",
+      "confidence": 1.0
     },
     {
-      "ai": "I'm still here. Are you there?",
-      "state": "FOLLOW_UP"
+      "ai": "I'm sorry, I didn't hear anything. I see. Can you provide a specific example or more context about: 'That's a bit brief. Could you elaborate more on your experience with: 'Perfect. Let's begin. How many years of total work experience do you have?'?'?",
+      "state": "FOLLOW_UP",
+      "silence": true
+    },
+    {
+      "user": "",
+      "state": "FOLLOW_UP",
+      "confidence": 1.0
+    },
+    {
+      "ai": "Are you still there? Let me repeat: I see. Can you provide a specific example or more context about: 'That's a bit brief. Could you elaborate more on your experience with: 'Perfect. Let's begin. How many years of total work experience do you have?'?'?",
+      "state": "FOLLOW_UP",
+      "silence": true
     }
   ]
 }

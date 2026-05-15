@@ -1,0 +1,62 @@
+{
+  "candidate_id": "Cand-002",
+  "final_score": 74.57,
+  "unified_score_breakdown": {
+    "total_score": 74.57,
+    "ats_contribution": 29.749999999999996,
+    "screening_contribution": 20.0,
+    "hr_contribution": 24.816000000000003,
+    "applied_weights": {
+      "ats_weight": 0.35,
+      "screening_weight": 0.25,
+      "hr_weight": 0.4
+    }
+  },
+  "decision": "Strong Hire",
+  "natural_language_summary": "The candidate demonstrates Strong performance in Q1, Strong performance in Q2. No significant technical or professional gaps were identified. Risk assessment indicates a stable professional profile. Cultural fit is assessed as Good. Final Recommendation: Strong Hire.",
+  "hr_interview_details": {
+    "candidate_id": "Cand-002",
+    "hr_interview_score": 62.04,
+    "decision": "Review",
+    "breakdown": [
+      {
+        "question_id": "Q1",
+        "final_score": 85.75,
+        "scores": {
+          "relevance": 0.8,
+          "communication": 0.85,
+          "confidence": 0.9,
+          "consistency": 1.0,
+          "aptitude": 0.8
+        }
+      },
+      {
+        "question_id": "Q2",
+        "final_score": 91.5,
+        "scores": {
+          "relevance": 0.9,
+          "communication": 0.9,
+          "confidence": 0.95,
+          "consistency": 1.0,
+          "aptitude": 0.85
+        }
+      }
+    ],
+    "cognitive_evaluation": {
+      "candidate_id": "Cand-002",
+      "cognitive_summary": {
+        "overall_aptitude_score": 0.0,
+        "cognitive_band": "Needs Improvement",
+        "insight": "Candidate struggles with structured problem-solving and key situational patterns."
+      },
+      "detailed_evaluations": []
+    },
+    "summary": {
+      "avg_relevance": 0.85,
+      "avg_communication": 0.88,
+      "avg_confidence": 0.93,
+      "avg_consistency": 1.0,
+      "avg_aptitude": 0.82
+    }
+  }
+}

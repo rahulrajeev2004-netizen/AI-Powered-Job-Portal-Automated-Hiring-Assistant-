@@ -79,10 +79,10 @@ class CallFlowEngine:
             "interaction_summary": {
                 "total_turns": len(self.interaction_history),
                 "completion_status": "SUCCESS" if self.current_state in ["COMPLETED", "QUESTIONING", "CONSENT"] else "PARTIAL",
-                "errors_encountered": self.error_handler.session_errors.get(self.session_id, {})
+                "errors_encountered": self.error_handler.retry_counts
             },
             "compliance": {
-                "consent_obtained": any("consent" in str(h).get("user", "").lower() for h in self.interaction_history if "user" in h)
+                "consent_obtained": any("consent" in str(h.get("user", "")).lower() for h in self.interaction_history if "user" in h)
             },
             "raw_log": self.interaction_history
         }
