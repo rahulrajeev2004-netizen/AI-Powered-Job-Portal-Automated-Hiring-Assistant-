@@ -1,0 +1,59 @@
+{
+  "tier_profiles": [
+    {
+      "tier": "entry_level",
+      "years_range": [0, 2],
+      "base_complexity": "fundamental",
+      "focus_areas": [
+        "terminology",
+        "syntax",
+        "basic_algorithms"
+      ]
+    },
+    {
+      "tier": "mid_level",
+      "years_range": [3, 5],
+      "base_complexity": "applied",
+      "focus_areas": [
+        "debugging",
+        "performance_tuning",
+        "applied_patterns"
+      ]
+    },
+    {
+      "tier": "senior_level",
+      "years_range": [6, 99],
+      "base_complexity": "architectural",
+      "focus_areas": [
+        "system_design",
+        "tradeoffs",
+        "distributed_systems"
+      ]
+    }
+  ],
+  "domain_skill_matrix": {
+    "mern_fullstack": [
+      "JavaScript/TypeScript",
+      "React ecosystem",
+      "Node.js/Express",
+      "MongoDB"
+    ],
+    "java_backend": [
+      "Java SE",
+      "Spring Framework",
+      "Microservice Architecture"
+    ],
+    "cloud_devops": [
+      "Automation/CI-CD",
+      "Containerization (Docker)",
+      "Orchestration (K8s)",
+      "Cloud Platforms"
+    ],
+    "ml_data_science": [
+      "Python",
+      "Machine Learning models",
+      "Statistical Analysis",
+      "Data Wrangling"
+    ]
+  }
+}
