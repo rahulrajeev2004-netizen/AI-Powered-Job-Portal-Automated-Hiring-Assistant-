@@ -1,0 +1,192 @@
+[
+  {
+    "candidate_id": "C_NURSE_RESUME_ANITA_MATHEW",
+    "technical_score": 45.3,
+    "decision": "Not a Technical Fit",
+    "breakdown": [
+      {
+        "question_id": "Q1",
+        "score": 28.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q2",
+        "score": 46.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q3",
+        "score": 62.0,
+        "depth": "moderate",
+        "explanation": "Moderate depth. Provides basic concepts but lacks detailed technical nuance."
+      }
+    ],
+    "skills": {
+      "JavaScript/TypeScript": 40.3,
+      "React ecosystem": 45.3,
+      "Node.js/Express": 50.3,
+      "MongoDB": 40.3
+    },
+    "strengths": [
+      "Basic syntax understanding"
+    ],
+    "weaknesses": [
+      "Needs improvement in logical reasoning",
+      "Limited optimization discussion"
+    ]
+  },
+  {
+    "candidate_id": "C_NURSE_RESUME",
+    "technical_score": 25.3,
+    "decision": "Not a Technical Fit",
+    "breakdown": [
+      {
+        "question_id": "Q1",
+        "score": 26.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q2",
+        "score": 24.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q3",
+        "score": 26.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      }
+    ],
+    "skills": {
+      "JavaScript/TypeScript": 20.3,
+      "React ecosystem": 25.3,
+      "Node.js/Express": 30.3,
+      "MongoDB": 20.3
+    },
+    "strengths": [
+      "Basic syntax understanding"
+    ],
+    "weaknesses": [
+      "Needs improvement in logical reasoning",
+      "Limited optimization discussion"
+    ]
+  },
+  {
+    "candidate_id": "C_RAHUL",
+    "technical_score": 40.7,
+    "decision": "Not a Technical Fit",
+    "breakdown": [
+      {
+        "question_id": "Q1",
+        "score": 24.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q2",
+        "score": 49.0,
+        "depth": "moderate",
+        "explanation": "Moderate depth. Provides basic concepts but lacks detailed technical nuance."
+      },
+      {
+        "question_id": "Q3",
+        "score": 49.0,
+        "depth": "moderate",
+        "explanation": "Moderate depth. Provides basic concepts but lacks detailed technical nuance."
+      }
+    ],
+    "skills": {
+      "Python": 35.7,
+      "Machine Learning models": 40.7,
+      "Statistical Analysis": 45.7,
+      "Data Wrangling": 35.7
+    },
+    "strengths": [
+      "Basic syntax understanding"
+    ],
+    "weaknesses": [
+      "Needs improvement in logical reasoning",
+      "Limited optimization discussion"
+    ]
+  },
+  {
+    "candidate_id": "C_RESHMA RESUME",
+    "technical_score": 29.0,
+    "decision": "Not a Technical Fit",
+    "breakdown": [
+      {
+        "question_id": "Q1",
+        "score": 24.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q2",
+        "score": 24.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q3",
+        "score": 39.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      }
+    ],
+    "skills": {
+      "JavaScript/TypeScript": 24.0,
+      "React ecosystem": 29.0,
+      "Node.js/Express": 34.0,
+      "MongoDB": 24.0
+    },
+    "strengths": [
+      "Basic syntax understanding"
+    ],
+    "weaknesses": [
+      "Needs improvement in logical reasoning",
+      "Limited optimization discussion"
+    ]
+  },
+  {
+    "candidate_id": "C_SAMPLE_2",
+    "technical_score": 45.0,
+    "decision": "Not a Technical Fit",
+    "breakdown": [
+      {
+        "question_id": "Q1",
+        "score": 32.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q2",
+        "score": 32.0,
+        "depth": "shallow",
+        "explanation": "Surface-level answer. Lacks technical elaboration and detail."
+      },
+      {
+        "question_id": "Q3",
+        "score": 71.0,
+        "depth": "moderate",
+        "explanation": "Moderate depth. Provides basic concepts but lacks detailed technical nuance."
+      }
+    ],
+    "skills": {
+      "Automation/CI-CD": 40.0,
+      "Containerization (Docker)": 45.0,
+      "Orchestration (K8s)": 50.0,
+      "Cloud Platforms": 40.0
+    },
+    "strengths": [
+      "Basic syntax understanding"
+    ],
+    "weaknesses": [
+      "Needs improvement in logical reasoning",
+      "Limited optimization discussion"
+    ]
+  }
+]

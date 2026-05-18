@@ -45,28 +45,7 @@ class TechnicalPromptGenerator(QuestionGenerator):
         primary_skill = competencies[0] if competencies else "coding"
         return f"Describe your approach to {focus} using {primary_skill}."
 
-class ResponseAnalyzer:
-    """4. Response Analyzer - Parses technical depth."""
-    def process(self, candidate_response: str) -> Dict[str, Any]:
-        words = len(candidate_response.split())
-        base_score = min(1.0, words / 15.0) 
-        
-        # Simulating quality assessment for the AdaptiveEngine
-        quality = "empty"
-        if base_score > 0.8: quality = "good"
-        elif base_score > 0.4: quality = "basic"
-        elif base_score > 0: quality = "too_short"
-
-        factual_correctness = base_score > 0.6
-        conceptual_depth = base_score * 0.85
-        
-        return {
-            "score": base_score,
-            "quality": quality, # Used for AdaptiveManager
-            "confidence": 0.85, # Simulated STT confidence
-            "correct": factual_correctness,
-            "depth": conceptual_depth
-        }
+from technical_ai.technical_scoring import TechnicalScorer, TechnicalReportGenerator
 
 class AssessmentPipeline:
     """Orchestrates the technical execution pipeline, extending Zecpath CallFlowEngine concepts."""
@@ -76,7 +55,8 @@ class AssessmentPipeline:
         
         self.aligner = ProfileAlignmentModule(config)
         self.prompter = TechnicalPromptGenerator(config)
-        self.analyzer = ResponseAnalyzer()
+        self.scorer = TechnicalScorer()
+        self.report_generator = TechnicalReportGenerator()
         
         # We use the existing Zecpath Adaptive Engine instead of a custom one!
         self.adaptive_manager = AdaptiveDifficultyManager()
@@ -94,9 +74,16 @@ class AssessmentPipeline:
         # Base Question generated from Hierarchy
         base_prompt = self.prompter.construct_prompt(competencies, tier_data)
         
+        evaluations = []
+        
         for idx, response in enumerate(candidate_responses):
-            # Evaluate Response
-            analysis = self.analyzer.process(response)
+            # Evaluate Response using the new TechnicalScorer
+            analysis = self.scorer.evaluate_response(
+                question_type="conceptual", 
+                answer=response,
+                difficulty=tier_data.get("tier", "mid_level")
+            )
+            evaluations.append(analysis)
             
             # Utilize Zecpath's Adaptive Engine to determine next difficulty step
             next_difficulty_mode = self.adaptive_manager.determine_level(
@@ -111,14 +98,19 @@ class AssessmentPipeline:
                 "turn": idx + 1,
                 "user_response": response,
                 "evaluated_quality": analysis["quality"],
-                "adapted_next_prompt": next_prompt
+                "adapted_next_prompt": next_prompt,
+                "scoring_details": analysis
             })
 
-        return {
-            "CandidateID": self.candidate.get("name", "Unknown"),
-            "Role": role,
-            "InterviewTranscript": interview_transcript
-        }
+        # Generate the final skill-wise technical report
+        report = self.report_generator.generate_report(
+            candidate_name=self.candidate.get("name", "Unknown"),
+            role=role,
+            evaluations=evaluations,
+            skills=competencies
+        )
+        
+        return report
 
 if __name__ == "__main__":
     candidate = {
@@ -136,4 +128,11 @@ if __name__ == "__main__":
     pipeline = AssessmentPipeline(candidate)
     result = pipeline.run(mock_responses)
     
-    print(json.dumps(result, indent=2))
+    # Ensure outputs directory exists
+    os.makedirs("outputs", exist_ok=True)
+    
+    output_path = os.path.join("outputs", "technical_report.json")
+    with open(output_path, "w") as f:
+        json.dump(result, f, indent=2)
+        
+    print(f"Technical evaluation report successfully saved to {output_path}")
